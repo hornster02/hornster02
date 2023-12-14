@@ -423,6 +423,10 @@ hra.ahk (x-přepínač skrčení / CTRL+ALT+INS okamžitě ukončí hru) - Autoh
 <br/>
 https://github.com/hornster02/hornster02/raw/main/Dusk_12_2007_patch.rar
 
+***Chaser - 2003*** - 21:9 widescreen (2020-07 STEAM)
+<br/>
+https://github.com/hornster02/hornster02/raw/main/Chaser_2003_21-9_widescreen.rar
+
 ***Vietcong 1+2 - 2003-2004-2005*** - 21:9 widescreen (2021-08 DVD)
 <br/>
 https://github.com/hornster02/hornster02/raw/main/Vietcong_1+2_2003-2004-2005_21-9_widescreen.rar
