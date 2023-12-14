@@ -2,7 +2,7 @@ Software for Windows
 <br/>
 🟩English deepl.com translation below (last edit 12/2023)
 <br/>
-🟧GAMES-OTHERS
+🟧GAMES-JINE
 
 ***Total Uninstall*** - sken systému (před/po spuštení/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
 
@@ -403,7 +403,11 @@ Automatic synchronization of two folders. "c:\1" is the source folder and "e:\1"
 <br/>
 <br/>
 <br/>
-🟧GAMES-OTHERS
+🟧GAMES-JINE
+<br/>
+***Blood 2 - 1998 - patch*** (2023-08 STEAM) 16:9 HOR+ widescreen, DX11/12
+<br/>
+https://github.com/hornster02/hornster02/raw/main/Blood_2_1998_patch.rar
 <br/>
 ***You Are Empty - 2006 - AMD postprocess fix*** (2017-11 Score 189)
 <br/>
