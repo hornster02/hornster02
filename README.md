@@ -1,6 +1,7 @@
 Software for Windows
 <br/>
 🟩English deepl.com translation below (last edit 12/2023)
+🟧GAMES-OTHERS
 
 ***Total Uninstall*** - sken systému (před/po spuštení/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
 
@@ -401,9 +402,9 @@ Automatic synchronization of two folders. "c:\1" is the source folder and "e:\1"
 <br/>
 <br/>
 <br/>
-GAMES-OTHERS
+🟧GAMES-OTHERS
 <br/>
-***You Are Empty - 2006 - AMD postprocess fix*** (2017-11 WAREZ)
+***You Are Empty - 2006 - AMD postprocess fix*** (2017-11 Score 189)
 <br/>
 https://github.com/hornster02/hornster02/raw/main/You_Are_Empty_2006_AMD_postprocess_fix.rar
 
