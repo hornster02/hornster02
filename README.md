@@ -427,6 +427,10 @@ https://github.com/hornster02/hornster02/raw/main/Dusk_12_2007_patch.rar
 <br/>
 https://github.com/hornster02/hornster02/raw/main/Chaser_2003_21-9_widescreen.rar
 
+***UberSoldier - 2006*** - 21:9 widescreen (2020-03 Level 156)
+<br/>
+https://github.com/hornster02/hornster02/raw/main/UberSoldier_2006_21-9_widescreen.rar
+
 ***Vietcong 1+2 - 2003-2004-2005*** - 21:9 widescreen (2021-08 DVD)
 <br/>
 https://github.com/hornster02/hornster02/raw/main/Vietcong_1+2_2003-2004-2005_21-9_widescreen.rar
