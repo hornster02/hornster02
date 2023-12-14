@@ -405,11 +405,15 @@ Automatic synchronization of two folders. "c:\1" is the source folder and "e:\1"
 <br/>
 🟧GAMES-JINE
 <br/>
-***Blood 2 - 1998 - patch*** (2023-08 STEAM) 16:9 HOR+ widescreen, DX11/12
+***Blood 2 - 1998*** - patch (2023-08 STEAM) 16:9 HOR+ widescreen, DX11/12
 <br/>
 https://github.com/hornster02/hornster02/raw/main/Blood_2_1998_patch.rar
 
-***Dusk 12 - 2007 - patch*** (2023-07 STEAM)
+***Cold War - 2005*** - cz crack - 16:9 widescreen (2018-08 Score 168)
+<br/>
+https://github.com/hornster02/hornster02/raw/main/Cold_War_2005_cz_crack_16-9_widescreen.rar
+
+***Dusk 12 - 2007*** - patch (2023-07 STEAM)
 <br/>
 dusk.exe (při nastavení rozlišení 640x480 se hra spustí v 1920x1080 HOR+)
 <br/>
@@ -419,7 +423,7 @@ hra.ahk (x-přepínač skrčení / CTRL+ALT+INS okamžitě ukončí hru) - Autoh
 <br/>
 https://github.com/hornster02/hornster02/raw/main/Dusk_12_2007_patch.rar
 
-***You Are Empty - 2006 - AMD postprocess fix*** (2017-11 Score 189)
+***You Are Empty - 2006*** - AMD postprocess fix (2017-11 Score 189)
 <br/>
 https://github.com/hornster02/hornster02/raw/main/You_Are_Empty_2006_AMD_postprocess_fix.rar
 
