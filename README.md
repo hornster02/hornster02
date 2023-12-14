@@ -408,7 +408,17 @@ Automatic synchronization of two folders. "c:\1" is the source folder and "e:\1"
 ***Blood 2 - 1998 - patch*** (2023-08 STEAM) 16:9 HOR+ widescreen, DX11/12
 <br/>
 https://github.com/hornster02/hornster02/raw/main/Blood_2_1998_patch.rar
+
+***Dusk 12 - 2007 - patch*** (2023-07 STEAM)
 <br/>
+dusk.exe (při nastavení rozlišení 640x480 se hra spustí v 1920x1080 HOR+)
+<br/>
+audiere.dll (zřejmě vyřeší problém nespuštění hry - černá obrazovka - při zapnuté hudbě)
+<br/>
+hra.ahk (x-přepínač skrčení / CTRL+ALT+INS okamžitě ukončí hru) - Autohotkey
+<br/>
+https://github.com/hornster02/hornster02/raw/main/Dusk_12_2007_patch.rar
+
 ***You Are Empty - 2006 - AMD postprocess fix*** (2017-11 Score 189)
 <br/>
 https://github.com/hornster02/hornster02/raw/main/You_Are_Empty_2006_AMD_postprocess_fix.rar
