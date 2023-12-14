@@ -427,6 +427,10 @@ https://github.com/hornster02/hornster02/raw/main/Dusk_12_2007_patch.rar
 <br/>
 https://github.com/hornster02/hornster02/raw/main/Chaser_2003_21-9_widescreen.rar
 
+***ToCA Race Driver 3 - 2006*** - 21:9 widescreen (2021-06 DVD)
+<br/>
+https://github.com/hornster02/hornster02/raw/main/ToCA_Race_Driver_3_2006_21-9_widescreen.rar
+
 ***UberSoldier - 2006*** - 21:9 widescreen (2020-03 Level 156)
 <br/>
 https://github.com/hornster02/hornster02/raw/main/UberSoldier_2006_21-9_widescreen.rar
