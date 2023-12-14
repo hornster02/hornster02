@@ -1,6 +1,7 @@
 Software for Windows
 <br/>
 🟩English deepl.com translation below (last edit 12/2023)
+<br/>
 🟧GAMES-OTHERS
 
 ***Total Uninstall*** - sken systému (před/po spuštení/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
