@@ -405,7 +405,7 @@ Automatic synchronization of two folders. "c:\1" is the source folder and "e:\1"
 <br/>
 🟧GAMES-JINE
 <br/>
-***Blood 2 - 1998*** - patch (2023-08 STEAM) 16:9 HOR+ widescreen, DX11/12
+***Blood 2 - 1998*** - patch - 16:9 HOR+ widescreen, DX11/12 (2023-08 STEAM)
 <br/>
 https://github.com/hornster02/hornster02/raw/main/Blood_2_1998_patch.rar
 
@@ -422,6 +422,10 @@ audiere.dll (zřejmě vyřeší problém nespuštění hry - černá obrazovka -
 hra.ahk (x-přepínač skrčení / CTRL+ALT+INS okamžitě ukončí hru) - Autohotkey
 <br/>
 https://github.com/hornster02/hornster02/raw/main/Dusk_12_2007_patch.rar
+
+***Vietcong 1+2 - 2003-2004-2005*** - 21:9 widescreen (2021-08 DVD)
+<br/>
+https://github.com/hornster02/hornster02/raw/main/Vietcong_1+2_2003-2004-2005_21-9_widescreen.rar
 
 ***You Are Empty - 2006*** - AMD postprocess fix (2017-11 Score 189)
 <br/>
