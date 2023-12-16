@@ -1,8 +1,8 @@
-🟧GAMES-JINE *01
+🟧GAMES-JINE *00
 
 Software for Windows
 <br/>
-🟩English *02 deepl.com translation below (last edit 12/2023)
+🟩English *01 deepl.com translation below (last edit 12/2023)
 <br/>
 
 ***Total Uninstall*** - sken systému (před/po spuštení/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
@@ -206,7 +206,7 @@ Vynucené (Please use EA App to continue) nahrazení aplikace ***Origin Bloatwar
 <br/>
 Problémů ale může být o mnoho více a toto je jen malá ukázka
 
-🟩English
+🟩English *01
 
 ***Total Uninstall*** - system scan (before/after application launch/installation) and display changes (files/folders/register), export registry changes to REG file for uninstallation
 
@@ -404,7 +404,7 @@ Automatic synchronization of two folders. "c:\1" is the source folder and "e:\1"
 <br/>
 <br/>
 <br/>
-🟧GAMES-JINE
+🟧GAMES-JINE *00
 <br/>
 ***Blood 2 - 1998*** - patch - 16:9 HOR+ widescreen, DX11/12 (2023-08 STEAM)
 <br/>
