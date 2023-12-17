@@ -86,7 +86,7 @@ VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide
 
 ***Display Driver Uninstaller*** - odinstalování audio/video ovladačů, ***Device Remover*** - možné zásadní zrychlení spuštění "Správce zařízení" (záleží kolika PC/komponenty systém prošel)
 
-***7+ Taskbar Tweaker+WinaeroTweaker+ExplorerPatcher+AccentPaletteTool+Classic Color Panel*** (HKCU/Control Panel/Colors) - úprava uživatelského rozhraní Windows
+***7+ Taskbar Tweaker+WinaeroTweaker+ExplorerPatcher+WinPaletter+Classic Color Panel*** (HKCU/Control Panel/Colors) - úprava uživatelského rozhraní Windows
 
 ***Pazera Free Audio Extractor, MKVToolNix*** - úprava videosouborů bez nutnosti konverze.  Odstraňování/extrahování audiostop, podrobné informace o audio/video souborech, ...
 
@@ -289,7 +289,7 @@ VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide
 
 ***Display Driver Uninstaller*** - uninstall audio/video drivers, ***Device Remover*** - possible major speed up of "Device Manager" startup (depends on how many PCs/components the system has gone through)
 
-***7+ Taskbar Tweaker+WinaeroTweaker+ExplorerPatcher+AccentPaletteTool+Classic Color Panel*** (HKCU/Control Panel/Colors) - modifying the Windows user interface
+***7+ Taskbar Tweaker+WinaeroTweaker+ExplorerPatcher+WinPaletter+Classic Color Panel*** (HKCU/Control Panel/Colors) - modifying the Windows user interface
 
 ***Pazera Free Audio Extractor, MKVToolNix*** - editing video files without conversion.  Removing/extracting audio tracks, detailed information about audio/video files, ...
 
