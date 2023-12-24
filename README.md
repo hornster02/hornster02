@@ -150,15 +150,15 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 <br/>
 a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z
 <br/>
--najít CSS soubor který má někde v názvu TAB - *tab*.css
+-najít CSS soubor který má někde v názvu TAB - ```*tab*.css```
 
 ***System Explorer*** - náhrada "Správce úloh" - možnost uložit prioritu/afinitu aplikací pro jejich automatické nastavení při dalším spuštění. ***Process Hacker*** 
 
 ***Battle Encoder Shirasé*** - omezení (throttling) procesů - až 99%. Možnost používat přes Command-Line bez UI
 
-***Registry Workshop*** - pokročilá náhrada výchozího "Regedit". Load Hive slouží pro načtení externího registru - je možné ho upravovat. Integrace s programem ***Total Uninstall*** se v jeho nastavení provede tímto příkazem (příklad) - obrácené lomítko za c: je chyba, ale Github by to správné skryl
+***Registry Workshop*** - pokročilá náhrada výchozího "Regedit". Load Hive slouží pro načtení externího registru - je možné ho upravovat. Integrace s programem ***Total Uninstall*** se v jeho nastavení provede tímto příkazem (příklad) -
 <br/>
-"c:/_NOVE\Registry Workshop\RegWorkshopX64.exe" /g
+```"c:\_NOVE\Registry Workshop\RegWorkshopX64.exe" /g```
 
 ***Notepad++*** - pokročilý poznámkový blok
 
@@ -361,9 +361,9 @@ a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z
 
 ***Battle Encoder Shirasé*** - process throttling - up to 99%. Ability to use via Command-Line without UI
 
-***Registry Workshop*** - advanced replacement of the default "Regedit". Load Hive used to load external registry - can be edited. To integrate with ***Total Uninstall***, use the following command in its settings (example) - the backslash after c: is an error, but Github hides the correct one
+***Registry Workshop*** - advanced replacement of the default "Regedit". Load Hive used to load external registry - can be edited. To integrate with ***Total Uninstall***, use the following command in its settings (example) -
 <br/>
-"c:/_NOVE\Registry Workshop\RegWorkshopX64.exe" /g
+```"c:\_NOVE\Registry Workshop\RegWorkshopX64.exe" /g```
 
 ***Notepad++*** - advanced notepad
 
