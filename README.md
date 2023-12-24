@@ -108,7 +108,7 @@ místo XXX se napíše název potřebného klíče
 
 ***ImDisk Toolkit*** - ramdisk
 
-***Primo Ramdisk*** - možnost stránkovacího souboru v ramdisku nebo využít nepřístupnou část RAM paměti (Invisible Memory) - např. 32-Bit Win má limit ~4GB
+***Primo Ramdisk*** - možnost stránkovacího souboru v ramdisku nebo využít nepřístupnou část RAM paměti (Invisible Memory) - např. 32-Bit Win má limit ~4GB, Win11 Home 128GB
 
 ***Mem Reduct*** - uvolnění RAM paměti bez ukončení procesů klávesovou zkratkou nebo klikem na tray ikonu. Může ale docházet k většímu zápisu do stránkovacího souboru = opotřebení SSD*1
 
@@ -313,7 +313,7 @@ instead of XXX, write the name of the required key
 
 ***ImDisk Toolkit*** - ramdisk
 
-***Primo Ramdisk*** - option to page files in ramdisk or use inaccessible part of RAM (Invisible Memory) - e.g. 32-Bit Win has a limit of ~4GB
+***Primo Ramdisk*** - option to page files in ramdisk or use inaccessible part of RAM (Invisible Memory) - e.g. 32-Bit Win has a limit of ~4GB, Win11 Home 128GB
 
 ***Mem Reduct*** - free RAM memory without terminating processes by hotkey or clicking on the tray icon. However, there may be more writing to the paging file = reduced lifetime of SSD*1
 
