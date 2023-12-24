@@ -102,7 +102,7 @@ VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide
 
 ***WinRAR*** - archivace dat s možností přidání záznamu na jejich opravu
 
-***Inno Setup XDELTA Patch Maker, Patch Maker*** (Clickteam) - vytvoření update souborů
+***Inno Setup XDELTA Patch Maker, Patch Maker*** (Clickteam) - ideální třeba pro vytvoření patche s češtinou do hry, ze které "nejde" překlad vytáhnout (chybějící nástroje a různě chráněná herní data nebo překlad ve spouštěcích souborech atd.) - velikost takového patche je běžně o 70-99% menší než celá "warez" verze hry (a sdílení takového patche je pochopitelně i daleko jednodušší a méně ošemetné). Pokud překlad vyžaduje i svoje konkrétní DLL+EXE+... soubory a vytvářený patch bude zamýšlený pro digitálně prodávanou hru, tak je dobré tyto soubory z cíle (např. STEAM verze) dočasně odebrat (tím při patchování dojde k obyčejnému zkopírování zdrojových souborů do cíle bez ohledu na jejich verzi) = tyto soubory mají běžně velikost maximálně pár desítek MB a jdou dobře komprimovat, takže "patch" způsob by celkově přinesl úsporu dat pouze v rámci jednotek MB, ale pokud by se v cílové verzi v budoucnu změnil jediný bit (a že je to u digitálních produktů daleko pravděpodobnější/jednodušší než že dojde k úpravě samotných velkých herních dat), tak bude celý patch nefunkční
 
 ***WizTree*** - analýza místa na disku
 
@@ -156,9 +156,9 @@ a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z
 
 ***Battle Encoder Shirasé*** - omezení (throttling) procesů - až 99%. Možnost používat přes Command-Line bez UI
 
-***Registry Workshop*** - pokročilá náhrada výchozího "Regedit". Load Hive slouží pro načtení externího registru - je možné ho upravovat. Integrace s programem ***Total Uninstall*** se v jeho nastavení provede tímto příkazem (příklad)
+***Registry Workshop*** - pokročilá náhrada výchozího "Regedit". Load Hive slouží pro načtení externího registru - je možné ho upravovat. Integrace s programem ***Total Uninstall*** se v jeho nastavení provede tímto příkazem (příklad) - obrácené lomítko za c: je chyba, ale Github by to správné skryl
 <br/>
-"c:\_NOVE\Registry Workshop\RegWorkshopX64.exe" /g
+"c:/_NOVE\Registry Workshop\RegWorkshopX64.exe" /g
 
 ***Notepad++*** - pokročilý poznámkový blok
 
@@ -361,9 +361,9 @@ a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z
 
 ***Battle Encoder Shirasé*** - process throttling - up to 99%. Ability to use via Command-Line without UI
 
-***Registry Workshop*** - advanced replacement of the default "Regedit". Load Hive used to load external registry - can be edited. To integrate with ***Total Uninstall***, use the following command in its settings (example)
+***Registry Workshop*** - advanced replacement of the default "Regedit". Load Hive used to load external registry - can be edited. To integrate with ***Total Uninstall***, use the following command in its settings (example) - the backslash after c: is an error, but Github hides the correct one
 <br/>
-"c:\_NOVE\Registry Workshop\RegWorkshopX64.exe" /g
+"c:/_NOVE\Registry Workshop\RegWorkshopX64.exe" /g
 
 ***Notepad++*** - advanced notepad
 
