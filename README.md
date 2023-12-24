@@ -182,7 +182,7 @@ a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z
 
 ***HxD+CFF Explorer+Resource Hacker*** - úpravy spustitelných souborů a jiné
 
-***Změna písmen disků přes registr*** (HKLM/SYSTEM\MountedDevices)
+***Změna písmen disků přes registr*** (HKLM\SYSTEM\MountedDevices)
 
 ***GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}*** - vytvoření složky s tímto názvem a její otevření přes Průzkumník otevře okno s veškerými ovládacími panely
 
@@ -387,7 +387,7 @@ a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z
 
 ***HxD+CFF Explorer+Resource Hacker*** - editing executables and more
 
-***Changing drive letters via registry*** (HKLM/SYSTEM\MountedDevices)
+***Changing drive letters via registry*** (HKLM\SYSTEM\MountedDevices)
 
 ***GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}*** - creating a folder with this name and opening it via Explorer opens a window with all control panels
 
