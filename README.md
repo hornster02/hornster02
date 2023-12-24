@@ -27,19 +27,19 @@ Software for Windows
 
 ***AMD/ATI Pixel Clock Patcher*** - podepsání Radeon ovladačů po úpravě biosu GPU  (přejmenovat na "atikmdag-patcher-bios.exe")
 
-Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkratky/zástupce. Cesta v registru (HKLM\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes) příkaz ve formátu
+Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkratky/zástupce. Cesta v registru ```HKLM\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes``` příkaz ve formátu
 <br/>
-C:\Windows\System32\powercfg.exe -setactive XXX
+```C:\Windows\System32\powercfg.exe -setactive XXX```
 <br/>
 místo XXX se napíše název potřebného klíče
 
 ***Equalizer APO+Peace*** - ekvalizér zvuku - přepsáním konfiguračních souborů (i přes klávesové zkratky/zástupce) je možné v reálném čase přepínat profily bez spouštění programu. MS Visual C++ 2015-2022 může vyřešit případnou chybu při spuštění "Configurator.exe"
 
-***Raw Accel*** - detailní nastavení myši, různá citlivost os atd. Profily jde přepínat i přes klávesové zkratky/zástupce (c:\RawAccel\writer.exe c:\RawAccel\settings.json) - změna kurzoru při přepnutí se dá zakázat jejich sjednocením v ovládacích panelech (normální výběr/práce na pozadí)
+***Raw Accel*** - detailní nastavení myši, různá citlivost os atd. Profily jde přepínat i přes klávesové zkratky/zástupce ```c:\RawAccel\writer.exe c:\RawAccel\settings.json``` - změna kurzoru při přepnutí se dá zakázat jejich sjednocením v ovládacích panelech (normální výběr/práce na pozadí)
 
 ***Mouse Settings Changer*** - přepínání citlivosti myši/touchpadu (ovládací panely) třeba i klávesovou zkratkou - pro skrytí vyskakovacího okna při přepnutí profilu se může použít Autohotkey - příklad pro AltGr+F7
 <br/>
-VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide
+```VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide```
 
 ***XInput Plus*** - detailní nastavení gamepadu
 
@@ -76,7 +76,7 @@ VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide
 -obnova systému se může provést i rozbalením na disk (7-Zip) a nakonec případně opravit boot 
 (BootICE)
 
-***WinToUSB*** - tweak (v programu je to nazvané jako "konverze", ale jedná se jen o drobnou změnu v registru čímž se změní pořadí načítaných ovladačů při bootu) Win10+ díky kterému se dá systém spouštět i z externích médií přes USB = jeden systém se všemi programy+nastavením, který jde spustit na "jakémkoli" PC přes interní i externí disk (chybějící USB ovladače nebo IDE/AHCI mód atd. můžou být problém i když ne neřešitelný). Alternativa WinToUSB je úprava "BootDriverFlags" (HKLM/SYSTEM/HardwareConfig/XXX) na 0x14
+***WinToUSB*** - tweak (v programu je to nazvané jako "konverze", ale jedná se jen o drobnou změnu v registru čímž se změní pořadí načítaných ovladačů při bootu) Win10+ díky kterému se dá systém spouštět i z externích médií přes USB = jeden systém se všemi programy+nastavením, který jde spustit na "jakémkoli" PC přes interní i externí disk (chybějící USB ovladače nebo IDE/AHCI mód atd. můžou být problém i když ne neřešitelný). Alternativa WinToUSB je úprava "BootDriverFlags" ```HKLM\SYSTEM\HardwareConfig\XXX``` na 0x14
 
 ***GImageX*** - tvorba WIM image (Windows v jednom komprimovaném souboru - bootovací nebo pro kompletní zálohu systému). Capture/Apply/Mount
 
@@ -86,7 +86,7 @@ VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide
 
 ***Display Driver Uninstaller*** - odinstalování audio/video ovladačů, ***Device Remover*** - možné zásadní zrychlení spuštění "Správce zařízení" (záleží kolika PC/komponenty systém prošel)
 
-***7+ Taskbar Tweaker+WinaeroTweaker+ExplorerPatcher+WinPaletter+Classic Color Panel*** (HKCU/Control Panel/Colors) - úprava uživatelského rozhraní Windows
+***7+ Taskbar Tweaker+WinaeroTweaker+ExplorerPatcher+WinPaletter+Classic Color Panel*** ```HKCU\Control Panel\Colors``` - úprava uživatelského rozhraní Windows
 
 ***Pazera Free Audio Extractor, MKVToolNix*** - úprava videosouborů bez nutnosti konverze.  Odstraňování/extrahování audiostop, podrobné informace o audio/video souborech, ...
 
@@ -126,29 +126,29 @@ VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide
 
 ***Total Commander*** - rychlá/efektivní náhrada Průzkumníka/Plochy/NabídkyStart se spoustou funkcí navíc (vnitřní přidružení souborů včetně ikon, porovnání souborů podle obsahu, změna atributů, kopírování cest k datům do schránky, zobrazit/skrýt určité soubory/složky, kopírování souborů jenom s určitým datem se zachováním adresářové struktury, ověření nakopírovaných dat kvůli jejich případnému poškození, ... = nižší stovky klávesových zkratek). Pár užitečných "wincmd.ini" tweaků (první 2 jsou velmi důležité a moc nechápu, že program tak není nastaven v základu - první zrychlí/zpřehlední např. vyhledávání dat tím, že ignoruje NTFS linky = vyhledává data jak jsou zapsaná na disku a neukazuje "falešné duplikáty". Druhý kopíruje/přesunuje NTFS linky jako linky a ne jako soubory/složky)
 <br/>
-IgnoreLinks=8
+```IgnoreLinks=8```
 <br/>
-CopyLinks=1
+```CopyLinks=1```
 <br/>
-DriveBarHide=DC
+```DriveBarHide=DC```
 <br/>
-RestrictInterface=3
+```RestrictInterface=3```
 <br/>
-EditWaitTime=-1
+```EditWaitTime=-1```
 <br/>
-UseIniInProgramDir=1
+```UseIniInProgramDir=1```
 <br/>
-pluginbasedir=%COMMANDER_PATH%\plugins
+```pluginbasedir=%COMMANDER_PATH%\plugins```
 <br/>
 S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce komprimovat - LST soubor se prochází jako archiv a dá se v něm vyhledávat)
 <br/>
--hromadné přejmenování - odstranění znaků (počet) od začátku [N2-] od konce [N1--2]
+-hromadné přejmenování - odstranění znaků (počet) od začátku ```[N2-]``` od konce ```[N1--2]```
 <br/>
 -hromadné odstranění diakritiky (najít/nahradit)
 <br/>
-á|č|ď|é|ě|í|ň|ó|ř|š|ť|ú|ů|ý|ž|Á|Č|Ď|É|Ě|Í|Ň|Ó|Ř|Š|Ť|Ú|Ů|Ý|Ž
+```á|č|ď|é|ě|í|ň|ó|ř|š|ť|ú|ů|ý|ž|Á|Č|Ď|É|Ě|Í|Ň|Ó|Ř|Š|Ť|Ú|Ů|Ý|Ž```
 <br/>
-a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z
+```a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z```
 <br/>
 -najít CSS soubor který má někde v názvu TAB - ```*tab*.css```
 
@@ -182,15 +182,15 @@ a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z
 
 ***HxD+CFF Explorer+Resource Hacker*** - úpravy spustitelných souborů a jiné
 
-***Změna písmen disků přes registr*** (HKLM\SYSTEM\MountedDevices)
+***Změna písmen disků přes registr*** ```HKLM\SYSTEM\MountedDevices```
 
 ***GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}*** - vytvoření složky s tímto názvem a její otevření přes Průzkumník otevře okno s veškerými ovládacími panely
 
 ***Microsoft Management Console*** (MMC) - přidání vlastních modulů do jedné MMC konzole. Postup - spustit/mmc/přidat nebo odebrat moduly snap-in/vybrat moduly/uložit
 
-***c:\Windows\System32\Robocopy.exe "c:\1" "e:\1" /E /PURGE /w:0 /r:0 /MOT:10***
+```c:\Windows\System32\Robocopy.exe "c:\1" "e:\1" /E /PURGE /w:0 /r:0 /MOT:10```
 <br/>
-Automatická synchronizace dvou složek. "c:\1" je zdrojová složka a "e:\1" je záloha. Pokud dojde ve zdrojové složce k vytvoření/změně souboru/složky, tak se nakopíruje do zálohy. Pokud dojde ve zdrojové složce ke smazání souboru/složky, tak se smaže ze zálohy. "MOT:10" označuje 10 minut čekání a poté následuje synchronizace. Jedná se o synchronizaci (porovnání) a ne "smazat celou zálohu/nakopírovat celý zdroj", takže mimo jiné nesnižuje životnost SSD zbytečnými zápisy. Malá nevýhoda je, že nedochází k porovnání souborů podle obsahu, ale pouze pomocí atributů+velikostí (rychlé/nenáročné). Je možné zavřít okno konzole ukončením procesu "conhost.exe" a nechat zapnutý pouze "ROBOCOPY.exe" (automatická synchronizace v pozadí systému). Užitečné v kombinaci s NTFS linky pro automatické zálohování SAVEGAME
+Automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:\1``` je záloha. Pokud dojde ve zdrojové složce k vytvoření/změně souboru/složky, tak se nakopíruje do zálohy. Pokud dojde ve zdrojové složce ke smazání souboru/složky, tak se smaže ze zálohy. "MOT:10" označuje 10 minut čekání a poté následuje synchronizace. Jedná se o synchronizaci (porovnání) a ne "smazat celou zálohu/nakopírovat celý zdroj", takže mimo jiné nesnižuje životnost SSD zbytečnými zápisy. Malá nevýhoda je, že nedochází k porovnání souborů podle obsahu, ale pouze pomocí atributů+velikostí (rychlé/nenáročné). Je možné zavřít okno konzole ukončením procesu "conhost.exe" a nechat zapnutý pouze "ROBOCOPY.exe" (automatická synchronizace v pozadí systému). Užitečné v kombinaci s NTFS linky pro automatické zálohování SAVEGAME
 
 ***T-Clock*** - pokročilá náhrada výchozích tray hodin. Program s desítky let dlouhou historií a několika autory = možnosti nastavení a rozsah funkcí (které ani s hodinami nesouvisí) je nebývalý
 
@@ -232,19 +232,19 @@ Problémů ale může být o mnoho více a toto je jen malá ukázka
 
 ***AMD/ATI Pixel Clock Patcher*** - sign Radeon drivers after modifying GPU bios (rename to "atikmdag-patcher-bios.exe")
 
-Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry path (HKLM\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes) command
+Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry path ```HKLM\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes``` command
 <br/>
-C:\Windows\System32\powercfg.exe -setactive XXX
+```C:\Windows\System32\powercfg.exe -setactive XXX```
 <br/>
 instead of XXX, write the name of the required key
 
 ***Equalizer APO+Peace*** - sound equalizer - by overwriting configuration files (also via hotkeys/shortcuts) it is possible to switch profiles in real time without starting the program. MS Visual C++ 2015-2022 can resolve a possible error when running "Configurator.exe"
 
-***Raw Accel*** - detailed mouse settings, different axis sensitivity, etc. Profiles can also be switched via hotkeys/shortcuts (c:\RawAccel\writer.exe c:\RawAccel\settings.json) - changing the cursor when switching can be disabled by unifying them in the control panels (normal selection/background work)
+***Raw Accel*** - detailed mouse settings, different axis sensitivity, etc. Profiles can also be switched via hotkeys/shortcuts ```c:\RawAccel\writer.exe c:\RawAccel\settings.json``` - changing the cursor when switching can be disabled by unifying them in the control panels (normal selection/background work)
 
 ***Mouse Settings Changer*** - switching mouse/touchpad sensitivity (control panels) even with a hotkeys - Autohotkey can be used to hide the popup window when switching profile - example for AltGr+F7
 <br/>
-VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide
+```VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide```
 
 ***XInput Plus*** - detailed gamepad settings
 
@@ -281,7 +281,7 @@ VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide
 -system recovery can also be done by extracting it to a disk (7-Zip) and finally repairing the boot if necessary
 (BootICE)
 
-***WinToUSB*** - tweak (in the program it's called "conversion", but it's just a small change in the registry, which changes the order of loaded drivers at boot) Win10+, thanks to which the system can be booted from external media via USB = one system with all programs + settings, which can be run on "any" PC via internal or external disk (missing USB drivers or IDE/AHCI mode, etc. can be a problem, although not unsolvable). An alternative to WinToUSB is to change "BootDriverFlags" (HKLM/SYSTEM/HardwareConfig/XXX) to 0x14
+***WinToUSB*** - tweak (in the program it's called "conversion", but it's just a small change in the registry, which changes the order of loaded drivers at boot) Win10+, thanks to which the system can be booted from external media via USB = one system with all programs + settings, which can be run on "any" PC via internal or external disk (missing USB drivers or IDE/AHCI mode, etc. can be a problem, although not unsolvable). An alternative to WinToUSB is to change "BootDriverFlags" ```HKLM\SYSTEM\HardwareConfig\XXX``` to 0x14
 
 ***GImageX*** - create WIM image (Windows in one compressed file - bootable or for complete system backup). Capture/Apply/Mount
 
@@ -291,7 +291,7 @@ VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide
 
 ***Display Driver Uninstaller*** - uninstall audio/video drivers, ***Device Remover*** - possible major speed up of "Device Manager" startup (depends on how many PCs/components the system has gone through)
 
-***7+ Taskbar Tweaker+WinaeroTweaker+ExplorerPatcher+WinPaletter+Classic Color Panel*** (HKCU/Control Panel/Colors) - modifying the Windows user interface
+***7+ Taskbar Tweaker+WinaeroTweaker+ExplorerPatcher+WinPaletter+Classic Color Panel*** ```HKCU\Control Panel\Colors``` - modifying the Windows user interface
 
 ***Pazera Free Audio Extractor, MKVToolNix*** - editing video files without conversion.  Removing/extracting audio tracks, detailed information about audio/video files, ...
 
@@ -331,31 +331,31 @@ VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide
 
 ***Total Commander*** - fast/efficient replacement of Explorer/Desktop/Start Menu with lots of extra features (internal file association including icons, file comparison by content, change attributes, copy data paths to clipboard, show/hide certain files/folders, copying files with certain date while preserving the directory structure, verifying the copied data for possible damage, ... = lower hundreds of hotkeys). A few useful "wincmd.ini" tweaks (the first 2 are very important and I don't understand that the program is not set up that way in the base - the first one speeds up/transparent e.g. data search by ignoring NTFS links = searches for data as written on the disk and doesn't show "false duplicates". The second copies/moves NTFS links as links and not as files/folders)
 <br/>
-IgnoreLinks=8
+```IgnoreLinks=8```
 <br/>
-CopyLinks=1
+```CopyLinks=1```
 <br/>
-DriveBarHide=DC
+```DriveBarHide=DC```
 <br/>
-RestrictInterface=3
+```RestrictInterface=3```
 <br/>
-EditWaitTime=-1
+```EditWaitTime=-1```
 <br/>
-UseIniInProgramDir=1
+```UseIniInProgramDir=1```
 <br/>
-pluginbasedir=%COMMANDER_PATH%\plugins
+```pluginbasedir=%COMMANDER_PATH%\plugins```
 <br/>
 With the add-on ***DiskDir Extended*** you can create a data catalog (compress function - the LST file is like an archive and can be searched in it)
 <br/>
--bulk renaming - remove characters (number) from start [N2-] from end [N1--2]
+-bulk renaming - remove characters (number) from start ```[N2-]``` from end ```[N1--2]```
 <br/>
 -mass removal of diacritics (find/replace)
 <br/>
-á|č|ď|é|ě|í|ň|ó|ř|š|ť|ú|ů|ý|ž|Á|Č|Ď|É|Ě|Í|Ň|Ó|Ř|Š|Ť|Ú|Ů|Ý|Ž
+```á|č|ď|é|ě|í|ň|ó|ř|š|ť|ú|ů|ý|ž|Á|Č|Ď|É|Ě|Í|Ň|Ó|Ř|Š|Ť|Ú|Ů|Ý|Ž```
 <br/>
-a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z
+```a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z```
 <br/>
--find a CSS file that has somewhere in the name TAB - *tab*.css
+-find a CSS file that has somewhere in the name TAB - ```*tab*.css```
 
 ***System Explorer*** - replacement of "Task Manager" - possibility to save priority/affinity of applications for their automatic setting at next startup. ***Process Hacker*** 
 
@@ -387,15 +387,15 @@ a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z
 
 ***HxD+CFF Explorer+Resource Hacker*** - editing executables and more
 
-***Changing drive letters via registry*** (HKLM\SYSTEM\MountedDevices)
+***Changing drive letters via registry*** ```HKLM\SYSTEM\MountedDevices```
 
 ***GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}*** - creating a folder with this name and opening it via Explorer opens a window with all control panels
 
 ***Microsoft Management Console*** (MMC) - add custom modules to a single MMC console. Procedure - run/mmc/add or remove snap-in modules/select modules/save
 
-***c:\Windows\System32\Robocopy.exe "c:\1" "e:\1" /E /PURGE /w:0 /r:0 /MOT:10***
+```c:\Windows\System32\Robocopy.exe "c:\1" "e:\1" /E /PURGE /w:0 /r:0 /MOT:10```
 <br/>
-Automatic synchronization of two folders. "c:\1" is the source folder and "e:\1" is the backup. If a file/folder is created/changed in the source folder, it is copied to the backup. If a file/folder is deleted in the source folder, it will be deleted from the backup. "MOT:10" indicates 10 minutes of waiting and then synchronization. Is it synchronization (comparison) and not "delete the entire backup/copy the entire resource", so it does not reduce the lifetime of the SSD with unnecessary writes, among other things. A small drawback is that there is no comparison of files by content, but only by attributes+size (fast/non-demanding). It is possible to close the console window by terminating the "conhost.exe" process and leave only "ROBOCOPY.exe" (automatic synchronization in the background of the system) on. Useful in combination with NTFS links for automatic SAVEGAME backup
+Automatic synchronization of two folders. ```c:\1``` is the source folder and ```e:\1``` is the backup. If a file/folder is created/changed in the source folder, it is copied to the backup. If a file/folder is deleted in the source folder, it will be deleted from the backup. "MOT:10" indicates 10 minutes of waiting and then synchronization. Is it synchronization (comparison) and not "delete the entire backup/copy the entire resource", so it does not reduce the lifetime of the SSD with unnecessary writes, among other things. A small drawback is that there is no comparison of files by content, but only by attributes+size (fast/non-demanding). It is possible to close the console window by terminating the "conhost.exe" process and leave only "ROBOCOPY.exe" (automatic synchronization in the background of the system) on. Useful in combination with NTFS links for automatic SAVEGAME backup
 
 ***T-Clock*** - advanced replacement of the default tray clock. A program with decades of history and several authors = the possibilities of settings and range of functions (not even related to the clock) is unprecedented
 <br/>
