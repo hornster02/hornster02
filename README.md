@@ -414,10 +414,6 @@ Automatic synchronization of two folders. ```c:\1``` is the source folder and ``
 <br/>
 https://github.com/hornster02/hornster02/raw/main/Blood_2_1998_patch.rar
 
-***Cold War - 2005*** - cz crack - 16:9 widescreen (2018-08 Score 168)
-<br/>
-https://github.com/hornster02/hornster02/raw/main/Cold_War_2005_cz_crack_16-9_widescreen.rar
-
 ***Dusk 12 - 2007*** - patch (2023-07 STEAM)
 <br/>
 dusk.exe (při nastavení rozlišení 640x480 se hra spustí v 1920x1080 HOR+)
