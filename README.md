@@ -1,9 +1,6 @@
-🟧0* GAMES-JINE
+🟧0* GAMES-JINE. ***Češtiny do her*** https://github.com/hornster02?tab=repositories&q=&type=archived&language=&sort=
 
-Software for Windows
-<br/>
-🟩1* English deepl.com translation below (last edit 12/2023)
-<br/>
+🟩1* ***Software for Windows*** - English deepl.com translation below (last edit 12/2023)
 
 ***Total Uninstall*** - sken systému (před/po spuštení/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
 
