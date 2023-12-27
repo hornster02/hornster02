@@ -4,6 +4,8 @@
 
 ***Total Uninstall*** - sken systému (před/po spuštení/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
 
+***Inno Setup XDELTA Patch Maker, Patch Maker*** (Clickteam) - ideální třeba pro vytvoření patche s češtinou do hry, ze které "nejde" překlad vytáhnout (chybějící nástroje a různě chráněná herní data nebo překlad ve spouštěcích souborech atd.) - velikost takového patche je běžně o 70-99% menší než celá "warez" verze hry (a sdílení takového patche je pochopitelně i daleko jednodušší a méně ošemetné). Pokud překlad vyžaduje i svoje konkrétní DLL+EXE+... soubory a vytvářený patch bude zamýšlený pro digitálně prodávanou hru, tak je dobré tyto soubory z cíle (např. STEAM verze) dočasně odebrat (tím při patchování dojde k obyčejnému zkopírování zdrojových souborů do cíle bez ohledu na jejich verzi) = tyto soubory mají běžně velikost maximálně pár desítek MB a jdou dobře komprimovat, takže "patch" způsob by celkově přinesl úsporu dat pouze v rámci jednotek MB, ale pokud by se v cílové verzi v budoucnu změnil jediný bit (a že je to u digitálních produktů daleko pravděpodobnější/jednodušší než že dojde k úpravě samotných velkých herních dat), tak bude celý patch nefunkční
+
 ***MSI Afterburner+RTSS*** - překrytí obrazu - čas, HW monitoring, limit FPS/Frametime (klávesové zkratky), Scanline Sync, tray ikony
 
 ***dgVoodoo2*** - DX11/12 rendering (wrapper) pro DX1-9 hry, možnost zvětšení rozhraní her při vysokých rozlišeních (např. rozlišení ve hře je 1280x720 a přes program se nastaví 1920x1080 = rozhraní bude velké jako v 720p, ale rozlišení bude 1080p) a vnutit hře nepodporovaná rozlišení. Od verze 2.55+ (2018+) v kombinaci s DX11+Radeon může nastat bug v podobě bílých textur (u novějších verzí z roku 2023+ je problém zřejmě už vyřešený). Pravý klik myší zpřístupní pokročilé možnosti. Pro zapnutí wrapperu se musí potřebné DLL soubory z podsložky dgVoodoo2 nakopírovat k (hlavnímu) EXE souboru hry a pak nakonfigurovat (dgVoodooCpl.exe) čímž se u EXE souboru hry vytvoří "dgVoodoo.conf"
@@ -98,8 +100,6 @@ místo XXX se napíše název potřebného klíče
 ***Prime95+Furmark*** - test životnosti+stability PC (power virus)
 
 ***WinRAR*** - archivace dat s možností přidání záznamu na jejich opravu
-
-***Inno Setup XDELTA Patch Maker, Patch Maker*** (Clickteam) - ideální třeba pro vytvoření patche s češtinou do hry, ze které "nejde" překlad vytáhnout (chybějící nástroje a různě chráněná herní data nebo překlad ve spouštěcích souborech atd.) - velikost takového patche je běžně o 70-99% menší než celá "warez" verze hry (a sdílení takového patche je pochopitelně i daleko jednodušší a méně ošemetné). Pokud překlad vyžaduje i svoje konkrétní DLL+EXE+... soubory a vytvářený patch bude zamýšlený pro digitálně prodávanou hru, tak je dobré tyto soubory z cíle (např. STEAM verze) dočasně odebrat (tím při patchování dojde k obyčejnému zkopírování zdrojových souborů do cíle bez ohledu na jejich verzi) = tyto soubory mají běžně velikost maximálně pár desítek MB a jdou dobře komprimovat, takže "patch" způsob by celkově přinesl úsporu dat pouze v rámci jednotek MB, ale pokud by se v cílové verzi v budoucnu změnil jediný bit (a že je to u digitálních produktů daleko pravděpodobnější/jednodušší než že dojde k úpravě samotných velkých herních dat), tak bude celý patch nefunkční
 
 ***WizTree*** - analýza místa na disku
 
@@ -209,6 +209,8 @@ Problémů ale může být o mnoho více a toto je jen malá ukázka
 
 ***Total Uninstall*** - system scan (before/after application launch/installation) and display changes (files/folders/register), export registry changes to REG file for uninstallation
 
+***Inno Setup XDELTA Patch Maker, Patch Maker*** (Clickteam) - create a patch
+
 ***MSI Afterburner+RTSS*** - screen overlay - time, HW monitoring, FPS/Frametime limit (hotkeys), Scanline Sync, tray icons
 
 ***dgVoodoo2*** - DX11/12 rendering (wrapper) for DX1-9 games, possibility to enlarge the interface of games at high resolutions (e.g. the resolution in the game is 1280x720 and through the program it is set to 1920x1080 = the interface will be as big as in 720p, but the resolution will be 1080p) and to force unsupported resolutions on the game. Since version 2.55+ (2018+) in combination with DX11+Radeon, a bug in the form of white textures may occur (since 2023+ versions the problem seems to have been solved). Right mouse click will access advanced options. To enable the wrapper, the necessary DLL files from the dgVoodoo2 subfolder must be copied to the (main) EXE file of the game and then configured (dgVoodooCpl.exe) to create a "dgVoodoo.conf" for the EXE file of the game
@@ -303,8 +305,6 @@ instead of XXX, write the name of the required key
 ***Prime95+Furmark*** - PC lifetime+stability test (power virus)
 
 ***WinRAR*** - data archiving with the possibility of adding a record to repair it
-
-***Inno Setup XDELTA Patch Maker, Patch Maker*** (Clickteam) - create update files
 
 ***WizTree*** - disk space analysis
 
