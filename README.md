@@ -1,4 +1,4 @@
-🟧0* GAMES-JINE. ***Češtiny do her*** https://github.com/hornster02?tab=repositories&q=&type=archived&language=&sort=
+🟧0* GAMES-JINE. ***Češtiny do her*** https://github.com/hornster02?tab=repositories&q=&type=archived&language=&sort=name
 
 🟩1* ***Software for Windows*** - English deepl.com translation below (last edit 12/2023)
 
