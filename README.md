@@ -223,7 +223,7 @@ Problémů ale může být o mnoho více a toto je jen malá ukázka
 
 ***PowerStrip*** - software change brightness/contrast/gamma - profiles - hotkeys. Works in games too (windowed/borderless seamless, but in fullscreen some games don't allow changes)
 
-***Custom Resolution Utility*** - create a custom resolution and refresh rate for the monitor. Also ideal for bypassing the maximum resolution limit on old GPUs by lowering the refresh rate - e.g. 2560x1080x54Hz on Radeon HD 4670 (2008 - 1920x1200x60Hz)
+***Custom Resolution Utility*** - create a custom resolution and refresh rate for the monitor. Also ideal for bypassing the maximum resolution limit on old GPUs by lowering the refresh rate - e.g. 2560x1080x54Hz on Radeon HD 4670 (2008 - 1920x1200x60Hz). Or if Win sets a lower Hz than the monitor supports (when changing the resolution), then if the maximum refresh rate is set in CRU for the native resolution, then even lower resolutions should be automatically set with the maximum refresh rate
 
 ***OverdriveNTool, AMD GPU Clock Tool*** - voltage/frequency for Radeon - profiles - shortcuts/hotkeys
 
