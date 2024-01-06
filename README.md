@@ -179,7 +179,7 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 
 ***🟦 NAPS2*** - skenování, export do PDF, OCR
 
-***🟦 ATI GPU Scaling Fix, 🟦 RadeonMod, 🟦 HDD Low Level Format Tool, KMPlayer***  (🟦 32bit - kvůli asi nejlepší normalizaci hlasitosti a 🟦 64 bit)+desítky aplikací od 🟦 NirSoft (***AppCrashView/BlueScreenView/Wireless Network Watcher/WifiInfoView/CurrPorts/FullEventLogView/ShellExView/ShellMenuView/OpenWithView/LoadedDllsView/DiskCountersView*** *1)
+***🟦 ATI GPU Scaling Fix, 🟦 RadeonMod, 🟦 HDD Low Level Format Tool, 🟦 KMPlayer***  (32bit - kvůli asi nejlepší normalizaci hlasitosti a 64 bit)+desítky aplikací od 🟦 NirSoft (***AppCrashView/BlueScreenView/Wireless Network Watcher/WifiInfoView/CurrPorts/FullEventLogView/ShellExView/ShellMenuView/OpenWithView/LoadedDllsView/DiskCountersView*** *1)
 
 ***VMware Workstation*** (15) - možnost používat např. Steam klient při spuštěném Win7 (od roku 2024 hrozí obecně umělý zákaz přístupu z tohoto "nebezpečného" systému - viz některé banky, možné řešení=responzivní mód v prohlížeči) ve virtuálním stroji s novějším systémem (třeba Win11). Podpora připojení (přemostění) k internetu (router může vyřešit případné problémy s připojením) a možnost sdílení složek - host/guest (např. pro přímé stahování her z Win11 do Win7). Pro plnou funkčnost je třeba po instalaci systému (běžné ISO) v VMware připojit na virtuální mechaniku ISO s ovladači (VMware Tools) a nainstalovat je. 7-Zip umí otevřít VMDK soubor se systémem
 
@@ -392,7 +392,7 @@ With the add-on ***DiskDir Extended*** you can create a data catalog (compress f
 
 ***🟦 NAPS2*** - scan, export to PDF, OCR
 
-***🟦 ATI GPU Scaling Fix, 🟦 RadeonMod, 🟦 HDD Low Level Format Tool, KMPlayer*** (🟦 32bit - due to probably the best volume normalization and 🟦 64 bit)+dozens of apps from 🟦 NirSoft (***AppCrashView/BlueScreenView/Wireless Network Watcher/WifiInfoView/CurrPorts/FullEventLogView/ShellExView/ShellMenuView/OpenWithView/LoadedDllsView/DiskCountersView*** *1)
+***🟦 ATI GPU Scaling Fix, 🟦 RadeonMod, 🟦 HDD Low Level Format Tool, 🟦 KMPlayer*** (32bit - due to probably the best volume normalization and 64 bit)+dozens of apps from 🟦 NirSoft (***AppCrashView/BlueScreenView/Wireless Network Watcher/WifiInfoView/CurrPorts/FullEventLogView/ShellExView/ShellMenuView/OpenWithView/LoadedDllsView/DiskCountersView*** *1)
 
 ***VMware Workstation*** (15) - possibility to use e.g. Steam client while running Win7 (from 2024 there is a threat of arbitrary banning of access from this "dangerous" system - see some banks, possible solution=responsive mode in browser) in a virtual machine with a newer system (e.g. Win11). Support for internet connection (bridging) (router can solve possible connection problems) and the possibility of sharing folders - host/guest (e.g. for direct downloading of games from Win11 to Win7). For full functionality, after installing the system (regular ISO) in VMware, the ISO with drivers (VMware Tools) must be mounted on the virtual drive and installed.
 
