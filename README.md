@@ -187,7 +187,7 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 
 ***KernelEX/One-Core-API/Extended Kernel for Windows Vista/VxKex*** - možnost spustit novější aplikace v nepodporovaném systému (compatiblity layer). Třeba Firefox 52 (2017) ve Win98 
 
-***HxD+CFF Explorer+🟦 Resource Hacker*** - úpravy spustitelných souborů a jiné
+***🟦 HxD+CFF Explorer+🟦 Resource Hacker*** - úpravy spustitelných souborů a jiné
 
 ***Změna písmen disků přes registr*** ```HKLM\SYSTEM\MountedDevices```
 
@@ -400,7 +400,7 @@ With the add-on ***DiskDir Extended*** you can create a data catalog (compress f
 
 ***KernelEX/One-Core-API/Extended Kernel for Windows Vista/VxKex*** - ability to run newer applications on an unsupported system (compatiblity layer). For example Firefox 52 (2017) in Win98
 
-***HxD+CFF Explorer+Resource Hacker*** - editing executables and more
+***🟦 HxD+CFF Explorer+Resource Hacker*** - editing executables and more
 
 ***Changing drive letters via registry*** ```HKLM\SYSTEM\MountedDevices```
 
