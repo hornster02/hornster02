@@ -423,13 +423,13 @@ Automatic synchronization of two folders. ```c:\1``` is the source folder and ``
 <br/>
 🟧0* GAMES-JINE
 <br/>
-***Blood 2 - 1998*** - patch - 16:9 HOR+ widescreen, DX11/12 (2023-08 STEAM)
+***Blood 2 - 1998*** - patch - 16:9 widescreen, DX11/12 (2023-08 STEAM)
 <br/>
 https://github.com/hornster02/hornster02/raw/main/Blood_2_1998_patch.rar
 
 ***Dusk 12 - 2007*** - patch (2023-07 STEAM)
 <br/>
-dusk.exe (při nastavení rozlišení 640x480 se hra spustí v 1920x1080 HOR+)
+dusk.exe (při nastavení rozlišení 640x480 se hra spustí v 1920x1080)
 <br/>
 audiere.dll (zřejmě vyřeší problém nespuštění hry - černá obrazovka - při zapnuté hudbě)
 <br/>
