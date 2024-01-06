@@ -123,7 +123,7 @@ a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úp
 
 ***🟦 PortableWinCDEmu*** - virtuální mechanika
 
-***MiniTool Partition Wizard*** - může se hodit k FAT32 zformátování exFAT mSDXC karty (pokud je např. starý telefon nepodporuje)
+***🟦 MiniTool Partition Wizard*** - může se hodit k FAT32 zformátování exFAT mSDXC karty (pokud je např. starý telefon nepodporuje)
 
 ***🟦 Hard Disk Sentinel*** - monitoring disků+historie, S.M.A.R.T. testy, regulace hlučnosti (AAM), tray ikony (zdraví), možnost zakázání vypínání HDD při nečinnosti (aut. přístupem nebo APM)
 
@@ -336,7 +336,7 @@ and the forbidding of arbitrarily adding exceptions is easily done by adding and
 
 ***🟦 PortableWinCDEmu*** - virtual drive
 
-***MiniTool Partition Wizard*** - may be useful for FAT32 formatting of exFAT mSDXC cards (if e.g. old phone does not support them)
+***🟦 MiniTool Partition Wizard*** - may be useful for FAT32 formatting of exFAT mSDXC cards (if e.g. old phone does not support them)
 
 ***🟦 Hard Disk Sentinel*** - disk monitoring+history, S.M.A.R.T. tests, noise control (AAM), tray icons (health), option to disable HDD shutdown when idle (auto access or APM)
 
