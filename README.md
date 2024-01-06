@@ -1,6 +1,6 @@
 🟧0* GAMES-JINE. ***Češtiny do her*** https://github.com/hornster02?tab=repositories&q=&type=archived&language=&sort=name
 <br/>
-🟩1* ***Software for Windows - English deepl.com translation below (last edit 12/2023)*** 🟦***PORTABLE - official or with the help of 7-Zip***
+🟩1* ***Software for Windows - English deepl.com translation below (last edit 12/2023)*** 🟦***PORTABLE - official or with the help of 🟦 7-Zip***
 
 ***Total Uninstall*** - sken systému (před/po spuštení/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
 
@@ -68,7 +68,7 @@ místo XXX se napíše název potřebného klíče
 <br/>
 a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úpravou oprávnění pro "Everyone" 
 
-🚫***🟦 NSudo*** - spouštění aplikací s nejvyššími právy. V kombinaci i s programem Autoruns je snadné se zbavit veškerého MS bloatwaru (služby/plánovače úloh/Defender/Edge/OneDrive/Slutana/...) ***ADB AppControl*** 
+🚫***🟦 NSudo*** - spouštění aplikací s nejvyššími právy. V kombinaci i s programem Autoruns je snadné se zbavit veškerého MS bloatwaru (služby/plánovače úloh/Defender/Edge/OneDrive/Slutana/...) ***🟦 ADB AppControl*** 
 
 ***🟦 Autoruns*** - automaticky spouštěné aplikace/knihovny/ovladače
 
@@ -95,43 +95,43 @@ a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úp
 
 ***🟦 Display Driver Uninstaller*** - odinstalování audio/video ovladačů, ***Device Remover*** - možné zásadní zrychlení spuštění "Správce zařízení" (záleží kolika PC/komponenty systém prošel)
 
-***7+ Taskbar Tweaker+WinaeroTweaker+ExplorerPatcher+WinPaletter+Classic Color Panel*** ```HKCU\Control Panel\Colors``` - úprava uživatelského rozhraní Windows
+***🟦 7+ Taskbar Tweaker+WinaeroTweaker+ExplorerPatcher+🟦 WinPaletter+🟦 Classic Color Panel*** ```HKCU\Control Panel\Colors``` - úprava uživatelského rozhraní Windows
 
-***Pazera Free Audio Extractor, MKVToolNix*** - úprava videosouborů bez nutnosti konverze.  Odstraňování/extrahování audiostop, podrobné informace o audio/video souborech, ...
+***🟦 Pazera Free Audio Extractor, 🟦 MKVToolNix*** - úprava videosouborů bez nutnosti konverze.  Odstraňování/extrahování audiostop, podrobné informace o audio/video souborech, ...
 
-***Subtitle Edit*** - úprava titulků
+***🟦 Subtitle Edit*** - úprava titulků
 
-***UniFlash*** (Rainbow Software) - MS-DOS program na uložení/obnovení CMOS paměti biosu (nastavení) do souboru. Na novějším HW možná už nefunkční (AM3+ +)
+***🟦 UniFlash*** (Rainbow Software) - MS-DOS program na uložení/obnovení CMOS paměti biosu (nastavení) do souboru. Na novějším HW možná už nefunkční (AM3+ +)
 
-***NetSpeedMonitor*** - monitoring rychlosti a objemu stažených dat+historie, tray
+***🟦 NetSpeedMonitor*** - monitoring rychlosti a objemu stažených dat+historie, tray
 
-***AIDA64*** - podrobné informace o PC
+***🟦 AIDA64*** - podrobné informace o PC
 
-***Prime95+Furmark*** - test životnosti+stability PC (power virus)
+***🟦 Prime95+Furmark*** - test životnosti+stability PC (power virus)
 
-***WinRAR*** - archivace dat s možností přidání záznamu na jejich opravu
+***🟦 WinRAR*** - archivace dat s možností přidání záznamu na jejich opravu
 
-***WizTree*** - analýza místa na disku
+***🟦 WizTree*** - analýza místa na disku
 
 ***ImDisk Toolkit*** - ramdisk
 
 ***Primo Ramdisk*** - možnost stránkovacího souboru v ramdisku nebo využít nepřístupnou část RAM paměti (Invisible Memory) - např. 32-Bit Win má limit ~4GB, Win11 Home 128GB
 
-***Mem Reduct*** - uvolnění RAM paměti bez ukončení procesů klávesovou zkratkou nebo klikem na tray ikonu. Může ale docházet k většímu zápisu do stránkovacího souboru = opotřebení SSD*1
+***🟦 Mem Reduct*** - uvolnění RAM paměti bez ukončení procesů klávesovou zkratkou nebo klikem na tray ikonu. Může ale docházet k většímu zápisu do stránkovacího souboru = opotřebení SSD*1
 
 ***RimhillEx*** - omezení rychlosti čtení CD/DVD
 
-***PortableWinCDEmu*** - virtuální mechanika
+***🟦 PortableWinCDEmu*** - virtuální mechanika
 
 ***MiniTool Partition Wizard*** - může se hodit k FAT32 zformátování exFAT mSDXC karty (pokud je např. starý telefon nepodporuje)
 
-***Hard Disk Sentinel*** - monitoring disků+historie, S.M.A.R.T. testy, regulace hlučnosti (AAM), tray ikony (zdraví), možnost zakázání vypínání HDD při nečinnosti (aut. přístupem nebo APM)
+***🟦 Hard Disk Sentinel*** - monitoring disků+historie, S.M.A.R.T. testy, regulace hlučnosti (AAM), tray ikony (zdraví), možnost zakázání vypínání HDD při nečinnosti (aut. přístupem nebo APM)
 
 ***HDD Regenerator*** - oprava poškozených sektorů na HDD bez ztráty dat (Win/MS-DOS)
 
 ***ISOBuster*** - záchrana dat
 
-***Total Commander*** - rychlá/efektivní náhrada Průzkumníka/Plochy/NabídkyStart se spoustou funkcí navíc (vnitřní přidružení souborů včetně ikon, porovnání souborů podle obsahu, změna atributů, kopírování cest k datům do schránky, zobrazit/skrýt určité soubory/složky, kopírování souborů jenom s určitým datem se zachováním adresářové struktury, ověření nakopírovaných dat kvůli jejich případnému poškození, ... = nižší stovky klávesových zkratek). Pár užitečných "wincmd.ini" tweaků (první 2 jsou velmi důležité a moc nechápu, že program tak není nastaven v základu - první zrychlí/zpřehlední např. vyhledávání dat tím, že ignoruje NTFS linky = vyhledává data jak jsou zapsaná na disku a neukazuje "falešné duplikáty". Druhý kopíruje/přesunuje NTFS linky jako linky a ne jako soubory/složky)
+***🟦 Total Commander*** - rychlá/efektivní náhrada Průzkumníka/Plochy/NabídkyStart se spoustou funkcí navíc (vnitřní přidružení souborů včetně ikon, porovnání souborů podle obsahu, změna atributů, kopírování cest k datům do schránky, zobrazit/skrýt určité soubory/složky, kopírování souborů jenom s určitým datem se zachováním adresářové struktury, ověření nakopírovaných dat kvůli jejich případnému poškození, ... = nižší stovky klávesových zkratek). Pár užitečných "wincmd.ini" tweaků (první 2 jsou velmi důležité a moc nechápu, že program tak není nastaven v základu - první zrychlí/zpřehlední např. vyhledávání dat tím, že ignoruje NTFS linky = vyhledává data jak jsou zapsaná na disku a neukazuje "falešné duplikáty". Druhý kopíruje/přesunuje NTFS linky jako linky a ne jako soubory/složky)
 <br/>
 ```IgnoreLinks=8```
 <br/>
@@ -159,27 +159,27 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 <br/>
 -najít CSS soubor který má někde v názvu TAB - ```*tab*.css```
 
-***System Explorer*** - náhrada "Správce úloh" - možnost uložit prioritu/afinitu aplikací pro jejich automatické nastavení při dalším spuštění. ***Process Hacker*** 
+***System Explorer*** - náhrada "Správce úloh" - možnost uložit prioritu/afinitu aplikací pro jejich automatické nastavení při dalším spuštění. ***🟦 Process Hacker*** 
 
-***Battle Encoder Shirasé*** - omezení (throttling) procesů - až 99%. Možnost používat přes Command-Line bez UI
+***🟦 Battle Encoder Shirasé*** - omezení (throttling) procesů - až 99%. Možnost používat přes Command-Line bez UI
 
-***Registry Workshop*** - pokročilá náhrada výchozího "Regedit". Load Hive slouží pro načtení externího registru - je možné ho upravovat. Integrace s programem ***Total Uninstall*** se v jeho nastavení provede tímto příkazem (příklad) -
+***🟦 Registry Workshop*** - pokročilá náhrada výchozího "Regedit". Load Hive slouží pro načtení externího registru - je možné ho upravovat. Integrace s programem ***Total Uninstall*** se v jeho nastavení provede tímto příkazem (příklad) -
 <br/>
 ```"c:\Registry Workshop\RegWorkshopX64.exe" /g```
 
-***Notepad++*** - pokročilý poznámkový blok
+***🟦 Notepad++*** - pokročilý poznámkový blok
 
-***HEXelon Max 6*** - kalkulačka se třemi nezávislými "panely"
+***🟦 HEXelon Max 6*** - kalkulačka se třemi nezávislými "panely"
 
-***FastStone Image Viewer*** - jednoduchý/rychlý prohlížeč obrázků
+***🟦 FastStone Image Viewer*** - jednoduchý/rychlý prohlížeč obrázků
 
-***SumatraPDF*** - rychlý prohlížeč PDF. Možnost skrytí veškerého UI
+***🟦 SumatraPDF*** - rychlý prohlížeč PDF. Možnost skrytí veškerého UI
 
-***Screen Ruler*** (Bluegrams) - pravítko
+***🟦 Screen Ruler*** (Bluegrams) - pravítko
 
-***NAPS2*** - skenování, export do PDF, OCR
+***🟦 NAPS2*** - skenování, export do PDF, OCR
 
-***ATI GPU Scaling Fix, RadeonMod, HDD Low Level Format Tool, KMPlayer***  (32bit - kvůli asi nejlepší normalizaci hlasitosti a 64 bit)+desítky aplikací od NirSoft (***AppCrashView/BlueScreenView/Wireless Network Watcher/WifiInfoView/CurrPorts/FullEventLogView/ShellExView/ShellMenuView/OpenWithView/LoadedDllsView/DiskCountersView*** *1)
+***🟦 ATI GPU Scaling Fix, 🟦 RadeonMod, 🟦 HDD Low Level Format Tool, KMPlayer***  (32bit - kvůli asi nejlepší normalizaci hlasitosti a 64 bit)+desítky aplikací od NirSoft (***AppCrashView/BlueScreenView/Wireless Network Watcher/WifiInfoView/CurrPorts/FullEventLogView/ShellExView/ShellMenuView/OpenWithView/LoadedDllsView/DiskCountersView*** *1)
 
 ***VMware Workstation*** (15) - možnost používat např. Steam klient při spuštěném Win7 (od roku 2024 hrozí obecně umělý zákaz přístupu z tohoto "nebezpečného" systému - viz některé banky, možné řešení=responzivní mód v prohlížeči) ve virtuálním stroji s novějším systémem (třeba Win11). Podpora připojení (přemostění) k internetu (router může vyřešit případné problémy s připojením) a možnost sdílení složek - host/guest (např. pro přímé stahování her z Win11 do Win7). Pro plnou funkčnost je třeba po instalaci systému (běžné ISO) v VMware připojit na virtuální mechaniku ISO s ovladači (VMware Tools) a nainstalovat je. 7-Zip umí otevřít VMDK soubor se systémem
 
