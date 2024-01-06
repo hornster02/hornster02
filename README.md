@@ -304,47 +304,47 @@ and the forbidding of arbitrarily adding exceptions is easily done by adding and
 
 ***Link Shell Extension+🟦 NTFSLinksView*** - NTFS links*0 and redirecting e.g. program settings to custom folders. Control via context menu - select source (new location) / paste as (original location)
 
-***Driver Booster for Steam*** - update drivers
+***🟦 Driver Booster for Steam*** - update drivers
 
-***Display Driver Uninstaller*** - uninstall audio/video drivers, ***Device Remover*** - possible major speed up of "Device Manager" startup (depends on how many PCs/components the system has gone through)
+***🟦 Display Driver Uninstaller*** - uninstall audio/video drivers, ***Device Remover*** - possible major speed up of "Device Manager" startup (depends on how many PCs/components the system has gone through)
 
-***7+ Taskbar Tweaker+WinaeroTweaker+ExplorerPatcher+WinPaletter+Classic Color Panel*** ```HKCU\Control Panel\Colors``` - modifying the Windows user interface
+***🟦 7+ Taskbar Tweaker+WinaeroTweaker+ExplorerPatcher+🟦 WinPaletter+🟦 Classic Color Panel*** ```HKCU\Control Panel\Colors``` - modifying the Windows user interface
 
-***Pazera Free Audio Extractor, MKVToolNix*** - editing video files without conversion.  Removing/extracting audio tracks, detailed information about audio/video files, ...
+***🟦 Pazera Free Audio Extractor, 🟦 MKVToolNix*** - editing video files without conversion.  Removing/extracting audio tracks, detailed information about audio/video files, ...
 
-***Subtitle Edit*** - edit subtitles
+***🟦 Subtitle Edit*** - edit subtitles
 
-***UniFlash*** (Rainbow Software) - MS-DOS program to save/restore CMOS bios memory (settings) to a file. May not work on newer HW (AM3+ +)
+***🟦 UniFlash*** (Rainbow Software) - MS-DOS program to save/restore CMOS bios memory (settings) to a file. May not work on newer HW (AM3+ +)
 
-***NetSpeedMonitor*** - monitoring of download/upload speed and data amount+history, tray
+***🟦 NetSpeedMonitor*** - monitoring of download/upload speed and data amount+history, tray
 
-***AIDA64*** - detailed information about PC
+***🟦 AIDA64*** - detailed information about PC
 
-***Prime95+Furmark*** - PC lifetime+stability test (power virus)
+***🟦 Prime95+Furmark*** - PC lifetime+stability test (power virus)
 
-***WinRAR*** - data archiving with the possibility of adding a record to repair it
+***🟦 WinRAR*** - data archiving with the possibility of adding a record to repair it
 
-***WizTree*** - disk space analysis
+***🟦 WizTree*** - disk space analysis
 
 ***ImDisk Toolkit*** - ramdisk
 
 ***Primo Ramdisk*** - option to page files in ramdisk or use inaccessible part of RAM (Invisible Memory) - e.g. 32-Bit Win has a limit of ~4GB, Win11 Home 128GB
 
-***Mem Reduct*** - free RAM memory without terminating processes by hotkey or clicking on the tray icon. However, there may be more writing to the paging file = reduced lifetime of SSD*1
+***🟦 Mem Reduct*** - free RAM memory without terminating processes by hotkey or clicking on the tray icon. However, there may be more writing to the paging file = reduced lifetime of SSD*1
 
 ***RimhillEx*** - CD/DVD read speed limitation
 
-***PortableWinCDEmu*** - virtual drive
+***🟦 PortableWinCDEmu*** - virtual drive
 
 ***MiniTool Partition Wizard*** - may be useful for FAT32 formatting of exFAT mSDXC cards (if e.g. old phone does not support them)
 
-***Hard Disk Sentinel*** - disk monitoring+history, S.M.A.R.T. tests, noise control (AAM), tray icons (health), option to disable HDD shutdown when idle (auto access or APM)
+***🟦 Hard Disk Sentinel*** - disk monitoring+history, S.M.A.R.T. tests, noise control (AAM), tray icons (health), option to disable HDD shutdown when idle (auto access or APM)
 
 ***HDD Regenerator*** - repair corrupted sectors on HDD without data loss (Win/MS-DOS)
 
 ***ISOBuster*** - data rescue
 
-***Total Commander*** - fast/efficient replacement of Explorer/Desktop/Start Menu with lots of extra features (internal file association including icons, file comparison by content, change attributes, copy data paths to clipboard, show/hide certain files/folders, copying files with certain date while preserving the directory structure, verifying the copied data for possible damage, ... = lower hundreds of hotkeys). A few useful "wincmd.ini" tweaks (the first 2 are very important and I don't understand that the program is not set up that way in the base - the first one speeds up/transparent e.g. data search by ignoring NTFS links = searches for data as written on the disk and doesn't show "false duplicates". The second copies/moves NTFS links as links and not as files/folders)
+***🟦 Total Commander*** - fast/efficient replacement of Explorer/Desktop/Start Menu with lots of extra features (internal file association including icons, file comparison by content, change attributes, copy data paths to clipboard, show/hide certain files/folders, copying files with certain date while preserving the directory structure, verifying the copied data for possible damage, ... = lower hundreds of hotkeys). A few useful "wincmd.ini" tweaks (the first 2 are very important and I don't understand that the program is not set up that way in the base - the first one speeds up/transparent e.g. data search by ignoring NTFS links = searches for data as written on the disk and doesn't show "false duplicates". The second copies/moves NTFS links as links and not as files/folders)
 <br/>
 ```IgnoreLinks=8```
 <br/>
@@ -372,31 +372,31 @@ With the add-on ***DiskDir Extended*** you can create a data catalog (compress f
 <br/>
 -find a CSS file that has somewhere in the name TAB - ```*tab*.css```
 
-***System Explorer*** - replacement of "Task Manager" - possibility to save priority/affinity of applications for their automatic setting at next startup. ***Process Hacker*** 
+***System Explorer*** - replacement of "Task Manager" - possibility to save priority/affinity of applications for their automatic setting at next startup. ***🟦 Process Hacker*** 
 
-***Battle Encoder Shirasé*** - process throttling - up to 99%. Ability to use via Command-Line without UI
+***🟦 Battle Encoder Shirasé*** - process throttling - up to 99%. Ability to use via Command-Line without UI
 
-***Registry Workshop*** - advanced replacement of the default "Regedit". Load Hive used to load external registry - can be edited. To integrate with ***Total Uninstall***, use the following command in its settings (example) -
+***🟦 Registry Workshop*** - advanced replacement of the default "Regedit". Load Hive used to load external registry - can be edited. To integrate with ***Total Uninstall***, use the following command in its settings (example) -
 <br/>
 ```"c:\Registry Workshop\RegWorkshopX64.exe" /g```
 
-***Notepad++*** - advanced notepad
+***🟦 Notepad++*** - advanced notepad
 
-***HEXelon Max 6*** - calculator with three independent "panels"
+***🟦 HEXelon Max 6*** - calculator with three independent "panels"
 
-***FastStone Image Viewer*** - simple/fast image viewer
+***🟦 FastStone Image Viewer*** - simple/fast image viewer
 
-***SumatraPDF*** - fast PDF viewer. Option to hide all UI
+***🟦 SumatraPDF*** - fast PDF viewer. Option to hide all UI
 
-***Screen Ruler*** (Bluegrams) - ruler
+***🟦 Screen Ruler*** (Bluegrams) - ruler
 
-***NAPS2*** - scan, export to PDF, OCR
+***🟦 NAPS2*** - scan, export to PDF, OCR
 
-***ATI GPU Scaling Fix, RadeonMod, HDD Low Level Format Tool, KMPlayer*** (32bit - due to probably the best volume normalization and 64 bit)+dozens of apps from NirSoft (***AppCrashView/BlueScreenView/Wireless Network Watcher/WifiInfoView/CurrPorts/FullEventLogView/ShellExView/ShellMenuView/OpenWithView/LoadedDllsView/DiskCountersView*** *1)
+***🟦 ATI GPU Scaling Fix, 🟦 RadeonMod, 🟦 HDD Low Level Format Tool, KMPlayer*** (🟦 32bit - due to probably the best volume normalization and 🟦 64 bit)+dozens of apps from 🟦 NirSoft (***AppCrashView/BlueScreenView/Wireless Network Watcher/WifiInfoView/CurrPorts/FullEventLogView/ShellExView/ShellMenuView/OpenWithView/LoadedDllsView/DiskCountersView*** *1)
 
 ***VMware Workstation*** (15) - possibility to use e.g. Steam client while running Win7 (from 2024 there is a threat of arbitrary banning of access from this "dangerous" system - see some banks, possible solution=responsive mode in browser) in a virtual machine with a newer system (e.g. Win11). Support for internet connection (bridging) (router can solve possible connection problems) and the possibility of sharing folders - host/guest (e.g. for direct downloading of games from Win11 to Win7). For full functionality, after installing the system (regular ISO) in VMware, the ISO with drivers (VMware Tools) must be mounted on the virtual drive and installed.
 
-***Process Monitor+FileActivityWatch*** - activities of running processes - detailed list of accesses on SSD/registry/network
+***🟦 Process Monitor+🟦 FileActivityWatch*** - activities of running processes - detailed list of accesses on SSD/registry/network
 
 ***KernelEX/One-Core-API/Extended Kernel for Windows Vista/VxKex*** - ability to run newer applications on an unsupported system (compatiblity layer). For example Firefox 52 (2017) in Win98
 
@@ -412,7 +412,7 @@ With the add-on ***DiskDir Extended*** you can create a data catalog (compress f
 <br/>
 Automatic synchronization of two folders. ```c:\1``` is the source folder and ```e:\1``` is the backup. If a file/folder is created/changed in the source folder, it is copied to the backup. If a file/folder is deleted in the source folder, it will be deleted from the backup. "MOT:10" indicates 10 minutes of waiting and then synchronization. Is it synchronization (comparison) and not "delete the entire backup/copy the entire resource", so it does not reduce the lifetime of the SSD with unnecessary writes, among other things. A small drawback is that there is no comparison of files by content, but only by attributes+size (fast/non-demanding). It is possible to close the console window by terminating the "conhost.exe" process and leave only "ROBOCOPY.exe" (automatic synchronization in the background of the system) on. Useful in combination with NTFS links for automatic SAVEGAME backup
 
-***T-Clock*** - advanced replacement of the default tray clock. A program with decades of history and several authors = the possibilities of settings and range of functions (not even related to the clock) is unprecedented
+***🟦 T-Clock*** - advanced replacement of the default tray clock. A program with decades of history and several authors = the possibilities of settings and range of functions (not even related to the clock) is unprecedented
 <br/>
 <br/>
 <br/>
