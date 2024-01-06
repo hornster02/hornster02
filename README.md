@@ -28,7 +28,7 @@
 
 ***🟦 AMD/ATI Pixel Clock Patcher*** - podepsání Radeon ovladačů po úpravě biosu GPU  (přejmenovat na "atikmdag-patcher-bios.exe")
 
-Přepínání ***🟦 Schéma napájení*** (ovládací panely) přes klávesové zkratky/zástupce. Cesta v registru ```HKLM\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes``` příkaz ve formátu
+Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkratky/zástupce. Cesta v registru ```HKLM\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes``` příkaz ve formátu
 <br/>
 ```C:\Windows\System32\powercfg.exe -setactive XXX```
 <br/>
@@ -179,15 +179,15 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 
 ***🟦 NAPS2*** - skenování, export do PDF, OCR
 
-***🟦 ATI GPU Scaling Fix, 🟦 RadeonMod, 🟦 HDD Low Level Format Tool, KMPlayer***  (32bit - kvůli asi nejlepší normalizaci hlasitosti a 64 bit)+desítky aplikací od NirSoft (***AppCrashView/BlueScreenView/Wireless Network Watcher/WifiInfoView/CurrPorts/FullEventLogView/ShellExView/ShellMenuView/OpenWithView/LoadedDllsView/DiskCountersView*** *1)
+***🟦 ATI GPU Scaling Fix, 🟦 RadeonMod, 🟦 HDD Low Level Format Tool, KMPlayer***  (🟦 32bit - kvůli asi nejlepší normalizaci hlasitosti a 🟦 64 bit)+desítky aplikací od 🟦 NirSoft (***AppCrashView/BlueScreenView/Wireless Network Watcher/WifiInfoView/CurrPorts/FullEventLogView/ShellExView/ShellMenuView/OpenWithView/LoadedDllsView/DiskCountersView*** *1)
 
 ***VMware Workstation*** (15) - možnost používat např. Steam klient při spuštěném Win7 (od roku 2024 hrozí obecně umělý zákaz přístupu z tohoto "nebezpečného" systému - viz některé banky, možné řešení=responzivní mód v prohlížeči) ve virtuálním stroji s novějším systémem (třeba Win11). Podpora připojení (přemostění) k internetu (router může vyřešit případné problémy s připojením) a možnost sdílení složek - host/guest (např. pro přímé stahování her z Win11 do Win7). Pro plnou funkčnost je třeba po instalaci systému (běžné ISO) v VMware připojit na virtuální mechaniku ISO s ovladači (VMware Tools) a nainstalovat je. 7-Zip umí otevřít VMDK soubor se systémem
 
-***Process Monitor+FileActivityWatch*** - aktivity spuštěných procesů - detailní seznam přístupů na SSD/registru/sítě
+***🟦 Process Monitor+🟦 FileActivityWatch*** - aktivity spuštěných procesů - detailní seznam přístupů na SSD/registru/sítě
 
 ***KernelEX/One-Core-API/Extended Kernel for Windows Vista/VxKex*** - možnost spustit novější aplikace v nepodporovaném systému (compatiblity layer). Třeba Firefox 52 (2017) ve Win98 
 
-***HxD+CFF Explorer+Resource Hacker*** - úpravy spustitelných souborů a jiné
+***HxD+CFF Explorer+🟦 Resource Hacker*** - úpravy spustitelných souborů a jiné
 
 ***Změna písmen disků přes registr*** ```HKLM\SYSTEM\MountedDevices```
 
@@ -199,7 +199,7 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 <br/>
 Automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:\1``` je záloha. Pokud dojde ve zdrojové složce k vytvoření/změně souboru/složky, tak se nakopíruje do zálohy. Pokud dojde ve zdrojové složce ke smazání souboru/složky, tak se smaže ze zálohy. "MOT:10" označuje 10 minut čekání a poté následuje synchronizace. Jedná se o synchronizaci (porovnání) a ne "smazat celou zálohu/nakopírovat celý zdroj", takže mimo jiné nesnižuje životnost SSD zbytečnými zápisy. Malá nevýhoda je, že nedochází k porovnání souborů podle obsahu, ale pouze pomocí atributů+velikostí (rychlé/nenáročné). Je možné zavřít okno konzole ukončením procesu "conhost.exe" a nechat zapnutý pouze "ROBOCOPY.exe" (automatická synchronizace v pozadí systému). Užitečné v kombinaci s NTFS linky pro automatické zálohování SAVEGAME
 
-***T-Clock*** - pokročilá náhrada výchozích tray hodin. Program s desítky let dlouhou historií a několika autory = možnosti nastavení a rozsah funkcí (které ani s hodinami nesouvisí) je nebývalý
+***🟦 T-Clock*** - pokročilá náhrada výchozích tray hodin. Program s desítky let dlouhou historií a několika autory = možnosti nastavení a rozsah funkcí (které ani s hodinami nesouvisí) je nebývalý
 
 ⚠️
 
@@ -219,27 +219,27 @@ Problémů ale může být o mnoho více a toto je jen malá ukázka
 
 ***Total Uninstall*** - system scan (before/after application launch/installation) and display changes (files/folders/register), export registry changes to REG file for uninstallation
 
-***Inno Setup XDELTA Patch Maker, Patch Maker*** (Clickteam) - create a patch
+***🟦 Inno Setup XDELTA Patch Maker, Patch Maker*** (Clickteam) - create a patch
 
 ***MSI Afterburner+RTSS*** - screen overlay - time, HW monitoring, FPS/Frametime limit (hotkeys), Scanline Sync, tray icons
 
-***dgVoodoo2*** - DX11/12 rendering (wrapper) for DX1-9 games, possibility to enlarge the interface of games at high resolutions (e.g. the resolution in the game is 1280x720 and through the program it is set to 1920x1080 = the interface will be as big as in 720p, but the resolution will be 1080p) and to force unsupported resolutions on the game. Since version 2.55+ (2018+) in combination with DX11+Radeon, a bug in the form of white textures may occur (since 2023+ versions the problem seems to have been solved). Right mouse click will access advanced options. To enable the wrapper, the necessary DLL files from the dgVoodoo2 subfolder must be copied to the (main) EXE file of the game and then configured (dgVoodooCpl.exe) to create a "dgVoodoo.conf" for the EXE file of the game
+***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) for DX1-9 games, possibility to enlarge the interface of games at high resolutions (e.g. the resolution in the game is 1280x720 and through the program it is set to 1920x1080 = the interface will be as big as in 720p, but the resolution will be 1080p) and to force unsupported resolutions on the game. Since version 2.55+ (2018+) in combination with DX11+Radeon, a bug in the form of white textures may occur (since 2023+ versions the problem seems to have been solved). Right mouse click will access advanced options. To enable the wrapper, the necessary DLL files from the dgVoodoo2 subfolder must be copied to the (main) EXE file of the game and then configured (dgVoodooCpl.exe) to create a "dgVoodoo.conf" for the EXE file of the game
 
 ***ArgusMonitor, Speedfan*** - regulation of CPU+GPU+case fans speed and their curves+switching off
 
-***AutoHotkey*** - automation/switches/scripts, custom hotkeys, double/short/long key/button press... One key/button can have hundreds of different functions written for each program individually (or its specific window - class/WinTitle) or one function globally for all
+***🟦 AutoHotkey*** - automation/switches/scripts, custom hotkeys, double/short/long key/button press... One key/button can have hundreds of different functions written for each program individually (or its specific window - class/WinTitle) or one function globally for all
 
-***ClickMonitorDDC*** - change monitor brightness/contrast/volume/on/off, tray icons; profiles - hotkeys. Works in games too
+***🟦 ClickMonitorDDC*** - change monitor brightness/contrast/volume/on/off, tray icons; profiles - hotkeys. Works in games too
 
 ***PowerStrip*** - software change brightness/contrast/gamma - profiles - hotkeys. Works in games too (windowed/borderless seamless, but in fullscreen some games don't allow changes)
 
-***Custom Resolution Utility*** - create a custom resolution and refresh rate for the monitor. Also ideal for bypassing the maximum resolution limit on old GPUs by lowering the refresh rate - e.g. 2560x1080x54Hz on Radeon HD 4670 (2008 - 1920x1200x60Hz). Or if Win sets a lower Hz than the monitor supports (when changing the resolution), then if the maximum supported refresh rate is set in CRU for the native resolution, then even lower resolutions should be automatically set with the maximum refresh rate
+***🟦 Custom Resolution Utility*** - create a custom resolution and refresh rate for the monitor. Also ideal for bypassing the maximum resolution limit on old GPUs by lowering the refresh rate - e.g. 2560x1080x54Hz on Radeon HD 4670 (2008 - 1920x1200x60Hz). Or if Win sets a lower Hz than the monitor supports (when changing the resolution), then if the maximum supported refresh rate is set in CRU for the native resolution, then even lower resolutions should be automatically set with the maximum refresh rate
 
-***OverdriveNTool, AMD GPU Clock Tool*** - voltage/frequency for Radeon - profiles - shortcuts/hotkeys
+***🟦 OverdriveNTool, 🟦 AMD GPU Clock Tool*** - voltage/frequency for Radeon - profiles - shortcuts/hotkeys
 
-***AmdMsrTweaker, ZenStates, PhenomMsrTweaker, BrazosTweaker*** - AMD K8 to Zen 2 CPUs ( 2003-2019) - voltage/frequency/multiplier - profiles - shortcuts/hotkeys
+***🟦 AmdMsrTweaker, 🟦 ZenStates, 🟦 PhenomMsrTweaker, 🟦 BrazosTweaker*** - AMD K8 to Zen 2 CPUs ( 2003-2019) - voltage/frequency/multiplier - profiles - shortcuts/hotkeys
 
-***AMD/ATI Pixel Clock Patcher*** - sign Radeon drivers after modifying GPU bios (rename to "atikmdag-patcher-bios.exe")
+***🟦 AMD/ATI Pixel Clock Patcher*** - sign Radeon drivers after modifying GPU bios (rename to "atikmdag-patcher-bios.exe")
 
 Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry path ```HKLM\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes``` command
 <br/>
@@ -249,25 +249,25 @@ instead of XXX, write the name of the required key
 
 ***Equalizer APO+Peace*** - sound equalizer - by overwriting configuration files (also via hotkeys/shortcuts) it is possible to switch profiles in real time without starting the program. MS Visual C++ 2015-2022 can resolve a possible error when running "Configurator.exe"
 
-***Raw Accel*** - detailed mouse settings, different axis sensitivity, etc. Profiles can also be switched via hotkeys/shortcuts ```c:\RawAccel\writer.exe c:\RawAccel\settings.json``` - changing the cursor when switching can be disabled by unifying them in the control panels (normal selection/background work)
+***🟦 Raw Accel*** - detailed mouse settings, different axis sensitivity, etc. Profiles can also be switched via hotkeys/shortcuts ```c:\RawAccel\writer.exe c:\RawAccel\settings.json``` - changing the cursor when switching can be disabled by unifying them in the control panels (normal selection/background work)
 
-***Mouse Settings Changer*** - switching mouse/touchpad sensitivity (control panels) even with a hotkeys - Autohotkey can be used to hide the popup window when switching profile - example for AltGr+F7
+***🟦 Mouse Settings Changer*** - switching mouse/touchpad sensitivity (control panels) even with a hotkeys - Autohotkey can be used to hide the popup window when switching profile - example for AltGr+F7
 <br/>
 ```VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide```
 
-***XInput Plus*** - detailed gamepad settings
+***🟦 XInput Plus*** - detailed gamepad settings
 
 ***Comfort On-Screen Keyboard Pro*** - SW keyboard
 
-***NirCmd+DevManView*** - change resolution+frequency, turn on/off HW+SW devices, ... - control via hotkeys/shortcuts
+***🟦 NirCmd+🟦 DevManView*** - change resolution+frequency, turn on/off HW+SW devices, ... - control via hotkeys/shortcuts
 
-***IObit Unlocker*** - unlock (NTFS security or running process) files/folders
+***🟦 IObit Unlocker*** - unlock (NTFS security or running process) files/folders
 
 🚫update***EXE Radar Pro v3 (Beta)*** - when running an executable file (exe/msi/bat/...) a window will appear asking whether to run or exit it (user-defined Command-Line/whitelist/blacklist runs automatically in the background of the system). Verification via checksum
 
 🚫***Easy File Locker*** - disable reading/writing/deleting/hiding files/folders. Locking only works when Windows+SYS driver program is running (can be turned on/off via hotkeys/shortcuts without running the program - NirCmd). If a program bypasses protection, it's NTFS links*0 (some paths unlocked)
 
-🚫***NTFS Permissions Tools*** (DBC Studio) - data security management, bookmarks for quick access
+🚫***🟦 NTFS Permissions Tools*** (DBC Studio) - data security management, bookmarks for quick access
 
 🚫 Create a file instead of a folder
 
@@ -281,15 +281,15 @@ instead of XXX, write the name of the required key
 <br/>
 and the forbidding of arbitrarily adding exceptions is easily done by adding and modifying the permissions for "Everyone"
 
-🚫***NSudo*** - run apps with the highest privileges. Combined with Autoruns it is easy to get rid of all MS bloatware (services/task schedulers/Defender/Edge/OneDrive/Slutana/...) ***ADB AppControl*** 
+🚫***🟦 NSudo*** - run apps with the highest privileges. Combined with Autoruns it is easy to get rid of all MS bloatware (services/task schedulers/Defender/Edge/OneDrive/Slutana/...) ***🟦 ADB AppControl*** 
 
-***Autoruns*** - automatically launched applications/libraries/drivers
+***🟦 Autoruns*** - automatically launched applications/libraries/drivers
 
-❶***BootICE*** - create bootable media without formatting and data loss (MBR/PBR for HDD/SSD/USB), modify Windows BCD/UEFI files (multiboot, change system partition, ...), hide/activate partition
+❶***🟦 BootICE*** - create bootable media without formatting and data loss (MBR/PBR for HDD/SSD/USB), modify Windows BCD/UEFI files (multiboot, change system partition, ...), hide/activate partition
 
-❷***Gandalf's Windows*** (Win7-11) - bootable (without formatting and losing data⬆️) from USB (even from phone - if supports boot from "bios") with internet capability, installing programs/drivers. More or less full system - but after reboot it returns to default settings
+❷***🟦 Gandalf's Windows*** (Win7-11) - bootable (without formatting and losing data⬆️) from USB (even from phone - if supports boot from "bios") with internet capability, installing programs/drivers. More or less full system - but after reboot it returns to default settings
 
-❸***WinNTSetup*** - install/backup/restore Windows without formatting and data loss and creating a bootable installation media (skipping the constantly erroneous/dangerous MS installation process = after copying the data and restarting the PC, the system starts). Iso/wim/swm/vhd (can also be used in ***7-Zip*** )+option to add drivers/tweaks. The process is not dependent on specific HW, so for example restoring a system backup can be done on any PC. It can also be installed on USB drives and at least Win11 can be started from them without any further modifications (the necessary drivers are loaded at boot, so it does not matter which PC it will be started on) - its meaningless requirements are ignored (UEFI/TPM/...) "Boot drive+Installation drive" can be the same partition of one disk (the program is preset for a regular user - just select the Windows edition, click "Setup+OK" and the process starts - at the end Bios+UEFI boot is automatically created and then in case of MBR disk I recommend checking if there is a green dot at BOOT PART). Backup is done via "Local Windows Installations/Capture Wim" - exceptions can be added to "WimScript.ini". Possible bug fixes
+❸***🟦 WinNTSetup*** - install/backup/restore Windows without formatting and data loss and creating a bootable installation media (skipping the constantly erroneous/dangerous MS installation process = after copying the data and restarting the PC, the system starts). Iso/wim/swm/vhd (can also be used in ***7-Zip*** )+option to add drivers/tweaks. The process is not dependent on specific HW, so for example restoring a system backup can be done on any PC. It can also be installed on USB drives and at least Win11 can be started from them without any further modifications (the necessary drivers are loaded at boot, so it does not matter which PC it will be started on) - its meaningless requirements are ignored (UEFI/TPM/...) "Boot drive+Installation drive" can be the same partition of one disk (the program is preset for a regular user - just select the Windows edition, click "Setup+OK" and the process starts - at the end Bios+UEFI boot is automatically created and then in case of MBR disk I recommend checking if there is a green dot at BOOT PART). Backup is done via "Local Windows Installations/Capture Wim" - exceptions can be added to "WimScript.ini". Possible bug fixes
 <br/>
 -inserted ISO reports "No Windows Source Detected" or "Windows Source invalid" (unzip the ISO and insert the installation file - it should be called "install" and be in the "sources" folder - the rest of the ISO content is useless for installation and will not be used anyway)
 <br/>
@@ -300,9 +300,9 @@ and the forbidding of arbitrarily adding exceptions is easily done by adding and
 
 ***WinToUSB*** - tweak (in the program it's called "conversion", but it's just a small change in the registry, which changes the order of loaded drivers at boot) Win10+, thanks to which the system can be booted from external media via USB = one system with all programs + settings, which can be run on "any" PC via internal or external disk (missing USB drivers or IDE/AHCI mode, etc. can be a problem, although not unsolvable). An alternative to WinToUSB is to change "BootDriverFlags" ```HKLM\SYSTEM\HardwareConfig\XXX``` to 0x14
 
-***GImageX*** - create WIM image (Windows in one compressed file - bootable or for complete system backup). Capture/Apply/Mount
+***🟦 GImageX*** - create WIM image (Windows in one compressed file - bootable or for complete system backup). Capture/Apply/Mount
 
-***Link Shell Extension+NTFSLinksView*** - NTFS links*0 and redirecting e.g. program settings to custom folders. Control via context menu - select source (new location) / paste as (original location)
+***Link Shell Extension+🟦 NTFSLinksView*** - NTFS links*0 and redirecting e.g. program settings to custom folders. Control via context menu - select source (new location) / paste as (original location)
 
 ***Driver Booster for Steam*** - update drivers
 
