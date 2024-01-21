@@ -56,7 +56,7 @@ místo XXX se napíše název potřebného klíče
 
 🚫***🟦 NTFS Permissions Tools*** (DBC Studio) - správa zabezpečení dat, záložky pro rychlý přístup
 
-🚫 Vytvoření souboru místo složky
+🚫Vytvoření souboru místo složky
 
 🚫***Firewall***  - Outpost/TinyWall/Firewall App Blocker. Výchozí Win firewall má pravidla uložená zde
 <br/>
