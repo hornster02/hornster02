@@ -269,7 +269,7 @@ instead of XXX, write the name of the required key
 
 🚫***🟦 NTFS Permissions Tools*** (DBC Studio) - data security management, bookmarks for quick access
 
-🚫 Create a file instead of a folder
+🚫Create a file instead of a folder
 
 🚫***Firewall*** - Outpost/TinyWall/Firewall App Blocker. The default Win firewall has rules stored here
 <br/>
