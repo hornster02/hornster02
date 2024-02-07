@@ -436,7 +436,7 @@ Automatic synchronization of two folders. ```c:\1``` is the source folder and ``
 <br/>
 <br/>
 <br/>
-🟨2* ***Autohotkey scripts https://github.com/hornster02/Autohotkey_AHK_H2/raw/main/_Autohotkey_AHK-2023.rar***
+🟨2* ***Autohotkey scripts https://github.com/hornster02/hornster02/raw/main/_Autohotkey_AHK-2023.rar***
 
 AutoHotkey v1.1
 
