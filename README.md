@@ -1,7 +1,8 @@
 🟧0* GAMES-JINE. ***Češtiny do her (2014 a starší)*** https://github.com/hornster02?tab=repositories&q=&type=archived&language=&sort=name
 <br/>
-🟨2* ***Autohotkey scripts***
 <br/>
+<br/>
+🟨2* ***Autohotkey scripts***
 <br/>
 <br/>
 <br/>
@@ -435,9 +436,7 @@ Automatic synchronization of two folders. ```c:\1``` is the source folder and ``
 <br/>
 <br/>
 <br/>
-<br/>
-🟨2* ***Autohotkey scripts***
-***-download https://github.com/hornster02/Autohotkey_AHK_H2/raw/main/_Autohotkey_AHK-2023.rar***
+🟨2* ***Autohotkey scripts https://github.com/hornster02/Autohotkey_AHK_H2/raw/main/_Autohotkey_AHK-2023.rar***
 
 AutoHotkey v1.1
 
@@ -473,7 +472,7 @@ And disabled features serving more as a template
 
 -0.3 second long hold "ě" key inserts "@" . Dozens of additional keys can easily be added, eliminating the need for time-consuming keyboard shortcuts
 
--change gamma/contrast/brightness/volume/mute/unmute/power plan/frequencies/voltages/mouse sensitivity/resolution/network/... Crouch+aim toggles for games (search for *01). And also holding Printscreen key saves image to SSD. May require external programs - NirCmd/DevManView/MSIAfterburner/OverdriveNTool/RawAccel/MouseSettingsChanger/PowerStrip/ClickMonitorDDC/...
+-change gamma/contrast/brightness/volume/mute/unmute/power plan/frequencies/voltages/mouse sensitivity/resolution/network/... Crouch+aim toggles for games (search for ```*01```). And also holding Printscreen key saves image to SSD. May require external programs - NirCmd/DevManView/MSIAfterburner/OverdriveNTool/RawAccel/MouseSettingsChanger/PowerStrip/ClickMonitorDDC/...
 
 ***ČEŠTINA***
 
@@ -511,8 +510,7 @@ A vypnuté funkce sloužící spíše jako vzor
 
 -0,3 vteřiny dlouhé podržení "ě" napíše "@" . Snadno se dají přidat desítky dalších kláves a díky tomu odpadne nutnost používat zdržující klávesové zkratky
 
--změnit gamma/kontrast/jas/hlasitost+zap+vyp/schéma napájení/frekvence/napětí/citlivost myši/rozlišení/síť/... A také přepínače skrčení+míření pro hry (vyhledej *01). Držení printscreen uloží obrázek na SSD. Může vyžadovat externí programy - NirCmd/DevManView/MSIAfterburner/OverdriveNTool/RawAccel/MouseSettingsChanger/PowerStrip/ClickMonitorDDC/...
-<br/>
+-změnit gamma/kontrast/jas/hlasitost+zap+vyp/schéma napájení/frekvence/napětí/citlivost myši/rozlišení/síť/... A také přepínače skrčení+míření pro hry (vyhledej ```*01```). Držení printscreen uloží obrázek na SSD. Může vyžadovat externí programy - NirCmd/DevManView/MSIAfterburner/OverdriveNTool/RawAccel/MouseSettingsChanger/PowerStrip/ClickMonitorDDC/...
 <br/>
 <br/>
 <br/>
