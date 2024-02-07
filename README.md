@@ -1,5 +1,10 @@
 🟧0* GAMES-JINE. ***Češtiny do her (2014 a starší)*** https://github.com/hornster02?tab=repositories&q=&type=archived&language=&sort=name
 <br/>
+🟨2* ***Autohotkey scripts***
+<br/>
+<br/>
+<br/>
+<br/>
 🟩1* ***Software for Windows - English deepl.com translation below (last edit 12/2023)*** 🟦***PORTABLE - official or with the help of 🟦7-Zip***
 
 ***Total Uninstall*** - sken systému (před/po spuštení/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
@@ -421,6 +426,92 @@ With the add-on ***DiskDir Extended*** you can create a data catalog (compress f
 Automatic synchronization of two folders. ```c:\1``` is the source folder and ```e:\1``` is the backup. If a file/folder is created/changed in the source folder, it is copied to the backup. If a file/folder is deleted in the source folder, it will be deleted from the backup. "MOT:10" indicates 10 minutes of waiting and then synchronization. Is it synchronization (comparison) and not "delete the entire backup/copy the entire resource", so it does not reduce the lifetime of the SSD with unnecessary writes, among other things. A small drawback is that there is no comparison of files by content, but only by attributes+size (fast/non-demanding). It is possible to close the console window by terminating the "conhost.exe" process and leave only "ROBOCOPY.exe" (automatic synchronization in the background of the system) on. Useful in combination with NTFS links for automatic SAVEGAME backup
 
 ***🟦 T-Clock*** - advanced replacement of the default tray clock. A program with decades of history and several authors = the possibilities of settings and range of functions (not even related to the clock) is unprecedented
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+🟨2* ***Autohotkey scripts***
+***-download https://github.com/hornster02/Autohotkey_AHK_H2/raw/main/_Autohotkey_AHK-2023.rar***
+
+AutoHotkey v1.1
+
+-IMPORTANT - AHK file probably needs to be run via "AutoHotkeyU64.exe" and not via the default "AutoHotkey.exe" (error)
+
+The AHK file in the archive can be opened in Notepad (or if Autohotkey is installed on the PC, it can be run as a regular EXE file). The script has no user interface (apart from the "WindowSpy" function). AHK contains a few functional scripts such as
+
+-hold F12 - on/off borderless fullscreen (useful for games)
+
+-hold F11 - prevents mouse cursor from moving outside the active window - switch (useful for games)
+
+-hold F10 - pause/resume (suspend) foreground processes. Useful in case of running a program with high demands on PC performance - there will be a significant reduction in power consumption/temperature/noise. 98% of programs/games should work without issue - for the rest you can expect various errors or crashes. The script can be useful for example when playing games on battery = 1 key completely stops the game at 0FPS and there is no need to turn it off. Perhaps a better alternative is the "Battle Encoder Shirasé" program which solves possible problems by limiting up to 99%. 100% (suspend) does not bring anything extra in real use (except for complete stop of SSD/network activity). The other 3 options (disabled by default) are (hold F10 = pause foreground process / 2x press resume process) and (hold F10 = pause listed processes - background or foreground / 2x press resume process) and (hold F10 = pause/resume listed processes - background or foreground)
+
+-Control Mouse with Keyboard (Num Lock) - movement including angled (1235), left+middle+right button including drag and drop and double click (789), wheeldown+up (46), cursor movement to three specified positions (0), 4th mouse button (.). Easy speed and acceleration adjustment
+
+-left+middle mouse button - dragging the mouse (anywhere in the window - not just over the title bar) moves the window that is not maximized. No need to hold the middle button all the time. ESC returns the window to its original position. For example, Vmware (virtual PC) even in fullscreen mode can also be moved in this way
+
+-the "LWin" key (CTRL+F), hold shows the taskbar without the Start menu (must be set to autohide), double hides the taskbar
+
+-menu key (CTRL+C) , hold (CTRL+V) , double (CTRL+A)
+
+-pause key (ALT+F4) - if the "SC" and "VK" numbers correspond to your keyboard, then even games that have these keys "disabled" can be ended. Holding the key down for 2 seconds restarts the PC as standard (but regardless of the current work) Shutdown, 6 = "force"
+
+-ALT+Shift - shrink the active window to half the screen and align it right or left or maximize it
+
+-ALT+Ctrl - show desktop
+
+-CTRL+ALT+INS - exit AutoHotkey processes
+
+-ScrollLock - AUTOHOTKEY-WindowSpy. Hold ScrollLock (activate window to foreground), ESC (hide - AutoHotkeyU64.exe). When working with "WindowSpy" another "AutoHotkey.exe" process is not used
+
+And disabled features serving more as a template
+
+-0.3 second long hold "ě" key inserts "@" . Dozens of additional keys can easily be added, eliminating the need for time-consuming keyboard shortcuts
+
+-change gamma/contrast/brightness/volume/mute/unmute/power plan/frequencies/voltages/mouse sensitivity/resolution/network/... Crouch+aim toggles for games (search for *01). And also holding Printscreen key saves image to SSD. May require external programs - NirCmd/DevManView/MSIAfterburner/OverdriveNTool/RawAccel/MouseSettingsChanger/PowerStrip/ClickMonitorDDC/...
+
+***ČEŠTINA***
+
+AutoHotkey v1.1
+
+-DŮLEŽITÉ - AHK soubor je zřejmě potřeba spustit přes "AutoHotkeyU64.exe" a ne přes výchozí "AutoHotkey.exe" (error)
+
+AHK soubor v archivu se dá otevřít v poznámkovém bloku (nebo pokud je Autohotkey v PC nainstalován, tak rovnou spustit jako obyčejný EXE soubor). Skript nemá - kromě funkce "WindowSpy" - žádné uživatelské rozhraní. AHK obsahuje pár funkčních skriptů jako jsou
+
+-podržení F12 zapne/vypne fullscreen - přepínač ( užitečné pro hry )
+
+-podržení F11 - zabrání kurzoru myši pohyb mimo aktivní okno - přepínač ( užitečné pro hry )
+
+-podržení F10 - pozastavení/pokračování (suspend) procesů v popředí. Užitečné v případě zapnutého programu s vysokými nároky na výkon PC - dojde k zásadnímu snížení spotřeby/teplot/hlučnosti. 98% programů/her by mělo fungovat bez problému - u zbytku se dá očekávat různá chybovost nebo rovnou pády. Skript se může hodit třeba při hraní na baterii = 1 klávesou se hra úplně zastaví na 0FPS a není nutné ji vypínat. Možná lepší alternativa je program "Battle Encoder Shirasé" který případné problémy řeší omezením do 99%. 100% (suspend) v reálu (kromě úplného zastavení SSD/síťové aktivity) nic navíc nepřináší. Další 3 varianty (ve výchozím stavu vypnuté) jsou (držet F10 = pozastavit proces v popředí / 2x stisknutí vrátí proces do chodu) a (držet F10 = pozastavit vypsané procesy - v pozadí nebo popředí / 2x stisknutí vrátí procesy do chodu) a (držet F10 = pozastavit/spustit vypsané procesy - v pozadí nebo popředí)
+
+-ovládání myši klávesnicí ( vypnout numerickou klávesnici ) - pohyb včetně šikmého (1235), levé+prostřední+pravé tlačítko včetně možnosti Drag and drop a dvojkliku (789), kolečko dolu+nahoru (46), pohyb kurzoru do tří určených pozic (0), 4-té tlačítko myši (.). Snadná úprava rychlosti a akcelerace
+
+-levé+prostřední tlačítko myši - tažením myši ( kdekoli v okně - ne jenom přes title bar ) se přesunuje okno které není maximalizované. Prostřední tlačítko se nemusí držet celou dobu. ESC vrátí okno na původní pozici. Například Vmware (virtuální PC) i ve fullscreen režimu může být také tímto způsobem přesunováno
+
+-klávesa "LWin" provede "CTRL+F", dlouhé podržení zobrazí hlavní panel (taskbar) bez nabídky Start (musí být nastavený na autohide), dvojité stisknutí hlavní panel (taskbar) skryje
+
+-klávesa menu (kontextové menu) provede "CTRL+C" , podržení provede "CTRL+V" , 2x stisknutí provede "CTRL+A"
+
+-klávesa "pause" provede "ALT+F4" - pokud "SC" a "VK" čísla odpovídají vaší klávesnici, tak půjdou vypnout např. i hry, které mají tyto klávesy "zablokované". Podržení klávesy na 2 vteřiny standartně restartuje PC (ale bez ohledu na rozdělanou práci). Shutdown, 6 = "na sílu"
+
+-ALT+Shift - zmenšit aktivní okno na polovinu obrazovky a zarovnat ho vpravo nebo vlevo nebo ho maximalizovat
+
+-ALT+Ctrl - zobrazit plochu
+
+-CTRL+ALT+INS - vypnout procesy AutoHotkey
+
+-ScrollLock - AUTOHOTKEY-WindowSpy. Aktivovat okno do popředí držet "ScrollLock", zavřít "ESC" (AutoHotkeyU64.exe)
+
+A vypnuté funkce sloužící spíše jako vzor
+
+-0,3 vteřiny dlouhé podržení "ě" napíše "@" . Snadno se dají přidat desítky dalších kláves a díky tomu odpadne nutnost používat zdržující klávesové zkratky
+
+-změnit gamma/kontrast/jas/hlasitost+zap+vyp/schéma napájení/frekvence/napětí/citlivost myši/rozlišení/síť/... A také přepínače skrčení+míření pro hry (vyhledej *01). Držení printscreen uloží obrázek na SSD. Může vyžadovat externí programy - NirCmd/DevManView/MSIAfterburner/OverdriveNTool/RawAccel/MouseSettingsChanger/PowerStrip/ClickMonitorDDC/...
 <br/>
 <br/>
 <br/>
