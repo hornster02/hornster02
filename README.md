@@ -6,7 +6,7 @@
 <br/>
 <br/>
 <br/>
-🟩1* ***Software for Windows - English deepl.com translation below (last edit 12/2023)*** 🟦***PORTABLE - official or with the help of 🟦7-Zip***
+🟩1* ***Software for Windows. 🟦PORTABLE - official or with the help of 🟦7-Zip***
 
 ***Total Uninstall*** - sken systému (před/po spuštení/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
 
