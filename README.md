@@ -22,7 +22,7 @@
 <br/>
 https://entechtaiwan.com/util/ps.shtm
 <br/>
-https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key
+https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key.rar
 
 ***🟦 Custom Resolution Utility*** - vytvoření vlastního rozlišení a obnovovací frekvence monitoru. Ideální také pro obejití limitu maximálního rozlišení u starých GPU snížením obnovovací frekvence - např. 2560x1080x54Hz na Radeon HD 4670 (2008 - 1920x1200x60Hz). Nebo pokud Win při změně rozlišení nastavuje nižší Hz než monitor podporuje, tak pokud se v CRU u nativního rozlišení nastaví maximální podporovaná obnovovací frekvence, tak by i nižší rozlišení měli být automaticky nastavovány s maximální obnovovací frekvencí
 
@@ -239,7 +239,7 @@ Problémů ale může být o mnoho více a toto je jen malá ukázka
 <br/>
 https://entechtaiwan.com/util/ps.shtm
 <br/>
-https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key
+https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key.rar
 
 ***🟦 Custom Resolution Utility*** - create a custom resolution and refresh rate for the monitor. Also ideal for bypassing the maximum resolution limit on old GPUs by lowering the refresh rate - e.g. 2560x1080x54Hz on Radeon HD 4670 (2008 - 1920x1200x60Hz). Or if Win sets a lower Hz than the monitor supports (when changing the resolution), then if the maximum supported refresh rate is set in CRU for the native resolution, then even lower resolutions should be automatically set with the maximum refresh rate
 
