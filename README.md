@@ -227,13 +227,13 @@ Problémů ale může být o mnoho více a toto je jen malá ukázka
 
 🟩1* English
 
-***Total Uninstall*** - system scan (before/after application launch/installation) and display changes (files/folders/register), export registry changes to REG file for uninstallation
+***Total Uninstall*** - system scan (before/after application launch/installation) and display changes (files/folders/registry), export registry changes to REG file for un/install
 
 ***🟦 Inno Setup XDELTA Patch Maker, Patch Maker*** (Clickteam) - create a patch
 
 ***MSI Afterburner+RTSS*** - screen overlay - time, HW monitoring, FPS/Frametime limit (hotkeys), Scanline Sync, tray icons
 
-***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) for DX1-9 games, possibility to enlarge the interface of games at high resolutions (e.g. the resolution in the game is 1280x720 and through the program it is set to 1920x1080 = the interface will be as big as in 720p, but the resolution will be 1080p) and to force unsupported resolutions on the game. Since version 2.55+ (2018+) in combination with DX11+Radeon, a bug in the form of white textures may occur (since 2023+ versions the problem seems to have been solved). Right mouse click will access advanced options. To enable the wrapper, the necessary DLL files from the dgVoodoo2 subfolder must be copied to the (main) EXE file of the game and then configured (dgVoodooCpl.exe) to create a "dgVoodoo.conf" for the EXE file of the game
+***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) for DX1-9 games, possibility to enlarge the interface of games at high resolutions (e.g. the resolution in the game is 1280x720 and through the program it is set to 1920x1080 = the interface will be as big as in 720p, but the resolution will be 1080p) and force unsupported resolutions into the game. Since version 2.55+ (2018+) in combination with DX11+Radeon, a bug in the form of white textures may occur (since 2023+ versions the problem seems to have been solved). Right mouse click will access advanced options. To enable the wrapper, the necessary DLL files from the dgVoodoo2 subfolder must be copied to the (main) EXE file of the game and then configured (dgVoodooCpl.exe) to create a "dgVoodoo.conf" for the EXE file of the game
 
 ***ArgusMonitor, Speedfan*** - regulation of CPU+GPU+case fans speed and their curves+switching off
 
@@ -316,7 +316,7 @@ and the forbidding of arbitrarily adding exceptions is easily done by adding and
 
 ***🟦 GImageX*** - create WIM image (Windows in one compressed file - bootable or for complete system backup). Capture/Apply/Mount
 
-***Link Shell Extension+🟦 NTFSLinksView*** - NTFS links*0 and redirecting e.g. program settings to custom folders. Control via context menu - select source (new location) / paste as (original location)
+***Link Shell Extension+🟦 NTFSLinksView*** - NTFS links*0 and redirecting e.g. program settings to custom folders. Control via context menu - pick link source (new location) / drop as (original location)
 
 ***🟦 Driver Booster for Steam*** - update drivers
 
@@ -332,11 +332,11 @@ and the forbidding of arbitrarily adding exceptions is easily done by adding and
 
 ***🟦 NetSpeedMonitor*** - monitoring of download/upload speed and data amount+history, tray
 
-***🟦 AIDA64*** - detailed information about PC
+***🟦 AIDA64*** - detailed information about SW/HW
 
 ***🟦 Prime95+Furmark*** - PC lifetime+stability test (power virus)
 
-***🟦 WinRAR*** - data archiving with the possibility of adding a record to repair it
+***🟦 WinRAR*** - data archiving with the possibility of adding a "recovery record"
 
 ***🟦 WizTree*** - disk space analysis
 
@@ -344,7 +344,7 @@ and the forbidding of arbitrarily adding exceptions is easily done by adding and
 
 ***Primo Ramdisk*** - option to page files in ramdisk or use inaccessible part of RAM (Invisible Memory) - e.g. 32-Bit Win has a limit of ~4GB, Win11 Home 128GB
 
-***🟦 Mem Reduct*** - free RAM memory without terminating processes by hotkey or clicking on the tray icon. However, there may be more writing to the paging file = reduced lifetime of SSD*1
+***🟦 Mem Reduct*** - free RAM memory (without terminating processes) by hotkey or clicking on the tray icon. However, there may be more writing to the paging file = reduced lifetime of SSD*1
 
 ***RimhillEx*** - CD/DVD read speed limitation
 
@@ -374,7 +374,7 @@ and the forbidding of arbitrarily adding exceptions is easily done by adding and
 <br/>
 ```pluginbasedir=%COMMANDER_PATH%\plugins```
 <br/>
-With the add-on ***DiskDir Extended*** you can create a data catalog (compress function - the LST file is like an archive and can be searched in it)
+With the add-on ***DiskDir Extended*** you can create a data catalog ("pack files" function - the LST file is like an archive and can be searched in it)
 <br/>
 -bulk renaming - remove characters (number) from start ```[N2-]``` from end ```[N1--2]```
 <br/>
@@ -390,7 +390,7 @@ With the add-on ***DiskDir Extended*** you can create a data catalog (compress f
 
 ***🟦 Battle Encoder Shirasé*** - process throttling - up to 99%. Ability to use via Command-Line without UI
 
-***🟦 Registry Workshop*** - advanced replacement of the default "Regedit". Load Hive used to load external registry - can be edited. To integrate with ***Total Uninstall***, use the following command in its settings (example) -
+***🟦 Registry Workshop*** - advanced replacement of the default "Regedit". "Load Hive" can be used to load and edit an external registry. To integrate with ***Total Uninstall***, use the following command in its settings (example) -
 <br/>
 ```"c:\Registry Workshop\RegWorkshopX64.exe" /g```
 
