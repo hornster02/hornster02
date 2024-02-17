@@ -40,7 +40,7 @@ https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key.rar
 
 ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦 Polaris Bios Editor PBE + 🟦 AMDVBFlash / ATI ATIFlash + 🟦 AMD/ATI Pixel Clock Patcher*** - podepsání Radeon ovladačů po úpravě biosu GPU  (přejmenovat na "atikmdag-patcher-bios.exe")
 
-🟦 RadeonMod (legacy) - náhrada za ATI/AMD Catalyst/Radeon Bloatware
+***🟦 RadeonMod*** (legacy) - náhrada za ATI/AMD Catalyst/Radeon Bloatware
 
 Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkratky/zástupce. Cesta v registru ```HKLM\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes``` příkaz ve formátu
 <br/>
@@ -263,7 +263,7 @@ https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key.rar
 
 ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦 Polaris Bios Editor PBE + 🟦 AMDVBFlash / ATI ATIFlash + 🟦 AMD/ATI Pixel Clock Patcher*** - sign Radeon drivers after modifying GPU bios (rename to "atikmdag-patcher-bios.exe")
 
-🟦 RadeonMod (legacy) - ATI/AMD Catalyst/Radeon Bloatware replacement
+***🟦 RadeonMod*** (legacy) - ATI/AMD Catalyst/Radeon Bloatware replacement
 
 Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry path ```HKLM\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes``` command
 <br/>
