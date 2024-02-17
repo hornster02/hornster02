@@ -215,7 +215,7 @@ Automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:
 
 ***🟦 T-Clock*** - pokročilá náhrada výchozích tray hodin. Program s desítky let dlouhou historií a několika autory = možnosti nastavení a rozsah funkcí (které ani s hodinami nesouvisí) je nebývalý
 
-Android - ***🟦 ADB AppControl + 🟦 Android ADB*** (Total Commander)
+Android - ***🟦 ADB AppControl, 🟦 Android ADB*** (Total Commander), ***🟦 APK-Info***
 
 ⚠️
 
@@ -438,7 +438,7 @@ Automatic synchronization of two folders. ```c:\1``` is the source folder and ``
 
 ***🟦 T-Clock*** - advanced replacement of the default tray clock. A program with decades of history and several authors = the possibilities of settings and range of functions (not even related to the clock) is unprecedented
 
-Android - ***🟦 ADB AppControl + 🟦 Android ADB*** (Total Commander)
+Android - ***🟦 ADB AppControl + 🟦 Android ADB*** (Total Commander), ***🟦 APK-Info***
 <br/>
 <br/>
 <br/>
