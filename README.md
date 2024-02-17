@@ -38,7 +38,9 @@ https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key.rar
 
 ***🟦 AmdMsrTweaker, 🟦 ZenStates, 🟦 PhenomMsrTweaker, 🟦 BrazosTweaker*** - AMD K8 až Zen 2 CPU ( 2003-2019) - napětí/frekvence/násobič - profily - klávesové zkratky/zástupce
 
-***🟦 AMD/ATI Pixel Clock Patcher*** - podepsání Radeon ovladačů po úpravě biosu GPU  (přejmenovat na "atikmdag-patcher-bios.exe")
+ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦 Polaris Bios Editor PBE + 🟦 AMDVBFlash / ATI ATIFlash + 🟦 AMD/ATI Pixel Clock Patcher*** - podepsání Radeon ovladačů po úpravě biosu GPU  (přejmenovat na "atikmdag-patcher-bios.exe")
+
+🟦 RadeonMod (legacy) - náhrada za ATI/AMD Catalyst/Radeon Bloatware
 
 Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkratky/zástupce. Cesta v registru ```HKLM\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes``` příkaz ve formátu
 <br/>
@@ -191,7 +193,7 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 
 ***🟦 NAPS2*** - skenování, export do PDF, OCR
 
-***🟦 ATI GPU Scaling Fix, 🟦 RadeonMod, 🟦 HDD Low Level Format Tool, 🟦 KMPlayer***  (32bit - kvůli asi nejlepší normalizaci hlasitosti a 64 bit)+desítky aplikací od 🟦 NirSoft (***AppCrashView/BlueScreenView/Wireless Network Watcher/WifiInfoView/CurrPorts/FullEventLogView/ShellExView/ShellMenuView/OpenWithView/LoadedDllsView/DiskCountersView*** *1)
+***🟦 ATI GPU Scaling Fix(legacy), 🟦 HDD Low Level Format Tool, 🟦 KMPlayer***  (32bit - kvůli asi nejlepší normalizaci hlasitosti a 64 bit)+desítky aplikací od 🟦 NirSoft (***AppCrashView/BlueScreenView/Wireless Network Watcher/WifiInfoView/CurrPorts/FullEventLogView/ShellExView/ShellMenuView/OpenWithView/LoadedDllsView/DiskCountersView*** *1)
 
 ***VMware Workstation*** (15) - možnost používat např. Steam klient při spuštěném Win7 (od roku 2024 hrozí obecně umělý zákaz přístupu z tohoto "nebezpečného" systému - viz některé banky, možné řešení=responzivní mód v prohlížeči) ve virtuálním stroji s novějším systémem (třeba Win11). Podpora připojení (přemostění) k internetu (router může vyřešit případné problémy s připojením) a možnost sdílení složek - host/guest (např. pro přímé stahování her z Win11 do Win7). Pro plnou funkčnost je třeba po instalaci systému (běžné ISO) v VMware připojit na virtuální mechaniku ISO s ovladači (VMware Tools) a nainstalovat je. 7-Zip umí otevřít VMDK soubor se systémem
 
@@ -259,7 +261,9 @@ https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key.rar
 
 ***🟦 AmdMsrTweaker, 🟦 ZenStates, 🟦 PhenomMsrTweaker, 🟦 BrazosTweaker*** - AMD K8 to Zen 2 CPUs ( 2003-2019) - voltage/frequency/multiplier - profiles - shortcuts/hotkeys
 
-***🟦 AMD/ATI Pixel Clock Patcher*** - sign Radeon drivers after modifying GPU bios (rename to "atikmdag-patcher-bios.exe")
+ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦 Polaris Bios Editor PBE + 🟦 AMDVBFlash / ATI ATIFlash + 🟦 AMD/ATI Pixel Clock Patcher*** - sign Radeon drivers after modifying GPU bios (rename to "atikmdag-patcher-bios.exe")
+
+🟦 RadeonMod (legacy) - ATI/AMD Catalyst/Radeon Bloatware replacement
 
 Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry path ```HKLM\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes``` command
 <br/>
@@ -412,7 +416,7 @@ With the add-on ***DiskDir Extended*** you can create a data catalog ("pack file
 
 ***🟦 NAPS2*** - scan, export to PDF, OCR
 
-***🟦 ATI GPU Scaling Fix, 🟦 RadeonMod, 🟦 HDD Low Level Format Tool, 🟦 KMPlayer*** (32bit - due to probably the best volume normalization and 64 bit)+dozens of apps from 🟦 NirSoft (***AppCrashView/BlueScreenView/Wireless Network Watcher/WifiInfoView/CurrPorts/FullEventLogView/ShellExView/ShellMenuView/OpenWithView/LoadedDllsView/DiskCountersView*** *1)
+***🟦 ATI GPU Scaling Fix(legacy), 🟦 HDD Low Level Format Tool, 🟦 KMPlayer*** (32bit - due to probably the best volume normalization and 64 bit)+dozens of apps from 🟦 NirSoft (***AppCrashView/BlueScreenView/Wireless Network Watcher/WifiInfoView/CurrPorts/FullEventLogView/ShellExView/ShellMenuView/OpenWithView/LoadedDllsView/DiskCountersView*** *1)
 
 ***VMware Workstation*** (15) - possibility to use e.g. Steam client while running Win7 (from 2024 there is a threat of arbitrary banning of access from this "dangerous" system - see some banks, possible solution=responsive mode in browser) in a virtual machine with a newer system (e.g. Win11). Support for internet connection (bridging) (router can solve possible connection problems) and the possibility of sharing folders - host/guest (e.g. for direct downloading of games from Win11 to Win7). For full functionality, after installing the system (regular ISO) in VMware, the ISO with drivers (VMware Tools) must be mounted on the virtual drive and installed. 7-Zip can open a VMDK file with the system
 
