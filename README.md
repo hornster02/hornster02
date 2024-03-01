@@ -54,6 +54,12 @@ místo XXX se napíše název potřebného klíče
 
 ***🟦 Raw Accel*** - detailní nastavení myši, různá citlivost os atd. Profily jde přepínat i přes klávesové zkratky/zástupce ```c:\RawAccel\writer.exe c:\RawAccel\settings.json``` - změna kurzoru při přepnutí se dá zakázat jejich sjednocením v ovládacích panelech (normální výběr/práce na pozadí)
 
+***🟦 hidusbf*** - úprava taktů myši (polling rate - Hz) - přetaktování/podtaktování. Ideální pokud např. stará obskurní hra funguje jenom na některých myších. Pokud se nedaří přes "Setup.exe" nainstalovat ovladač (Install Service) a v kontextové nabídce u INF souboru není možnost instalace, tak další způsob instalace je tento příkaz (upravit cestu k INF)
+<br/>
+```RUNDLL32.EXE SETUPAPI.DLL,InstallHinfSection DefaultInstall 132 c:\hidusbf\hidusbf\DRIVER\HIDUSBF.INF```
+
+***🟦 DIMR (Direct Input Mouse Rate)*** - ukazatel taktů myši
+
 ***🟦 Mouse Settings Changer*** - přepínání citlivosti myši/touchpadu (ovládací panely) třeba i klávesovou zkratkou - pro skrytí vyskakovacího okna při přepnutí profilu se může použít Autohotkey - příklad pro AltGr+F7
 <br/>
 ```VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide```
@@ -276,6 +282,12 @@ instead of XXX, write the name of the required key
 ***Equalizer APO+Peace*** - sound equalizer - by overwriting configuration files (also via hotkeys/shortcuts) it is possible to switch profiles in real time without starting the program. MS Visual C++ 2015-2022 can resolve a possible error when running "Configurator.exe"
 
 ***🟦 Raw Accel*** - detailed mouse settings, different axis sensitivity, etc. Profiles can also be switched via hotkeys/shortcuts ```c:\RawAccel\writer.exe c:\RawAccel\settings.json``` - changing the cursor when switching can be disabled by unifying them in the control panels (normal selection/background work)
+
+***🟦 hidusbf*** - mouse polling rate (Hz) adjustment - overclocking/underclocking. Ideal if e.g. an old obscure game only works on some mice. If you can't install the driver via "Setup.exe" (Install Service) and there is no installation option in the context menu of the INF file, the other way to install is this command (edit INF path)
+<br/>
+```RUNDLL32.EXE SETUPAPI.DLL,InstallHinfSection DefaultInstall 132 c:\hidusbf\hidusbf\DRIVER\HIDUSBF.INF```
+
+***🟦 DIMR (Direct Input Mouse Rate)*** - mouse polling rate (Hz) monitor
 
 ***🟦 Mouse Settings Changer*** - switching mouse/touchpad sensitivity (control panels) even with a hotkeys - Autohotkey can be used to hide the popup window when switching profile - example for AltGr+F7
 <br/>
