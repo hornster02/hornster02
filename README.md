@@ -1,4 +1,4 @@
-🟧0* GAMES-JINE. ***Češtiny do her (2014 a starší)*** https://github.com/hornster02?tab=repositories&q=&type=archived&language=&sort=name
+***Češtiny do her (2014 a starší)*** https://github.com/hornster02?tab=repositories&q=&type=archived&language=&sort=name
 <br/>
 <br/>
 <br/>
@@ -285,7 +285,7 @@ instead of XXX, write the name of the required key
 
 ***🟦 Raw Accel*** - detailed mouse settings, different axis sensitivity, etc. Profiles can also be switched via hotkeys/shortcuts ```c:\RawAccel\writer.exe c:\RawAccel\settings.json``` - changing the cursor when switching can be disabled by unifying them in the control panels (normal selection/background work)
 
-***🟦 hidusbf*** - mouse polling rate (Hz) adjustment - overclocking/underclocking. Ideal if e.g. an old obscure game only works on some mice. If you can't install the driver via "Setup.exe" (Install Service) and there is no installation option in the context menu of the INF file, the other way to install is this command (edit INF path)
+***🟦 hidusbf*** - mouse polling rate (Hz) adjustment - overclocking/underclocking. Ideal if e.g. an old obscure game works only on some mice. If you can't install the driver via "Setup.exe" (Install Service) and there is no installation option in the context menu of the INF file, the other way to install is this command (edit INF path)
 <br/>
 ```RUNDLL32.EXE SETUPAPI.DLL,InstallHinfSection DefaultInstall 132 c:\hidusbf\hidusbf\DRIVER\HIDUSBF.INF```
 
@@ -541,48 +541,3 @@ A vypnuté funkce sloužící spíše jako vzor
 -0,3 vteřiny dlouhé podržení "ě" napíše "@" . Snadno se dají přidat desítky dalších kláves a díky tomu odpadne nutnost používat zdržující klávesové zkratky
 
 -změnit gamma/kontrast/jas/hlasitost+zap+vyp/schéma napájení/frekvence/napětí/citlivost myši/rozlišení/síť/... A také přepínače skrčení+míření pro hry (vyhledej ```*01```). Držení printscreen uloží obrázek na SSD. Může vyžadovat externí programy - NirCmd/DevManView/MSIAfterburner/OverdriveNTool/RawAccel/MouseSettingsChanger/PowerStrip/ClickMonitorDDC/...
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-🟧0* GAMES-JINE
-<br/>
-***Blood 2 - 1998*** - patch - 16:9 widescreen, DX11/12 (2023-08 STEAM)
-<br/>
-https://github.com/hornster02/hornster02/raw/main/Blood_2_1998_patch.rar
-
-***Dusk 12 - 2007*** - patch (2023-07 STEAM)
-<br/>
-dusk.exe (při nastavení rozlišení 640x480 se hra spustí v 1920x1080)
-<br/>
-audiere.dll (zřejmě vyřeší problém nespuštění hry - černá obrazovka - při zapnuté hudbě)
-<br/>
-hra.ahk (x-přepínač skrčení / CTRL+ALT+INS okamžitě ukončí hru) - Autohotkey
-<br/>
-https://github.com/hornster02/hornster02/raw/main/Dusk_12_2007_patch.rar
-
-***Chaser - 2003*** - 21:9 widescreen (2020-07 STEAM)
-<br/>
-https://github.com/hornster02/hornster02/raw/main/Chaser_2003_21-9_widescreen.rar
-
-***ToCA Race Driver 3 - 2006*** - 21:9 widescreen (2021-06 DVD)
-<br/>
-https://github.com/hornster02/hornster02/raw/main/ToCA_Race_Driver_3_2006_21-9_widescreen.rar
-
-***UberSoldier - 2006*** - 21:9 widescreen (2020-03 Level 156)
-<br/>
-https://github.com/hornster02/hornster02/raw/main/UberSoldier_2006_21-9_widescreen.rar
-
-***Vietcong 1+2 - 2003-2004-2005*** - 21:9 widescreen (2021-08 DVD)
-<br/>
-https://github.com/hornster02/hornster02/raw/main/Vietcong_1+2_2003-2004-2005_21-9_widescreen.rar
-
-***You Are Empty - 2006*** - AMD postprocess fix (2017-11 Score 189)
-<br/>
-https://github.com/hornster02/hornster02/raw/main/You_Are_Empty_2006_AMD_postprocess_fix.rar
-
