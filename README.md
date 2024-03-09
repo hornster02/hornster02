@@ -16,6 +16,8 @@
 
 ***🟦 ISO Directory v0.5***(Michel) - vytvoření mini-image CD/DVD (velikost pár kB) - např. pokud pro českou verzi hry neexistuje crack a hra trvá na vloženém fyzickém médiu v mechanice
 
+***🟦 BikMod v0.3e (Beta)*** - modifikovaná "binkw32.dll" knihovna, pomocí které se mohou načíst externí SRT titulky. ***🟦 RADTools*** - úprava BIK/SMK video souborů
+
 ***MSI Afterburner+RTSS*** - překrytí obrazu - čas, HW monitoring, limit FPS/Frametime (klávesové zkratky), Scanline Sync, tray ikony. Omezením FPS se v některých hrách značně prodlouží nahrávací časy (jeden z nejhorších příkladů může být třeba Painkiller)
 
 ***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) pro DX1-9 hry, možnost zvětšení rozhraní her při vysokých rozlišeních (např. rozlišení ve hře je 1280x720 a přes program se nastaví 1920x1080 = rozhraní bude velké jako v 720p, ale rozlišení bude 1080p) a vnutit hře nepodporovaná rozlišení. Od verze 2.55+ (2018+) v kombinaci s DX11+Radeon může nastat bug v podobě bílých textur (u novějších verzí z roku 2023+ je problém zřejmě už vyřešený). Pravý klik myší zpřístupní pokročilé možnosti. Pro zapnutí wrapperu se musí potřebné DLL soubory z podsložky dgVoodoo2 nakopírovat k (hlavnímu) EXE souboru hry a pak nakonfigurovat (dgVoodooCpl.exe) čímž se u EXE souboru hry vytvoří "dgVoodoo.conf"
@@ -246,6 +248,10 @@ Problémů ale může být o mnoho více a toto je jen malá ukázka
 ***Total Uninstall*** - system scan (before/after application launch/installation) and display changes (files/folders/registry), export registry changes to REG file for un/install
 
 ***🟦 Inno Setup XDELTA Patch Maker, Patch Maker*** (Clickteam) - create a patch
+
+***🟦 ISO Directory v0.5***(Michel) - create a mini-image (crack) CD/DVD (size a few kB)
+
+***🟦 BikMod v0.3e (Beta)*** - modified "binkw32.dll" library, which can be used to load external SRT subtitles. 🟦 RADTools - modification of BIK/SMK video files
 
 ***MSI Afterburner+RTSS*** - screen overlay - time, HW monitoring, FPS/Frametime limit (hotkeys), Scanline Sync, tray icons. Limiting FPS will significantly increase loading times in some games (Painkiller being one of the worst examples)
 
