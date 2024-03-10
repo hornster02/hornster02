@@ -125,6 +125,8 @@ a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úp
 
 ***🟦 Subtitle Edit*** - úprava titulků
 
+***🟦 Video-subtitle-extractor (VSE)*** - OCR metoda automatického vytvoření titulků
+
 ***🟦 UniFlash*** (Rainbow Software) - MS-DOS program na uložení/obnovení CMOS paměti biosu (nastavení) do souboru. Na novějším HW možná už nefunkční (AM3+ +)
 
 ***🟦 NetSpeedMonitor*** - monitoring rychlosti a objemu stažených dat+historie, tray
@@ -359,6 +361,8 @@ and the forbidding of arbitrarily adding exceptions is easily done by adding and
 ***🟦 Pazera Free Audio Extractor, 🟦 MKVToolNix*** - editing video files without conversion.  Removing/extracting audio tracks, detailed information about audio/video files, ...
 
 ***🟦 Subtitle Edit*** - edit subtitles
+
+***🟦 Video-subtitle-extractor (VSE)*** - OCR method of automatic subtitles creation
 
 ***🟦 UniFlash*** (Rainbow Software) - MS-DOS program to save/restore CMOS bios memory (settings) to a file. May not work on newer HW (AM3+ +)
 
