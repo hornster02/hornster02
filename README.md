@@ -492,7 +492,7 @@ The AHK file in the archive can be opened in Notepad (or if Autohotkey is instal
 
 -Control Mouse with Keyboard (Num Lock) - movement including angled (1235), left+middle+right button including drag and drop and double click (789), wheeldown+up (46), cursor movement to three specified positions (0), 4th mouse button (.). Easy speed and acceleration adjustment
 
--left+middle mouse button - dragging the mouse (anywhere in the window - not just over the title bar) moves the window that is not maximized. No need to hold the middle button all the time. ESC returns the window to its original position. For example, Vmware (virtual PC) even in fullscreen mode can also be moved in this way
+-left+middle mouse button - dragging the mouse (anywhere in the window, not just over the title bar) moves the window that is not maximized. No need to hold the middle button all the time. ESC returns the window to its original position. Many programs can be moved even in "fullscreen" mode (virtual PCs, image viewers, video players, ...)
 
 -the "LWin" key (CTRL+F), hold shows the taskbar without the Start menu (must be set to autohide), double hides the taskbar
 
@@ -522,15 +522,15 @@ AutoHotkey v1.1
 
 AHK soubor v archivu se dá otevřít v poznámkovém bloku (nebo pokud je Autohotkey v PC nainstalován, tak rovnou spustit jako obyčejný EXE soubor). Skript nemá - kromě funkce "WindowSpy" - žádné uživatelské rozhraní. AHK obsahuje pár funkčních skriptů jako jsou
 
--podržení F12 zapne/vypne fullscreen - přepínač ( užitečné pro hry )
+-podržení F12 zapne/vypne fullscreen - přepínač (užitečné pro hry)
 
--podržení F11 - zabrání kurzoru myši pohyb mimo aktivní okno - přepínač ( užitečné pro hry )
+-podržení F11 - zabrání kurzoru myši pohyb mimo aktivní okno - přepínač (užitečné pro hry)
 
 -podržení F10 - pozastavení/pokračování (suspend) procesů v popředí. Užitečné v případě zapnutého programu s vysokými nároky na výkon PC - dojde k zásadnímu snížení spotřeby/teplot/hlučnosti. 98% programů/her by mělo fungovat bez problému - u zbytku se dá očekávat různá chybovost nebo rovnou pády. Skript se může hodit třeba při hraní na baterii = 1 klávesou se hra úplně zastaví na 0FPS a není nutné ji vypínat. Možná lepší alternativa je program "Battle Encoder Shirasé" který případné problémy řeší omezením do 99%. 100% (suspend) v reálu (kromě úplného zastavení SSD/síťové aktivity) nic navíc nepřináší. Další 3 varianty (ve výchozím stavu vypnuté) jsou (držet F10 = pozastavit proces v popředí / 2x stisknutí vrátí proces do chodu) a (držet F10 = pozastavit vypsané procesy - v pozadí nebo popředí / 2x stisknutí vrátí procesy do chodu) a (držet F10 = pozastavit/spustit vypsané procesy - v pozadí nebo popředí)
 
--ovládání myši klávesnicí ( vypnout numerickou klávesnici ) - pohyb včetně šikmého (1235), levé+prostřední+pravé tlačítko včetně možnosti Drag and drop a dvojkliku (789), kolečko dolu+nahoru (46), pohyb kurzoru do tří určených pozic (0), 4-té tlačítko myši (.). Snadná úprava rychlosti a akcelerace
+-ovládání myši klávesnicí (vypnout numerickou klávesnici) - pohyb včetně šikmého (1235), levé+prostřední+pravé tlačítko včetně možnosti Drag and drop a dvojkliku (789), kolečko dolu+nahoru (46), pohyb kurzoru do tří určených pozic (0), 4-té tlačítko myši (.). Snadná úprava rychlosti a akcelerace
 
--levé+prostřední tlačítko myši - tažením myši ( kdekoli v okně - ne jenom přes title bar ) se přesunuje okno které není maximalizované. Prostřední tlačítko se nemusí držet celou dobu. ESC vrátí okno na původní pozici. Například Vmware (virtuální PC) i ve fullscreen režimu může být také tímto způsobem přesunováno
+-levé+prostřední tlačítko myši - tažením myši (kdekoli v okně, ne jenom přes title bar) se přesunuje okno které není maximalizované. Prostřední tlačítko se nemusí držet celou dobu. ESC vrátí okno na původní pozici. Spousta programů i ve "fullscreen" režimu může být přesunováno (virtuální PC, prohlížeče obrázků, přehrávače videí, ...)
 
 -klávesa "LWin" provede "CTRL+F", dlouhé podržení zobrazí hlavní panel (taskbar) bez nabídky Start (musí být nastavený na autohide), dvojité stisknutí hlavní panel (taskbar) skryje
 
