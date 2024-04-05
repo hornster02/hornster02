@@ -1,4 +1,4 @@
-***Češtiny do her (2014 a starší)*** https://github.com/hornster02?tab=repositories&q=&type=archived&language=&sort=name
+***Češtiny do her (2014 a starší)*** https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name
 <br/>
 <br/>
 <br/>
