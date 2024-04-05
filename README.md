@@ -231,6 +231,8 @@ Automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:
 
 ***🟦 T-Clock*** - pokročilá náhrada výchozích tray hodin. Program s desítky let dlouhou historií a několika autory = možnosti nastavení a rozsah funkcí (které ani s hodinami nesouvisí) je nebývalý
 
+***🟦 Desktop VLocker***
+
 Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 Android ADB*** (Total Commander), ***🟦 APK-Info***
 
 ⚠️
@@ -467,6 +469,8 @@ With the add-on ***DiskDir Extended*** you can create a data catalog ("pack file
 Automatic synchronization of two folders. ```c:\1``` is the source folder and ```e:\1``` is the backup. If a file/folder is created/changed in the source folder, it is copied to the backup. If a file/folder is deleted in the source folder, it will be deleted from the backup. "MOT:10" indicates 10 minutes of waiting and then synchronization. Is it synchronization (comparison) and not "delete the entire backup/copy the entire resource", so it does not reduce the lifetime of the SSD with unnecessary writes, among other things. A small drawback is that there is no comparison of files by content, but only by attributes+size (fast/non-demanding). It is possible to close the console window by terminating the "conhost.exe" process and leave only "ROBOCOPY.exe" (automatic synchronization in the background of the system) on. Useful in combination with NTFS links for automatic SAVEGAME backup
 
 ***🟦 T-Clock*** - advanced replacement of the default tray clock. A program with decades of history and several authors = the possibilities of settings and range of functions (not even related to the clock) is unprecedented
+
+***🟦 Desktop VLocker***
 
 Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 Android ADB*** (Total Commander), ***🟦 APK-Info***
 <br/>
