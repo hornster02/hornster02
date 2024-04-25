@@ -28,8 +28,6 @@
 
 ***ArgusMonitor, Speedfan*** - regulace otáček ventilátorů CPU+GPU+skříně a jejich křivky+vypínání
 
-***🟦 AutoHotkey*** - automatizace/přepínače/skripty, vlastní klávesové zkratky, dvojité/krátké/dlouhé podržení klávesy/tlačítka... Na jednu klávesu/tlačítko mohou být napsané stovky různých funkcí pro každý program zvlášť (nebo jeho konkrétní okno - class/WinTitle) nebo jedna funkce globálně pro všechny
-
 ***🟦 ClickMonitorDDC*** - změna jasu/kontrastu/hlasitosti/zapnutí/vypnutí monitoru, tray ikony; profily - klávesové zkratky. Funguje i ve hrách
 
 ***PowerStrip*** - softwarová změna jasu/kontrastu/gammy - profily - klávesové zkratky. Funguje i ve hrách (bezproblémový windowed/borderless, ale ve fullscreen některé hry změny neumožňují)
@@ -266,8 +264,6 @@ Problémů ale může být o mnoho více a toto je jen malá ukázka
 ***🟦 4GB Patch*** - breaking the 2GB RAM limit for 32-bit applications. Useful for some games (e.g. Gothic 3, which hits the limit after about 10 minutes) where modifying the EXE file will increase the minimum FPS, speed up loading times and also prevent the application from crashing when playing for a longer time
 
 ***ArgusMonitor, Speedfan*** - regulation of CPU+GPU+case fans speed and their curves+switching off
-
-***🟦 AutoHotkey*** - automation/switches/scripts, custom hotkeys, double/short/long key/button press... One key/button can have hundreds of different functions written for each program individually (or its specific window - class/WinTitle) or one function globally for all
 
 ***🟦 ClickMonitorDDC*** - change monitor brightness/contrast/volume/on/off, tray icons; profiles - hotkeys. Works in games too
 
