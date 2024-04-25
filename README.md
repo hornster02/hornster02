@@ -1,13 +1,6 @@
 ***Češtiny do her (2014 a starší)*** https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name
-<br/>
-<br/>
-<br/>
 
 🟨2* ***Autohotkey scripts***
-
-<br/>
-<br/>
-<br/>
 
 🟩1* ***Software for Windows. 🟦 PORTABLE - official or with the help of 🟦 7-Zip***
 
@@ -234,7 +227,7 @@ Automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:
 
 ***🟦 Desktop VLocker*** - uzamčení systému
 
-Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, ***🟦 APK-Info***
+Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info***
 <br/>
 <br/>
 <br/>
@@ -463,7 +456,7 @@ Automatic synchronization of two folders. ```c:\1``` is the source folder and ``
 
 ***🟦 Desktop VLocker***
 
-Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, ***🟦 APK-Info***
+Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info***
 <br/>
 <br/>
 <br/>
