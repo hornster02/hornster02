@@ -2,10 +2,13 @@
 <br/>
 <br/>
 <br/>
+
 🟨2* ***Autohotkey scripts***
+
 <br/>
 <br/>
 <br/>
+
 🟩1* ***Software for Windows. 🟦 PORTABLE - official or with the help of 🟦 7-Zip***
 
 ***Total Uninstall*** - sken systému (před/po spuštení/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
@@ -238,6 +241,7 @@ Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, ***🟦 APK-Info***
 <br/>
 <br/>
 <br/>
+
 🟩1* English
 
 ***Total Uninstall*** - system scan (before/after application launch/installation) and display changes (files/folders/registry), export registry changes to REG file for un/install
@@ -469,6 +473,7 @@ Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, ***🟦 APK-Info***
 <br/>
 <br/>
 <br/>
+
 🟨2* ***Autohotkey scripts https://github.com/hornster02/hornster02/raw/main/_Autohotkey_AHK-2023.rar***
 
 AutoHotkey v1.1
