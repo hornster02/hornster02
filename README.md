@@ -229,24 +229,15 @@ Automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:
 
 ***🟦 T-Clock*** - pokročilá náhrada výchozích tray hodin. Program s desítky let dlouhou historií a několika autory = možnosti nastavení a rozsah funkcí (které ani s hodinami nesouvisí) je nebývalý
 
-***🟦 Desktop VLocker***
+***🟦 Desktop VLocker*** - uzamčení systému
 
-Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 Android ADB*** (Total Commander), ***🟦 APK-Info***
-
-⚠️
-
-Vynucené (Please use EA App to continue) nahrazení aplikace ***Origin Bloatware*** jejím nástupcem ***EA App Malware***. Manuál pro instalaci/spuštění v roce 2023 (Win7)
+Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, ***🟦 APK-Info***
 <br/>
--nic neříkající chyba INST-14-12029 - instalátor se nemůže připojit k internetu - aneb proč použít ke stahování dat hlavní spouštěcí soubor (který si whitelistnu ve firewallu), když může potají rozbalit spoustu jiných v pozadí. A nabídnout offline instalátor je samozřejmě úplný nesmysl
 <br/>
--po vyřešení následuje nic neříkající chyba INST-14-5 - v mém případě instalátor vyžaduje přístup do run/runonce klíčů v registru - zřejmě aby tam potají přidal hodnotu na formátování SSD při dalším spuštění PC
 <br/>
--po vyřešení následuje nic neříkající chyba INST-21-32 - EA instalátor (hádám že ne samotný MSI instalátor stažený "někam" na SSD) odmítá rozbalit data do ramdisku (do výchozích i když trošku upravených TEMP/TMP cest)
 <br/>
--po vyřešení a konečně už spuštění EA App Malware následuje nic neříkající černá obrazovka v knihovně vlastněných her (nemožnost cokoli instalovat) a vzkaz, že prý mám vydržet a problém se pokusí vyřešit. Ten vzkaz jsem vůbec nechápal a tak místo čekání na boží zásah jsem musel smazat složku "Origin" v "Users"
 <br/>
-Problémů ale může být o mnoho více a toto je jen malá ukázka
-
+<br/>
 🟩1* English
 
 ***Total Uninstall*** - system scan (before/after application launch/installation) and display changes (files/folders/registry), export registry changes to REG file for un/install
@@ -468,7 +459,7 @@ Automatic synchronization of two folders. ```c:\1``` is the source folder and ``
 
 ***🟦 Desktop VLocker***
 
-Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 Android ADB*** (Total Commander), ***🟦 APK-Info***
+Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, ***🟦 APK-Info***
 <br/>
 <br/>
 <br/>
