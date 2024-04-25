@@ -1,6 +1,6 @@
 ***Češtiny do her (2014 a starší)*** https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name
 
-🟨2* ***Autohotkey scripts***
+🟨2* ***Autohotkey v1.1 scripts***
 
 🟩1* ***Software for Windows. 🟦 PORTABLE - official or with the help of 🟦 7-Zip***
 
@@ -467,9 +467,7 @@ Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info***
 <br/>
 <br/>
 
-🟨2* ***Autohotkey scripts https://github.com/hornster02/hornster02/raw/main/_Autohotkey_AHK-2023.rar***
-
-AutoHotkey v1.1
+🟨2* ***Autohotkey v1.1*** (čeština ⬇️) https://github.com/hornster02/hornster02/raw/main/_Autohotkey_AHK-2023.rar
 
 -IMPORTANT - AHK file probably needs to be run via "AutoHotkeyU64.exe" and not via the default "AutoHotkey.exe" (error)
 
@@ -506,8 +504,6 @@ And disabled features serving more as a template
 -change gamma/contrast/brightness/volume/mute/unmute/power plan/frequencies/voltages/mouse sensitivity/resolution/network/... Crouch+aim toggles for games (search for ```*01```). And also holding Printscreen key saves image to SSD. May require external programs - NirCmd/DevManView/MSIAfterburner/OverdriveNTool/RawAccel/MouseSettingsChanger/PowerStrip/ClickMonitorDDC/...
 
 ***ČEŠTINA***
-
-AutoHotkey v1.1
 
 -DŮLEŽITÉ - AHK soubor je zřejmě potřeba spustit přes "AutoHotkeyU64.exe" a ne přes výchozí "AutoHotkey.exe" (error)
 
