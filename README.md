@@ -26,7 +26,7 @@
 
 ***🟦 ClickMonitorDDC*** - změna jasu/kontrastu/hlasitosti/zapnutí/vypnutí monitoru, tray ikony; profily - klávesové zkratky. Funguje i ve hrách
 
-***PowerStrip*** - softwarová změna jasu/kontrastu/gammy - profily - klávesové zkratky. Funguje i ve hrách (bezproblémový windowed/borderless, ale ve fullscreen některé hry změny neumožňují)
+***PowerStrip*** - softwarová změna jasu/kontrastu/gammy - profily - klávesové zkratky. Funguje i ve hrách (bezproblémový windowed/borderless, ale ve fullscreen některé hry změny neumožňují - ale třeba v "dgVoodoo2" se tyto změny mohou vynutit - Output API / Inherit Color Profile...)
 <br/>
 https://entechtaiwan.com/util/ps.shtm
 <br/>
@@ -267,7 +267,7 @@ Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info***
 
 ***🟦 ClickMonitorDDC*** - change monitor brightness/contrast/volume/on/off, tray icons; profiles - hotkeys. Works in games too
 
-***PowerStrip*** - software change brightness/contrast/gamma - profiles - hotkeys. Works in games too (windowed/borderless seamless, but in fullscreen some games don't allow changes)
+***PowerStrip*** - software change brightness/contrast/gamma - profiles - hotkeys. Works in games too (windowed/borderless seamless, but in fullscreen some games don't allow changes - but for example in "dgVoodoo2" these changes can be forced - Output API / Inherit Color Profile...)
 <br/>
 https://entechtaiwan.com/util/ps.shtm
 <br/>
