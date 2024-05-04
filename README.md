@@ -131,7 +131,17 @@ a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úp
 
 ***🟦 Prime95+Furmark*** - test životnosti+stability PC (power virus)
 
-***🟦 WinRAR*** - archivace dat s možností přidání záznamu na jejich opravu. Celkově má horší kompresi než 7-Zip. Ale třeba "solid" kompresi má vyřešenou lépe = je násobně rychlejší a přesto může být výsledná velikost archivu klidně i o 50+% menší
+***🟦 WinRAR*** - archivace dat. Výhody oproti 7-Zip
+<br/>
+-záznam na opravu dat = poškozené archívy není nutné vícekrát stahovat či se smířit se ztrátou dat
+<br/>
+-profily s různým nastavením. Automatizace (vybráním profilu se může okamžitě automaticky vytvořit třeba zašifrovaný archiv s aktuálním datem a konkrétními daty na předem určené místo)
+<br/>
+-nastavení ve složce programu = může plnohodnotně fungovat jako portable
+<br/>
+-velikost souborů v hlavním okně se nezobrazuje v nepřehledných/matoucích bytech
+<br/>
+-lepší "solid" komprese (násobně rychlejší a přesto může být výsledná velikost archivu klidně i o 50+% menší)
 
 ***🟦 WizTree*** - analýza místa na disku
 
@@ -362,7 +372,17 @@ and the forbidding of arbitrarily adding exceptions is easily done by adding and
 
 ***🟦 Prime95+Furmark*** - PC lifetime+stability test (power virus)
 
-***🟦 WinRAR*** - data archiving with the possibility of adding a "recovery record". It has overall worse compression than 7-Zip. But for example "solid" compression is better = it's many times faster and yet the resulting archive size can be 50+% smaller
+***🟦 WinRAR*** - data archiving. Advantages over 7-Zip
+<br/>
+-recovery record = no need to download damaged archives multiple times or accept data loss
+<br/>
+-profiles with different settings. Automation (by selecting a profile, for example, an encrypted archive with the current date and specific data can be automatically created to a predefined location)
+<br/>
+-settings in the program folder = can fully work as a portable app
+<br/>
+-the file sizes in the main window are not displayed in confusing bytes
+<br/>
+-better "solid" compression (many times faster and yet the resulting archive size can be 50+% smaller)
 
 ***🟦 WizTree*** - disk space analysis
 
