@@ -131,7 +131,7 @@ a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úp
 
 ***🟦 Prime95+Furmark*** - test životnosti+stability PC (power virus)
 
-***🟦 WinRAR*** - archivace dat s možností přidání záznamu na jejich opravu
+***🟦 WinRAR*** - archivace dat s možností přidání záznamu na jejich opravu. Celkově má horší kompresi než 7-Zip. Ale třeba "solid" kompresi má vyřešenou lépe = je násobně rychlejší a přesto může být výsledná velikost archivu klidně i o 50+% menší
 
 ***🟦 WizTree*** - analýza místa na disku
 
@@ -202,6 +202,8 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 ***🟦 Screen Ruler*** (Bluegrams) - pravítko
 
 ***🟦 NAPS2*** - skenování, export do PDF, OCR
+
+***🟦 Ultimate Icon Converter*** - tvorba ikon
 
 ***🟦 ATI GPU Scaling Fix(legacy), 🟦 HDD Low Level Format Tool*** a desítky aplikací od 🟦 NirSoft (***AppCrashView/BlueScreenView/Wireless Network Watcher/WifiInfoView/CurrPorts/FullEventLogView/ShellExView/ShellMenuView/OpenWithView/LoadedDllsView/DiskCountersView*** *1)
 
@@ -360,7 +362,7 @@ and the forbidding of arbitrarily adding exceptions is easily done by adding and
 
 ***🟦 Prime95+Furmark*** - PC lifetime+stability test (power virus)
 
-***🟦 WinRAR*** - data archiving with the possibility of adding a "recovery record"
+***🟦 WinRAR*** - data archiving with the possibility of adding a "recovery record". It has overall worse compression than 7-Zip. But for example "solid" compression is better = it's many times faster and yet the resulting archive size can be 50+% smaller
 
 ***🟦 WizTree*** - disk space analysis
 
@@ -431,6 +433,8 @@ With the add-on ***DiskDir Extended*** you can create a data catalog ("pack file
 ***🟦 Screen Ruler*** (Bluegrams) - ruler
 
 ***🟦 NAPS2*** - scan, export to PDF, OCR
+
+***🟦 Ultimate Icon Converter*** - icon creator
 
 ***🟦 ATI GPU Scaling Fix(legacy), 🟦 HDD Low Level Format Tool*** and dozens of apps from 🟦 NirSoft (***AppCrashView/BlueScreenView/Wireless Network Watcher/WifiInfoView/CurrPorts/FullEventLogView/ShellExView/ShellMenuView/OpenWithView/LoadedDllsView/DiskCountersView*** *1)
 
