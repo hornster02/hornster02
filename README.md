@@ -10,7 +10,7 @@
 <br/>
 ***https://github.com/hornster02/hornster02/raw/main/_ISXPM-2.6.4.3-CONFIG-2024-03.rar*** - mnou nastavený konfigurační soubor (stačí ho jen načíst přes "LOAD PROJECT") zaměřený na ještě menší velikost patche oproti výchozímu nastavení (rozdíl může být až v desítkách %). Využití RAM paměti bude běžně mezi 10-20GB (nezáleží na počtu souborů, ale čím větší je soubor tím vyšší bude spotřeba RAM = 1GB soubor na obou stranách=cca 6GB RAM) - v případě nároků na RAM převyšující možnosti systému se může proces zpomalit a zároveň zachovat vysokou kompresi snížením počtu "Generating cores". "Compression" v sekci "Patch Options" je vypnutá - komprimuje nezpracované ne-XDELTA soubory (ISXPM v tomto ohledu zřejmě nepodporuje větší možnosti nastavení a ani ta nejvyšší "lzma2/ultra64" není dostatečně dobrá = vyšší komprese se dosáhne zabalením celého patche přes 7-Zip)
 <br/>
-***Universal Extractor, Dragon UnPACKer, Game Extractor, https://aluigi.altervista.org/quickbms.htm***
+***Universal Extractor, Dragon UnPACKer, Game Extractor, https://aluigi.altervista.org/quickbms.htm https://oezmen.eu/gameresources/***
 
 
 ***🟦 ISO Directory v0.5***(Michel) - vytvoření mini-image CD/DVD (velikost pár kB) - např. pokud pro českou verzi hry neexistuje crack a hra trvá na vloženém fyzickém médiu v mechanice
