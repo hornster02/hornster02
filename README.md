@@ -27,7 +27,7 @@
 
 ***🟦 ClickMonitorDDC*** - změna jasu/kontrastu/hlasitosti/zapnutí/vypnutí monitoru, tray ikony; profily - klávesové zkratky. Funguje i ve hrách
 
-***PowerStrip*** - softwarová změna jasu/kontrastu/gammy - profily - klávesové zkratky. Funguje i ve hrách (bezproblémový windowed/borderless, ale ve fullscreen některé hry změny neumožňují - ale třeba v "dgVoodoo2" se tyto změny mohou vynutit - Output API / Inherit Color Profile...)
+***PowerStrip*** - softwarová změna jasu/kontrastu/gammy - profily - klávesové zkratky. Funguje i ve hrách (bezproblémový windowed/borderless, ale ve fullscreen některé hry změny neumožňují - ale třeba v ```dgVoodoo2``` se tyto změny mohou vynutit - Output API / Inherit Color Profile...)
 <br/>
 https://entechtaiwan.com/util/ps.shtm
 <br/>
@@ -91,13 +91,13 @@ a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úp
 
 🚫***🟦 NSudo*** - spouštění aplikací s nejvyššími právy. V kombinaci i s programem Autoruns je snadné se zbavit veškerého MS bloatwaru (aktualizace/služby/plánovače úloh/Defender/Edge/OneDrive/Slutana/...)
 
-***🟦 Autoruns*** - automaticky spouštěné aplikace/knihovny/ovladače
+🚫***🟦 Autoruns*** - automaticky spouštěné aplikace/knihovny/ovladače
 
 ❶***🟦 BootICE*** - vytvoření bootovacího média bez formátování a ztráty dat (MBR/PBR pro HDD/SSD/USB), úprava Windows souborů BCD/UEFI (multiboot, změna systémové partition, ...), skrytí/aktivace partition
 
 ❷***🟦 Gandalf’s Windows*** (Win7-11) - spustitelný (bez formátování a ztráty dat⬆️) z USB (i z telefonu - pokud podporuje boot z "biosu") s možností internetu, instalování programů/ovladačů. Víceméně plnohodnotný systém - po restartu se ale vrací do výchozího nastavení
 
-❸***🟦 WinNTSetup*** - instalace/záloha/obnovení Windows bez formátování a ztráty dat a vytváření bootovacího instalačního média (přeskočení věčně chybového/nebezpečného MS instalačního procesu = po nakopírování dat a restartu PC se spouští systém). Iso/wim/swm/vhd (dají se používat i v ***7-Zip*** )+možnost přidání ovladačů/tweaků. Proces není závislý na konkrétní HW, takže třeba obnovení zálohy systému jde provést na jakékoli PC. Jde instalovat i na USB disky a minimálně Win11 z nich jde bez dalších úprav spustit (potřebné ovladače se načítají při bootu, takže nezáleží na jakém PC se bude spouštět) - jeho nesmyslné požadavky jsou ignorovány (UEFI/TPM/...) "Boot drive+Installation drive" může být stejný oddíl jednoho disku (program je pro běžného uživatele přednastavený - stačí vybrat edici Windows, kliknout na "Setup+OK" a proces začíná - na konci se automaticky vytvoří Bios+UEFI boot a poté v případě MBR disku doporučuji zkontrolovat zda je zelená tečka u BOOT PART). Záloha se provádí přes "Local Windows Installations/Capture Wim" - vyjímky se mohou přidat do "WimScript.ini". Možné řešení chyb
+❸***🟦 WinNTSetup*** - instalace/záloha/obnovení Windows bez formátování a ztráty dat a vytváření bootovacího instalačního média (přeskočení věčně chybového/nebezpečného MS instalačního procesu = po nakopírování dat a restartu PC se spouští systém). Iso/wim/swm/vhd (dají se používat i v 7-Zip)+možnost přidání ovladačů/tweaků. Proces není závislý na konkrétní HW, takže třeba obnovení zálohy systému jde provést na jakékoli PC. Jde instalovat i na USB disky a minimálně Win11 z nich jde bez dalších úprav spustit (potřebné ovladače se načítají při bootu, takže nezáleží na jakém PC se bude spouštět) - jeho nesmyslné požadavky jsou ignorovány (UEFI/TPM/...) "Boot drive+Installation drive" může být stejný oddíl jednoho disku (program je pro běžného uživatele přednastavený - stačí vybrat edici Windows, kliknout na "Setup+OK" a proces začíná - na konci se automaticky vytvoří Bios+UEFI boot a poté v případě MBR disku doporučuji zkontrolovat zda je zelená tečka u BOOT PART). Záloha se provádí přes "Local Windows Installations/Capture Wim" - vyjímky se mohou přidat do "WimScript.ini". Možné řešení chyb
 <br/>
 -vložené ISO hlásí "No Windows Source Detected" nebo "Windows Source invalid" (rozbalit ISO a vložit instalační soubor - měl by se jmenovat "install" a být ve složce "sources" - zbývající obsah ISO je pro instalaci zbytečný a stejně nebude použit)
 <br/>
@@ -268,7 +268,7 @@ Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info***
 
 ***🟦 ClickMonitorDDC*** - change monitor brightness/contrast/volume/on/off, tray icons; profiles - hotkeys. Works in games too
 
-***PowerStrip*** - software change brightness/contrast/gamma - profiles - hotkeys. Works in games too (windowed/borderless seamless, but in fullscreen some games don't allow changes - but for example in "dgVoodoo2" these changes can be forced - Output API / Inherit Color Profile...)
+***PowerStrip*** - software change brightness/contrast/gamma - profiles - hotkeys. Works in games too (windowed/borderless seamless, but in fullscreen some games don't allow changes - but for example in ```dgVoodoo2``` these changes can be forced - Output API / Inherit Color Profile...)
 <br/>
 https://entechtaiwan.com/util/ps.shtm
 <br/>
@@ -332,13 +332,13 @@ and the forbidding of arbitrarily adding exceptions is easily done by adding and
 
 🚫***🟦 NSudo*** - run apps with the highest privileges. Combined with Autoruns it is easy to get rid of all MS bloatware (updates/services/task schedulers/Defender/Edge/OneDrive/Slutana/...) 
 
-***🟦 Autoruns*** - automatically launched applications/libraries/drivers
+🚫***🟦 Autoruns*** - automatically launched applications/libraries/drivers
 
 ❶***🟦 BootICE*** - create bootable media without formatting and data loss (MBR/PBR for HDD/SSD/USB), modify Windows BCD/UEFI files (multiboot, change system partition, ...), hide/activate partition
 
 ❷***🟦 Gandalf's Windows*** (Win7-11) - bootable (without formatting and losing data⬆️) from USB (even from phone - if supports boot from "bios") with internet capability, installing programs/drivers. More or less full system - but after reboot it returns to default settings
 
-❸***🟦 WinNTSetup*** - install/backup/restore Windows without formatting and data loss and creating a bootable installation media (skipping the constantly erroneous/dangerous MS installation process = after copying the data and restarting the PC, the system starts). Iso/wim/swm/vhd (can also be used in ***7-Zip*** )+option to add drivers/tweaks. The process is not dependent on specific HW, so for example restoring a system backup can be done on any PC. It can also be installed on USB drives and at least Win11 can be started from them without any further modifications (the necessary drivers are loaded at boot, so it does not matter which PC it will be started on) - its meaningless requirements are ignored (UEFI/TPM/...) "Boot drive+Installation drive" can be the same partition of one disk (the program is preset for a regular user - just select the Windows edition, click "Setup+OK" and the process starts - at the end Bios+UEFI boot is automatically created and then in case of MBR disk I recommend checking if there is a green dot at BOOT PART). Backup is done via "Local Windows Installations/Capture Wim" - exceptions can be added to "WimScript.ini". Possible bug fixes
+❸***🟦 WinNTSetup*** - install/backup/restore Windows without formatting and data loss and creating a bootable installation media (skipping the constantly erroneous/dangerous MS installation process = after copying the data and restarting the PC, the system starts). Iso/wim/swm/vhd (can also be used in 7-Zip)+option to add drivers/tweaks. The process is not dependent on specific HW, so for example restoring a system backup can be done on any PC. It can also be installed on USB drives and at least Win11 can be started from them without any further modifications (the necessary drivers are loaded at boot, so it does not matter which PC it will be started on) - its meaningless requirements are ignored (UEFI/TPM/...) "Boot drive+Installation drive" can be the same partition of one disk (the program is preset for a regular user - just select the Windows edition, click "Setup+OK" and the process starts - at the end Bios+UEFI boot is automatically created and then in case of MBR disk I recommend checking if there is a green dot at BOOT PART). Backup is done via "Local Windows Installations/Capture Wim" - exceptions can be added to "WimScript.ini". Possible bug fixes
 <br/>
 -inserted ISO reports "No Windows Source Detected" or "Windows Source invalid" (unzip the ISO and insert the installation file - it should be called "install" and be in the "sources" folder - the rest of the ISO content is useless for installation and will not be used anyway)
 <br/>
