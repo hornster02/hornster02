@@ -33,7 +33,7 @@ https://entechtaiwan.com/util/ps.shtm
 <br/>
 https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key.rar
 
-***🟦 Custom Resolution Utility*** - vytvoření vlastního rozlišení a obnovovací frekvence monitoru. Ideální také pro obejití limitu maximálního rozlišení u starých GPU snížením obnovovací frekvence - např. 2560x1080x54Hz na Radeon HD 4670 (2008 - 1920x1200x60Hz). Nebo pokud Win při změně rozlišení nastavuje nižší Hz než monitor podporuje, tak pokud se v CRU u nativního rozlišení nastaví maximální podporovaná obnovovací frekvence, tak by i nižší rozlišení měli být automaticky nastavovány s maximální obnovovací frekvencí (zapnutý ```GPU Scaling``` v Radeon Bloatware💩 může funkčnost narušit). Zaplnění všech "Detailed resolutions" slotů může vypnout Freesync v Radeon Bloatware💩. Další univerzální způsob vynucení vlastní obnovovací frekvence v aplikacích DirectX je v ```HKLM\SOFTWARE\Wow6432Node\Microsoft\DirectDraw``` a ```HKLM\SOFTWARE\Microsoft\DirectDraw``` vytvořit DWORLD hodnotu ```ForceRefreshRate``` a napsat konkrétní číslo v Hz (restart není nutný, změny se aktivují ihned)
+***🟦 Custom Resolution Utility*** - vytvoření vlastního rozlišení a obnovovací frekvence monitoru. Ideální také pro obejití limitu maximálního rozlišení u starých GPU snížením obnovovací frekvence - např. 2560x1080x54Hz na Radeon HD 4670 (2008 - 1920x1200x60Hz). Nebo pokud Win při změně rozlišení nastavuje nižší Hz než monitor podporuje, tak pokud se v CRU u nativního rozlišení nastaví maximální podporovaná obnovovací frekvence, tak by i nižší rozlišení měli být automaticky nastavovány s maximální obnovovací frekvencí (zapnutý ```GPU Scaling``` v Radeon Bloatware💩 může funkčnost narušit). Zaplnění všech "Detailed resolutions" slotů může vypnout Freesync v Radeon Bloatware💩. Další univerzální způsob vynucení vlastní obnovovací frekvence v DirectX aplikacích je v ```HKLM\SOFTWARE\Wow6432Node\Microsoft\DirectDraw``` a ```HKLM\SOFTWARE\Microsoft\DirectDraw``` vytvořit DWORLD hodnotu ```ForceRefreshRate``` a napsat konkrétní číslo v Hz (restart není nutný, změny se aktivují ihned)
 
 ***🟦 OverdriveNTool, 🟦 AMD GPU Clock Tool*** - napětí/frekvence pro Radeon - profily - klávesové zkratky/zástupce
 
@@ -479,7 +479,7 @@ Automatic synchronization of two folders. ```c:\1``` is the source folder and ``
 
 ***🟦 T-Clock*** - advanced replacement of the default tray clock. A program with decades of history and several authors = the possibilities of settings and range of functions (not even related to the clock) is unprecedented
 
-***🟦 Desktop VLocker***
+***🟦 Desktop VLocker*** - computer lock
 
 Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info***
 <br/>
@@ -498,68 +498,70 @@ Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info***
 
 The AHK file in the archive can be opened in Notepad (or if Autohotkey is installed on the PC, it can be run as a regular EXE file). The script has no user interface (apart from the "WindowSpy" function). AHK contains a few functional scripts such as
 
--hold F12 - on/off borderless fullscreen (useful for games)
+hold ```F12``` on/off borderless fullscreen (useful for games)
 
--hold F11 - prevents mouse cursor from moving outside the active window - switch (useful for games)
+hold ```F11``` prevents mouse cursor from moving outside the active window - switch (useful for games)
 
--hold F10 - pause/resume (suspend) foreground processes. Useful in case of running a program with high demands on PC performance - there will be a significant reduction in power consumption/temperature/noise. 98% of programs/games should work without issue - for the rest you can expect various errors or crashes. The script can be useful for example when playing games on battery = 1 key completely stops the game at 0FPS and there is no need to turn it off. Perhaps a better alternative is the "Battle Encoder Shirasé" program which solves possible problems by limiting up to 99%. 100% (suspend) does not bring anything extra in real use (except for complete stop of SSD/network activity). The other 3 options (disabled by default) are (hold F10 = pause foreground process / 2x press resume process) and (hold F10 = pause listed processes - background or foreground / 2x press resume process) and (hold F10 = pause/resume listed processes - background or foreground)
+hold ```F10``` pause/resume (suspend) foreground processes. Useful in case of running a program with high demands on PC performance - there will be a significant reduction in power consumption/temperature/noise. 98% of programs/games should work without issue - for the rest you can expect various errors or crashes. The script can be useful for example when playing games on battery = 1 key completely stops the game at 0FPS and there is no need to turn it off. Perhaps a better alternative is the "Battle Encoder Shirasé" program which solves possible problems by limiting up to 99%. 100% (suspend) does not bring anything extra in real use (except for complete stop of SSD/network activity). The other 3 options (disabled by default) are (hold F10 = pause foreground process / 2x press resume process) and (hold F10 = pause listed processes - background or foreground / 2x press resume process) and (hold F10 = pause/resume listed processes - background or foreground)
 
--Control Mouse with Keyboard (Num Lock) - movement including angled (1235), left+middle+right button including drag and drop and double click (789), wheeldown+up (46), cursor movement to three specified positions (0), 4th mouse button (.). Easy speed and acceleration adjustment
+Control Mouse with Keyboard ```Num Lock``` - movement including angled```1235```, left+middle+right button including drag and drop and double click```789```, wheeldown+up```46```, cursor movement to three specified positions```0```, 4th mouse button```.``` Easy speed and acceleration adjustment
 
--left+middle mouse button - dragging the mouse (anywhere in the window, not just over the title bar) moves the window that is not maximized. No need to hold the middle button all the time. ESC returns the window to its original position. Many programs can be moved even in "fullscreen" mode (virtual PCs, image viewers, video players, ...)
+```left+middle mouse button``` - dragging the mouse (anywhere in the window, not just over the title bar) moves the window that is not maximized. No need to hold the middle button all the time. ESC returns the window to its original position. Many programs can be moved even in "fullscreen" mode (virtual PCs, image viewers, video players, ...)
 
--the "LWin" key (CTRL+F), hold shows the taskbar without the Start menu (must be set to autohide), double hides the taskbar
+```LWin``` key (CTRL+F), hold shows the taskbar without the Start menu (must be set to autohide), double hides the taskbar
 
--menu key (CTRL+C) , hold (CTRL+V) , double (CTRL+A)
+```menu key``` (CTRL+C) , hold (CTRL+V) , double (CTRL+A)
 
--pause key (ALT+F4) - if the "SC" and "VK" numbers correspond to your keyboard, then even games that have these keys "disabled" can be ended. Holding the key down for 2 seconds restarts the PC as standard (but regardless of the current work) Shutdown, 6 = "force"
+```pause key``` (ALT+F4) if the "SC" and "VK" numbers correspond to your keyboard, then even games that have these keys "disabled" can be ended. Holding the key down for 2 seconds restarts the PC as standard (but regardless of the current work) Shutdown, 6 = "force"
 
--ALT+Shift - shrink the active window to half the screen and align it right or left or maximize it
+```ALT+Shift``` shrink the active window to half the screen and align it right or left or maximize it
 
--ALT+Ctrl - show desktop
+```ALT+Ctrl``` show desktop
 
--CTRL+ALT+INS - exit AutoHotkey processes
+```CTRL+ALT+INS``` exit AutoHotkey processes
 
--ScrollLock - AUTOHOTKEY-WindowSpy. Hold ScrollLock (activate window to foreground), ESC (hide - AutoHotkeyU64.exe). When working with "WindowSpy" another "AutoHotkey.exe" process is not used
+```ScrollLock``` AUTOHOTKEY-WindowSpy. Hold ScrollLock (activate window to foreground), ESC (hide - AutoHotkeyU64.exe). When working with "WindowSpy" another "AutoHotkey.exe" process is not used
 
-And disabled features serving more as a template
+***And disabled features serving more as a template***
 
--0.3 second long hold "ě" key inserts "@" . Dozens of additional keys can easily be added, eliminating the need for time-consuming keyboard shortcuts
+holding ```ě``` key inserts "@" . Dozens of additional keys can easily be added, eliminating the need for time consuming keyboard shortcuts
 
--change gamma/contrast/brightness/volume/mute/unmute/power plan/frequencies/voltages/mouse sensitivity/resolution/network/... Crouch+aim toggles for games (search for ```*01```). And also holding Printscreen key saves image to SSD. May require external programs - NirCmd/DevManView/MSIAfterburner/OverdriveNTool/RawAccel/MouseSettingsChanger/PowerStrip/ClickMonitorDDC/...
-
+change gamma/contrast/brightness/volume/mute/unmute/power plan/frequencies/voltages/mouse sensitivity/resolution/network/... Crouch+aim toggles for games (search for *01). And also holding Printscreen key saves image to SSD. May require external programs - NirCmd/DevManView/MSIAfterburner/OverdriveNTool/RawAccel/MouseSettingsChanger/PowerStrip/ClickMonitorDDC/...
+<br/>
+<br/>
+<br/>
 ***ČEŠTINA***
 
 -DŮLEŽITÉ - AHK soubor je zřejmě potřeba spustit přes "AutoHotkeyU64.exe" a ne přes výchozí "AutoHotkey.exe" (error)
 
-AHK soubor v archivu se dá otevřít v poznámkovém bloku (nebo pokud je Autohotkey v PC nainstalován, tak rovnou spustit jako obyčejný EXE soubor). Skript nemá - kromě funkce "WindowSpy" - žádné uživatelské rozhraní. AHK obsahuje pár funkčních skriptů jako jsou
+AHK soubor v archivu se dá otevřít v poznámkovém bloku (nebo pokud je Autohotkey v PC nainstalován, tak rovnou spustit jako obyčejný EXE soubor). Skript nemá - kromě funkce "WindowSpy" - žádné uživatelské rozhraní. AHK obsahuje návod pro začátečníky a pár funkčních skriptů jako jsou
 
--podržení F12 zapne/vypne fullscreen - přepínač (užitečné pro hry)
+podržení ```F12``` zapne/vypne fullscreen - přepínač (užitečné pro hry)
 
--podržení F11 - zabrání kurzoru myši pohyb mimo aktivní okno - přepínač (užitečné pro hry)
+podržení ```F11``` zabrání kurzoru myši pohyb mimo aktivní okno - přepínač (užitečné pro hry)
 
--podržení F10 - pozastavení/pokračování (suspend) procesů v popředí. Užitečné v případě zapnutého programu s vysokými nároky na výkon PC - dojde k zásadnímu snížení spotřeby/teplot/hlučnosti. 98% programů/her by mělo fungovat bez problému - u zbytku se dá očekávat různá chybovost nebo rovnou pády. Skript se může hodit třeba při hraní na baterii = 1 klávesou se hra úplně zastaví na 0FPS a není nutné ji vypínat. Možná lepší alternativa je program "Battle Encoder Shirasé" který případné problémy řeší omezením do 99%. 100% (suspend) v reálu (kromě úplného zastavení SSD/síťové aktivity) nic navíc nepřináší. Další 3 varianty (ve výchozím stavu vypnuté) jsou (držet F10 = pozastavit proces v popředí / 2x stisknutí vrátí proces do chodu) a (držet F10 = pozastavit vypsané procesy - v pozadí nebo popředí / 2x stisknutí vrátí procesy do chodu) a (držet F10 = pozastavit/spustit vypsané procesy - v pozadí nebo popředí)
+podržení ```F10``` pozastavení/pokračování (suspend) procesů v popředí. Užitečné v případě zapnutého programu s vysokými nároky na výkon PC - dojde k zásadnímu snížení spotřeby/teplot/hlučnosti. 98% programů/her by mělo fungovat bez problému - u zbytku se dá očekávat různá chybovost nebo rovnou pády. Skript se může hodit třeba při hraní na baterii = 1 klávesou se hra úplně zastaví na 0FPS a není nutné ji vypínat. Možná lepší alternativa je program "Battle Encoder Shirasé" který případné problémy řeší omezením do 99%. 100% (suspend) v reálu (kromě úplného zastavení SSD/síťové aktivity) nic navíc nepřináší. Další 3 varianty (ve výchozím stavu vypnuté) jsou (držet F10 = pozastavit proces v popředí / 2x stisknutí vrátí proces do chodu) a (držet F10 = pozastavit vypsané procesy - v pozadí nebo popředí / 2x stisknutí vrátí procesy do chodu) a (držet F10 = pozastavit/spustit vypsané procesy - v pozadí nebo popředí)
 
--ovládání myši klávesnicí (vypnout numerickou klávesnici) - pohyb včetně šikmého (1235), levé+prostřední+pravé tlačítko včetně možnosti Drag and drop a dvojkliku (789), kolečko dolu+nahoru (46), pohyb kurzoru do tří určených pozic (0), 4-té tlačítko myši (.). Snadná úprava rychlosti a akcelerace
+ovládání myši klávesnicí ```Num Lock``` - pohyb včetně šikmého```1235```, levé+prostřední+pravé tlačítko včetně možnosti Drag and drop a dvojkliku```789```, kolečko dolu+nahoru```46```, pohyb kurzoru do tří určených pozic```0```, 4-té tlačítko myši```.``` Snadná úprava rychlosti a akcelerace
 
--levé+prostřední tlačítko myši - tažením myši (kdekoli v okně, ne jenom přes title bar) se přesunuje okno které není maximalizované. Prostřední tlačítko se nemusí držet celou dobu. ESC vrátí okno na původní pozici. Spousta programů i ve "fullscreen" režimu může být přesunováno (virtuální PC, prohlížeče obrázků, přehrávače videí, ...)
+```levé+prostřední tlačítko myši``` - tažením myši (kdekoli v okně, ne jenom přes title bar) se přesunuje okno které není maximalizované. Prostřední tlačítko se nemusí držet celou dobu. ESC vrátí okno na původní pozici. Spousta programů i ve "fullscreen" režimu může být přesunováno (virtuální PC, prohlížeče obrázků, přehrávače videí, ...)
 
--klávesa "LWin" provede "CTRL+F", dlouhé podržení zobrazí hlavní panel (taskbar) bez nabídky Start (musí být nastavený na autohide), dvojité stisknutí hlavní panel (taskbar) skryje
+```LWin``` provede "CTRL+F", dlouhé podržení zobrazí hlavní panel (taskbar) bez nabídky Start (musí být nastavený na autohide), dvojité stisknutí hlavní panel (taskbar) skryje
 
--klávesa menu (kontextové menu) provede "CTRL+C" , podržení provede "CTRL+V" , 2x stisknutí provede "CTRL+A"
+```menu``` (kontextové menu) provede "CTRL+C" , podržení provede "CTRL+V" , 2x stisknutí provede "CTRL+A"
 
--klávesa "pause" provede "ALT+F4" - pokud "SC" a "VK" čísla odpovídají vaší klávesnici, tak půjdou vypnout např. i hry, které mají tyto klávesy "zablokované". Podržení klávesy na 2 vteřiny standartně restartuje PC (ale bez ohledu na rozdělanou práci). Shutdown, 6 = "na sílu"
+```pause``` provede "ALT+F4" - pokud "SC" a "VK" čísla odpovídají vaší klávesnici, tak půjdou vypnout např. i hry, které mají tyto klávesy "zablokované". Podržení klávesy na 2 vteřiny standartně restartuje PC (ale bez ohledu na rozdělanou práci). Shutdown, 6 = "na sílu"
 
--ALT+Shift - zmenšit aktivní okno na polovinu obrazovky a zarovnat ho vpravo nebo vlevo nebo ho maximalizovat
+```ALT+Shift``` zmenšit aktivní okno na polovinu obrazovky a zarovnat ho vpravo nebo vlevo nebo ho maximalizovat
 
--ALT+Ctrl - zobrazit plochu
+```ALT+Ctrl``` zobrazit plochu
 
--CTRL+ALT+INS - vypnout procesy AutoHotkey
+```CTRL+ALT+INS``` vypnout procesy AutoHotkey
 
--ScrollLock - AUTOHOTKEY-WindowSpy. Aktivovat okno do popředí držet "ScrollLock", zavřít "ESC" (AutoHotkeyU64.exe)
+```ScrollLock``` AUTOHOTKEY-WindowSpy. Aktivovat okno do popředí držet "ScrollLock", zavřít "ESC" (AutoHotkeyU64.exe)
 
-A vypnuté funkce sloužící spíše jako vzor
+***A vypnuté funkce sloužící spíše jako vzor***
 
--0,3 vteřiny dlouhé podržení "ě" napíše "@" . Snadno se dají přidat desítky dalších kláves a díky tomu odpadne nutnost používat zdržující klávesové zkratky
+podržení klávesy ```ě``` napíše "@" . Snadno se dají přidat desítky dalších kláves a díky tomu odpadne nutnost používat zdržující klávesové zkratky
 
--změnit gamma/kontrast/jas/hlasitost+zap+vyp/schéma napájení/frekvence/napětí/citlivost myši/rozlišení/síť/... A také přepínače skrčení+míření pro hry (vyhledej ```*01```). Držení printscreen uloží obrázek na SSD. Může vyžadovat externí programy - NirCmd/DevManView/MSIAfterburner/OverdriveNTool/RawAccel/MouseSettingsChanger/PowerStrip/ClickMonitorDDC/...
+změnit gamma/kontrast/jas/hlasitost+zap+vyp/schéma napájení/frekvence/napětí/citlivost myši/rozlišení/síť/... A také přepínače skrčení+míření pro hry (vyhledej *01). Držení printscreen uloží obrázek na SSD. Může vyžadovat externí programy - NirCmd/DevManView/MSIAfterburner/OverdriveNTool/RawAccel/MouseSettingsChanger/PowerStrip/ClickMonitorDDC/...
