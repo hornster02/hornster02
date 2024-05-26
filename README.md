@@ -71,13 +71,13 @@ místo XXX se napíše název potřebného klíče
 
 ***🟦 IObit Unlocker*** - odemknutí (NTFS zabezpečení nebo běžící proces) souborů/složek
 
-🚫update***EXE Radar Pro v3 (Beta)*** - při spuštění spustitelného souboru (exe/msi/bat/...) se zobrazí okno s dotazem zda ho spustit nebo ukončit (uživatelem definovaný Command-Line/whitelist/blacklist probíhá automaticky v pozadí systému). Ověření přes kontrolní součet
+🚫update ***EXE Radar Pro v3 (Beta)*** - při spuštění spustitelného souboru (exe/msi/bat/...) se zobrazí okno s dotazem zda ho spustit nebo ukončit (uživatelem definovaný Command-Line/whitelist/blacklist probíhá automaticky v pozadí systému). Ověření přes kontrolní součet
 
 🚫***Easy File Locker*** - zakázání čtení/zápisu/mazání/ skrytí souborů/složek. Zamknutí funguje jen když je spuštěný Windows+SYS ovladač programu (dá se zapínat/vypínat přes zástupce/klávesové zkratky bez nutnosti spouštět program - NirCmd). Pokud nějaký program obchází ochranu, tak za to můžou NTFS linky*0 (nezamknuté všechny cesty)
 
 🚫***🟦 NTFS Permissions Tools*** (DBC Studio) - správa zabezpečení dat, záložky pro rychlý přístup
 
-🚫Vytvoření souboru místo složky
+🚫Vytvoření souboru místo složky, mazání klidně i systémových EXE/... souborů - tyto klasické metody nikdy nezklamou
 
 🚫***Firewall***  - Outpost/TinyWall/Firewall App Blocker. Výchozí Win firewall má pravidla uložená zde
 <br/>
@@ -312,13 +312,13 @@ instead of XXX, write the name of the required key
 
 ***🟦 IObit Unlocker*** - unlock (NTFS security or running process) files/folders
 
-🚫update***EXE Radar Pro v3 (Beta)*** - when running an executable file (exe/msi/bat/...) a window will appear asking whether to run or exit it (user-defined Command-Line/whitelist/blacklist runs automatically in the background of the system). Verification via checksum
+🚫update ***EXE Radar Pro v3 (Beta)*** - when running an executable file (exe/msi/bat/...) a window will appear asking whether to run or exit it (user-defined Command-Line/whitelist/blacklist runs automatically in the background of the system). Verification via checksum
 
 🚫***Easy File Locker*** - disable reading/writing/deleting/hiding files/folders. Locking only works when Windows+SYS driver program is running (can be turned on/off via hotkeys/shortcuts without running the program - NirCmd). If a program bypasses protection, it's NTFS links*0 (some paths unlocked)
 
 🚫***🟦 NTFS Permissions Tools*** (DBC Studio) - data security management, bookmarks for quick access
 
-🚫Create a file instead of a folder
+🚫Create a file instead of a folder, deleting even system EXE/... files - these classic methods never fail
 
 🚫***Firewall*** - Outpost/TinyWall/Firewall App Blocker. The default Win firewall has rules stored here
 <br/>
