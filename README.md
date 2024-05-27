@@ -1,4 +1,6 @@
 ***Češtiny do her (2014 a starší)*** https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name
+<br/>
+Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Zahraničních abandonware stránek a různých archivů existuje, a vždy bude, spousta...
 
 🟨2* ***Autohotkey v1.1 scripts***
 
