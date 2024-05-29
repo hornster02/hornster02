@@ -19,11 +19,13 @@ Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávn
 
 ***🟦 BikMod v0.3e (Beta) + 🟦 bink2-libass*** - modifikovaná "binkw32.dll" knihovna, pomocí které se mohou načíst externí SRT titulky. ***🟦 RADTools*** - úprava BIK/SMK video souborů
 
-***MSI Afterburner+RTSS*** - překrytí obrazu - čas, HW monitoring, limit FPS/Frametime (klávesové zkratky), Scanline Sync, tray ikony. Omezením FPS se v některých hrách značně prodlouží nahrávací časy (jeden z nejhorších příkladů může být třeba Painkiller)
+***OpenAL, K-Lite Codec Pack*** - audio/video ovladače/kodeky. Užitečné asi jenom pro bezproblémový chod starších her
 
-***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) pro DX1-9 hry, možnost zvětšení rozhraní her při vysokých rozlišeních (např. rozlišení ve hře je 1280x720 a přes program se nastaví 1920x1080 = rozhraní bude velké jako v 720p, ale rozlišení bude 1080p) a vnutit hře nepodporovaná rozlišení, obnovovací frekvenci, limit FPS, AF filtrování textur... Od verze 2.55+ (2018+) v kombinaci s DX11+Radeon může nastat bug v podobě bílých textur (u novějších verzí z roku 2023+ je problém zřejmě už vyřešený). Pravý klik myší zpřístupní pokročilé možnosti. Pro zapnutí wrapperu se musí potřebné DLL soubory z podsložky dgVoodoo2 nakopírovat k (hlavnímu) EXE souboru hry a pak nakonfigurovat (dgVoodooCpl.exe) čímž se u EXE souboru hry vytvoří "dgVoodoo.conf". Příklad pro zachování ostrého (ne pixelovatého a ne rozmazaného přes AA) obrazu ve hrách s fixním rozlišením. ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear)
+***MSI Afterburner+RTSS*** - překrytí obrazu - čas, HW monitoring, limit FPS/Frametime (klávesové zkratky), Scanline Sync, tray ikony. Omezením FPS se v některých hrách značně prodlouží nahrávací časy (Painkiller/...)
 
-***🟦 4GB Patch*** - prolomení 2GB RAM limitu u 32-bit aplikací. Užitečné třeba u některých her (např. Gothic 3, který na limit narazí asi po 10-ti minutách) kdy se úpravou EXE souboru zvýší minimální FPS, o něco se zrychlí nahrávací časy a také při delším hraní nebude hrozit pád aplikace
+***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) pro DX1-9 hry, možnost zvětšení rozhraní her při vysokých rozlišeních (např. rozlišení ve hře je 1280x720 a přes program se nastaví 1920x1080 = rozhraní bude velké jako v 720p, ale rozlišení bude 1080p) a vnutit hře nepodporovaná rozlišení, obnovovací frekvenci, limit FPS, AF filtrování textur... Od verze 2.55+ (2018+) v kombinaci s DX11+Radeon může nastat bug v podobě bílých textur (u novějších verzí z roku 2023+ je problém zřejmě už vyřešený). Pravý klik myší zpřístupní pokročilé možnosti. Pro zapnutí wrapperu se musí potřebné DLL soubory z podsložky dgVoodoo2 nakopírovat k (hlavnímu) EXE souboru hry a pak nakonfigurovat (dgVoodooCpl.exe) čímž se u EXE souboru hry vytvoří "dgVoodoo.conf". Příklad pro zachování ostrého (ne pixelovatého a ne rozmazaného přes AA) obrazu ve hrách s fixním rozlišením - ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear)
+
+***🟦 4GB Patch*** - prolomení 2GB RAM limitu u 32-bit aplikací. Užitečné třeba u některých her kdy se úpravou EXE souboru zvýší minimální FPS, o něco se zrychlí nahrávací časy a také při delším hraní nebude hrozit pád aplikace
 
 ***ArgusMonitor, Speedfan*** - regulace otáček ventilátorů CPU+GPU+skříně a jejich křivky+vypínání
 
@@ -35,7 +37,9 @@ https://entechtaiwan.com/util/ps.shtm
 <br/>
 https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key.rar
 
-***🟦 Custom Resolution Utility*** - vytvoření vlastního rozlišení a obnovovací frekvence monitoru. Ideální také pro obejití limitu maximálního rozlišení u starých GPU snížením obnovovací frekvence - např. 2560x1080x54Hz na Radeon HD 4670 (2008 - 1920x1200x60Hz). Nebo pokud Win při změně rozlišení nastavuje nižší Hz než monitor podporuje, tak pokud se v CRU u nativního rozlišení nastaví maximální podporovaná obnovovací frekvence, tak by i nižší rozlišení měli být automaticky nastavovány s maximální obnovovací frekvencí (zapnutý ```GPU Scaling``` v Radeon Bloatware💩 může funkčnost narušit). Zaplnění všech "Detailed resolutions" slotů může vypnout Freesync v Radeon Bloatware💩. Další univerzální způsob vynucení vlastní obnovovací frekvence v DirectX aplikacích je v ```HKLM\SOFTWARE\Wow6432Node\Microsoft\DirectDraw``` a ```HKLM\SOFTWARE\Microsoft\DirectDraw``` vytvořit DWORLD hodnotu ```ForceRefreshRate``` a napsat konkrétní číslo v Hz (restart není nutný, změny se aktivují ihned)
+***🟦 Custom Resolution Utility*** - vytvoření vlastního rozlišení a obnovovací frekvence monitoru. Ideální také pro obejití limitu maximálního rozlišení u starých GPU snížením obnovovací frekvence - např. 2560x1080x54Hz na Radeon HD 4670 (2008 - 1920x1200x60Hz). Nebo pokud Win při změně rozlišení nastavuje nižší Hz než monitor podporuje, tak pokud se v CRU u nativního rozlišení nastaví maximální podporovaná obnovovací frekvence, tak by i nižší rozlišení měli být automaticky nastavovány s maximální obnovovací frekvencí (zapnutý ```GPU Scaling``` v Radeon Bloatware💩 může funkčnost narušit). Další možnost vynucení vlastní obnovovací frekvence v DirectX aplikacích je v ```HKLM\SOFTWARE\Wow6432Node\Microsoft\DirectDraw``` a ```HKLM\SOFTWARE\Microsoft\DirectDraw``` vytvořit DWORLD hodnotu ```ForceRefreshRate``` a napsat konkrétní číslo v Hz (restart není nutný, změny se aktivují ihned). Zaplnění všech "Detailed resolutions" slotů může vypnout Freesync v Radeon Bloatware💩
+
+***🟦 RefreshLock*** - asi nejuniverzálnější způsob vynucení nejvyšší podporované obnovovací frekvence monitoru. Funguje i v DirectX/Vulkan/OpenGL
 
 ***🟦 OverdriveNTool, 🟦 AMD GPU Clock Tool*** - napětí/frekvence pro Radeon - profily - klávesové zkratky/zástupce
 
@@ -242,7 +246,7 @@ Automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:
 
 ***🟦 Desktop VLocker*** - uzamčení systému
 
-Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info***
+Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info, MEmu***
 <br/>
 <br/>
 <br/>
@@ -260,11 +264,13 @@ Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info***
 
 ***🟦 BikMod v0.3e (Beta) + 🟦 bink2-libass*** - modified "binkw32.dll" library, which can be used to load external SRT subtitles. 🟦 RADTools - modification of BIK/SMK video files
 
-***MSI Afterburner+RTSS*** - screen overlay - time, HW monitoring, FPS/Frametime limit (hotkeys), Scanline Sync, tray icons. Limiting FPS will significantly increase loading times in some games (Painkiller being one of the worst examples)
+***OpenAL, K-Lite Codec Pack*** - audio/video drivers/codecs. Probably only useful for running older games smoothly
 
-***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) for DX1-9 games, possibility to enlarge the interface of games at high resolutions (e.g. the resolution in the game is 1280x720 and through the program it is set to 1920x1080 = the interface will be as big as in 720p, but the resolution will be 1080p) and force unsupported resolution into the game, refresh rate, FPS limit, AF texture filtering... Since version 2.55+ (2018+) in combination with DX11+Radeon, a bug in the form of white textures may occur (since 2023+ versions the problem seems to have been solved). Right mouse click will access advanced options. To enable the wrapper, the necessary DLL files from the dgVoodoo2 subfolder must be copied to the (main) EXE file of the game and then configured (dgVoodooCpl.exe) to create a "dgVoodoo.conf" for the EXE file of the game. An example for keeping the image sharp (not pixelated and not blurred through AA) in fixed resolution games.  ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear)
+***MSI Afterburner+RTSS*** - screen overlay - time, HW monitoring, FPS/Frametime limit (hotkeys), Scanline Sync, tray icons. Limiting FPS will significantly increase loading times in some games (Painkiller/...)
 
-***🟦 4GB Patch*** - breaking the 2GB RAM limit for 32-bit applications. Useful for some games (e.g. Gothic 3, which hits the limit after about 10 minutes) where modifying the EXE file will increase the minimum FPS, speed up loading times and also prevent the application from crashing when playing for a longer time
+***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) for DX1-9 games, possibility to enlarge the interface of games at high resolutions (e.g. the resolution in the game is 1280x720 and through the program it is set to 1920x1080 = the interface will be as big as in 720p, but the resolution will be 1080p) and force unsupported resolution into the game, refresh rate, FPS limit, AF texture filtering... Since version 2.55+ (2018+) in combination with DX11+Radeon, a bug in the form of white textures may occur (since 2023+ versions the problem seems to have been solved). Right mouse click will access advanced options. To enable the wrapper, the necessary DLL files from the dgVoodoo2 subfolder must be copied to the (main) EXE file of the game and then configured (dgVoodooCpl.exe) to create a "dgVoodoo.conf" for the EXE file of the game. An example for keeping the image sharp (not pixelated and not blurred through AA) in fixed resolution games - ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear)
+
+***🟦 4GB Patch*** - breaking the 2GB RAM limit for 32-bit applications. Useful for some games where modifying the EXE file will increase the minimum FPS, speed up loading times and also prevent the application from crashing when playing for a longer time
 
 ***ArgusMonitor, Speedfan*** - regulation of CPU+GPU+case fans speed and their curves+switching off
 
@@ -276,7 +282,9 @@ https://entechtaiwan.com/util/ps.shtm
 <br/>
 https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key.rar
 
-***🟦 Custom Resolution Utility*** - create a custom resolution and refresh rate for the monitor. Also ideal for bypassing the maximum resolution limit on old GPUs by lowering the refresh rate - e.g. 2560x1080x54Hz on Radeon HD 4670 (2008 - 1920x1200x60Hz). Or if Win sets a lower Hz than the monitor supports (when changing the resolution), then if the maximum supported refresh rate is set in CRU for the native resolution, then even lower resolutions should be automatically set with the maximum refresh rate (```GPU Scaling``` in Radeon Bloatware💩 can break the functionality). Filling up all "Detailed resolutions" slots can turn off Freesync in Radeon Bloatware💩. Another universal way to force a custom refresh rate in DirectX applications is to create a DWORLD value ```ForceRefreshRate``` in ```HKLM\SOFTWARE\Wow6432Node\Microsoft\DirectDraw``` and ```HKLM\SOFTWARE\Microsoft\DirectDraw``` and write a specific number in Hz (restart is not necessary, changes are activated immediately)
+***🟦 Custom Resolution Utility*** - create a custom resolution and refresh rate for the monitor. Also ideal for bypassing the maximum resolution limit on old GPUs by lowering the refresh rate - e.g. 2560x1080x54Hz on Radeon HD 4670 (2008 - 1920x1200x60Hz). Or if Win sets a lower Hz than the monitor supports (when changing the resolution), then if the maximum supported refresh rate is set in CRU for the native resolution, then even lower resolutions should be automatically set with the maximum refresh rate (```GPU Scaling``` in Radeon Bloatware💩 can break the functionality). Another option to force a custom refresh rate in DirectX applications is to create a DWORLD value ```ForceRefreshRate``` in ```HKLM\SOFTWARE\Wow6432Node\Microsoft\DirectDraw``` and ```HKLM\SOFTWARE\Microsoft\DirectDraw``` and write a specific number in Hz (restart is not necessary, changes are activated immediately). Filling up all "Detailed resolutions" slots can turn off Freesync in Radeon Bloatware💩
+
+***🟦 RefreshLock*** - probably the most universal way to force the highest supported monitor refresh rate. It also works in DirectX/Vulkan/OpenGL
 
 ***🟦 OverdriveNTool, 🟦 AMD GPU Clock Tool*** - voltage/frequency for Radeon - profiles - shortcuts/hotkeys
 
@@ -483,7 +491,7 @@ Automatic synchronization of two folders. ```c:\1``` is the source folder and ``
 
 ***🟦 Desktop VLocker*** - computer lock
 
-Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info***
+Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info, MEmu***
 <br/>
 <br/>
 <br/>
