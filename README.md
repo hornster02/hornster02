@@ -158,7 +158,7 @@ a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úp
 
 -je možné, že 7z nepodporuje NTFS souborový systém a neumí archivovat komplexnější data která obsahují různá zabezpečení a symbolické odkazy? Jak docílit archivace odkazu a ne dat na které se odkazuje a tím mimo jiné nerozbít datovou strukturu? Existuje na to nějaký spešl parametr v hloubi internetu? 🤦
 
--co tedy zbývá 7-Zip? Celkově lepší komprese a hlavně DALEKO širší podpora formátů (často jenom read-only, což ale není vůbec málo). Být zdarma je v této podobě asi nutnost...
+-co tedy zbývá 7-Zip? Celkově lepší komprese (ale horší než ***PeaZip***) a hlavně DALEKO širší podpora formátů (často jenom read-only, což ale není vůbec málo). Být zdarma (to ale může být WinRAR také) je v této podobě asi nutnost...
 
 ***🟦 WizTree*** - analýza místa na disku
 
@@ -413,7 +413,7 @@ and the forbidding of arbitrarily adding exceptions is easily done by adding and
 
 -is it possible that 7z doesn't support NTFS file system and can't archive more complex data that contains various security and symbolic links? How to achieve archiving the link and not the data it references and thus not break the data structure, among other things? Is there a special parameter for this in the deep web? 🤦
 
--so what's left of 7-Zip? Overall better compression and, most importantly, FAR wider format support (often read-only, but that's no small thing at all). Being free in this form is probably a necessity...
+-7-Zip has overall better compression (but worse than ***PeaZip***) and, most importantly, FAR wider format support (often read-only, but that's no small thing at all). Being free in this form is probably a necessity...
 
 ***🟦 WizTree*** - disk space analysis
 
