@@ -140,15 +140,25 @@ a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úp
 
 ***🟦 WinRAR*** - archivace dat. Výhody oproti 7-Zip
 <br/>
--záznam na opravu dat = poškozené archívy není nutné vícekrát stahovat či se smířit se ztrátou dat
-<br/>
+-záznam na opravu dat = poškozené archívy není nutné vícekrát stahovat či se smířit se ztrátou dat. Bez této základní funkce jsou všechny ostatní archivátory nepoužitelné
+
 -profily s různým nastavením. Automatizace (vybráním profilu se může okamžitě automaticky vytvořit třeba zašifrovaný archiv s aktuálním datem a konkrétními daty na předem určené místo)
-<br/>
+
 -nastavení ve složce programu = může plnohodnotně fungovat jako portable
-<br/>
+
 -velikost souborů v hlavním okně se nezobrazuje v nepřehledných/matoucích bytech
-<br/>
+
+-v hlavním okně je možné řadit data podle typu 😮
+
 -lepší "solid" komprese (násobně rychlejší a přesto může být výsledná velikost archivu klidně i o 50+% menší)
+
+-možnost vyloučit určité soubory/složky při vytváření archivů
+
+-možnost nekomprimovat určité soubory a tím urychlit proces
+
+-je možné, že 7z nepodporuje NTFS souborový systém a neumí archivovat komplexnější data která obsahují různá zabezpečení a symbolické odkazy? Jak docílit archivace odkazu a ne dat na které se odkazuje a tím mimo jiné nerozbít datovou strukturu? Existuje na to nějaký spešl parametr v hloubi internetu? 🤦
+
+-kdyby 7-Zip nebyl přeci jen lepší v celkové kompresi a hlavně v DALEKO širší podpoře formátů (často jenom read-only, což ale není vůbec málo), tak se není co divit, že je zadarmo...
 
 ***🟦 WizTree*** - analýza místa na disku
 
@@ -386,14 +396,24 @@ and the forbidding of arbitrarily adding exceptions is easily done by adding and
 ***🟦 WinRAR*** - data archiving. Advantages over 7-Zip
 <br/>
 -recovery record = no need to download damaged archives multiple times or accept data loss
-<br/>
+
 -profiles with different settings. Automation (by selecting a profile, for example, an encrypted archive with the current date and specific data can be automatically created to a predefined location)
-<br/>
+
 -settings in the program folder = can fully work as a portable app
-<br/>
+
 -the file sizes in the main window are not displayed in confusing bytes
-<br/>
+
+-in the main window it is possible to sort data by type 😮
+
 -better "solid" compression (many times faster and yet the resulting archive size can be 50+% smaller)
+
+-option to exclude certain files/folders when creating archives
+
+-option to uncompress certain files to speed up the process
+
+-is it possible that 7z doesn't support NTFS file system and can't archive more complex data that contains various security and symbolic links? How to achieve archiving the link and not the data it references and thus not break the data structure, among other things? Is there a special parameter for this in the deep web? 🤦
+
+-if 7-Zip wasn't better in overall compression and especially in FAR wider support of formats (often read-only, but that's no small thing at all), no wonder it's free...
 
 ***🟦 WizTree*** - disk space analysis
 
@@ -558,7 +578,7 @@ ovládání myši klávesnicí ```Num Lock``` - pohyb včetně šikmého```1235`
 
 ```LWin``` (CTRL+F). Držet (zobrazit hlavní panel bez nabídky Start - musí být nastavený na autohide). 2x stisknutí (skrýt hlavní panel)
 
-```menu``` (CTRL+C) , podržení (CTRL+V) , 2x stisknutí (CTRL+A)
+```menu``` (CTRL+C). Držet (CTRL+V). 2x stisknutí (CTRL+A)
 
 ```pause``` (ALT+F4) - pokud "SC" a "VK" čísla odpovídají vaší klávesnici, tak půjdou vypnout např. i hry, které mají tyto klávesy "zablokované". Podržení klávesy na 2 vteřiny standartně restartuje PC (ale bez ohledu na rozdělanou práci). Shutdown, 6 = "na sílu"
 
