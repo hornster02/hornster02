@@ -156,7 +156,7 @@ a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úp
 
 -možnost nekomprimovat určité soubory a tím urychlit proces
 
--je možné, že 7z nepodporuje NTFS souborový systém a neumí archivovat komplexnější data která obsahují různá zabezpečení a symbolické odkazy? Jak docílit archivace odkazu a ne dat na které se odkazuje a tím mimo jiné nerozbít datovou strukturu? Existuje na to nějaký spešl parametr v hloubi internetu? 🤦
+-je možné, že 7z nepodporuje NTFS souborový systém a neumí archivovat komplexnější data obsahující různá zabezpečení a symbolické odkazy? Jak docílit archivace odkazu a ne dat na která se odkazuje a tím mimo jiné nerozbít datovou strukturu? Existuje na to nějaký spešl parametr v hloubi internetu? 🤦
 
 -co tedy zbývá 7-Zip? Celkově lepší komprese (ale horší než ***🟦 PeaZip***) a hlavně DALEKO širší podpora formátů (často jenom read-only, což ale není vůbec málo). Být zdarma (to ale může být WinRAR také) je v této podobě asi nutnost...
 
