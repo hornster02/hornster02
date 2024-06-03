@@ -5,6 +5,8 @@ Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávn
 🟨2* ***Autohotkey v1.1 scripts***
 
 🟩1* ***Software for Windows. 🟦 PORTABLE - official or with the help of 🟦 7-Zip***
+<br/>
+Last "major" edit - PeaZip (Jun 2, 2024)
 
 ***Total Uninstall*** - sken systému (před/po spuštení/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
 
