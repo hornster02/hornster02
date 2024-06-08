@@ -113,13 +113,13 @@ a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úp
 <br/>
 -obnova systému se může provést i rozbalením na disk (7-Zip) a nakonec případně opravit boot (BootICE)
 
-Záloha systému se ale může provést i přes WinRAR (jsou to data jako každá jiná), výhody jsou
+Záloha systému se ale může provést i přes WinRAR (jsou to data jako každá jiná, jen pozor na NTFS zabezpečení a linky), výhody jsou
 <br/>
 -nezávislost na obskurních zálohovacích softwarech, univerzálnost
 <br/>
 -okamžitý přístup k datům, možnost obnovit třeba jen 1 soubor
 <br/>
--malý balíček dat díky vysoké kompresi
+-malý balíček dat díky vysoké kompresi (v mém případě je poměr 21% = 30,8GB systém / 6,5GB záloha)
 <br/>
 ⓿🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** - správa zabezpečení dat, záložky pro rychlý přístup
 
@@ -377,13 +377,13 @@ and the forbidding of arbitrarily adding exceptions is easily done by adding and
 <br/>
 -system recovery can also be done by extracting it to a disk (7-Zip) and finally repairing the boot if necessary (BootICE)
 
-System backup can also be done via WinRAR (it's data like any other), benefits are
+System backup can also be done via WinRAR (it's data like any other, just watch out for NTFS security and links), benefits are
 <br/>
 -independence on the obscure backup software, universality
 <br/>
 -immediate access to data, the possibility to restore, for example, only 1 file
 <br/>
--small data package thanks to high compression
+-small data package thanks to high compression (in my case the ratio is 21% = 30.8GB system / 6.5GB backup)
 <br/>
 ⓿🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** - data security management, bookmarks for quick access
 
