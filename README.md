@@ -121,7 +121,7 @@ Záloha systému se ale může provést i přes WinRAR (jsou to data jako každ�
 <br/>
 -malý balíček dat díky vysoké kompresi
 <br/>
-⓿🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** (DBC Studio) - správa zabezpečení dat, záložky pro rychlý přístup
+⓿🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** - správa zabezpečení dat, záložky pro rychlý přístup
 
 ***WinToUSB*** - tweak (v programu je to nazvané jako "konverze", ale jedná se jen o drobnou změnu v registru čímž se změní pořadí načítaných ovladačů při bootu) Win10+ díky kterému se dá systém spouštět i z externích médií přes USB = jeden systém se všemi programy+nastavením, který jde spustit na "jakémkoli" PC přes interní i externí disk (chybějící USB ovladače nebo IDE/AHCI mód atd. můžou být problém i když ne neřešitelný). Alternativa WinToUSB je úprava "BootDriverFlags" ```HKLM\SYSTEM\HardwareConfig\XXX``` na 0x14
 
@@ -385,7 +385,7 @@ System backup can also be done via WinRAR (it's data like any other), benefits a
 <br/>
 -small data package thanks to high compression
 <br/>
-⓿🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** (DBC Studio) - data security management, bookmarks for quick access
+⓿🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** - data security management, bookmarks for quick access
 
 ***WinToUSB*** - tweak (in the program it's called "conversion", but it's just a small change in the registry, which changes the order of loaded drivers at boot) Win10+, thanks to which the system can be booted from external media via USB = one system with all programs + settings, which can be run on "any" PC via internal or external disk (missing USB drivers or IDE/AHCI mode, etc. can be a problem, although not unsolvable). An alternative to WinToUSB is to change "BootDriverFlags" ```HKLM\SYSTEM\HardwareConfig\XXX``` to 0x14
 
