@@ -6,7 +6,7 @@ Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávn
 
 🟩1* ***Software for Windows. 🟦 PORTABLE - official or with the help of 🟦 7-Zip***
 <br/>
-Last "major" edit - PeaZip (Jun 2, 2024)
+Last "major" edit - PeaZip (Jun 2, 2024), AccessEnum (Jun 8, 2024)
 
 ***Total Uninstall*** - sken systému (před/po spuštení/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
 
@@ -79,11 +79,11 @@ místo XXX se napíše název potřebného klíče
 
 ***🟦 IObit Unlocker*** - odemknutí (NTFS zabezpečení nebo běžící proces) souborů/složek
 
-🚫update ***EXE Radar Pro v3 (Beta)*** - při spuštění spustitelného souboru (exe/msi/bat/...) se zobrazí okno s dotazem zda ho spustit nebo ukončit (uživatelem definovaný Command-Line/whitelist/blacklist probíhá automaticky v pozadí systému). Ověření přes kontrolní součet
+🚫update
+<br/>
+***EXE Radar Pro v3 (Beta)*** - při spuštění spustitelného souboru (exe/msi/bat/...) se zobrazí okno s dotazem zda ho spustit nebo ukončit (uživatelem definovaný Command-Line/whitelist/blacklist probíhá automaticky v pozadí systému). Ověření přes kontrolní součet
 
 🚫***Easy File Locker*** - zakázání čtení/zápisu/mazání/ skrytí souborů/složek. Zamknutí funguje jen když je spuštěný Windows+SYS ovladač programu (dá se zapínat/vypínat přes zástupce/klávesové zkratky bez nutnosti spouštět program - NirCmd). Pokud nějaký program obchází ochranu, tak za to můžou NTFS linky*0 (nezamknuté všechny cesty)
-
-🚫***🟦 NTFS Permissions Tools*** (DBC Studio) - správa zabezpečení dat, záložky pro rychlý přístup
 
 🚫Vytvoření souboru místo složky, mazání klidně i systémových EXE/... souborů - tyto klasické metody nikdy nezklamou
 
@@ -111,8 +111,17 @@ a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úp
 <br/>
 -test (7-Zip) nově vytvořené zálohy najde chyby (HDD - poškozené sektory), (CPU+RAM - vypnout kompresi při vytváření zálohy)
 <br/>
--obnova systému se může provést i rozbalením na disk (7-Zip) a nakonec případně opravit boot 
-(BootICE)
+-obnova systému se může provést i rozbalením na disk (7-Zip) a nakonec případně opravit boot (BootICE)
+
+Záloha systému se ale může provést i přes WinRAR (jsou to data jako každá jiná), výhody jsou
+<br/>
+-nezávislost na obskurních zálohovacích softwarech, univerzálnost
+<br/>
+-okamžitý přístup k datům, možnost obnovit třeba jen 1 soubor
+<br/>
+-malý balíček dat díky vysoké kompresi
+<br/>
+⓿🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** (DBC Studio) - správa zabezpečení dat, záložky pro rychlý přístup
 
 ***WinToUSB*** - tweak (v programu je to nazvané jako "konverze", ale jedná se jen o drobnou změnu v registru čímž se změní pořadí načítaných ovladačů při bootu) Win10+ díky kterému se dá systém spouštět i z externích médií přes USB = jeden systém se všemi programy+nastavením, který jde spustit na "jakémkoli" PC přes interní i externí disk (chybějící USB ovladače nebo IDE/AHCI mód atd. můžou být problém i když ne neřešitelný). Alternativa WinToUSB je úprava "BootDriverFlags" ```HKLM\SYSTEM\HardwareConfig\XXX``` na 0x14
 
@@ -334,11 +343,11 @@ instead of XXX, write the name of the required key
 
 ***🟦 IObit Unlocker*** - unlock (NTFS security or running process) files/folders
 
-🚫update ***EXE Radar Pro v3 (Beta)*** - when running an executable file (exe/msi/bat/...) a window will appear asking whether to run or exit it (user-defined Command-Line/whitelist/blacklist runs automatically in the background of the system). Verification via checksum
+🚫update
+<br/>
+***EXE Radar Pro v3 (Beta)*** - when running an executable file (exe/msi/bat/...) a window will appear asking whether to run or exit it (user-defined Command-Line/whitelist/blacklist runs automatically in the background of the system). Verification via checksum
 
 🚫***Easy File Locker*** - disable reading/writing/deleting/hiding files/folders. Locking only works when Windows+SYS driver program is running (can be turned on/off via hotkeys/shortcuts without running the program - NirCmd). If a program bypasses protection, it's NTFS links*0 (some paths unlocked)
-
-🚫***🟦 NTFS Permissions Tools*** (DBC Studio) - data security management, bookmarks for quick access
 
 🚫Create a file instead of a folder, deleting even system EXE/... files - these classic methods never fail
 
@@ -366,8 +375,17 @@ and the forbidding of arbitrarily adding exceptions is easily done by adding and
 <br/>
 -test (7-Zip) of the newly created backup finds errors (HDD - damaged sectors), (CPU+RAM - turn off compression when creating a backup)
 <br/>
--system recovery can also be done by extracting it to a disk (7-Zip) and finally repairing the boot if necessary
-(BootICE)
+-system recovery can also be done by extracting it to a disk (7-Zip) and finally repairing the boot if necessary (BootICE)
+
+System backup can also be done via WinRAR (it's data like any other), benefits are
+<br/>
+-independence on the obscure backup software, universality
+<br/>
+-immediate access to data, the possibility to restore, for example, only 1 file
+<br/>
+-small data package thanks to high compression
+<br/>
+⓿🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** (DBC Studio) - data security management, bookmarks for quick access
 
 ***WinToUSB*** - tweak (in the program it's called "conversion", but it's just a small change in the registry, which changes the order of loaded drivers at boot) Win10+, thanks to which the system can be booted from external media via USB = one system with all programs + settings, which can be run on "any" PC via internal or external disk (missing USB drivers or IDE/AHCI mode, etc. can be a problem, although not unsolvable). An alternative to WinToUSB is to change "BootDriverFlags" ```HKLM\SYSTEM\HardwareConfig\XXX``` to 0x14
 
@@ -534,7 +552,7 @@ hold ```F12``` on/off borderless fullscreen (useful for games)
 
 hold ```F11``` prevents mouse cursor from moving outside the active window - switch (useful for games)
 
-hold ```F10``` pause/resume (suspend) foreground processes. Useful in case of running a program with high demands on PC performance - there will be a significant reduction in power consumption/temperature/noise. 98% of programs/games should work without issue - for the rest you can expect various errors or crashes. The script can be useful for example when playing games on battery = 1 key completely stops the game at 0FPS and there is no need to turn it off. Perhaps a better alternative is the "Battle Encoder Shirasé" program which solves possible problems by limiting up to 99%. 100% (suspend) does not bring anything extra in real use (except for complete stop of SSD/network activity). The other 3 options (disabled by default) are (hold F10 = pause foreground process / 2x press resume process) and (hold F10 = pause listed processes - background or foreground / 2x press resume process) and (hold F10 = pause/resume listed processes - background or foreground)
+hold ```F10``` pause/resume (suspend) foreground processes. Useful in case of running a program with high demands on PC performance - there will be a significant reduction in power consumption/temperature/noise. 98% of programs/games should work without issue - for the rest you can expect various errors or crashes. The script can be useful for example when playing games on battery = 1 key completely stops the game at 0FPS and there is no need to turn it off. Perhaps a better alternative is the "Battle Encoder Shirasé" program which solves possible problems by limiting up to 99%. 100% (suspend) does not bring anything extra in real use (except for complete stop of SSD/network activity). The other 3 options (disabled by default) are (hold F10 = pause foreground process / 2x press resume process) and (hold F10 = pause listed processes - background or foreground / 2x press resume processes) and (hold F10 = pause/resume listed processes - background or foreground)
 
 Control Mouse with Keyboard ```Num Lock``` - movement including angled```1235```, left+middle+right button including drag and drop and double click```789```, wheeldown+up```46```, cursor movement to three specified positions```0```, 4th mouse button```.``` Easy speed and acceleration adjustment
 
