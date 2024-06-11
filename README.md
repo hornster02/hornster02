@@ -97,7 +97,7 @@ místo XXX se napíše název potřebného klíče
 <br/>
 a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úpravou oprávnění pro "Everyone" 
 
-🚫***🟦 NSudo*** - spouštění aplikací s nejvyššími právy. V kombinaci i s programem Autoruns je snadné se zbavit veškerého MS bloatwaru (aktualizace/služby/plánovače úloh/Defender/Edge/OneDrive/Slutana/...)
+🚫***🟦 NSudo*** - spouštění aplikací s nejvyššími právy. V kombinaci i s programem Autoruns je snadné se zbavit veškerého MS bloatwaru (aktualizace/služby/plánovače úloh/Defender/Edge/OneDrive/Slutana/StartMenu/...)
 
 🚫***🟦 Autoruns*** - automaticky spouštěné aplikace/knihovny/ovladače
 
@@ -361,7 +361,7 @@ instead of XXX, write the name of the required key
 <br/>
 and the forbidding of arbitrarily adding exceptions is easily done by adding and modifying the permissions for "Everyone"
 
-🚫***🟦 NSudo*** - run apps with the highest privileges. Combined with Autoruns it is easy to get rid of all MS bloatware (updates/services/task schedulers/Defender/Edge/OneDrive/Slutana/...) 
+🚫***🟦 NSudo*** - run apps with the highest privileges. Combined with Autoruns it is easy to get rid of all MS bloatware (updates/services/task schedulers/Defender/Edge/OneDrive/Slutana/StartMenu/...) 
 
 🚫***🟦 Autoruns*** - automatically launched applications/libraries/drivers
 
