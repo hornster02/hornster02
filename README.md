@@ -22,7 +22,7 @@ https://get.videolan.org/vlc/2.2.0/win32/vlc-2.2.0-win32.exe
 <br/>
 https://get.videolan.org/vlc/3.0.18/win32/vlc-3.0.18-win32.exe
 <br/>
-EXE soubory byly přes 7-Zip rozbaleny a všechny data kromě rozdílných byly smazány = zaměřil jsem se čistě na "patch" funkcionalitu - jak by řekl jeden klasik 😁 - je úplný nesmysl místo "zazipování" dat která se pouze kopírují vytvářet EXE soubor - instalátor - s češtinou (z hlediska bezpečnosti/univerzálnosti/velikosti/...). Výsledný patch byl oproti ISXPM o 24% větší. Mimochodem nepovažuji za šťastné rozhodnutí nutnost přejmenování přípon souborů a nasypání všech dat dohromady = ani prase se v tom nevyzná a data nejde mezi sebou porovnávat či je normálně používat...
+EXE soubory byly přes 7-Zip rozbaleny a všechny data kromě rozdílných byly smazány = zaměřil jsem se čistě na patch+kompresní funkcionalitu - jak by řekl jeden klasik 😁 - je úplný nesmysl místo "zazipování" dat která se pouze kopírují vytvářet EXE soubor - instalátor - s češtinou (z hlediska bezpečnosti/univerzálnosti/velikosti/...). Výsledný patch byl oproti ISXPM o 24% větší. Mimochodem nepovažuji za šťastné rozhodnutí nutnost přejmenování přípon souborů a nasypání všech dat dohromady = ani prase se v tom nevyzná a data nejde mezi sebou porovnávat či je normálně používat...
 
 <img width="941" alt="Inno Setup XDELTA Patch Maker" src="https://github.com/hornster02/hornster02/assets/127822397/91d7745e-6dd3-4c06-a382-794fbe422488">
 <br/>
