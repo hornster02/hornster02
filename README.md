@@ -1,6 +1,12 @@
 ***Češtiny do her (2014 a starší)*** https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name
 <br/>
 Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Zahraničních abandonware stránek a různých archivů existuje, a vždy bude, spousta...
+<br/>
+***Konečné seznamy překladů včetně odkazů a dalších podrobností (převzaty z pcgamingwiki.com)***. Kvůli vysokým nárokům na jejich zobrazení/generování je vyžadován účet + překlady není možné mít na jedné stránce a proto seznamy dávám k dispozici v offline HTML
+<br/>
+```CZ - profesionální 2000+ /// fanouškovské 1000+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀SK - profesionální 100+ /// fanouškovské 100+```
+<br/>
+Velikost 1MB (15.7.2024) ***https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar***
 
 🟨2* ***Autohotkey v1.1 scripts***
 
@@ -22,9 +28,9 @@ https://get.videolan.org/vlc/2.2.0/win32/vlc-2.2.0-win32.exe
 <br/>
 https://get.videolan.org/vlc/3.0.18/win32/vlc-3.0.18-win32.exe
 <br/>
-EXE soubory byly přes 7-Zip rozbaleny a všechna data kromě rozdílných byla smazána = zaměřil jsem se čistě na patch+kompresní funkcionalitu (je úplný nesmysl 😉 místo "zazipování" dat která se pouze kopírují vytvářet EXE instalátor s češtinou - z hlediska bezpečnosti/univerzálnosti/velikosti/...). Výsledný patch byl oproti ISXPM o 24% větší. Mimochodem nepovažuji za šťastné rozhodnutí nutnost přejmenování přípon souborů a nasypání všech dat dohromady = ani prase se v tom nevyzná a data nejde mezi sebou porovnávat či je normálně používat... A také se zdá, že CZMaker neumí vytvořit instalátor (v případě ISXPM se jedná o 1MB dat). Je možné, že je to kvůli vnucení další naprosto nezbytné aplikace CZ Manager? A ano, ISXPM umí bájnou metodu patch/insert. A ne, ani samotné stažené soubory by vám nebyly k ničemu, protože aplikace patche je možná i bez ISXPM - např. pro https://github.com/sisong/HDiffPatch se může použít tento příkaz ```hdiffz-x64.exe --patch "a:\stary\0.txt" "a:\patch\0.txt.xdelta" "a:\novy\0.txt"```
+EXE soubory byly přes 7-Zip rozbaleny a všechna data kromě rozdílných byla smazána = zaměřil jsem se čistě na patch+kompresní funkcionalitu (je úplný nesmysl 😉 místo "zazipování" dat která se pouze kopírují vytvářet EXE instalátor s češtinou - z hlediska bezpečnosti/univerzálnosti/velikosti/...). Výsledný patch byl oproti ISXPM o 24% větší (při druhém pokusu u EN/CZ verzí "Data1.fbz" hry Shadowgrounds byl nárůst 75%, třetí pokus by byl zbytečný). Mimochodem nepovažuji za šťastné rozhodnutí nutnost přejmenování přípon souborů a nasypání všech dat dohromady = ani prase se v tom nevyzná a data nejde mezi sebou porovnávat či je normálně používat... A také se zdá, že CZMaker neumí vytvořit instalátor (v případě ISXPM se jedná o 1MB dat). Je možné, že je to kvůli vnucení další naprosto nezbytné aplikace CZ Manager (který narozdíl od ISXPM vyžaduje i nainstalovaný .NET 8 a přístup k internetu - umožnění offline instalace češtin je prý zvrácená myšlenka...)? A ano, ISXPM umí bájnou metodu patch/insert. A ne, ani samotné stažené soubory by vám nebyly k ničemu, protože aplikace patche je možná i bez ISXPM - např. pro https://github.com/sisong/HDiffPatch se může použít tento příkaz ```hdiffz-x64.exe --patch "a:\stary\0.txt" "a:\patch\0.txt.xdelta" "a:\novy\0.txt"```
 <br/>
-[2/3] CZMaker (Jak dělat balíčky pro manager) https://youtu.be/fBQSt8eEe2Y
+[2/3] CZMaker (Jak dělat balíčky pro manager) https://youtu.be/fBQSt8eEe2Y (Pozor! Obsahuje dezinformace)
 
 <img width="941" alt="Inno Setup XDELTA Patch Maker" src="https://github.com/hornster02/hornster02/assets/127822397/91d7745e-6dd3-4c06-a382-794fbe422488">
 <br/>
