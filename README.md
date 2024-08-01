@@ -2,11 +2,11 @@
 <br/>
 Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Zahraničních abandonware stránek a různých archivů existuje, a vždy bude, spousta...
 <br/>
-***Konečné seznamy překladů včetně odkazů a dalších podrobností (převzaty z pcgamingwiki.com)***. Kvůli vysokým nárokům na jejich zobrazení/generování je vyžadován účet + překlady není možné mít na jedné stránce a proto seznamy dávám k dispozici v offline HTML
+***Konečné seznamy překladů včetně odkazů a dalších podrobností (optimalizovány pro Firefox2/Android4/768MB RAM)***. Kvůli vysokým nárokům na jejich zobrazení/generování je vyžadován PCGW účet + překlady není možné mít na jedné stránce a proto seznamy dávám k dispozici v offline HTML
 <br/>
-```CZ - profesionální 2000+ /// fanouškovské 1000+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀SK - profesionální 100+ /// fanouškovské 100+```
+```CZ - profesionální 2200+ /// fanouškovské 1400+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀SK - profesionální 100+ /// fanouškovské 300+```
 <br/>
-Velikost 1MB (15.7.2024) ***https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar***
+Velikost 1MB (1.8.2024) ***https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar***
 
 🟨2* ***Autohotkey v1.1 scripts***
 
