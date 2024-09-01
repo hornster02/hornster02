@@ -1,14 +1,14 @@
 ***[↗️ Češtiny do her (2014 a starší)](https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name)***. Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Zahraničních abandonware stránek a různých archivů existuje, a vždy bude, spousta...
 <br/>
-***[📥 Konečné seznamy překladů včetně odkazů a dalších podrobností (15.8.2024). Optimalizovány pro Firefox2/Android4/768MB RAM. Počet 💾 : 1](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)*** ```CZ - profesionální 2300+ /// fanouškovské 1600+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀SK - profesionální 100+ /// fanouškovské 400+```
+***[📥 Ultimátní seznamy CZ+SK překladů včetně odkazů a dalších podrobností (1.9.2024). Jdou otevřít i v zastaralých prohlížečích typu Firefox2, ale pro filtrování/řazení je třeba alespoň ~Firefox49+. Počet překladů: 10 000+ , počet 💾 : 1](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
 
 🟨2* ***Autohotkey v1.1 scripts***
 
 🟩1* ***Software for Windows. 🟦 PORTABLE - official or with the help of 🟦 7-Zip***
 <br/>
-Last "major" edit - PeaZip (Jun 2, 2024), AccessEnum (Jun 8, 2024)
+Last "major" edit - PeaZip (Jun 2, 2024), AccessEnum (Jun 8, 2024), tableManager (Sep 1, 2024)
 
-***Total Uninstall*** - sken systému (před/po spuštení/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
+***Total Uninstall*** - sken systému (před/po spuštění/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
 
 ***🟦 Inno Setup XDELTA Patch Maker*** - ideální třeba pro vytvoření patche s češtinou do hry, ze které "nejde" překlad vytáhnout (chybějící nástroje a různě chráněná herní data nebo překlad ve spouštěcích souborech atd.) - velikost takového patche je běžně o 70-99% menší než celá "warez" verze hry (a sdílení takového patche je pochopitelně i daleko jednodušší a méně ošemetné = nesourodé útržky dat nejsou warez). Pokud překlad vyžaduje i svoje konkrétní DLL+EXE+... soubory a vytvářený patch bude zamýšlený pro digitálně prodávanou hru, tak je dobré tyto soubory z cíle (např. STEAM verze) dočasně odebrat (tím při patchování dojde k obyčejnému zkopírování zdrojových souborů do cíle bez ohledu na jejich verzi = výsledný patch může být kompatibilní i s jinými verzemi typu GOG,MYABANDONWARE,...) = tyto soubory mají běžně velikost maximálně pár desítek MB a jdou dobře komprimovat, takže "patch" způsob by celkově přinesl úsporu dat pouze v rámci jednotek MB, ale pokud by se v cílové verzi v budoucnu změnil jediný bit (a že je to u digitálních produktů daleko pravděpodobnější/jednodušší než že dojde k úpravě samotných velkých herních dat), tak bude celý patch nefunkční. Pokud hra obsahuje stejné typy souborů lišící se v názvu nebo pokud jsou uložená v jiných složkách, tak pokud se tyto věci ručně sjednotí, tak výsledná velikost patche bude menší = nedojde pouze ke komprimaci celých dat, ale ke komprimaci rozdílných částí dat. Vytvořený patch bych zkusil aplikovat a pak porovnal data podle obsahu třeba v Total Commander (původní CZ verze/updatovaná EN-CZ verze) kvůli případné HW/SW chybě a tím pádem změněným=poškozeným datům (ale i před vytvářením patche je nejjistější metoda dvou nezávislých instalací stejné verze hry a porovnání dat). Spuštěný ISXPM vypadá strašně složitě, ale ve skutečnosti může patch vytvořit i naprostý laik (jediná menší komplikace ve vyjímečných případech může být nutnost CZ aktivovat přes nějaký klíč v registru nebo souborem mimo herní data) který si vystačí klidně i jen s řádky "Old version" a "Final version" - výše napsaná doporučení nejsou až tak důležitá, pokud člověk nelpí na univerzálnosti a co nejmenší velikosti patche
 <br/>
@@ -243,7 +243,9 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 <br/>
 ```"c:\Registry Workshop\RegWorkshopX64.exe" /g```
 
-***🟦 Notepad++*** - pokročilý poznámkový blok
+***🟦 Notepad++*** - regulární výraz
+<br/>
+-odstranit všechny znaky na řádcích pokud jich je 5 a méně ```^.{0,5}$```
 
 ***🟦 HEXelon Max 6*** - kalkulačka se třemi nezávislými "panely"
 
@@ -280,6 +282,8 @@ Automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:
 ***🟦 T-Clock*** - pokročilá náhrada výchozích tray hodin. Program s desítky let dlouhou historií a několika autory = možnosti nastavení a rozsah funkcí (které ani s hodinami nesouvisí) je nebývalý
 
 ***🟦 Desktop VLocker*** - uzamčení systému
+
+***[🟦 tableManager](https://github.com/pietrantonio91/tablemanager)*** - HTML tabulky, možnost řazení a filtrování ve vybraných sloupcích
 
 Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info, MEmu***
 <br/>
@@ -503,7 +507,9 @@ With the add-on ***DiskDir Extended*** you can create a data catalog ("pack file
 <br/>
 ```"c:\Registry Workshop\RegWorkshopX64.exe" /g```
 
-***🟦 Notepad++*** - advanced notepad
+***🟦 Notepad++*** - regular expression
+<br/>
+-remove all characters on lines if there are 5 or less ```^.{0,5}$```
 
 ***🟦 HEXelon Max 6*** - calculator with three independent "panels"
 
@@ -540,6 +546,8 @@ Automatic synchronization of two folders. ```c:\1``` is the source folder and ``
 ***🟦 T-Clock*** - advanced replacement of the default tray clock. A program with decades of history and several authors = the possibilities of settings and range of functions (not even related to the clock) is unprecedented
 
 ***🟦 Desktop VLocker*** - computer lock
+
+***[🟦 tableManager](https://github.com/pietrantonio91/tablemanager)*** - HTML tables, option of sorting and filtering in selected columns
 
 Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info, MEmu***
 <br/>
