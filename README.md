@@ -1,6 +1,6 @@
 ***[↗️ Češtiny do her (2014 a starší)](https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name)***. Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Zahraničních abandonware stránek a různých archivů existuje, a vždy bude, spousta...
 <br/>
-***[📥 Ultimátní seznamy CZ+SK překladů včetně odkazů a dalších podrobností (1.9.2024). Jdou otevřít i v zastaralých prohlížečích typu Firefox2, ale pro filtrování/řazení je třeba alespoň ~Firefox49+. Počet překladů: 10 000+ , počet 💾 : 1](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
+***[📥 Ultimátní seznamy CZ+SK překladů včetně odkazů a dalších podrobností (2024-09). Pro jejich otevření je třeba minimálně Firefox1 a pro filtrování/řazení ~49. Počet překladů: 10 000+ . Počet 💾 : 1](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
 
 🟨2* ***Autohotkey v1.1 scripts***
 
@@ -243,9 +243,11 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 <br/>
 ```"c:\Registry Workshop\RegWorkshopX64.exe" /g```
 
-***🟦 Notepad++*** - regulární výraz
+***🟦 Notepad++*** - hromadné označení vybraných řádků záložkami a jejich odstranění/zachování, hromadné odstranění řádků obsahující prázdné/žádné znaky, ... Regulární výrazy -
 <br/>
 -odstranit všechny znaky na řádcích pokud jich je 5 a méně ```^.{0,5}$```
+<br/>
+-odstranit 1 a 1 a vše mezi tím ```1.*?1```
 
 ***🟦 HEXelon Max 6*** - kalkulačka se třemi nezávislými "panely"
 
@@ -507,9 +509,11 @@ With the add-on ***DiskDir Extended*** you can create a data catalog ("pack file
 <br/>
 ```"c:\Registry Workshop\RegWorkshopX64.exe" /g```
 
-***🟦 Notepad++*** - regular expression
+***🟦 Notepad++*** - regular expressions -
 <br/>
 -remove all characters on lines if there are 5 or less ```^.{0,5}$```
+<br/>
+-remove 1 and 1 and everything between ```1.*?1```
 
 ***🟦 HEXelon Max 6*** - calculator with three independent "panels"
 
