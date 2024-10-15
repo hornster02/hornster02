@@ -1,12 +1,13 @@
-***[↗️ Češtiny do her (2014 a starší)](https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name)***. Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Zahraničních abandonware stránek a různých archivů existuje, a vždy bude, spousta...
+***[↗️ Češtiny do her (2014 a starší)](https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name)***. Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Zahraničních abandonware stránek a různých archivů existuje, a vždy bude, spousta... Neopravuji překlady pokud dojde k vydání patche/remasteru
 <br/>
 ***[📥 Ultimátní seznamy CZ+SK překladů včetně odkazů a dalších podrobností (2024-09). Pro jejich otevření je třeba minimálně Firefox1 a pro filtrování/řazení ~49. Počet překladů: 10 000+ . Počet 💾 : 1](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
+![cz+sk](https://github.com/user-attachments/assets/31c8472b-8d21-49a4-bdaf-a24b187d9b10)
 
 🟨2* ***Autohotkey v1.1 scripts***
 
 🟩1* ***Software for Windows. 🟦 PORTABLE - official or with the help of 🟦 7-Zip***
 <br/>
-Last "major" edit - PeaZip (Jun 2, 2024), AccessEnum (Jun 8, 2024), tableManager (Sep 1, 2024)
+Last "major" edit - PeaZip (Jun 2, 2024), AccessEnum (Jun 8, 2024), tableManager (Sep 1, 2024), SmartSteamEmu (Oct 15, 2024)
 
 ***Total Uninstall*** - sken systému (před/po spuštění/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
 
@@ -287,6 +288,8 @@ Automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:
 
 ***[🟦 tableManager](https://github.com/pietrantonio91/tablemanager)*** - HTML tabulky, možnost řazení a filtrování ve vybraných sloupcích
 
+***🟦 SmartSteamEmu*** - nenáročná alternativa Steam klienta (Game Booster). V mém případě se jedná o 1 vs. 48+ vteřin pro start programu a 40MB vs. 1,5GB (bez přístupu k internetu pro ```steamwebhelper.exe``` jinak by se jednalo o 2,5-3GB) spotřebované V+RAM
+
 Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info, MEmu***
 <br/>
 <br/>
@@ -553,6 +556,8 @@ Automatic synchronization of two folders. ```c:\1``` is the source folder and ``
 
 ***[🟦 tableManager](https://github.com/pietrantonio91/tablemanager)*** - HTML tables, option of sorting and filtering in selected columns
 
+***🟦 SmartSteamEmu*** - a lightweight alternative to the Steam client (Game Booster). In my case it is 1 vs. 48+ seconds for start program and 40MB vs. 1,5GB (without internet access for ```steamwebhelper.exe``` otherwise it would be 2,5-3GB) used V+RAM
+
 Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info, MEmu***
 <br/>
 <br/>
@@ -637,3 +642,6 @@ ovládání myši klávesnicí ```Num Lock``` - pohyb včetně šikmého```1235`
 podržení klávesy ```ě``` napíše "@" . Snadno se dají přidat desítky dalších kláves a díky tomu odpadne nutnost používat zdržující klávesové zkratky
 
 změnit gamma/kontrast/jas/hlasitost+zap+vyp/schéma napájení/frekvence/napětí/citlivost myši/rozlišení/síť/... A také přepínače skrčení+míření pro hry (vyhledej *01). Držení printscreen uloží obrázek na SSD. Může vyžadovat externí programy - NirCmd/DevManView/MSIAfterburner/OverdriveNTool/RawAccel/MouseSettingsChanger/PowerStrip/ClickMonitorDDC/...
+
+***[📥 Font Contrast HTML - option to change font color by HEX/slider/system dialog (Firefox~29+) or HEX only (Firefox9+)](https://github.com/hornster02/hornster02/raw/main/_FontContrastHTML.rar)***
+![font](https://github.com/user-attachments/assets/40807f87-8f6e-4713-8faa-80d69be6f4fb)
