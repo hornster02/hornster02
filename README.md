@@ -1,13 +1,13 @@
 ***[↗️ Češtiny do her (2014 a starší)](https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name)***. Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Zahraničních abandonware stránek a různých archivů existuje, a vždy bude, spousta... Neopravuji překlady pokud dojde k vydání patche/remasteru
 <br/>
-***[📥 Ultimátní seznamy CZ+SK překladů včetně odkazů a dalších podrobností (2024-09). Pro jejich otevření je třeba minimálně Firefox1 a pro filtrování/řazení ~49. Počet překladů: 10 000+ . Počet 💾 : 1](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
+***[📥 Ultimátní seznamy CZ+SK překladů včetně odkazů a dalších podrobností (2024-09). Pro jejich otevření je třeba minimálně Firefox2 a pro filtrování/řazení ~49. Počet překladů: 10 000+ . Počet 💾 : 1](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
 ![cz+sk](https://github.com/user-attachments/assets/31c8472b-8d21-49a4-bdaf-a24b187d9b10)
 
 🟨2* ***Autohotkey v1.1 scripts***
 
 🟩1* ***Software for Windows. 🟦 PORTABLE - official or with the help of 🟦 7-Zip***
 <br/>
-Last "major" edit - PeaZip (Jun 2, 2024), AccessEnum (Jun 8, 2024), tableManager (Sep 1, 2024), SmartSteamEmu (Oct 15, 2024)
+Last "major" edit - PeaZip (Jun 2, 2024), AccessEnum (Jun 8, 2024), tableManager (Sep 1, 2024), SmartSteamEmu (Oct 15, 2024), FAT32 Format GUI (Nov 1, 2024)
 
 ***Total Uninstall*** - sken systému (před/po spuštění/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
 
@@ -182,7 +182,7 @@ Záloha systému se ale může provést i přes WinRAR (jsou to data jako každ�
 
 -možnost nekomprimovat určité soubory a tím urychlit proces
 
--je možné, že 7z nepodporuje NTFS souborový systém a neumí archivovat komplexnější data obsahující různá zabezpečení a symbolické odkazy? Jak docílit archivace odkazu a ne dat na která se odkazuje a tím mimo jiné nerozbít datovou strukturu? Existuje na to nějaký spešl parametr v hloubi internetu? 🤦
+-je možné, že 7z nepodporuje NTFS souborový systém a neumí archivovat komplexnější data obsahující různá zabezpečení a symbolické odkazy? Jak docílit archivace odkazu a ne dat na která se odkazuje a tím mimo jiné nerozbít datovou strukturu?
 
 -co tedy zbývá 7-Zip? Celkově lepší komprese (ale horší než ***🟦 PeaZip***) a hlavně DALEKO širší podpora formátů (často jenom read-only, což ale není vůbec málo). Být zdarma (to ale může být WinRAR také a případná vyskakovací okna se mohou automaticky zavírat pomocí skriptu) je v této podobě asi nutnost...
 
@@ -198,13 +198,11 @@ Záloha systému se ale může provést i přes WinRAR (jsou to data jako každ�
 
 ***🟦 PortableWinCDEmu*** - virtuální mechanika
 
-***🟦 MiniTool Partition Wizard*** - může se hodit k FAT32 zformátování exFAT mSDXC karty (pokud je např. starý telefon nepodporuje)
+***🟦 FAT32 Format GUI*** - prolomení 32GB limitu při formátování
 
 ***🟦 Hard Disk Sentinel*** - monitoring disků+historie, S.M.A.R.T. testy, regulace hlučnosti (AAM), tray ikony (zdraví), možnost zakázání vypínání HDD při nečinnosti (aut. přístupem nebo APM)
 
 ***HDD Regenerator*** - oprava poškozených sektorů na HDD bez ztráty dat (Win/MS-DOS)
-
-***ISOBuster*** - záchrana dat
 
 ***🟦 Total Commander*** - rychlá/efektivní náhrada Průzkumníka/Plochy/NabídkyStart se spoustou funkcí navíc (vnitřní přidružení souborů včetně ikon, porovnání souborů podle obsahu, změna atributů, kopírování cest k datům do schránky, zobrazit/skrýt určité soubory/složky, kopírování souborů jenom s určitým datem se zachováním adresářové struktury, ověření nakopírovaných dat kvůli jejich případnému poškození, ... = nižší stovky klávesových zkratek). Pár užitečných "wincmd.ini" tweaků (první 2 jsou velmi důležité a moc nechápu, že program tak není nastaven v základu - první zrychlí/zpřehlední např. vyhledávání dat tím, že ignoruje NTFS linky = vyhledává data jak jsou zapsaná na disku a neukazuje "falešné duplikáty". Druhý kopíruje/přesunuje NTFS linky jako linky a ne jako soubory/složky)
 <br/>
@@ -450,7 +448,7 @@ System backup can also be done via WinRAR (it's data like any other, just watch 
 
 -option to uncompress certain files to speed up the process
 
--is it possible that 7z doesn't support NTFS file system and can't archive more complex data that contains various security and symbolic links? How to achieve archiving the link and not the data it references and thus not break the data structure, among other things? Is there a special parameter for this in the deep web? 🤦
+-is it possible that 7z doesn't support NTFS file system and can't archive more complex data that contains various security and symbolic links? How to achieve archiving the link and not the data it references and thus not break the data structure, among other things?
 
 -7-Zip has overall better compression (but worse than ***🟦 PeaZip***) and, most importantly, FAR wider format support (often read-only, but that's no small thing at all). Being free in this form is probably a necessity...
 
@@ -466,13 +464,11 @@ System backup can also be done via WinRAR (it's data like any other, just watch 
 
 ***🟦 PortableWinCDEmu*** - virtual drive
 
-***🟦 MiniTool Partition Wizard*** - may be useful for FAT32 formatting of exFAT mSDXC cards (if e.g. old phone does not support them)
+***🟦 FAT32 Format GUI*** - workaround 32GB limit
 
 ***🟦 Hard Disk Sentinel*** - disk monitoring+history, S.M.A.R.T. tests, noise control (AAM), tray icons (health), option to disable HDD shutdown when idle (auto access or APM)
 
 ***HDD Regenerator*** - repair corrupted sectors on HDD without data loss (Win/MS-DOS)
-
-***ISOBuster*** - data rescue
 
 ***🟦 Total Commander*** - fast/efficient replacement of Explorer/Desktop/Start Menu with lots of extra features (internal file association including icons, file comparison by content, change attributes, copy data paths to clipboard, show/hide certain files/folders, copying files with certain date while preserving the directory structure, verifying the copied data for possible damage, ... = lower hundreds of hotkeys). A few useful "wincmd.ini" tweaks (the first 2 are very important and I don't understand that the program is not set up that way in the base - the first one speeds up/transparent e.g. data search by ignoring NTFS links = searches for data as written on the disk and doesn't show "false duplicates". The second copies/moves NTFS links as links and not as files/folders)
 <br/>
@@ -643,5 +639,5 @@ podržení klávesy ```ě``` napíše "@" . Snadno se dají přidat desítky dal
 
 změnit gamma/kontrast/jas/hlasitost+zap+vyp/schéma napájení/frekvence/napětí/citlivost myši/rozlišení/síť/... A také přepínače skrčení+míření pro hry (vyhledej *01). Držení printscreen uloží obrázek na SSD. Může vyžadovat externí programy - NirCmd/DevManView/MSIAfterburner/OverdriveNTool/RawAccel/MouseSettingsChanger/PowerStrip/ClickMonitorDDC/...
 
-***[📥 Font Contrast HTML - option to change font color by HEX/slider/system dialog (Firefox~29+) or HEX only (Firefox9+)](https://github.com/hornster02/hornster02/raw/main/_FontContrastHTML.rar)***
+***[📥 Font Contrast HTML - option to change font color by HEX/slider/system dialog (Firefox29) or HEX only (9)](https://github.com/hornster02/hornster02/raw/main/_FontContrastHTML.rar)***
 ![font](https://github.com/user-attachments/assets/40807f87-8f6e-4713-8faa-80d69be6f4fb)
