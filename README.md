@@ -7,7 +7,7 @@
 
 🟩1* ***Software for Windows. 🟦 PORTABLE - official or with the help of 🟦 7-Zip***
 <br/>
-Last "major" edit - PeaZip (Jun 2, 2024), AccessEnum (Jun 8, 2024), tableManager (Sep 1, 2024), SmartSteamEmu (Oct 15, 2024), FAT32 Format GUI (Nov 1, 2024)
+Last "major" edit - PeaZip (Jun 2, 2024), AccessEnum (Jun 8, 2024), tableManager (Sep 1, 2024), SmartSteamEmu (Oct 15, 2024), FAT32 Format GUI (Nov 1, 2024), SCURLed (Nov 15, 2024)
 
 ***Total Uninstall*** - sken systému (před/po spuštění/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
 
@@ -15,7 +15,7 @@ Last "major" edit - PeaZip (Jun 2, 2024), AccessEnum (Jun 8, 2024), tableManager
 <br/>
 ***[📥 Přednastavený konfigurační soubor](https://github.com/hornster02/hornster02/raw/main/_ISXPM-2.6.4.3-CONFIG-2024-03.rar)*** (stačí ho jen načíst přes "LOAD PROJECT") zaměřený na ještě menší velikost patche (rozdíl může být až v desítkách %). Využití RAM paměti bude běžně mezi 10-20GB (nezáleží na počtu souborů, ale čím větší je soubor tím vyšší bude spotřeba RAM = 1GB soubor na obou stranách=cca 6GB RAM) - v případě nároků na RAM převyšující možnosti systému se může proces zpomalit a zároveň zachovat vysokou kompresi snížením počtu "Generating cores". "Compression" v sekci "Patch Options" je vypnutá - komprimuje nezpracované ne-XDELTA soubory (ISXPM v tomto ohledu zřejmě nepodporuje větší možnosti nastavení a ani ta nejvyšší "lzma2/ultra64" není dostatečně dobrá = vyšší komprese se dosáhne zabalením celého patche přes 7-Zip)
 
-V roce 2024 vznikla jakási česká alternativa tohoto programu. ***🟦 CZMaker*** (navzdory nepodpoře funguje i ve Win7 - i když jen spuštění programu spotřebuje 4,3GB RAM) https://lokalizace.net/aplikace-ke-stazeni
+V roce 2024 vznikla jakási česká alternativa tohoto programu. ***🟦 CZMaker*** (navzdory nepodpoře funguje i ve Win7) https://lokalizace.net/aplikace-ke-stazeni
 <br/>
 Provedl jsem malý benchmark s těmito soubory
 <br/>
@@ -23,7 +23,7 @@ https://get.videolan.org/vlc/2.2.0/win32/vlc-2.2.0-win32.exe
 <br/>
 https://get.videolan.org/vlc/3.0.18/win32/vlc-3.0.18-win32.exe
 <br/>
-EXE soubory byly přes 7-Zip rozbaleny a všechna data kromě rozdílných byla smazána = zaměřil jsem se čistě na patch+kompresní funkcionalitu (je úplný nesmysl 😉 místo "zazipování" dat která se pouze kopírují vytvářet EXE instalátor s češtinou - z hlediska bezpečnosti/univerzálnosti/velikosti/...). Výsledný patch byl oproti ISXPM o 24% větší (při druhém pokusu u EN/CZ verzí "Data1.fbz" hry Shadowgrounds byl nárůst 75%, třetí pokus by byl zbytečný). Mimochodem nepovažuji za šťastné rozhodnutí nutnost přejmenování přípon souborů a nasypání všech dat dohromady = ani prase se v tom nevyzná a data nejde mezi sebou porovnávat či je normálně používat... A také se zdá, že CZMaker neumí vytvořit instalátor (v případě ISXPM se jedná o 1MB dat). Je možné, že je to kvůli vnucení další naprosto nezbytné aplikace CZ Manager (který narozdíl od ISXPM vyžaduje i nainstalovaný .NET 8 a přístup k internetu - umožnění offline instalace češtin je prý zvrácená myšlenka...)? A ano, ISXPM umí bájnou metodu patch/insert. A ne, ani samotné stažené soubory by vám nebyly k ničemu, protože aplikace patche je možná i bez ISXPM - např. pro https://github.com/sisong/HDiffPatch se může použít tento příkaz ```hdiffz-x64.exe --patch "a:\stary\0.txt" "a:\patch\0.txt.xdelta" "a:\novy\0.txt"```
+EXE soubory byly přes 7-Zip rozbaleny a všechna data kromě rozdílných byla smazána = zaměřil jsem se čistě na patch+kompresní funkcionalitu (je úplný nesmysl 😉 místo "zazipování" dat která se pouze kopírují vytvářet EXE instalátor s češtinou - z hlediska bezpečnosti/univerzálnosti/velikosti/...). Výsledný patch byl oproti ISXPM o 24% větší (při druhém pokusu u EN/CZ verzí "Data1.fbz" hry Shadowgrounds byl nárůst 75%, třetí pokus by byl zbytečný). Mimochodem nepovažuji za šťastné rozhodnutí nutnost přejmenování přípon souborů a nasypání všech dat dohromady = ani prase se v tom nevyzná a data nejde mezi sebou porovnávat či je normálně používat... A také se zdá, že CZMaker neumí vytvořit instalátor (v případě ISXPM se jedná o 1MB dat). Je možné, že je to kvůli vnucení další naprosto nezbytné aplikace CZ Manager? (který narozdíl od ISXPM vyžaduje i nainstalovaný .NET 8 a přístup k internetu - umožnění offline instalace češtin je prý zvrácená myšlenka... Zřejmě se jedná o jakousi formu DRM pro překlady - i když samozřejmě že všechny jdou ripnout do více future-proof a komprimovanějšího offline formátu). A ano, ISXPM umí bájnou metodu patch/insert. A ne, ani samotné stažené soubory by vám nebyly k ničemu, protože aplikace patche je možná i bez ISXPM - např. pro https://github.com/sisong/HDiffPatch se může použít tento příkaz ```hdiffz-x64.exe --patch "a:\stary\0.txt" "a:\patch\0.txt.xdelta" "a:\novy\0.txt"```
 <br/>
 [2/3] CZMaker (Jak dělat balíčky pro manager) https://youtu.be/fBQSt8eEe2Y (Pozor! Obsahuje dezinformace)
 
@@ -287,6 +287,8 @@ Automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:
 ***[🟦 tableManager](https://github.com/pietrantonio91/tablemanager)*** - HTML tabulky, možnost řazení a filtrování ve vybraných sloupcích
 
 ***🟦 SmartSteamEmu*** - nenáročná alternativa Steam klienta (Game Booster). V mém případě se jedná o 1 vs. 48+ vteřin pro start programu a 40MB vs. 1,5GB (bez přístupu k internetu pro ```steamwebhelper.exe``` jinak by se jednalo o 2,5-3GB) spotřebované V+RAM
+
+***🟦 SCURLed*** - hromadná úprava LNK/URL zástupců
 
 Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info, MEmu***
 <br/>
@@ -554,6 +556,8 @@ Automatic synchronization of two folders. ```c:\1``` is the source folder and ``
 
 ***🟦 SmartSteamEmu*** - a lightweight alternative to the Steam client (Game Booster). In my case it is 1 vs. 48+ seconds for start program and 40MB vs. 1,5GB (without internet access for ```steamwebhelper.exe``` otherwise it would be 2,5-3GB) used V+RAM
 
+***🟦 SCURLed*** - mass editing of LNK/URL shortcuts
+
 Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info, MEmu***
 <br/>
 <br/>
@@ -607,7 +611,7 @@ change gamma/contrast/brightness/volume/mute/unmute/power plan/frequencies/volta
 
 -DŮLEŽITÉ - AHK soubor je zřejmě potřeba spustit přes "AutoHotkeyU64.exe" a ne přes výchozí "AutoHotkey.exe" (error)
 
-AHK soubor v archivu se dá otevřít v poznámkovém bloku (nebo pokud je Autohotkey v PC nainstalován, tak rovnou spustit jako obyčejný EXE soubor). Skript nemá - kromě funkce "WindowSpy" - žádné uživatelské rozhraní. AHK obsahuje návod pro začátečníky a pár funkčních skriptů jako jsou
+AHK soubor v archivu se dá otevřít v poznámkovém bloku (nebo pokud je Autohotkey v PC nainstalován, tak rovnou spustit jako obyčejný EXE soubor). Skript nemá - kromě funkce "WindowSpy" - žádné uživatelské rozhraní. AHK obsahuje návod pro začátečníky (globální zkratky, nebo několik funkcí na jedné klávese v rámci jednoho programu pomocí class a window title) a pár funkčních skriptů jako jsou
 
 podržení ```F12``` zapne/vypne fullscreen - přepínač (užitečné pro hry)
 
