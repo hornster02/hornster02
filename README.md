@@ -7,7 +7,7 @@
 
 🟩1* ***Software for Windows. 🟦 PORTABLE - official or with the help of 🟦 7-Zip***
 <br/>
-Last "major" edit - PeaZip (Jun 2, 2024), AccessEnum (Jun 8, 2024), tableManager (Sep 1, 2024), SmartSteamEmu (Oct 15, 2024), FAT32 Format GUI (Nov 1, 2024), SCURLed (Nov 15, 2024)
+Last "major" edit - PeaZip (Jun 2, 2024), AccessEnum (Jun 8, 2024), tableManager (Sep 1, 2024), SmartSteamEmu (Oct 15, 2024), FAT32 Format GUI (Nov 1, 2024), SCURLed (Nov 15, 2024), WinSetView (Dec 15, 2024)
 
 ***Total Uninstall*** - sken systému (před/po spuštění/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
 
@@ -112,9 +112,9 @@ místo XXX se napíše název potřebného klíče
 <br/>
 a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úpravou oprávnění pro "Everyone" 
 
-🚫***🟦 NSudo*** - spouštění aplikací s nejvyššími právy. V kombinaci i s programem Autoruns je snadné se zbavit veškerého MS bloatwaru (aktualizace/služby/plánovače úloh/Defender/Edge/OneDrive/Slutana/StartMenu/...)
-
 🚫***🟦 Autoruns*** - automaticky spouštěné aplikace/knihovny/ovladače
+
+🚫***🟦 NSudo*** - spouštění aplikací s nejvyššími právy. V kombinaci i s programem Autoruns je snadné se zbavit veškerého MS bloatwaru (aktualizace/služby/plánovače úloh/Defender/Edge/OneDrive/Slutana/StartMenu/...)
 
 ❶***🟦 BootICE*** - vytvoření bootovacího média bez formátování a ztráty dat (MBR/PBR pro HDD/SSD/USB), úprava Windows souborů BCD/UEFI (multiboot, změna systémové partition, ...), skrytí/aktivace partition
 
@@ -170,7 +170,7 @@ Záloha systému se ale může provést i přes WinRAR (jsou to data jako každ�
 
 -profily s různým nastavením. Automatizace (vybráním profilu se může okamžitě automaticky vytvořit třeba zašifrovaný archiv s aktuálním datem a konkrétními daty na předem určené místo)
 
--nastavení ve složce programu = může plnohodnotně fungovat jako portable
+-nastavení ve složce programu = může plnohodnotně fungovat jako portable ```WinRAR.ini``` Global\AppData=0
 
 -velikost souborů v hlavním okně se nezobrazuje v nepřehledných/matoucích bytech
 
@@ -247,6 +247,10 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 -odstranit všechny znaky na řádcích pokud jich je 5 a méně ```^.{0,5}$```
 <br/>
 -odstranit 1 a 1 a vše mezi tím ```1.*?1```
+<br/>
+-najít 1 a vložit prázdný řádek ```(?-s)1.*``` ```$0\r\n```
+<br/>
+-vložit text na prázdný řádek ```^$```
 
 ***🟦 HEXelon Max 6*** - kalkulačka se třemi nezávislými "panely"
 
@@ -289,6 +293,16 @@ Automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:
 ***🟦 SmartSteamEmu*** - nenáročná alternativa Steam klienta (Game Booster). V mém případě se jedná o 1 vs. 48+ vteřin pro start programu a 40MB vs. 1,5GB (bez přístupu k internetu pro ```steamwebhelper.exe``` jinak by se jednalo o 2,5-3GB) spotřebované V+RAM
 
 ***🟦 SCURLed*** - hromadná úprava LNK/URL zástupců
+
+***🟦 WinSetView*** - globální úpravy průzkumníku💩 Windows
+
+***🟦 PortableApps.com*** - příklady nastavení
+<br/>
+-vypnout logo - ```Data\soffice.ini``` Logo=0
+<br/>
+-spustit minimalizovaně do tray bez (G)UI - ```Run, c:\uTorrentPortable.exe,,hide``` (AHK) + ```App\AppInfo\Launcher\uTorrentPortable.ini``` (```[Launch]``` ```ProgramExecutable=uTorrent\uTorrent.exe``` ```CommandLineArguments=/MINIMIZED```)
+<br/>
+-*Portable.exe nemusí být nutně v pozadí systému spuštěný
 
 Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info, MEmu***
 <br/>
@@ -380,9 +394,9 @@ instead of XXX, write the name of the required key
 <br/>
 and the forbidding of arbitrarily adding exceptions is easily done by adding and modifying the permissions for "Everyone"
 
-🚫***🟦 NSudo*** - run apps with the highest privileges. Combined with Autoruns it is easy to get rid of all MS bloatware (updates/services/task schedulers/Defender/Edge/OneDrive/Slutana/StartMenu/...) 
-
 🚫***🟦 Autoruns*** - automatically launched applications/libraries/drivers
+
+🚫***🟦 NSudo*** - run apps with the highest privileges. Combined with Autoruns it is easy to get rid of all MS bloatware (updates/services/task schedulers/Defender/Edge/OneDrive/Slutana/StartMenu/...)
 
 ❶***🟦 BootICE*** - create bootable media without formatting and data loss (MBR/PBR for HDD/SSD/USB), modify Windows BCD/UEFI files (multiboot, change system partition, ...), hide/activate partition
 
@@ -438,7 +452,7 @@ System backup can also be done via WinRAR (it's data like any other, just watch 
 
 -profiles with different settings. Automation (by selecting a profile, for example, an encrypted archive with the current date and specific data can be automatically created to a predefined location)
 
--settings in the program folder = can fully work as a portable app
+-settings in the program folder = can fully work as a portable app ```WinRAR.ini``` Global\AppData=0
 
 -the file sizes in the main window are not displayed in confusing bytes
 
@@ -515,6 +529,10 @@ With the add-on ***DiskDir Extended*** you can create a data catalog ("pack file
 -remove all characters on lines if there are 5 or less ```^.{0,5}$```
 <br/>
 -remove 1 and 1 and everything between ```1.*?1```
+<br/>
+-find 1 and insert empty line ```(?-s)1.*``` ```$0\r\n```
+<br/>
+-insert text on empty line ```^$```
 
 ***🟦 HEXelon Max 6*** - calculator with three independent "panels"
 
@@ -557,6 +575,16 @@ Automatic synchronization of two folders. ```c:\1``` is the source folder and ``
 ***🟦 SmartSteamEmu*** - a lightweight alternative to the Steam client (Game Booster). In my case it is 1 vs. 48+ seconds for start program and 40MB vs. 1,5GB (without internet access for ```steamwebhelper.exe``` otherwise it would be 2,5-3GB) used V+RAM
 
 ***🟦 SCURLed*** - mass editing of LNK/URL shortcuts
+
+***🟦 WinSetView*** - Windows explorer💩 global customizations
+
+***🟦 PortableApps.com*** - setting examples
+<br/>
+-disable logo - ```Data\soffice.ini``` Logo=0
+<br/>
+-run minimized in tray without (G)UI - ```Run, c:\uTorrentPortable.exe,,hide``` (AHK) + ```App\AppInfo\Launcher\uTorrentPortable.ini``` (```[Launch]``` ```ProgramExecutable=uTorrent\uTorrent.exe``` ```CommandLineArguments=/MINIMIZED```)
+<br/>
+-*Portable.exe is not necessarily required to be running in the system background
 
 Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info, MEmu***
 <br/>
