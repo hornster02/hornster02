@@ -1,13 +1,22 @@
+***[📥 android Epyc Bloatware List (Firefox2+ or 49+ for sorting/filtering) + 🟦 ADB AppControl presets](https://github.com/hornster02/hornster02/raw/main/android.rar)***
+<br/>
+```Question``` What is the purpose of this list?
+<br/>
+```Answer``` Bootloop free phone... I hope. Nothing less nothing more
+<br/>
+Remaining SYS Apps ```10```/```19``` (android4/9)
+<img width="720" alt="4+9" src="https://github.com/user-attachments/assets/6a59c170-fbd6-46d3-abf2-8a66e8118f92" />
+
 ***[↗️ Češtiny do her (2014 a starší)](https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name)***. Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Zahraničních abandonware stránek a různých archivů existuje, a vždy bude, spousta... Neopravuji překlady pokud dojde k vydání patche/remasteru
 <br/>
-***[📥 Ultimátní seznamy CZ+SK překladů včetně odkazů a dalších podrobností (2024-09). Pro jejich otevření je třeba minimálně Firefox2 a pro filtrování/řazení ~49. Počet překladů: 10 000+ . Počet 💾 : 1](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
+***[📥 Ultimátní seznamy CZ+SK překladů včetně odkazů a dalších podrobností (2024-09). Počet překladů: 10 000+ . Počet 💾 : 1](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
 ![cz+sk](https://github.com/user-attachments/assets/31c8472b-8d21-49a4-bdaf-a24b187d9b10)
 
 🟨2* ***Autohotkey v1.1 scripts***
 
 🟩1* ***Software for Windows. 🟦 PORTABLE - official or with the help of 🟦 7-Zip***
 <br/>
-Last "major" edit - PeaZip (Jun 2, 2024), AccessEnum (Jun 8, 2024), tableManager (Sep 1, 2024), SmartSteamEmu (Oct 15, 2024), FAT32 Format GUI (Nov 1, 2024), SCURLed (Nov 15, 2024), WinSetView (Dec 15, 2024)
+```What's new``` - PeaZip (Jun 2, 2024), AccessEnum (Jun 8, 2024), tableManager (Sep 1, 2024), SmartSteamEmu (Oct 15, 2024), FAT32 Format GUI (Nov 1, 2024), SCURLed (Nov 15, 2024), WinSetView (Dec 15, 2024)
 
 ***Total Uninstall*** - sken systému (před/po spuštění/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
 
@@ -238,7 +247,7 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 <br/>
 ```c:\BES\BES.exe -J "C:\FileActivityWatch\FileActivityWatch.exe" 90 -m "c:\Deus Ex\System\DeusEx.exe" 10 -m```
 
-***🟦 Registry Workshop*** - pokročilá náhrada výchozího "Regedit". Load Hive slouží pro načtení externího registru - je možné ho upravovat. Integrace s programem ***Total Uninstall*** se v jeho nastavení provede tímto příkazem (příklad) -
+***🟦 Registry Workshop*** - pokročilá náhrada výchozího "Regedit". Load Hive slouží pro načtení externího registru - je možné ho upravovat. Integrace s programem ***Total Uninstall*** se v jeho nastavení provede tímto příkazem -
 <br/>
 ```"c:\Registry Workshop\RegWorkshopX64.exe" /g```
 
@@ -250,7 +259,7 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 <br/>
 -najít 1 a vložit prázdný řádek ```(?-s)1.*``` ```$0\r\n```
 <br/>
--vložit text na prázdný řádek ```^$```
+-vložit 1 na prázdný řádek ```^$``` ```1```
 
 ***🟦 HEXelon Max 6*** - kalkulačka se třemi nezávislými "panely"
 
@@ -270,7 +279,7 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 
 ***🟦 Process Monitor+🟦 FileActivityWatch*** - aktivity spuštěných procesů - detailní seznam přístupů na SSD/registru/sítě
 
-***KernelEX/One-Core-API/Extended Kernel for Windows Vista/VxKex*** - možnost spustit novější aplikace v nepodporovaném systému (compatiblity layer). Třeba Firefox 52 (2017) ve Win98 
+***KernelEX/One-Core-API/Extended Kernel for Windows Vista/VxKex*** - možnost spustit novější aplikace v nepodporovaném systému (compatibility layer). Třeba Firefox 52 (2017) ve Win98 
 
 ***🟦 HxD+CFF Explorer+🟦 Resource Hacker*** - úpravy spustitelných souborů a jiné
 
@@ -294,7 +303,7 @@ Automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:
 
 ***🟦 SCURLed*** - hromadná úprava LNK/URL zástupců
 
-***🟦 WinSetView*** - globální úpravy průzkumníku💩 Windows
+***🟦 WinSetView*** - globální úpravy průzkumníku💩 Windows - může snížit spotřebu RAM o desítky MB (explorer.exe)
 
 ***🟦 PortableApps.com*** - příklady nastavení
 <br/>
@@ -304,7 +313,6 @@ Automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:
 <br/>
 -*Portable.exe nemusí být nutně v pozadí systému spuštěný
 
-Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info, MEmu***
 <br/>
 <br/>
 <br/>
@@ -326,9 +334,9 @@ Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info, MEmu***
 
 ***MSI Afterburner+RTSS*** - screen overlay - time, HW monitoring, FPS/Frametime limit (hotkeys), Scanline Sync, tray icons. Limiting FPS will significantly increase loading times in some games (Painkiller/...)
 
-***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) for DX1-9 games, possibility to enlarge the interface of games at high resolutions (e.g. the resolution in the game is 1280x720 and through the program it is set to 1920x1080 = the interface will be as big as in 720p, but the resolution will be 1080p) and force unsupported resolution into the game, refresh rate, FPS limit, AF texture filtering... Since version 2.55+ (2018+) in combination with DX11+Radeon, a bug in the form of white textures may occur (since 2023+ versions the problem seems to have been solved). Right mouse click will access advanced options. To enable the wrapper, the necessary DLL files from the dgVoodoo2 subfolder must be copied to the (main) EXE file of the game and then configured (dgVoodooCpl.exe) to create a "dgVoodoo.conf" for the EXE file of the game. An example for keeping the image sharp (not pixelated and not blurred through AA) in fixed/limited resolution games - ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear)
+***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) for DX1-9 games, option to enlarge interface of games at high resolutions (e.g. resolution in game is 1280x720 and through program it is set to 1920x1080 = interface will be big as in 720p, but resolution will be 1080p) and force unsupported resolution into the game (+refresh rate/FPS limit/AF texture filtering/...). Right mouse click opens advanced options. To enable wrapper, the necessary DLL files from dgVoodoo2 subfolder must be copied to (main) EXE file of the game and then configured (dgVoodooCpl.exe) = "dgVoodoo.conf" will be created. An example for keeping image sharp (not pixelated and not blurred through AA) in fixed/limited resolution games - ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear)
 
-***🟦 4GB Patch*** - breaking the 2GB RAM limit for 32-bit applications. Useful for some games where modifying the EXE file will increase the minimum FPS, speed up loading times and also prevent the application from crashing when playing for a longer time
+***🟦 4GB Patch*** - 2GB RAM limit workaround for 32-bit applications. Useful for some games where modifying EXE file increase minimum FPS, speed up loading times and also prevent app from crashing when playing for a longer time
 
 ***ArgusMonitor, Speedfan*** - regulation of CPU+GPU+case fans speed and their curves+switching off
 
@@ -336,9 +344,9 @@ Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info, MEmu***
 
 ***[📥 PowerStrip](https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key.rar)*** - software change brightness/contrast/gamma - profiles - hotkeys. Works in games too (windowed/borderless seamless, but in fullscreen some games don't allow changes - but for example in ```dgVoodoo2``` these changes can be forced - Output API / Inherit Color Profile...) https://entechtaiwan.com/util/ps.shtm
 
-***🟦 Custom Resolution Utility*** - create a custom resolution and refresh rate for the monitor. Also ideal for bypassing the maximum resolution limit on old GPUs by lowering the refresh rate - e.g. 2560x1080x54Hz on Radeon HD 4670 (2008 - 1920x1200x60Hz). Or if Win sets a lower Hz than the monitor supports (when changing the resolution), then if the maximum supported refresh rate is set in CRU for the native resolution, then even lower resolutions should be automatically set with the maximum refresh rate (```GPU Scaling``` in Radeon Bloatware💩 can break the functionality). Another option to force a custom refresh rate in DirectX applications is to create a DWORLD value ```ForceRefreshRate``` in ```HKLM\SOFTWARE\Wow6432Node\Microsoft\DirectDraw``` and ```HKLM\SOFTWARE\Microsoft\DirectDraw``` and write a specific number in Hz (restart is not necessary, changes are activated immediately). Filling up all "Detailed resolutions" slots can turn off Freesync in Radeon Bloatware💩
+***🟦 Custom Resolution Utility*** - create a custom resolution and refresh rate for monitor. Also ideal for workaround maximum resolution limit on old GPUs by lowering refresh rate - e.g. 2560x1080x54Hz on Radeon HD 4670 (2008 - 1920x1200x60Hz). Or if Win sets a lower Hz than monitor supports, then if the maximum supported refresh rate is set in CRU for native resolution, then even lower resolutions should be automatically set with maximum refresh rate (```GPU Scaling``` in Radeon Bloatware💩 can break functionality). Another option to force a custom refresh rate in DirectX applications is to create a DWORLD value ```ForceRefreshRate``` in ```HKLM\SOFTWARE\Wow6432Node\Microsoft\DirectDraw``` and ```HKLM\SOFTWARE\Microsoft\DirectDraw``` and write a specific number in Hz (restart is not necessary, changes are activated immediately). Filling up all "Detailed resolutions" slots can turn off Freesync in Radeon Bloatware💩
 
-***🟦 RefreshLock*** - probably the most universal way to force the highest supported monitor refresh rate. It also works in DirectX/Vulkan/OpenGL
+***🟦 RefreshLock*** - probably the most universal way to force highest supported monitor refresh rate. It also works in DirectX/Vulkan/OpenGL
 
 ***🟦 OverdriveNTool, 🟦 AMD GPU Clock Tool*** - voltage/frequency for Radeon - profiles - shortcuts/hotkeys
 
@@ -352,19 +360,19 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry pa
 <br/>
 ```C:\Windows\System32\powercfg.exe -setactive XXX```
 <br/>
-instead of XXX, write the name of the required key
+instead of XXX, write name of required key
 
-***Equalizer APO+Peace*** - sound equalizer - by overwriting configuration files (also via hotkeys/shortcuts) it is possible to switch profiles in real time without starting the program. MS Visual C++ 2015-2022 can resolve a possible error when running "Configurator.exe"
+***Equalizer APO+Peace*** - sound equalizer - by overwriting configuration files (also via hotkeys/shortcuts) it is possible to switch profiles in real time without starting app. MS Visual C++ 2015-2022 can fix crashing "Configurator.exe"
 
-***🟦 Raw Accel*** - detailed mouse settings, different axis sensitivity, etc. Profiles can also be switched via hotkeys/shortcuts ```c:\RawAccel\writer.exe c:\RawAccel\settings.json``` - changing the cursor when switching can be disabled by unifying them in the control panels (normal selection/background work)
+***🟦 Raw Accel*** - detailed mouse settings, different axis sensitivity, etc. Profiles can also be switched via hotkeys/shortcuts ```c:\RawAccel\writer.exe c:\RawAccel\settings.json``` - changing the cursor when switching can be disabled by unifying them in Control panels (normal selection/background work)
 
-***🟦 hidusbf*** - mouse polling rate (Hz) adjustment - overclocking/underclocking. Ideal if e.g. an old obscure game works only on some mice. If you can't install the driver via "Setup.exe" (Install Service) and there is no installation option in the context menu of the INF file, the other way to install is this command (edit INF path)
+***🟦 hidusbf*** - mouse polling rate (Hz) adjustment - overclocking/underclocking. Ideal if e.g. an old obscure game works only on some mice. If you can't install driver via "Setup.exe" (Install Service) and there is no installation option in context menu (INF), the other way to install is this command
 <br/>
 ```RUNDLL32.EXE SETUPAPI.DLL,InstallHinfSection DefaultInstall 132 c:\hidusbf\hidusbf\DRIVER\HIDUSBF.INF```
 
 ***🟦 DIMR (Direct Input Mouse Rate)*** - mouse polling rate (Hz) monitor
 
-***🟦 Mouse Settings Changer*** - switching mouse/touchpad sensitivity (control panels) even with a hotkeys - Autohotkey can be used to hide the popup window when switching profile - example for AltGr+F7
+***🟦 Mouse Settings Changer*** - switching mouse/touchpad sensitivity (control panels) even with a hotkeys - Autohotkey can be used to hide popup window when switching profile - example for AltGr+F7
 <br/>
 ```VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide```
 
@@ -378,13 +386,13 @@ instead of XXX, write the name of the required key
 
 🚫update
 <br/>
-***EXE Radar Pro v3 (Beta)*** - when running an executable file (exe/msi/bat/...) a window will appear asking whether to run or exit it (user-defined Command-Line/whitelist/blacklist runs automatically in the background of the system). Verification via checksum
+***EXE Radar Pro v3 (Beta)*** - when running an executable file (exe/msi/bat/...) a window will appear asking whether to run or exit it (user-defined Command-Line/whitelist/blacklist runs automatically in background of the system). Verification via checksum
 
-🚫***Easy File Locker*** - disable reading/writing/deleting/hiding files/folders. Locking only works when Windows+SYS driver program is running (can be turned on/off via hotkeys/shortcuts without running the program - NirCmd). If a program bypasses protection, it's NTFS links*0 (some paths unlocked)
+🚫***Easy File Locker*** - disable reading/writing/deleting/hiding files/folders. Locking only works when Windows+SYS driver program is running (can be turned on/off via hotkeys/shortcuts without starting app - NirCmd). If a program bypasses protection, it's NTFS links*0 (some paths unlocked)
 
 🚫Create a file instead of a folder, deleting even system EXE/... files - these classic methods never fail
 
-🚫***Firewall*** - Outpost/TinyWall/Firewall App Blocker. The default Win firewall has rules stored here
+🚫***Firewall*** - Outpost/TinyWall/Firewall App Blocker. Default Win firewall has rules stored here
 <br/>
 ```HKLM\SYSTEM\ControlSet\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules```
 <br/>
@@ -392,31 +400,31 @@ instead of XXX, write the name of the required key
 <br/>
 ```HKLM\SYSTEM\ControlSet002\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules```
 <br/>
-and the forbidding of arbitrarily adding exceptions is easily done by adding and modifying the permissions for "Everyone"
+and forbidding of arbitrarily adding exceptions is easily done by adding and modifying permissions for "Everyone"
 
 🚫***🟦 Autoruns*** - automatically launched applications/libraries/drivers
 
-🚫***🟦 NSudo*** - run apps with the highest privileges. Combined with Autoruns it is easy to get rid of all MS bloatware (updates/services/task schedulers/Defender/Edge/OneDrive/Slutana/StartMenu/...)
+🚫***🟦 NSudo*** - run apps with highest privileges. Combined with Autoruns it is easy to get rid of all MS bloatware (updates/services/task schedulers/Defender/Edge/OneDrive/Slutana/StartMenu/...)
 
 ❶***🟦 BootICE*** - create bootable media without formatting and data loss (MBR/PBR for HDD/SSD/USB), modify Windows BCD/UEFI files (multiboot, change system partition, ...), hide/activate partition
 
 ❷***🟦 Gandalf's Windows*** (Win7-11) - bootable (without formatting and losing data⬆️) from USB (even from phone - if supports boot from "bios") with internet capability, installing programs/drivers. More or less full system - but after reboot it returns to default settings
 
-❸***🟦 WinNTSetup*** - install/backup/restore Windows without formatting and data loss and creating a bootable installation media (skipping the constantly erroneous/dangerous MS installation process = after copying the data and restarting the PC, the system starts). Iso/wim/swm/vhd (can also be used in 7-Zip)+option to add drivers/tweaks. The process is not dependent on specific HW, so for example restoring a system backup can be done on any PC. It can also be installed on USB drives and at least Win11 can be started from them without any further modifications (the necessary drivers are loaded at boot, so it does not matter which PC it will be started on) - its meaningless requirements are ignored (UEFI/TPM/...) "Boot drive+Installation drive" can be the same partition of one disk (the program is preset for a regular user - just select the Windows edition, click "Setup+OK" and the process starts - at the end Bios+UEFI boot is automatically created and then in case of MBR disk I recommend checking if there is a green dot at BOOT PART). Backup is done via "Local Windows Installations/Capture Wim" - exceptions can be added to "WimScript.ini". Possible bug fixes
+❸***🟦 WinNTSetup*** - install/backup/restore Windows without formatting and data loss and creating a bootable installation media (skipping constantly erroneous/dangerous MS installation process = after copying data and restarting PC, system starts). Iso/wim/swm/vhd (can also be used in 7-Zip)+option to add drivers/tweaks. Process is not dependent on specific HW, so for example restoring a system backup can be done on any PC. It can also be installed on USB drives and at least Win11 can be started from them without any further modifications (necessary drivers are loaded at boot, so it does not matter which PC it will be started on) - its meaningless requirements are ignored (UEFI/TPM/...) "Boot drive+Installation drive" can be the same partition of one disk (program is preset for a regular user - just select Windows edition, click "Setup+OK" and then process starts - at the end Bios+UEFI boot is automatically created and then in case of MBR disk I recommend checking if there is a green dot at BOOT PART). Backup is done via "Local Windows Installations/Capture Wim" - exceptions can be added to "WimScript.ini". Possible bug fixes
 <br/>
--inserted ISO reports "No Windows Source Detected" or "Windows Source invalid" (unzip the ISO and insert the installation file - it should be called "install" and be in the "sources" folder - the rest of the ISO content is useless for installation and will not be used anyway)
+-inserted ISO reports "No Windows Source Detected" or "Windows Source invalid" (unzip ISO and insert installation file - it should be called "install" and be in "sources" folder - rest of ISO content is useless for installation and will not be used anyway)
 <br/>
--test (7-Zip) of the newly created backup finds errors (HDD - damaged sectors), (CPU+RAM - turn off compression when creating a backup)
+-test (7-Zip) of newly created backup finds errors (HDD - damaged sectors), (CPU+RAM - turn off compression when creating a backup)
 <br/>
--system recovery can also be done by extracting it to a disk (7-Zip) and finally repairing the boot if necessary (BootICE)
+-system recovery can also be done by extracting it to a disk (7-Zip) and finally repairing boot if necessary (BootICE)
 
 System backup can also be done via WinRAR (it's data like any other, just watch out for NTFS security and links), benefits are
 <br/>
--independence on the obscure backup software, universality
+-independence on obscure backup software, universality
 <br/>
--immediate access to data, the possibility to restore, for example, only 1 file
+-immediate access to data, possibility to restore, for example, only 1 file
 <br/>
--small data package thanks to high compression (in my case the ratio is 21% = 30.8GB system / 6.5GB backup)
+-small data package thanks to high compression (in my case ratio is 21% = 30.8GB system / 6.5GB backup)
 <br/>
 ⓿🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** - data security management, bookmarks for quick access
 
@@ -480,7 +488,7 @@ System backup can also be done via WinRAR (it's data like any other, just watch 
 
 ***🟦 PortableWinCDEmu*** - virtual drive
 
-***🟦 FAT32 Format GUI*** - workaround 32GB limit
+***🟦 FAT32 Format GUI*** - 32GB limit workaround
 
 ***🟦 Hard Disk Sentinel*** - disk monitoring+history, S.M.A.R.T. tests, noise control (AAM), tray icons (health), option to disable HDD shutdown when idle (auto access or APM)
 
@@ -520,7 +528,7 @@ With the add-on ***DiskDir Extended*** you can create a data catalog ("pack file
 <br/>
 ```c:\BES\BES.exe -J "C:\FileActivityWatch\FileActivityWatch.exe" 90 -m "c:\Deus Ex\System\DeusEx.exe" 10 -m```
 
-***🟦 Registry Workshop*** - advanced replacement of the default "Regedit". "Load Hive" can be used to load and edit an external registry. To integrate with ***Total Uninstall***, use the following command in its settings (example) -
+***🟦 Registry Workshop*** - advanced replacement of the default "Regedit". "Load Hive" can be used to load and edit an external registry. To integrate with ***Total Uninstall***, use following command in its settings -
 <br/>
 ```"c:\Registry Workshop\RegWorkshopX64.exe" /g```
 
@@ -532,7 +540,7 @@ With the add-on ***DiskDir Extended*** you can create a data catalog ("pack file
 <br/>
 -find 1 and insert empty line ```(?-s)1.*``` ```$0\r\n```
 <br/>
--insert text on empty line ```^$```
+-insert 1 on empty line ```^$``` ```1```
 
 ***🟦 HEXelon Max 6*** - calculator with three independent "panels"
 
@@ -552,7 +560,7 @@ With the add-on ***DiskDir Extended*** you can create a data catalog ("pack file
 
 ***🟦 Process Monitor+🟦 FileActivityWatch*** - activities of running processes - detailed list of accesses on SSD/registry/network
 
-***KernelEX/One-Core-API/Extended Kernel for Windows Vista/VxKex*** - ability to run newer applications on an unsupported system (compatiblity layer). For example Firefox 52 (2017) in Win98
+***KernelEX/One-Core-API/Extended Kernel for Windows Vista/VxKex*** - ability to run newer applications on an unsupported system (compatibility layer). For example Firefox 52 (2017) in Win98
 
 ***🟦 HxD+CFF Explorer+Resource Hacker*** - editing executables and more
 
@@ -576,7 +584,7 @@ Automatic synchronization of two folders. ```c:\1``` is the source folder and ``
 
 ***🟦 SCURLed*** - mass editing of LNK/URL shortcuts
 
-***🟦 WinSetView*** - Windows explorer💩 global customizations
+***🟦 WinSetView*** - Windows explorer💩 global customizations - can reduce RAM usage by tens of MB (explorer.exe)
 
 ***🟦 PortableApps.com*** - setting examples
 <br/>
@@ -586,7 +594,6 @@ Automatic synchronization of two folders. ```c:\1``` is the source folder and ``
 <br/>
 -*Portable.exe is not necessarily required to be running in the system background
 
-Android - ***🟦 ADB AppControl, 🟦 ADB Explorer, 🟦 APK-Info, MEmu***
 <br/>
 <br/>
 <br/>
