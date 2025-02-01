@@ -7,7 +7,7 @@
 Remaining SYS Apps ```10```/```19``` (android4/9)
 <img width="720" alt="4+9" src="https://github.com/user-attachments/assets/6a59c170-fbd6-46d3-abf2-8a66e8118f92" />
 
-***[↗️ Češtiny do her (2014 a starší)](https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name)***. Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Zahraničních abandonware stránek a různých archivů existuje, a vždy bude, spousta... Neopravuji překlady pokud dojde k vydání patche/remasteru
+***[↗️ Češtiny do her (2014 a starší)](https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name)***. Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Navíc instalátory po sobě často nechávají v lepším případě spoušť (instalací s hrou nesouvisejícím SW - ovladače/zápisy do registru/...) v horším - dokud nedojde k ručnímu smazání SYS ovladačů protipirátských ochran (starforce) - i "znefunkčnění" systému (bluescreen). A opravdu málokdo používá takové zabezpečení a SW, aby k ničemu takovému nedocházelo. Zahraničních abandonware stránek a různých archivů existuje, a vždy bude, spousta... Neopravuji překlady pokud dojde k vydání patche/remasteru
 <br/>
 ***[📥 Ultimátní seznamy CZ+SK překladů včetně odkazů a dalších podrobností (2024-09). Počet překladů: 10 000+ . Počet 💾 : 1](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
 ![cz+sk](https://github.com/user-attachments/assets/31c8472b-8d21-49a4-bdaf-a24b187d9b10)
@@ -53,7 +53,7 @@ EXE soubory byly přes 7-Zip rozbaleny a všechna data kromě rozdílných byla 
 
 ***MSI Afterburner+RTSS*** - překrytí obrazu - čas, HW monitoring, limit FPS/Frametime (klávesové zkratky), Scanline Sync, tray ikony. Omezením FPS se v některých hrách značně prodlouží nahrávací časy (Painkiller/...)
 
-***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) pro DX1-9 hry, možnost zvětšení rozhraní her při vysokých rozlišeních (např. rozlišení ve hře je 1280x720 a přes program se nastaví 1920x1080 = rozhraní bude velké jako v 720p, ale rozlišení bude 1080p) a vnutit hře nepodporovaná rozlišení, obnovovací frekvenci, limit FPS, AF filtrování textur... Od verze 2.55+ (2018+) v kombinaci s DX11+Radeon může nastat bug v podobě bílých textur (u novějších verzí z roku 2023+ je problém zřejmě už vyřešený). Pravý klik myší zpřístupní pokročilé možnosti. Pro zapnutí wrapperu se musí potřebné DLL soubory z podsložky dgVoodoo2 nakopírovat k (hlavnímu) EXE souboru hry a pak nakonfigurovat (dgVoodooCpl.exe) čímž se u EXE souboru hry vytvoří "dgVoodoo.conf". Příklad pro zachování ostrého (ne pixelovatého a ne rozmazaného přes AA) obrazu ve hrách s fixním/omezeným rozlišením - ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear)
+***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) pro DX1-9 hry, možnost zvětšení rozhraní her při vysokých rozlišeních (např. rozlišení ve hře je 1280x720 a přes program se nastaví 1920x1080 = rozhraní bude velké jako v 720p, ale rozlišení bude 1080p) a vnutit hře nepodporovaná rozlišení, obnovovací frekvenci, limit FPS, AF filtrování textur... Od verze 2.55+ (2018+) v kombinaci s DX11+Radeon může nastat bug v podobě bílých textur (u novějších verzí z roku 2023+ je problém zřejmě už vyřešený). Pravý klik myší zpřístupní pokročilé možnosti. Pro zapnutí wrapperu se musí potřebné DLL soubory z podsložky dgVoodoo2 nakopírovat k (hlavnímu) EXE souboru hry a pak nakonfigurovat (dgVoodooCpl.exe) čímž se u EXE souboru hry vytvoří "dgVoodoo.conf". Příklad pro zachování ostrého (ne pixelovatého a ne rozmazaného přes AA) obrazu ve hrách s fixním/omezeným rozlišením - ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear), ale vzhledem k tomu, že i bez dgV má většina her rozmazaný obraz i v nativním rozlišení - Bilinear - , tak se může hodit vynucení Lanczos-3
 
 ***🟦 4GB Patch*** - prolomení 2GB RAM limitu u 32-bit aplikací. Užitečné třeba u některých her kdy se úpravou EXE souboru zvýší minimální FPS, o něco se zrychlí nahrávací časy a také při delším hraní nebude hrozit pád aplikace
 
@@ -199,7 +199,7 @@ Záloha systému se ale může provést i přes WinRAR (jsou to data jako každ�
 
 ***ImDisk Toolkit*** - ramdisk
 
-***Primo Ramdisk*** - možnost stránkovacího souboru v ramdisku nebo využít nepřístupnou část RAM paměti (Invisible Memory) - např. 32-Bit Win má limit ~4GB, Win11 Home 128GB
+***Primo Ramdisk*** - možnost stránkovacího souboru v ramdisku nebo využít nepřístupnou část RAM paměti (Invisible Memory) - např. 32-Bit Win má limit ~4GB, Win11 Home 128GB (mimochodem stejný limit jako u WinXP)
 
 ***🟦 Mem Reduct*** - uvolnění RAM paměti bez ukončení procesů klávesovou zkratkou nebo klikem na tray ikonu. Může ale docházet k většímu zápisu do stránkovacího souboru = opotřebení SSD*1
 
@@ -334,7 +334,7 @@ Automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:
 
 ***MSI Afterburner+RTSS*** - screen overlay - time, HW monitoring, FPS/Frametime limit (hotkeys), Scanline Sync, tray icons. Limiting FPS will significantly increase loading times in some games (Painkiller/...)
 
-***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) for DX1-9 games, option to enlarge interface of games at high resolutions (e.g. resolution in game is 1280x720 and through program it is set to 1920x1080 = interface will be big as in 720p, but resolution will be 1080p) and force unsupported resolution into the game (+refresh rate/FPS limit/AF texture filtering/...). Right mouse click opens advanced options. To enable wrapper, the necessary DLL files from dgVoodoo2 subfolder must be copied to (main) EXE file of the game and then configured (dgVoodooCpl.exe) = "dgVoodoo.conf" will be created. An example for keeping image sharp (not pixelated and not blurred through AA) in fixed/limited resolution games - ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear)
+***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) for DX1-9 games, option to enlarge interface of games at high resolutions (e.g. resolution in game is 1280x720 and through app it is set to 1920x1080 = interface will be big as in 720p, but resolution will be 1080p) and force unsupported resolution into the game (+refresh rate/FPS limit/AF texture filtering/...). Right mouse click opens advanced options. To enable wrapper, the necessary DLL files from dgVoodoo2 subfolder must be copied to (main) EXE file of the game and then configured (dgVoodooCpl.exe) = "dgVoodoo.conf" will be created. An example for keeping image sharp (not pixelated and not blurred through AA) in fixed/limited resolution games - ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear)
 
 ***🟦 4GB Patch*** - 2GB RAM limit workaround for 32-bit applications. Useful for some games where modifying EXE file increase minimum FPS, speed up loading times and also prevent app from crashing when playing for a longer time
 
@@ -388,7 +388,7 @@ instead of XXX, write name of required key
 <br/>
 ***EXE Radar Pro v3 (Beta)*** - when running an executable file (exe/msi/bat/...) a window will appear asking whether to run or exit it (user-defined Command-Line/whitelist/blacklist runs automatically in background of the system). Verification via checksum
 
-🚫***Easy File Locker*** - disable reading/writing/deleting/hiding files/folders. Locking only works when Windows+SYS driver program is running (can be turned on/off via hotkeys/shortcuts without starting app - NirCmd). If a program bypasses protection, it's NTFS links*0 (some paths unlocked)
+🚫***Easy File Locker*** - disable reading/writing/deleting/hiding files/folders. Locking only works when Windows+SYS driver running (can be turned on/off via hotkeys/shortcuts without starting app - NirCmd). If some app bypasses protection, it's NTFS links*0 (some paths unlocked)
 
 🚫Create a file instead of a folder, deleting even system EXE/... files - these classic methods never fail
 
@@ -410,7 +410,7 @@ and forbidding of arbitrarily adding exceptions is easily done by adding and mod
 
 ❷***🟦 Gandalf's Windows*** (Win7-11) - bootable (without formatting and losing data⬆️) from USB (even from phone - if supports boot from "bios") with internet capability, installing programs/drivers. More or less full system - but after reboot it returns to default settings
 
-❸***🟦 WinNTSetup*** - install/backup/restore Windows without formatting and data loss and creating a bootable installation media (skipping constantly erroneous/dangerous MS installation process = after copying data and restarting PC, system starts). Iso/wim/swm/vhd (can also be used in 7-Zip)+option to add drivers/tweaks. Process is not dependent on specific HW, so for example restoring a system backup can be done on any PC. It can also be installed on USB drives and at least Win11 can be started from them without any further modifications (necessary drivers are loaded at boot, so it does not matter which PC it will be started on) - its meaningless requirements are ignored (UEFI/TPM/...) "Boot drive+Installation drive" can be the same partition of one disk (program is preset for a regular user - just select Windows edition, click "Setup+OK" and then process starts - at the end Bios+UEFI boot is automatically created and then in case of MBR disk I recommend checking if there is a green dot at BOOT PART). Backup is done via "Local Windows Installations/Capture Wim" - exceptions can be added to "WimScript.ini". Possible bug fixes
+❸***🟦 WinNTSetup*** - install/backup/restore Windows without formatting and data loss and creating a bootable installation media (skipping constantly erroneous/dangerous MS installation process = after copying data and restarting PC, system starts). Iso/wim/swm/vhd (can also be used in 7-Zip)+option to add drivers/tweaks. Process is not dependent on specific HW, so for example restoring a system backup can be done on any PC. It can also be installed on USB drives and at least Win11 can be started from them without any further modifications (necessary drivers are loaded at boot, so it does not matter which PC it will be started on) - its meaningless requirements are ignored (UEFI/TPM/...) "Boot drive+Installation drive" can be the same partition of one disk (app is preset for a regular user - just select Windows edition, click "Setup+OK" and then process starts - at the end Bios+UEFI boot is automatically created and then in case of MBR disk I recommend checking if there is a green dot at BOOT PART). Backup is done via "Local Windows Installations/Capture Wim" - exceptions can be added to "WimScript.ini". Possible bug fixes
 <br/>
 -inserted ISO reports "No Windows Source Detected" or "Windows Source invalid" (unzip ISO and insert installation file - it should be called "install" and be in "sources" folder - rest of ISO content is useless for installation and will not be used anyway)
 <br/>
@@ -428,17 +428,17 @@ System backup can also be done via WinRAR (it's data like any other, just watch 
 <br/>
 ⓿🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** - data security management, bookmarks for quick access
 
-***WinToUSB*** - tweak (in the program it's called "conversion", but it's just a small change in the registry, which changes the order of loaded drivers at boot) Win10+, thanks to which the system can be booted from external media via USB = one system with all programs + settings, which can be run on "any" PC via internal or external disk (missing USB drivers or IDE/AHCI mode, etc. can be a problem, although not unsolvable). An alternative to WinToUSB is to change "BootDriverFlags" ```HKLM\SYSTEM\HardwareConfig\XXX``` to 0x14
+***WinToUSB*** - tweak (in app it's called "conversion", but it's just a small change in registry, which changes order of loaded drivers at boot) Win10+, thanks to which the system can be booted from external media via USB = one system with all programs + settings, which can be run on "any" PC via internal or external disk (missing USB drivers or IDE/AHCI mode, etc. can be a problem, although not unsolvable). An alternative to WinToUSB is to change "BootDriverFlags" ```HKLM\SYSTEM\HardwareConfig\XXX``` to 0x14
 
 ***🟦 GImageX*** - create WIM image (Windows in one compressed file - bootable or for complete system backup). Capture/Apply/Mount
 
-***Link Shell Extension+🟦 NTFSLinksView*** - NTFS links*0 and redirecting e.g. program settings to custom folders. Control via context menu - pick link source (new location) / drop as (original location)
+***Link Shell Extension+🟦 NTFSLinksView*** - NTFS links*0 and redirecting e.g. apps settings to custom folders. Control via context menu - pick link source (new location) / drop as (original location)
 
 ***🟦 Driver Booster for Steam*** - update drivers
 
 ***🟦 Display Driver Uninstaller*** - uninstall audio/video drivers, ***Device Remover*** - possible major speed up of "Device Manager" startup (depends on how many PCs/components the system has gone through)
 
-***🟦 7+ Taskbar Tweaker+WinaeroTweaker+ExplorerPatcher+🟦 WinPaletter+🟦 Classic Color Panel*** ```HKCU\Control Panel\Colors``` - modifying the Windows user interface
+***🟦 7+ Taskbar Tweaker+WinaeroTweaker+ExplorerPatcher+🟦 WinPaletter+🟦 Classic Color Panel*** ```HKCU\Control Panel\Colors``` - modifying Windows user interface
 
 ***🟦 Pazera Free Audio Extractor, 🟦 MKVToolNix*** - editing video files without conversion.  Removing/extracting audio tracks, detailed information about audio/video files, ...
 
@@ -446,7 +446,7 @@ System backup can also be done via WinRAR (it's data like any other, just watch 
 
 ***🟦 Video-subtitle-extractor (VSE)*** - OCR method of automatic subtitles creation
 
-***🟦 UniFlash*** (Rainbow Software) - MS-DOS program to save/restore CMOS bios memory (settings) to a file. May not work on newer HW (AM3+ +)
+***🟦 UniFlash*** (Rainbow Software) - MS-DOS app to save/restore CMOS bios memory (settings) to a file. May not work on newer HW (AM3+ +)
 
 ***🟦 NetSpeedMonitor*** - monitoring of download/upload speed and data amount+history, tray
 
@@ -458,21 +458,21 @@ System backup can also be done via WinRAR (it's data like any other, just watch 
 <br/>
 -recovery record = no need to download damaged archives multiple times or accept data loss
 
--profiles with different settings. Automation (by selecting a profile, for example, an encrypted archive with the current date and specific data can be automatically created to a predefined location)
+-profiles with different settings. Automation (by selecting a profile, for example, an encrypted archive with current date and specific data can be automatically created to a predefined location)
 
--settings in the program folder = can fully work as a portable app ```WinRAR.ini``` Global\AppData=0
+-settings in app folder = can fully work as a portable app ```WinRAR.ini``` Global\AppData=0
 
--the file sizes in the main window are not displayed in confusing bytes
+-file sizes in main window are not displayed in confusing bytes
 
--in the main window it is possible to sort data by type 😮
+-in main window it is possible to sort data by type 😮
 
--better "solid" compression (many times faster and yet the resulting archive size can be 50+% smaller)
+-better "solid" compression (many times faster and yet resulting archive size can be 50+% smaller)
 
 -option to exclude certain files/folders when creating archives
 
--option to uncompress certain files to speed up the process
+-option to uncompress certain files to speed up process
 
--is it possible that 7z doesn't support NTFS file system and can't archive more complex data that contains various security and symbolic links? How to achieve archiving the link and not the data it references and thus not break the data structure, among other things?
+-is it possible that 7z doesn't support NTFS file system and can't archive more complex data that contains various security and symbolic links? How to achieve archiving link and not data it references and thus not break data structure, among other things?
 
 -7-Zip has overall better compression (but worse than ***🟦 PeaZip***) and, most importantly, FAR wider format support (often read-only, but that's no small thing at all). Being free in this form is probably a necessity...
 
@@ -480,9 +480,9 @@ System backup can also be done via WinRAR (it's data like any other, just watch 
 
 ***ImDisk Toolkit*** - ramdisk
 
-***Primo Ramdisk*** - option to page files in ramdisk or use inaccessible part of RAM (Invisible Memory) - e.g. 32-Bit Win has a limit of ~4GB, Win11 Home 128GB
+***Primo Ramdisk*** - option to page files in ramdisk or use inaccessible part of RAM (Invisible Memory) - e.g. 32-Bit Win has a limit of ~4GB, Win11 Home 128GB (same limit as WinXP, by the way)
 
-***🟦 Mem Reduct*** - free RAM memory (without terminating processes) by hotkey or clicking on the tray icon. However, there may be more writing to the paging file = reduced lifetime of SSD*1
+***🟦 Mem Reduct*** - free RAM memory (without terminating processes) by hotkey or clicking on tray icon. However, there may be more writing to paging file = reduced lifetime of SSD*1
 
 ***RimhillEx*** - CD/DVD read speed limitation
 
@@ -494,7 +494,7 @@ System backup can also be done via WinRAR (it's data like any other, just watch 
 
 ***HDD Regenerator*** - repair corrupted sectors on HDD without data loss (Win/MS-DOS)
 
-***🟦 Total Commander*** - fast/efficient replacement of Explorer/Desktop/Start Menu with lots of extra features (internal file association including icons, file comparison by content, change attributes, copy data paths to clipboard, show/hide certain files/folders, copying files with certain date while preserving the directory structure, verifying the copied data for possible damage, ... = lower hundreds of hotkeys). A few useful "wincmd.ini" tweaks (the first 2 are very important and I don't understand that the program is not set up that way in the base - the first one speeds up/transparent e.g. data search by ignoring NTFS links = searches for data as written on the disk and doesn't show "false duplicates". The second copies/moves NTFS links as links and not as files/folders)
+***🟦 Total Commander*** - fast/efficient replacement of Explorer/Desktop/Start Menu with lots of extra features (internal file association including icons, file comparison by content, change attributes, copy data paths to clipboard, show/hide certain files/folders, copying files with certain date while preserving directory structure, verifying copied data for possible damage, ... = lower hundreds of hotkeys). A few useful "wincmd.ini" tweaks (first 2 are very important and I don't understand that the app is not set up that way in base - first one speeds up/transparent e.g. data search by ignoring NTFS links = searches for data as written on disk and doesn't show "false duplicates". Second copies/moves NTFS links as links and not as files/folders)
 <br/>
 ```IgnoreLinks=8```
 <br/>
@@ -510,7 +510,7 @@ System backup can also be done via WinRAR (it's data like any other, just watch 
 <br/>
 ```pluginbasedir=%COMMANDER_PATH%\plugins```
 <br/>
-With the add-on ***DiskDir Extended*** you can create a data catalog ("pack files" function - the LST file is like an archive and can be searched in it)
+With add-on ***DiskDir Extended*** you can create a data catalog ("pack files" function - LST file is like an archive and can be searched in it)
 <br/>
 -bulk renaming - remove characters (number) from start ```[N2-]``` from end ```[N1--2]```
 <br/>
@@ -520,15 +520,15 @@ With the add-on ***DiskDir Extended*** you can create a data catalog ("pack file
 <br/>
 ```a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z```
 <br/>
--find a CSS file that has somewhere in the name TAB - ```*tab*.css```
+-find a CSS file that has somewhere in name TAB - ```*tab*.css```
 
 ***System Explorer*** - replacement of "Task Manager" - possibility to save priority/affinity of applications for their automatic setting at next startup. ***🟦 Process Hacker*** 
 
-***🟦 Battle Encoder Shirasé*** - process throttling - up to 99%. Ability to use via Command-Line without UI - example 90% and 10% restriction for 2 EXE files = BES will look for running processes in the background and automatically restrict them
+***🟦 Battle Encoder Shirasé*** - process throttling - up to 99%. Ability to use via Command-Line without UI - example 90% and 10% restriction for 2 EXE files = BES will look for running processes in background and automatically restrict them
 <br/>
 ```c:\BES\BES.exe -J "C:\FileActivityWatch\FileActivityWatch.exe" 90 -m "c:\Deus Ex\System\DeusEx.exe" 10 -m```
 
-***🟦 Registry Workshop*** - advanced replacement of the default "Regedit". "Load Hive" can be used to load and edit an external registry. To integrate with ***Total Uninstall***, use following command in its settings -
+***🟦 Registry Workshop*** - advanced replacement of default "Regedit". "Load Hive" can be used to load and edit an external registry. To integrate with ***Total Uninstall***, use following command in its settings -
 <br/>
 ```"c:\Registry Workshop\RegWorkshopX64.exe" /g```
 
@@ -556,7 +556,7 @@ With the add-on ***DiskDir Extended*** you can create a data catalog ("pack file
 
 ***🟦 ATI GPU Scaling Fix(legacy), 🟦 HDD Low Level Format Tool*** and dozens of apps from 🟦 NirSoft (***AppCrashView/BlueScreenView/Wireless Network Watcher/WifiInfoView/CurrPorts/FullEventLogView/ShellExView/ShellMenuView/OpenWithView/LoadedDllsView/DiskCountersView*** *1)
 
-***VMware Workstation*** (15) - possibility to use e.g. Steam client while running Win7 (from 2024 there is a threat of arbitrary banning of access from this "dangerous" system - see some banks, possible solution=responsive mode in browser) in a virtual machine with a newer system (e.g. Win11). Support for internet connection (bridging) (router can solve possible connection problems) and the possibility of sharing folders - host/guest (e.g. for direct downloading of games from Win11 to Win7). For full functionality, after installing the system (regular ISO) in VMware, the ISO with drivers (VMware Tools) must be mounted on the virtual drive and installed. 7-Zip can open a VMDK file with the system
+***VMware Workstation*** (15) - possibility to use e.g. Steam client while running Win7 (from 2024 there is a threat of arbitrary banning of access from this "dangerous" system - see some banks, possible solution=responsive mode in browser) in a virtual machine with a newer system (e.g. Win11). Support for internet connection (bridging) (router can solve possible connection problems) and possibility of sharing folders - host/guest (e.g. for direct downloading of games from Win11 to Win7). For full functionality, after installing system (regular ISO) in VMware, ISO with drivers (VMware Tools) must be mounted to virtual drive and installed. 7-Zip can open a VMDK file with system
 
 ***🟦 Process Monitor+🟦 FileActivityWatch*** - activities of running processes - detailed list of accesses on SSD/registry/network
 
@@ -572,15 +572,15 @@ With the add-on ***DiskDir Extended*** you can create a data catalog ("pack file
 
 ```c:\Windows\System32\Robocopy.exe "c:\1" "e:\1" /E /PURGE /w:0 /r:0 /MOT:10```
 <br/>
-Automatic synchronization of two folders. ```c:\1``` is the source folder and ```e:\1``` is the backup. If a file/folder is created/changed in the source folder, it is copied to the backup. If a file/folder is deleted in the source folder, it will be deleted from the backup. "MOT:10" indicates 10 minutes of waiting and then synchronization. Is it synchronization (comparison) and not "delete the entire backup/copy the entire resource", so it does not reduce the lifetime of the SSD with unnecessary writes, among other things. A small drawback is that there is no comparison of files by content, but only by attributes+size (fast/non-demanding). It is possible to close the console window by terminating the "conhost.exe" process and leave only "ROBOCOPY.exe" (automatic synchronization in the background of the system) on. Useful in combination with NTFS links for automatic SAVEGAME backup
+Automatic synchronization of two folders. ```c:\1``` is source folder and ```e:\1``` is backup. If a file/folder is created/changed in source folder, it is copied to backup. If a file/folder is deleted in source folder, it will be deleted from backup. "MOT:10" indicates 10 minutes of waiting and then synchronization. Is it synchronization (comparison) and not "delete entire backup/copy entire resource", so it does not reduce lifetime of SSD with unnecessary writes, among other things. A small drawback is that there is no comparison of files by content, but only by attributes+size (fast/non-demanding). It is possible to close console window by terminating "conhost.exe" process and leave only "ROBOCOPY.exe" (automatic synchronization in background of system) on. Useful in combination with NTFS links for automatic SAVEGAME backup
 
-***🟦 T-Clock*** - advanced replacement of the default tray clock. A program with decades of history and several authors = the possibilities of settings and range of functions (not even related to the clock) is unprecedented
+***🟦 T-Clock*** - advanced replacement of default tray clock. App with decades of history and several authors = possibilities of settings and range of functions (not even related to clock) is unprecedented
 
 ***🟦 Desktop VLocker*** - computer lock
 
 ***[🟦 tableManager](https://github.com/pietrantonio91/tablemanager)*** - HTML tables, option of sorting and filtering in selected columns
 
-***🟦 SmartSteamEmu*** - a lightweight alternative to the Steam client (Game Booster). In my case it is 1 vs. 48+ seconds for start program and 40MB vs. 1,5GB (without internet access for ```steamwebhelper.exe``` otherwise it would be 2,5-3GB) used V+RAM
+***🟦 SmartSteamEmu*** - a lightweight alternative to Steam client (Game Booster). In my case it is 1 vs. 48+ seconds for starting app and 40MB vs. 1,5GB (without internet access for ```steamwebhelper.exe``` otherwise it would be 2,5-3GB) used V+RAM
 
 ***🟦 SCURLed*** - mass editing of LNK/URL shortcuts
 
@@ -592,7 +592,7 @@ Automatic synchronization of two folders. ```c:\1``` is the source folder and ``
 <br/>
 -run minimized in tray without (G)UI - ```Run, c:\uTorrentPortable.exe,,hide``` (AHK) + ```App\AppInfo\Launcher\uTorrentPortable.ini``` (```[Launch]``` ```ProgramExecutable=uTorrent\uTorrent.exe``` ```CommandLineArguments=/MINIMIZED```)
 <br/>
--*Portable.exe is not necessarily required to be running in the system background
+-*Portable.exe is not necessarily required to be running in system background
 
 <br/>
 <br/>
@@ -606,27 +606,27 @@ Automatic synchronization of two folders. ```c:\1``` is the source folder and ``
 
 🟨2*  ***[📥 Autohotkey v1.1 script](https://github.com/hornster02/hornster02/raw/main/_Autohotkey_AHK-2023.rar)*** (čeština ⬇️)
 
--IMPORTANT - AHK file probably needs to be run via "AutoHotkeyU64.exe" and not via the default "AutoHotkey.exe" (error)
+-IMPORTANT - AHK file probably needs to be run via "AutoHotkeyU64.exe" and not via default "AutoHotkey.exe" (error)
 
-The AHK file in the archive can be opened in Notepad (or if Autohotkey is installed on the PC, it can be run as a regular EXE file). The script has no user interface (apart from the "WindowSpy" function). AHK contains a few functional scripts such as
+AHK file in archive can be opened in Notepad (or if Autohotkey is installed on PC, it can be run as a regular EXE file). Script has no user interface (apart from "WindowSpy" function). AHK contains a few functional scripts such as
 
 hold ```F12``` on/off borderless fullscreen (useful for games)
 
-hold ```F11``` prevents mouse cursor from moving outside the active window - switch (useful for games)
+hold ```F11``` prevents mouse cursor from moving outside active window - switch (useful for games)
 
-hold ```F10``` pause/resume (suspend) foreground processes. Useful in case of running a program with high demands on PC performance - there will be a significant reduction in power consumption/temperature/noise. 98% of programs/games should work without issue - for the rest you can expect various errors or crashes. The script can be useful for example when playing games on battery = 1 key completely stops the game at 0FPS and there is no need to turn it off. Perhaps a better alternative is the "Battle Encoder Shirasé" program which solves possible problems by limiting up to 99%. 100% (suspend) does not bring anything extra in real use (except for complete stop of SSD/network activity). The other 3 options (disabled by default) are (hold F10 = pause foreground process / 2x press resume process) and (hold F10 = pause listed processes - background or foreground / 2x press resume processes) and (hold F10 = pause/resume listed processes - background or foreground)
+hold ```F10``` pause/resume (suspend) foreground processes. Useful in case of running app with high demands on PC performance - there will be a significant reduction in power consumption/temperature/noise. 98% of programs/games should work without issue - for rest you can expect various errors or crashes. Script can be useful for example when playing games on battery = 1 key completely stops game at 0FPS and there is no need to turn it off. Perhaps a better alternative is "Battle Encoder Shirasé" app which solves possible problems by limiting up to 99%. 100% (suspend) does not bring anything extra in real use (except for complete stop of SSD/network activity). Other 3 options (disabled by default) are (hold F10 = pause foreground process / 2x press resume process) and (hold F10 = pause listed processes - background or foreground / 2x press resume processes) and (hold F10 = pause/resume listed processes - background or foreground)
 
 Control Mouse with Keyboard ```Num Lock``` - movement including angled```1235```, left+middle+right button including drag and drop and double click```789```, wheeldown+up```46```, cursor movement to three specified positions```0```, 4th mouse button```.``` Easy speed and acceleration adjustment
 
-```left+middle mouse button``` - dragging the mouse (anywhere in the window, not just over the title bar) moves the window that is not maximized. No need to hold the middle button all the time. ESC returns the window to its original position. Many programs can be moved even in "fullscreen" mode (virtual PCs, image viewers, video players, ...)
+```left+middle mouse button``` - dragging mouse (anywhere in window, not just over title bar) moves window that is not maximized. No need to hold middle button all the time. ESC returns window to its original position. Many programs can be moved even in "fullscreen" mode (virtual PCs, image viewers, video players, ...)
 
-```LWin``` key (CTRL+F). Hold (show taskbar without the Start menu - must be set to autohide). Double (hide taskbar)
+```LWin``` key (CTRL+F). Hold (show taskbar without Start menu - must be set to autohide). Double (hide taskbar)
 
 ```menu key``` (CTRL+C) , hold (CTRL+V) , double (CTRL+A)
 
-```pause key``` (ALT+F4) if the "SC" and "VK" numbers correspond to your keyboard, then even games that have these keys "disabled" can be ended. Holding the key down for 2 seconds restarts the PC as standard (but regardless of the current work) Shutdown, 6 = "force"
+```pause key``` (ALT+F4) if "SC" and "VK" numbers correspond to your keyboard, then even games that have these keys "disabled" can be ended. Holding key down for 2 seconds restarts PC as standard (but regardless of current work) Shutdown, 6 = "force"
 
-```ALT+Shift``` shrink the active window to half the screen and align it right or left or maximize it
+```ALT+Shift``` shrink active window to half screen and align it right or left or maximize it
 
 ```ALT+Ctrl``` show desktop
 
@@ -636,7 +636,7 @@ Control Mouse with Keyboard ```Num Lock``` - movement including angled```1235```
 
 ***And disabled features serving more as a template***
 
-holding ```ě``` key inserts "@" . Dozens of additional keys can easily be added, eliminating the need for time consuming keyboard shortcuts
+holding ```ě``` key inserts "@" . Dozens of additional keys can easily be added, eliminating need for time consuming keyboard shortcuts
 
 change gamma/contrast/brightness/volume/mute/unmute/power plan/frequencies/voltages/mouse sensitivity/resolution/network/... Crouch+aim toggles for games (search for *01). And also holding Printscreen key saves image to SSD. May require external programs - NirCmd/DevManView/MSIAfterburner/OverdriveNTool/RawAccel/MouseSettingsChanger/PowerStrip/ClickMonitorDDC/...
 <br/>
