@@ -7,7 +7,7 @@
 Remaining SYS Apps ```10```/```19``` (android4/9)
 <img width="720" alt="4+9" src="https://github.com/user-attachments/assets/6a59c170-fbd6-46d3-abf2-8a66e8118f92" />
 
-***[↗️ Češtiny do her (2014 a starší)](https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name)***. Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Navíc instalátory po sobě často nechávají v lepším případě spoušť (instalací s hrou nesouvisejícím SW - ovladače/zápisy do registru/...) v horším - dokud nedojde k ručnímu smazání SYS ovladačů protipirátských ochran (starforce) - i "znefunkčnění" systému (bluescreen). A opravdu málokdo používá takové zabezpečení a SW, aby k ničemu takovému nedocházelo. Zahraničních abandonware stránek a různých archivů existuje, a vždy bude, spousta... Neopravuji překlady pokud dojde k vydání patche/remasteru
+***[↗️ Češtiny do her (2014 a starší)](https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name)***. Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Navíc instalátory po sobě často nechávají v lepším případě spoušť (instalací s hrou nesouvisejícím SW - ovladače/zápisy do registru/...) v horším - dokud nedojde k ručnímu smazání SYS ovladačů protipirátských ochran (starforce) - i "znefunkčnění" systému (bluescreen). A opravdu málokdo používá takové zabezpečení a SW, aby k ničemu takovému nedocházelo. Zahraničních abandonware archivů/repack/rip/portable existuje, a vždy bude, spousta... Neopravuji překlady pokud dojde k vydání patche/remasteru
 <br/>
 ***[📥 Ultimátní seznamy CZ+SK překladů včetně odkazů a dalších podrobností (2024-09). Počet překladů: 10 000+ . Počet 💾 : 1](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
 ![cz+sk](https://github.com/user-attachments/assets/31c8472b-8d21-49a4-bdaf-a24b187d9b10)
@@ -32,7 +32,7 @@ https://get.videolan.org/vlc/2.2.0/win32/vlc-2.2.0-win32.exe
 <br/>
 https://get.videolan.org/vlc/3.0.18/win32/vlc-3.0.18-win32.exe
 <br/>
-EXE soubory byly přes 7-Zip rozbaleny a všechna data kromě rozdílných byla smazána = zaměřil jsem se čistě na patch+kompresní funkcionalitu (je úplný nesmysl 😉 místo "zazipování" dat která se pouze kopírují vytvářet EXE instalátor s češtinou - z hlediska bezpečnosti/univerzálnosti/velikosti/...). Výsledný patch byl oproti ISXPM o 24% větší (při druhém pokusu u EN/CZ verzí "Data1.fbz" hry Shadowgrounds byl nárůst 75%, třetí pokus by byl zbytečný). Mimochodem nepovažuji za šťastné rozhodnutí nutnost přejmenování přípon souborů a nasypání všech dat dohromady = ani prase se v tom nevyzná a data nejde mezi sebou porovnávat či je normálně používat... A také se zdá, že CZMaker neumí vytvořit instalátor (v případě ISXPM se jedná o 1MB dat). Je možné, že je to kvůli vnucení další naprosto nezbytné aplikace CZ Manager? (který narozdíl od ISXPM vyžaduje i nainstalovaný .NET 8 a přístup k internetu - umožnění offline instalace češtin je prý zvrácená myšlenka... Zřejmě se jedná o jakousi formu DRM pro překlady - i když samozřejmě že všechny jdou ripnout do více future-proof a komprimovanějšího offline formátu). A ano, ISXPM umí bájnou metodu patch/insert. A ne, ani samotné stažené soubory by vám nebyly k ničemu, protože aplikace patche je možná i bez ISXPM - např. pro https://github.com/sisong/HDiffPatch se může použít tento příkaz ```hdiffz-x64.exe --patch "a:\stary\0.txt" "a:\patch\0.txt.xdelta" "a:\novy\0.txt"```
+EXE soubory byly přes 7-Zip rozbaleny a všechna data kromě rozdílných byla smazána = zaměřil jsem se čistě na patch+kompresní funkcionalitu (je úplný nesmysl 😉 místo "zazipování" dat která se pouze kopírují vytvářet EXE instalátor s češtinou - z hlediska bezpečnosti/univerzálnosti/velikosti/...). Výsledný patch byl oproti ISXPM o 24% větší (při druhém pokusu u EN/CZ verzí "Data1.fbz" hry Shadowgrounds byl nárůst 75%, třetí pokus by byl zbytečný). Mimochodem nepovažuji za šťastné rozhodnutí nutnost přejmenování přípon souborů a nasypání všech dat dohromady = ani prase se v tom nevyzná a data nejde mezi sebou porovnávat či je normálně používat... A také se zdá, že CZMaker neumí vytvořit instalátor (v případě ISXPM se jedná o 1MB dat). Je možné, že je to kvůli vnucení další naprosto nezbytné aplikace CZ Manager? (který narozdíl od ISXPM vyžaduje i nainstalovaný .NET 8 a přístup k internetu - umožnění offline instalace češtin je prý zvrácená myšlenka... Zřejmě se jedná o jakousi formu DRM pro překlady - i když samozřejmě že všechny jdou ripnout do více future-proof a komprimovanějšího offline formátu). A ano, ISXPM umí bájnou metodu patch/insert. A ne, ani samotné stažené soubory by vám nebyly k ničemu, protože aplikace patche je možná i ručně přes CMD bez ISXPM - např. pro https://github.com/sisong/HDiffPatch se může použít tento příkaz ```hdiffz-x64.exe -f --patch "a:\stary\0.txt" "a:\patch\0.txt.xdelta" "a:\novy\0.txt"```. Proces je možné částečně automatizovat. ```1``` TotalCmd - vygenerovat seznam "Patch" souborů včetně cest do TXT + někam zkopírovat "Patch" data bez souborů čímž se vytvoří podsložky které poslouží jako cíl "Novy". ```2``` Notepad++ - vytvořit (ze seznamu "Patch" souborů) "Stary" "Novy" cesty (najít/nahradit +regulární výrazy pro přidání uvozovek). ```3``` LibreOffice Calc - výsledný polotovar se stejným počtem řádků a o 4 částech (EXE,Stary,Patch,Novy) dát vedle sebe do sloupců a pak vykopírovat zpět do TXT/BAT (pozor před uvozovkami - sloupci - má být pouze klasická mezera).
 <br/>
 [2/3] CZMaker (Jak dělat balíčky pro manager) https://youtu.be/fBQSt8eEe2Y (Pozor! Obsahuje dezinformace)
 
@@ -251,15 +251,19 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 <br/>
 ```"c:\Registry Workshop\RegWorkshopX64.exe" /g```
 
-***🟦 Notepad++*** - hromadné označení vybraných řádků záložkami a jejich odstranění/zachování, hromadné odstranění řádků obsahující prázdné/žádné znaky, ... Regulární výrazy -
+***🟦 Notepad++*** - hromadné označení vybraných řádků záložkami a jejich odstranění/zachování, hromadné odstranění řádků obsahující prázdné/žádné znaky, výběr bloku textu ```ALT+levé tlačítko```, ... Regulární výrazy -
 <br/>
--odstranit všechny znaky na řádcích pokud jich je 5 a méně ```^.{0,5}$```
+-odstranit všechny znaky na řádcích pokud jich je 4 a méně ```^.{0,4}$```
 <br/>
--odstranit 1 a 1 a vše mezi tím ```1.*?1```
+-odstranit 4 a 4 a vše mezi tím ```4.*?4```
 <br/>
--najít 1 a vložit prázdný řádek ```(?-s)1.*``` ```$0\r\n```
+-najít 4 a vložit prázdný řádek ```(?-s)4.*``` ```$0\r\n```
 <br/>
--vložit 1 na prázdný řádek ```^$``` ```1```
+-vložit 4 na prázdný řádek ```^$``` ```4```
+<br/>
+-vložit 4 na začátek řádku ```^``` ```4```
+<br/>
+-vložit 4 na konec řádku ```$``` ```4```
 
 ***🟦 HEXelon Max 6*** - kalkulačka se třemi nezávislými "panely"
 
@@ -532,15 +536,19 @@ With add-on ***DiskDir Extended*** you can create a data catalog ("pack files" f
 <br/>
 ```"c:\Registry Workshop\RegWorkshopX64.exe" /g```
 
-***🟦 Notepad++*** - regular expressions -
+***🟦 Notepad++*** - bulk marking of selected rows with bookmarks and their removal/retention, bulk removal of rows containing empty/no characters, select text block ```ALT+left button```, regular expressions -
 <br/>
--remove all characters on lines if there are 5 or less ```^.{0,5}$```
+-remove all characters on lines if there are 4 or less ```^.{0,4}$```
 <br/>
--remove 1 and 1 and everything between ```1.*?1```
+-remove 4 and 4 and everything between ```4.*?4```
 <br/>
--find 1 and insert empty line ```(?-s)1.*``` ```$0\r\n```
+-find 4 and insert empty line ```(?-s)4.*``` ```$0\r\n```
 <br/>
--insert 1 on empty line ```^$``` ```1```
+-insert 4 on empty line ```^$``` ```4```
+<br/>
+-insert 4 at beginning of line ```^``` ```4```
+<br/>
+-insert 4 at end of line ```$``` ```4```
 
 ***🟦 HEXelon Max 6*** - calculator with three independent "panels"
 
