@@ -1,3 +1,9 @@
+🟨2* ***Autohotkey v1.1 scripts***
+
+🟩1* ***Useful software for Windows. 🟦 PORTABLE - official or with the help of 🟦 7-Zip***
+<br/>
+```What's new``` - PeaZip (Jun 2, 2024), AccessEnum (Jun 8, 2024), tableManager (Sep 1, 2024), SmartSteamEmu (Oct 15, 2024), FAT32 Format GUI (Nov 1, 2024), SCURLed (Nov 15, 2024), WinSetView (Dec 15, 2024), Gamma Panel (Apr 15, 2025)
+
 ***[📥 android Epyc Bloatware List (Firefox2+ or 49+ for sorting/filtering) + 🟦 ADB AppControl presets](https://github.com/hornster02/hornster02/raw/main/android.rar)***
 <br/>
 ```Question``` What is the purpose of this list?
@@ -12,14 +18,10 @@ Remaining SYS Apps ```10``` ```16``` ```16``` (android ```4``` ```7``` ```9```)
 ***[📥 Ultimátní seznamy CZ+SK překladů včetně odkazů a dalších podrobností (2024-12). 10 000+ překladů z 33 serverů](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
 ![cz+sk](https://github.com/user-attachments/assets/31c8472b-8d21-49a4-bdaf-a24b187d9b10)
 
-Podle Googlu byl v 2025-01 ***[na komunitni-preklady.org](https://komunitni-preklady.org/ostatni-cestiny)***  uveřejněn nástupce mého seznamu překladů, který na CZ/SK scéně také nemá obdoby (ale nefunguje offline = omezená životnost). V 2025-03 obsahuje 3200+ překladů z ~15 serverů. Ochrany proti kopírování - ```1``` tabulka načte+zobrazí pouze část která je zrovna viditelná, ```2``` stahovací odkazy pod tlačítky v sloupci "Odkaz" jsou skryté (po kliknutí se spouští JS event, neznámé odkazy = bezpečnostní riziko) ```3``` na archive.org je pár záznamů serveru, ale nezobrazí se ani písmeno. Ochrana ```1``` se dá snadno obejít nastavením stylu stránky na "bez stylu" a následným uložením (dojde i k uložení stylů ale samozřejmě JS soubory pro filtrování budou nefunkční). Za ochranu ```2``` jeden VELKÝ 👎
-![cz+sk-kp](https://github.com/user-attachments/assets/22885706-03e1-477b-9f64-91a15adf928c)
-
-🟨2* ***Autohotkey v1.1 scripts***
-
-🟩1* ***Software for Windows. 🟦 PORTABLE - official or with the help of 🟦 7-Zip***
+Podle Googlu byl v 2025-01 na ***[komunitni-preklady.org](https://komunitni-preklady.org/ostatni-cestiny)***  uveřejněn nástupce mého seznamu překladů, který na CZ/SK scéně také nemá obdoby (ale nefunguje offline = omezená životnost). V 2025-03 obsahuje 3200+ překladů z ~15 serverů. Ochrany proti kopírování - ```1``` tabulka načte+zobrazí pouze část která je zrovna viditelná, ```2``` stahovací odkazy pod tlačítky v sloupci "Odkaz" jsou skryté (po kliknutí se spouští JS event, neznámé odkazy = bezpečnostní riziko) ```3``` na archive.org je pár záznamů serveru, ale nezobrazí se ani písmeno. Ochrana ```1``` se dá snadno obejít nastavením stylu stránky na "bez stylu" a následným uložením (dojde i k uložení stylů ale samozřejmě JS soubory pro filtrování budou nefunkční). Za ochranu ```2``` jeden VELKÝ 👎
 <br/>
-```What's new``` - PeaZip (Jun 2, 2024), AccessEnum (Jun 8, 2024), tableManager (Sep 1, 2024), SmartSteamEmu (Oct 15, 2024), FAT32 Format GUI (Nov 1, 2024), SCURLed (Nov 15, 2024), WinSetView (Dec 15, 2024)
+Přepnutí jakékoli stránky na "bez stylu" obejde většinu nesmyslných překážek - i např. "tzv. behaviorální biometrii" u mBank zavedenou v 2024 kdy je pro platbu nutné přepisovat náhodné texty (funkce vložit je "zakázána") - ale psát=vložit se může i automaticky AHK skriptem (CTRL+SHIFT+V) ```^+v::SendRaw %clipboard%```. Citace banky "Dokážeme si totiž porovnat rychlost zadávání znaků na klávesnici s jinými transakcemi, které jste provedli v minulosti. Pokud nám to nebude sedět, platbu neprovedeme." Moje doporučení použití skriptu má přesnost ~1ms
+![cz+sk-kp](https://github.com/user-attachments/assets/22885706-03e1-477b-9f64-91a15adf928c)
 
 ***Total Uninstall*** - sken systému (před/po spuštění/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci
 
@@ -27,7 +29,7 @@ Podle Googlu byl v 2025-01 ***[na komunitni-preklady.org](https://komunitni-prek
 <br/>
 ***[📥 Přednastavený konfigurační soubor](https://github.com/hornster02/hornster02/raw/main/_ISXPM-2.6.4.3-CONFIG-2024-03.rar)*** (stačí ho jen načíst přes "LOAD PROJECT") zaměřený na ještě menší velikost patche (rozdíl může být až v desítkách %). Využití RAM paměti bude běžně mezi 10-20GB (nezáleží na počtu souborů, ale čím větší je soubor tím vyšší bude spotřeba RAM = 1GB soubor na obou stranách=cca 6GB RAM) - v případě nároků na RAM převyšující možnosti systému se může proces zpomalit a zároveň zachovat vysokou kompresi snížením počtu "Generating cores". "Compression" v sekci "Patch Options" je vypnutá - komprimuje nezpracované ne-XDELTA soubory (ISXPM v tomto ohledu zřejmě nepodporuje větší možnosti nastavení a ani ta nejvyšší "lzma2/ultra64" není dostatečně dobrá = vyšší komprese se dosáhne zabalením celého patche přes 7-Zip)
 
-V roce 2024 vznikla jakási česká alternativa tohoto programu. ***🟦 CZMaker*** (navzdory nepodpoře funguje i ve Win7) https://lokalizace.net/aplikace-ke-stazeni
+V roce 2024 vznikla jakási česká alternativa ISXPM [🟦 ***CZMaker***](https://lokalizace.net/aplikace-ke-stazeni) (navzdory nepodpoře funguje i ve Win7)
 <br/>
 Provedl jsem malý benchmark s těmito soubory
 <br/>
@@ -35,7 +37,7 @@ https://get.videolan.org/vlc/2.2.0/win32/vlc-2.2.0-win32.exe
 <br/>
 https://get.videolan.org/vlc/3.0.18/win32/vlc-3.0.18-win32.exe
 <br/>
-EXE soubory byly přes 7-Zip rozbaleny a všechna data kromě rozdílných byla smazána = zaměřil jsem se čistě na patch+kompresní funkcionalitu (je úplný nesmysl 😉 místo "zazipování" dat která se pouze kopírují vytvářet EXE instalátor s češtinou - z hlediska bezpečnosti/univerzálnosti/velikosti/...). Výsledný patch byl oproti ISXPM o 24% větší (při druhém pokusu u EN/CZ verzí "Data1.fbz" hry Shadowgrounds byl nárůst 75%, třetí pokus by byl zbytečný). Mimochodem nepovažuji za šťastné rozhodnutí nutnost přejmenování přípon souborů a nasypání všech dat dohromady = ani prase se v tom nevyzná a data nejde mezi sebou porovnávat či je normálně používat... A také se zdá, že CZMaker neumí vytvořit instalátor (v případě ISXPM se jedná o 1MB dat). Je možné, že je to kvůli vnucení další naprosto nezbytné aplikace CZ Manager? (který narozdíl od ISXPM vyžaduje i nainstalovaný .NET 8 a přístup k internetu - umožnění offline instalace češtin je prý zvrácená myšlenka... Zřejmě se jedná o jakousi formu DRM pro překlady - i když samozřejmě že všechny jdou ripnout do více future-proof a komprimovanějšího offline formátu). A ano, ISXPM umí bájnou metodu patch/insert. A ne, ani samotné stažené soubory by vám nebyly k ničemu, protože aplikace patche je možná i ručně přes CMD bez ISXPM - např. pro https://github.com/sisong/HDiffPatch se může použít tento příkaz ```hdiffz-x64.exe -f --patch "a:\Stary\0.txt" "a:\Patch\0.txt.xdelta" "a:\Novy\0.txt"```. Proces je možné částečně automatizovat. ```1``` TotalCmd - vygenerovat seznam "Patch" souborů včetně cest do TXT + někam zkopírovat "Patch" data bez souborů čímž se vytvoří podsložky které poslouží jako cíl "Novy". ```2``` Notepad++ - vytvořit (ze seznamu "Patch" souborů) "Stary" "Novy" cesty (najít/nahradit +regulární výrazy pro přidání uvozovek). ```3``` LibreOffice Calc - výsledný polotovar se stejným počtem řádků a o 4 částech (EXE,Stary,Patch,Novy) dát vedle sebe do sloupců a pak vykopírovat zpět do TXT/BAT (pozor před uvozovkami - sloupci - má být pouze klasická mezera).
+EXE soubory byly přes 7-Zip rozbaleny a všechna data kromě rozdílných byla smazána = zaměřil jsem se čistě na patch+kompresní funkcionalitu (je úplný nesmysl 😉 místo "zazipování" dat která se pouze kopírují vytvářet EXE instalátor s češtinou - z hlediska bezpečnosti/univerzálnosti/velikosti/...). Výsledný patch byl oproti ISXPM o 24% větší (při druhém pokusu u EN/CZ verzí "Data1.fbz" hry Shadowgrounds byl nárůst 75%, třetí pokus by byl zbytečný). Mimochodem nepovažuji za šťastné rozhodnutí nutnost přejmenování přípon souborů a nasypání všech dat dohromady = ani prase se v tom nevyzná a data nejde mezi sebou porovnávat či je normálně používat... A také se zdá, že CZMaker neumí vytvořit instalátor (v případě ISXPM se jedná o 1MB dat). Je možné, že je to kvůli vnucení další naprosto nezbytné aplikace CZ Manager? (který narozdíl od ISXPM vyžaduje i .NET Desktop Runtime 8 a přístup k internetu - umožnění offline instalace češtin je prý zvrácená myšlenka... Zřejmě se jedná o jakousi formu DRM pro překlady - i když samozřejmě že všechny jdou ripnout do více future-proof a komprimovanějšího offline formátu). A ano, ISXPM umí bájnou metodu patch/insert. A ne, ani samotné stažené soubory by vám nebyly k ničemu, protože aplikace patche je možná i ručně přes CMD bez ISXPM - např. pro https://github.com/sisong/HDiffPatch se může použít tento příkaz ```hdiffz-x64.exe -f --patch "a:\Stary\0.txt" "a:\Patch\0.txt.xdelta" "a:\Novy\0.txt"```. Proces je možné částečně automatizovat. ```1``` TotalCmd - vygenerovat seznam "Patch" souborů včetně cest do TXT + někam zkopírovat "Patch" data bez souborů čímž se vytvoří podsložky které poslouží jako cíl "Novy". ```2``` Notepad++ - vytvořit (ze seznamu "Patch" souborů) "Stary" "Novy" cesty (najít/nahradit +regulární výrazy pro přidání uvozovek). ```3``` ***🟦 LibreOffice Calc*** - výsledný polotovar se stejným počtem řádků a o 4 částech (EXE,Stary,Patch,Novy) dát vedle sebe do sloupců a pak vykopírovat zpět do TXT/BAT (pozor před uvozovkami - sloupci - má být pouze klasická mezera).
 <br/>
 [2/3] CZMaker (Jak dělat balíčky pro manager) https://youtu.be/fBQSt8eEe2Y (Pozor! Obsahuje dezinformace)
 
@@ -52,19 +54,17 @@ EXE soubory byly přes 7-Zip rozbaleny a všechna data kromě rozdílných byla 
 
 ***🟦 BikMod v0.3e (Beta) + 🟦 bink2-libass*** - modifikovaná "binkw32.dll" knihovna, pomocí které se mohou načíst externí SRT titulky. ***🟦 RADTools*** - úprava BIK/SMK video souborů
 
-***OpenAL, K-Lite Codec Pack*** - audio/video ovladače/kodeky. Užitečné asi jenom pro bezproblémový chod starších her
-
 ***MSI Afterburner+RTSS*** - překrytí obrazu - čas, HW monitoring, limit FPS/Frametime (klávesové zkratky), Scanline Sync, tray ikony. Omezením FPS se v některých hrách značně prodlouží nahrávací časy (Painkiller/...)
 
-***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) pro DX1-9 hry, možnost zvětšení rozhraní her při vysokých rozlišeních (např. rozlišení ve hře je 1280x720 a přes program se nastaví 1920x1080 = rozhraní bude velké jako v 720p, ale rozlišení bude 1080p) a vnutit hře nepodporovaná rozlišení, obnovovací frekvenci, limit FPS, AF filtrování textur... Od verze 2.55+ (2018+) v kombinaci s DX11+Radeon může nastat bug v podobě bílých textur (u novějších verzí z roku 2023+ je problém zřejmě už vyřešený). Pravý klik myší zpřístupní pokročilé možnosti. Pro zapnutí wrapperu se musí potřebné DLL soubory z podsložky dgVoodoo2 nakopírovat k (hlavnímu) EXE souboru hry a pak nakonfigurovat (dgVoodooCpl.exe) čímž se u EXE souboru hry vytvoří "dgVoodoo.conf". Příklad pro zachování ostrého (ne pixelovatého a ne rozmazaného přes AA) obrazu ve hrách s fixním/omezeným rozlišením - ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear), ale vzhledem k tomu, že i bez dgV má většina her rozmazaný obraz i v nativním rozlišení - Bilinear - , tak se může hodit vynucení Lanczos-3
+***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) pro DX1-9 hry, možnost zvětšení rozhraní her při vysokých rozlišeních (např. rozlišení ve hře je 1280x720 a přes dgVoodoo2 se nastaví 1920x1080 = rozhraní bude velké jako v 720p, ale rozlišení bude 1080p) a vnutit hře nepodporovaná rozlišení, obnovovací frekvenci, limit FPS, AF filtrování textur... Od verze 2.55+ (2018+) v kombinaci s DX11+Radeon může nastat bug v podobě bílých textur (u novějších verzí z roku 2023+ je problém zřejmě už vyřešený). Pravý klik myší zpřístupní pokročilé možnosti. Pro zapnutí wrapperu se musí potřebné DLL soubory z podsložky dgVoodoo2 nakopírovat k (hlavnímu) EXE souboru hry a pak nakonfigurovat (dgVoodooCpl.exe) čímž se u EXE souboru hry vytvoří "dgVoodoo.conf". Příklad pro zachování ostrého (ne pixelovatého a ne rozmazaného přes AA) obrazu ve hrách s fixním/omezeným rozlišením - ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear), ale vzhledem k tomu, že i bez dgV má většina her rozmazaný obraz i v nativním rozlišení - Bilinear - , tak se může hodit vynucení Lanczos-3
 
 ***🟦 4GB Patch*** - prolomení 2GB RAM limitu u 32-bit aplikací. Užitečné třeba u některých her kdy se úpravou EXE souboru zvýší minimální FPS, o něco se zrychlí nahrávací časy a také při delším hraní nebude hrozit pád aplikace
 
 ***ArgusMonitor, Speedfan*** - regulace otáček ventilátorů CPU+GPU+skříně a jejich křivky+vypínání
 
-***🟦 ClickMonitorDDC*** - změna jasu/kontrastu/hlasitosti/zapnutí/vypnutí monitoru, tray ikony; profily - klávesové zkratky. Funguje i ve hrách
+***🟦 ClickMonitorDDC*** - změna jasu/kontrastu/hlasitosti/zapnutí/vypnutí ```monitoru```, tray ikony; profily - klávesové zkratky. Funguje i ve hrách
 
-***[📥 PowerStrip](https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key.rar)*** - softwarová změna jasu/kontrastu/gammy - profily - klávesové zkratky. Funguje i ve hrách (bezproblémový windowed/borderless, ale ve fullscreen některé hry změny neumožňují - ale třeba v ```dgVoodoo2``` se tyto změny mohou vynutit - Output API / Inherit Color Profile...) https://entechtaiwan.com/util/ps.shtm
+***🟦 Gamma Panel*** - ```softwarová``` změna jasu/kontrastu/gammy - profily - klávesové zkratky. Funguje i ve hrách (bezproblémový windowed/borderless, ale ve fullscreen některé hry změny neumožňují - ale třeba v ```dgVoodoo2``` se tyto změny mohou vynutit - Output API / Inherit Color Profile...). Problémy s AHK - klávesu ALT poslanou (fyzicky nestisknutou) přes AHK Gamma Panel neakceptuje = při nepoužívání přepínačů (více funkcí na jedné klávese) to nemusí být problém protože Gamma Panel zkratky zřejmě bez omezení podporuje. Druhý problém je "nemožnost" spustit Gamma Panel (EXE,LNK) přes AHK protože nebude načten "gapa.ini" (obejde se to spuštěním přes BAT - první řádek ```cd /d c:\```, cmd.exe nechat automaticky zavřít). ***[📥 PowerStrip](https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key.rar)*** https://entechtaiwan.com/util/ps.shtm
 
 ***🟦 Custom Resolution Utility*** - vytvoření vlastního rozlišení a obnovovací frekvence monitoru. Ideální také pro obejití limitu maximálního rozlišení u starých GPU snížením obnovovací frekvence - např. 2560x1080x54Hz na Radeon HD 4670 (2008 - 1920x1200x60Hz). Nebo pokud Win při změně rozlišení nastavuje nižší Hz než monitor podporuje, tak pokud se v CRU u nativního rozlišení nastaví maximální podporovaná obnovovací frekvence, tak by i nižší rozlišení měly být automaticky nastavovány s maximální obnovovací frekvencí (zapnutý ```GPU Scaling``` v Radeon Bloatware💩 může funkčnost narušit). Další možnost vynucení vlastní obnovovací frekvence v DirectX aplikacích je v ```HKLM\SOFTWARE\Wow6432Node\Microsoft\DirectDraw``` a ```HKLM\SOFTWARE\Microsoft\DirectDraw``` vytvořit DWORLD hodnotu ```ForceRefreshRate``` a napsat konkrétní číslo v Hz (restart není nutný, změny se aktivují ihned). Zaplnění všech "Detailed resolutions" slotů může vypnout Freesync v Radeon Bloatware💩
 
@@ -94,7 +94,7 @@ místo XXX se napíše název potřebného klíče
 
 ***🟦 DIMR (Direct Input Mouse Rate)*** - ukazatel taktů myši
 
-***🟦 Mouse Settings Changer*** - přepínání citlivosti myši/touchpadu (ovládací panely) třeba i klávesovou zkratkou - pro skrytí vyskakovacího okna při přepnutí profilu se může použít Autohotkey - příklad pro AltGr+F7
+***🟦 Mouse Settings Changer*** - přepínání citlivosti myši/touchpadu (ovládací panely) třeba i klávesovou zkratkou - pro skrytí vyskakovacího okna při přepnutí profilu se může použít AHK - příklad pro AltGr+F7
 <br/>
 ```VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide```
 
@@ -110,7 +110,7 @@ místo XXX se napíše název potřebného klíče
 <br/>
 ***EXE Radar Pro v3 (Beta)*** - při spuštění spustitelného souboru (exe/msi/bat/...) se zobrazí okno s dotazem zda ho spustit nebo ukončit (uživatelem definovaný Command-Line/whitelist/blacklist probíhá automaticky v pozadí systému). Ověření přes kontrolní součet
 
-🚫***Easy File Locker*** - zakázání čtení/zápisu/mazání/ skrytí souborů/složek. Zamknutí funguje jen když je spuštěný Windows+SYS ovladač programu (dá se zapínat/vypínat přes zástupce/klávesové zkratky bez nutnosti spouštět program - NirCmd). Pokud nějaký program obchází ochranu, tak za to můžou NTFS linky*0 (nezamknuté všechny cesty)
+🚫***Easy File Locker*** - zakázání čtení/zápisu/mazání/ skrytí souborů/složek. Zamknutí funguje jen když je spuštěný Windows+SYS ovladač EFL (dá se zapínat/vypínat přes zástupce/klávesové zkratky bez nutnosti spouštět EFL - NirCmd). Pokud nějaký program obchází ochranu, tak za to můžou NTFS linky*0 (nezamknuté všechny cesty)
 
 🚫Vytvoření souboru místo složky, mazání klidně i systémových EXE/... souborů - tyto klasické metody nikdy nezklamou
 
@@ -126,13 +126,13 @@ a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úp
 
 🚫***🟦 Autoruns*** - automaticky spouštěné aplikace/knihovny/ovladače
 
-🚫***🟦 NSudo*** - spouštění aplikací s nejvyššími právy. V kombinaci i s programem Autoruns je snadné se zbavit veškerého MS bloatwaru (aktualizace/služby/plánovače úloh/Defender/Edge/OneDrive/Slutana/StartMenu/...)
+🚫***🟦 NSudo*** - spouštění aplikací s nejvyššími právy. V kombinaci i s Autoruns je snadné se zbavit veškerého MS bloatwaru (aktualizace/služby/plánovače úloh/Defender/Edge/OneDrive/Slutana/StartMenu/...)
 
 ❶***🟦 BootICE*** - vytvoření bootovacího média bez formátování a ztráty dat (MBR/PBR pro HDD/SSD/USB), úprava Windows souborů BCD/UEFI (multiboot, změna systémové partition, ...), skrytí/aktivace partition
 
 ❷***🟦 Gandalf’s Windows*** (Win7-11) - spustitelný (bez formátování a ztráty dat⬆️) z USB (i z telefonu - pokud podporuje boot z "biosu") s možností internetu, instalování programů/ovladačů. Víceméně plnohodnotný systém - po restartu se ale vrací do výchozího nastavení
 
-❸***🟦 WinNTSetup*** - instalace/záloha/obnovení Windows bez formátování a ztráty dat a vytváření bootovacího instalačního média (přeskočení věčně chybového/nebezpečného MS instalačního procesu = po nakopírování dat a restartu PC se spouští systém). Iso/wim/swm/vhd (dají se používat i v 7-Zip)+možnost přidání ovladačů/tweaků. Proces není závislý na konkrétní HW, takže třeba obnovení zálohy systému jde provést na jakékoli PC. Jde instalovat i na USB disky a minimálně Win11 z nich jde bez dalších úprav spustit (potřebné ovladače se načítají při bootu, takže nezáleží na jakém PC se bude spouštět) - jeho nesmyslné požadavky jsou ignorovány (UEFI/TPM/...) "Boot drive+Installation drive" může být stejný oddíl jednoho disku (program je pro běžného uživatele přednastavený - stačí vybrat edici Windows, kliknout na "Setup+OK" a proces začíná - na konci se automaticky vytvoří Bios+UEFI boot a poté v případě MBR disku doporučuji zkontrolovat zda je zelená tečka u BOOT PART). Záloha se provádí přes "Local Windows Installations/Capture Wim" - vyjímky se mohou přidat do "WimScript.ini". Možné řešení chyb
+❸***🟦 WinNTSetup*** - instalace/záloha/obnovení Windows bez formátování a ztráty dat a vytváření bootovacího instalačního média (přeskočení věčně chybového/nebezpečného MS instalačního procesu = po nakopírování dat a restartu PC se spouští systém). Iso/wim/swm/vhd (dají se používat i v 7-Zip)+možnost přidání ovladačů/tweaků. Proces není závislý na konkrétní HW, takže třeba obnovení zálohy systému jde provést na jakékoli PC. Jde instalovat i na USB disky a minimálně Win11 z nich jde bez dalších úprav spustit (potřebné ovladače se načítají při bootu, takže nezáleží na jakém PC se bude spouštět) - jeho nesmyslné požadavky jsou ignorovány (UEFI/TPM/...) "Boot drive+Installation drive" může být stejný oddíl jednoho disku (WinNTSetup je pro běžného uživatele přednastavený - stačí vybrat edici Windows, kliknout na "Setup+OK" a proces začíná - na konci se automaticky vytvoří Bios+UEFI boot a poté v případě MBR disku doporučuji zkontrolovat zda je zelená tečka u BOOT PART). Záloha se provádí přes "Local Windows Installations/Capture Wim" - vyjímky se mohou přidat do "WimScript.ini". Možné řešení chyb
 <br/>
 -vložené ISO hlásí "No Windows Source Detected" nebo "Windows Source invalid" (rozbalit ISO a vložit instalační soubor - měl by se jmenovat "install" a být ve složce "sources" - zbývající obsah ISO je pro instalaci zbytečný a stejně nebude použit)
 <br/>
@@ -150,7 +150,9 @@ Záloha systému se ale může provést i přes WinRAR (jsou to data jako každ�
 <br/>
 ⓿🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** - správa zabezpečení dat, záložky pro rychlý přístup
 
-***WinToUSB*** - tweak (v programu je to nazvané jako "konverze", ale jedná se jen o drobnou změnu v registru čímž se změní pořadí načítaných ovladačů při bootu) Win10+ díky kterému se dá systém spouštět i z externích médií přes USB = jeden systém se všemi programy+nastavením, který jde spustit na "jakémkoli" PC přes interní i externí disk (chybějící USB ovladače nebo IDE/AHCI mód atd. můžou být problém i když ne neřešitelný). Alternativa WinToUSB je úprava "BootDriverFlags" ```HKLM\SYSTEM\HardwareConfig\XXX``` na 0x14
+***USB boot*** - BootDriverFlags, 0x14 (HKLM\SYSTEM\HardwareConfig\XXX) - změna pořadí načítaných ovladačů při bootu Win10+ = jeden systém se všemi programy+nastavením, který jde spustit na "jakémkoli" PC přes interní i externí disk (chybějící USB ovladače nebo IDE/AHCI mód atd. můžou být problém i když ne neřešitelný)
+
+***Změna písmen disků přes registr*** ```HKLM\SYSTEM\MountedDevices```
 
 ***🟦 GImageX*** - tvorba WIM image (Windows v jednom komprimovaném souboru - bootovací nebo pro kompletní zálohu systému). Capture/Apply/Mount
 
@@ -168,7 +170,7 @@ Záloha systému se ale může provést i přes WinRAR (jsou to data jako každ�
 
 ***🟦 Video-subtitle-extractor (VSE)*** - OCR metoda automatického vytvoření titulků
 
-***🟦 UniFlash*** (Rainbow Software) - MS-DOS program na uložení/obnovení CMOS paměti biosu (nastavení) do souboru. Na novějším HW možná už nefunkční (AM3+ +)
+***🟦 UniFlash*** (MS-DOS, Rainbow Software) - uložení/obnovení CMOS paměti biosu (nastavení) do souboru. Na novějším HW možná už nefunkční (AM3+ +)
 
 ***🟦 NetSpeedMonitor*** - monitoring rychlosti a objemu stažených dat+historie, tray
 
@@ -216,21 +218,16 @@ Záloha systému se ale může provést i přes WinRAR (jsou to data jako každ�
 
 ***HDD Regenerator*** - oprava poškozených sektorů na HDD bez ztráty dat (Win/MS-DOS)
 
-***🟦 Total Commander*** - rychlá/efektivní náhrada Průzkumníka/Plochy/NabídkyStart se spoustou funkcí navíc (vnitřní přidružení souborů včetně ikon, porovnání souborů podle obsahu, změna atributů, kopírování cest k datům do schránky, zobrazit/skrýt určité soubory/složky, kopírování souborů jenom s určitým datem se zachováním adresářové struktury, ověření nakopírovaných dat kvůli jejich případnému poškození, ... = nižší stovky klávesových zkratek). Pár užitečných "wincmd.ini" tweaků (první 2 jsou velmi důležité a moc nechápu, že program tak není nastaven v základu - první zrychlí/zpřehlední např. vyhledávání dat tím, že ignoruje NTFS linky = vyhledává data jak jsou zapsaná na disku a neukazuje "falešné duplikáty". Druhý kopíruje/přesunuje NTFS linky jako linky a ne jako soubory/složky)
+***🟦 Total Commander*** - rychlá/efektivní náhrada Průzkumníka/Plochy/NabídkyStart se spoustou funkcí navíc (vnitřní přidružení souborů včetně ikon, porovnání souborů podle obsahu, změna atributů, kopírování cest k datům do schránky, zobrazit/skrýt určité soubory/složky, kopírování souborů jenom s určitým datem se zachováním adresářové struktury, ověření nakopírovaných dat kvůli jejich případnému poškození, ... = nižší stovky klávesových zkratek). Pár užitečných "wincmd.ini" tweaků (první 2 jsou velmi důležité a moc nechápu, že TotalCMD tak není nastaven v základu - první zrychlí/zpřehlední např. vyhledávání dat tím, že ignoruje NTFS linky = vyhledává data jak jsou zapsaná na disku a neukazuje "falešné duplikáty". Druhý kopíruje/přesunuje NTFS linky jako linky a ne jako soubory/složky)
 <br/>
 ```IgnoreLinks=8```
-<br/>
 ```CopyLinks=1```
-<br/>
 ```DriveBarHide=DC```
-<br/>
 ```RestrictInterface=3```
-<br/>
 ```EditWaitTime=-1```
-<br/>
 ```UseIniInProgramDir=1```
-<br/>
 ```pluginbasedir=%COMMANDER_PATH%\plugins```
+```AlwaysCopyInBackground=1```
 <br/>
 S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce komprimovat - LST soubor se prochází jako archiv a dá se v něm vyhledávat)
 <br/>
@@ -250,7 +247,7 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 <br/>
 ```c:\BES\BES.exe -J "C:\FileActivityWatch\FileActivityWatch.exe" 90 -m "c:\Deus Ex\System\DeusEx.exe" 10 -m```
 
-***🟦 Registry Workshop*** - pokročilá náhrada výchozího "Regedit". Load Hive slouží pro načtení externího registru - je možné ho upravovat. Integrace s programem ***Total Uninstall*** se v jeho nastavení provede tímto příkazem -
+***🟦 Registry Workshop*** - pokročilá náhrada výchozího "Regedit". Load Hive slouží pro načtení externího registru - je možné ho upravovat. Integrace s ***Total Uninstall*** se v jeho nastavení provede tímto příkazem -
 <br/>
 ```"c:\Registry Workshop\RegWorkshopX64.exe" /g```
 
@@ -290,8 +287,6 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 
 ***🟦 HxD+CFF Explorer+🟦 Resource Hacker*** - úpravy spustitelných souborů a jiné
 
-***Změna písmen disků přes registr*** ```HKLM\SYSTEM\MountedDevices```
-
 ***GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}*** - vytvoření složky s tímto názvem a její otevření přes Průzkumník otevře okno s veškerými ovládacími panely
 
 ***Microsoft Management Console*** (MMC) - přidání vlastních modulů do jedné MMC konzole. Postup - spustit/mmc/přidat nebo odebrat moduly snap-in/vybrat moduly/uložit
@@ -306,7 +301,7 @@ Automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:
 
 ***[🟦 tableManager](https://github.com/pietrantonio91/tablemanager)*** - HTML tabulky, možnost řazení a filtrování ve vybraných sloupcích
 
-***🟦 SmartSteamEmu*** - nenáročná alternativa Steam klienta (Game Booster). V mém případě se jedná o 1 vs. 48+ vteřin pro start programu a 40MB vs. 1,5GB (bez přístupu k internetu pro ```steamwebhelper.exe``` jinak by se jednalo o 2,5-3GB) spotřebované V+RAM
+***🟦 SmartSteamEmu*** - nenáročná alternativa Steam klienta (Game Booster). V mém případě se jedná o 1 vs. 60+ vteřin pro start a 40MB vs. 1,5GB (bez přístupu k internetu pro ```steamwebhelper.exe``` jinak by se jednalo o 2,5-3GB) spotřebované V+RAM
 
 ***🟦 SCURLed*** - hromadná úprava LNK/URL zástupců
 
@@ -320,6 +315,10 @@ Automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:
 <br/>
 -*Portable.exe nemusí být nutně v pozadí systému spuštěný
 
+***🟦 ADB Explorer, 🟦 APK-Info, 🟦 Audacity, 🟦 Avidemux, 🟦 CPU-Z, DAEMON Tools Lite, 🟦 Error Lookup, 🟦 FastStone Capture, 🟦 HTTrack Website Copier, 🟦 HWiNFO, 🟦 InnoSetup Uninstall Log Reader, 🟦 Kaspersky Virus Removal Tool, 🟦 PHP, 🟦 Python, 🟦 qBittorrent, 🟦 Recuva, 🟦 uTorrent, 🟦 VLC, 🟦 x64dbg, 🟦 XnViewMP***
+
+***Ovladače (Win7)*** - Visual C++ Redistributable 2005-2022, .NET Framework3.5+4.8, .NET Desktop Runtime 5-8, DirectX End-User Runtimes, Edge WebView2 Runtime, (Legacy)PhysX, OpenAL, K-Lite Codec Pack
+
 <br/>
 <br/>
 <br/>
@@ -329,29 +328,27 @@ Automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:
 
 🟩1* English
 
-***Total Uninstall*** - system scan (before/after application launch/installation) and display changes (files/folders/registry), export registry changes to REG file for un/install
+***Total Uninstall*** - system scan (before/after app launch/installation) and display changes (files/folders/registry), export registry changes to REG file for un/install
 
-***🟦 Inno Setup XDELTA Patch Maker, Patch Maker*** (Clickteam) - create a patch
+***🟦 Inno Setup XDELTA Patch Maker*** - create a patch
 
 ***🟦 ISO Directory v0.5***(Michel) - create a mini-image (crack) CD/DVD (size a few kB)
 
 ***🟦 BikMod v0.3e (Beta) + 🟦 bink2-libass*** - modified "binkw32.dll" library, which can be used to load external SRT subtitles. 🟦 RADTools - modification of BIK/SMK video files
 
-***OpenAL, K-Lite Codec Pack*** - audio/video drivers/codecs. Probably only useful for running older games smoothly
-
 ***MSI Afterburner+RTSS*** - screen overlay - time, HW monitoring, FPS/Frametime limit (hotkeys), Scanline Sync, tray icons. Limiting FPS will significantly increase loading times in some games (Painkiller/...)
 
 ***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) for DX1-9 games, option to enlarge interface of games at high resolutions (e.g. resolution in game is 1280x720 and through app it is set to 1920x1080 = interface will be big as in 720p, but resolution will be 1080p) and force unsupported resolution into the game (+refresh rate/FPS limit/AF texture filtering/...). Right mouse click opens advanced options. To enable wrapper, the necessary DLL files from dgVoodoo2 subfolder must be copied to (main) EXE file of the game and then configured (dgVoodooCpl.exe) = "dgVoodoo.conf" will be created. An example for keeping image sharp (not pixelated and not blurred through AA) in fixed/limited resolution games - ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear)
 
-***🟦 4GB Patch*** - 2GB RAM limit workaround for 32-bit applications. Useful for some games where modifying EXE file increase minimum FPS, speed up loading times and also prevent app from crashing when playing for a longer time
+***🟦 4GB Patch*** - 2GB RAM limit workaround for 32-bit apps. Useful for some games where modifying EXE file increase minimum FPS, speed up loading times and also prevent app from crashing when playing for a longer time
 
 ***ArgusMonitor, Speedfan*** - regulation of CPU+GPU+case fans speed and their curves+switching off
 
-***🟦 ClickMonitorDDC*** - change monitor brightness/contrast/volume/on/off, tray icons; profiles - hotkeys. Works in games too
+***🟦 ClickMonitorDDC*** - ```change monitor``` brightness/contrast/volume/on/off, tray icons; profiles - hotkeys. Works in games too
 
-***[📥 PowerStrip](https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key.rar)*** - software change brightness/contrast/gamma - profiles - hotkeys. Works in games too (windowed/borderless seamless, but in fullscreen some games don't allow changes - but for example in ```dgVoodoo2``` these changes can be forced - Output API / Inherit Color Profile...) https://entechtaiwan.com/util/ps.shtm
+***🟦 Gamma Panel*** - ```software change``` brightness/contrast/gamma - profiles - hotkeys. Works in games too (windowed/borderless seamless, but in fullscreen some games don't allow changes - but for example in ```dgVoodoo2``` these changes can be forced - Output API / Inherit Color Profile...). Problems with AHK - ALT key sent (not physically pressed) via AHK is not accepted by Gamma Panel = when not using switches (multiple functions on one key) this may not be a problem because Gamma Panel supports shortcuts apparently without limitations. The second problem is “ inability ” to run Gamma Panel (EXE,LNK) via AHK because the “gapa.ini” will not be loaded (workaround is to run via BAT - first line ```cd /d c:\```, let cmd.exe close automatically). ***[📥 PowerStrip](https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key.rar)*** https://entechtaiwan.com/util/ps.shtm
 
-***🟦 Custom Resolution Utility*** - create a custom resolution and refresh rate for monitor. Also ideal for workaround maximum resolution limit on old GPUs by lowering refresh rate - e.g. 2560x1080x54Hz on Radeon HD 4670 (2008 - 1920x1200x60Hz). Or if Win sets a lower Hz than monitor supports, then if the maximum supported refresh rate is set in CRU for native resolution, then even lower resolutions should be automatically set with maximum refresh rate (```GPU Scaling``` in Radeon Bloatware💩 can break functionality). Another option to force a custom refresh rate in DirectX applications is to create a DWORLD value ```ForceRefreshRate``` in ```HKLM\SOFTWARE\Wow6432Node\Microsoft\DirectDraw``` and ```HKLM\SOFTWARE\Microsoft\DirectDraw``` and write a specific number in Hz (restart is not necessary, changes are activated immediately). Filling up all "Detailed resolutions" slots can turn off Freesync in Radeon Bloatware💩
+***🟦 Custom Resolution Utility*** - create a custom resolution and refresh rate for monitor. Also ideal for workaround maximum resolution limit on old GPUs by lowering refresh rate - e.g. 2560x1080x54Hz on Radeon HD 4670 (2008 - 1920x1200x60Hz). Or if Win sets a lower Hz than monitor supports, then if the maximum supported refresh rate is set in CRU for native resolution, then even lower resolutions should be automatically set with maximum refresh rate (```GPU Scaling``` in Radeon Bloatware💩 can break functionality). Another option to force a custom refresh rate in DirectX apps is to create a DWORLD value ```ForceRefreshRate``` in ```HKLM\SOFTWARE\Wow6432Node\Microsoft\DirectDraw``` and ```HKLM\SOFTWARE\Microsoft\DirectDraw``` and write a specific number in Hz (restart is not necessary, changes are activated immediately). Filling up all "Detailed resolutions" slots can turn off Freesync in Radeon Bloatware💩
 
 ***🟦 RefreshLock*** - probably the most universal way to force highest supported monitor refresh rate. It also works in DirectX/Vulkan/OpenGL
 
@@ -379,7 +376,7 @@ instead of XXX, write name of required key
 
 ***🟦 DIMR (Direct Input Mouse Rate)*** - mouse polling rate (Hz) monitor
 
-***🟦 Mouse Settings Changer*** - switching mouse/touchpad sensitivity (control panels) even with a hotkeys - Autohotkey can be used to hide popup window when switching profile - example for AltGr+F7
+***🟦 Mouse Settings Changer*** - switching mouse/touchpad sensitivity (control panels) even with a hotkeys - AHK can be used to hide popup window when switching profile - example for AltGr+F7
 <br/>
 ```VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide```
 
@@ -409,7 +406,7 @@ instead of XXX, write name of required key
 <br/>
 and forbidding of arbitrarily adding exceptions is easily done by adding and modifying permissions for "Everyone"
 
-🚫***🟦 Autoruns*** - automatically launched applications/libraries/drivers
+🚫***🟦 Autoruns*** - automatically launched apps/libraries/drivers
 
 🚫***🟦 NSudo*** - run apps with highest privileges. Combined with Autoruns it is easy to get rid of all MS bloatware (updates/services/task schedulers/Defender/Edge/OneDrive/Slutana/StartMenu/...)
 
@@ -435,7 +432,9 @@ System backup can also be done via WinRAR (it's data like any other, just watch 
 <br/>
 ⓿🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** - data security management, bookmarks for quick access
 
-***WinToUSB*** - tweak (in app it's called "conversion", but it's just a small change in registry, which changes order of loaded drivers at boot) Win10+, thanks to which the system can be booted from external media via USB = one system with all programs + settings, which can be run on "any" PC via internal or external disk (missing USB drivers or IDE/AHCI mode, etc. can be a problem, although not unsolvable). An alternative to WinToUSB is to change "BootDriverFlags" ```HKLM\SYSTEM\HardwareConfig\XXX``` to 0x14
+***USB boot*** - BootDriverFlags, 0x14 (HKLM\SYSTEM\HardwareConfig\XXX) - change order of loaded drivers at boot Win10+ = one system with all programs + settings, which can be run on "any" PC via internal or external disk (missing USB drivers or IDE/AHCI mode, etc. can be a problem, although not unsolvable)
+
+***Changing drive letters via registry*** ```HKLM\SYSTEM\MountedDevices```
 
 ***🟦 GImageX*** - create WIM image (Windows in one compressed file - bootable or for complete system backup). Capture/Apply/Mount
 
@@ -504,18 +503,13 @@ System backup can also be done via WinRAR (it's data like any other, just watch 
 ***🟦 Total Commander*** - fast/efficient replacement of Explorer/Desktop/Start Menu with lots of extra features (internal file association including icons, file comparison by content, change attributes, copy data paths to clipboard, show/hide certain files/folders, copying files with certain date while preserving directory structure, verifying copied data for possible damage, ... = lower hundreds of hotkeys). A few useful "wincmd.ini" tweaks (first 2 are very important and I don't understand that the app is not set up that way in base - first one speeds up/transparent e.g. data search by ignoring NTFS links = searches for data as written on disk and doesn't show "false duplicates". Second copies/moves NTFS links as links and not as files/folders)
 <br/>
 ```IgnoreLinks=8```
-<br/>
 ```CopyLinks=1```
-<br/>
 ```DriveBarHide=DC```
-<br/>
 ```RestrictInterface=3```
-<br/>
 ```EditWaitTime=-1```
-<br/>
 ```UseIniInProgramDir=1```
-<br/>
 ```pluginbasedir=%COMMANDER_PATH%\plugins```
+```AlwaysCopyInBackground=1```
 <br/>
 With add-on ***DiskDir Extended*** you can create a data catalog ("pack files" function - LST file is like an archive and can be searched in it)
 <br/>
@@ -529,7 +523,7 @@ With add-on ***DiskDir Extended*** you can create a data catalog ("pack files" f
 <br/>
 -find a CSS file that has somewhere in name TAB - ```*tab*.css```
 
-***System Explorer*** - replacement of "Task Manager" - possibility to save priority/affinity of applications for their automatic setting at next startup. ***🟦 Process Hacker*** 
+***System Explorer*** - replacement of "Task Manager" - possibility to save priority/affinity of apps for their automatic setting at next startup. ***🟦 Process Hacker*** 
 
 ***🟦 Battle Encoder Shirasé*** - process throttling - up to 99%. Ability to use via Command-Line without UI - example 90% and 10% restriction for 2 EXE files = BES will look for running processes in background and automatically restrict them
 <br/>
@@ -571,11 +565,9 @@ With add-on ***DiskDir Extended*** you can create a data catalog ("pack files" f
 
 ***🟦 Process Monitor+🟦 FileActivityWatch*** - activities of running processes - detailed list of accesses on SSD/registry/network
 
-***KernelEX/One-Core-API/Extended Kernel for Windows Vista/VxKex*** - ability to run newer applications on an unsupported system (compatibility layer). For example Firefox 52 (2017) in Win98
+***KernelEX/One-Core-API/Extended Kernel for Windows Vista/VxKex*** - ability to run newer apps on an unsupported system (compatibility layer). For example Firefox 52 (2017) in Win98
 
 ***🟦 HxD+CFF Explorer+Resource Hacker*** - editing executables and more
-
-***Changing drive letters via registry*** ```HKLM\SYSTEM\MountedDevices```
 
 ***GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}*** - creating a folder with this name and opening it via Explorer opens a window with all control panels
 
@@ -591,7 +583,7 @@ Automatic synchronization of two folders. ```c:\1``` is source folder and ```e:\
 
 ***[🟦 tableManager](https://github.com/pietrantonio91/tablemanager)*** - HTML tables, option of sorting and filtering in selected columns
 
-***🟦 SmartSteamEmu*** - a lightweight alternative to Steam client (Game Booster). In my case it is 1 vs. 48+ seconds for starting app and 40MB vs. 1,5GB (without internet access for ```steamwebhelper.exe``` otherwise it would be 2,5-3GB) used V+RAM
+***🟦 SmartSteamEmu*** - a lightweight alternative to Steam client (Game Booster). In my case it is 1 vs. 60+ seconds for starting app and 40MB vs. 1,5GB (without internet access for ```steamwebhelper.exe``` otherwise it would be 2,5-3GB) used V+RAM
 
 ***🟦 SCURLed*** - mass editing of LNK/URL shortcuts
 
@@ -604,6 +596,10 @@ Automatic synchronization of two folders. ```c:\1``` is source folder and ```e:\
 -run minimized in tray without (G)UI - ```Run, c:\uTorrentPortable.exe,,hide``` (AHK) + ```App\AppInfo\Launcher\uTorrentPortable.ini``` (```[Launch]``` ```ProgramExecutable=uTorrent\uTorrent.exe``` ```CommandLineArguments=/MINIMIZED```)
 <br/>
 -*Portable.exe is not necessarily required to be running in system background
+
+***🟦 ADB Explorer, 🟦 APK-Info, 🟦 Audacity, 🟦 Avidemux, 🟦 CPU-Z, DAEMON Tools Lite, 🟦 Error Lookup, 🟦 FastStone Capture, 🟦 HTTrack Website Copier, 🟦 HWiNFO, 🟦 InnoSetup Uninstall Log Reader, 🟦 Kaspersky Virus Removal Tool, 🟦 PHP, 🟦 Python, 🟦 qBittorrent, 🟦 Recuva, 🟦 uTorrent, 🟦 VLC, 🟦 x64dbg, 🟦 XnViewMP***
+
+***Drivers (Win7)*** - Visual C++ Redistributable 2005-2022, .NET Framework3.5+4.8, .NET Desktop Runtime 5-8, DirectX End-User Runtimes, Edge WebView2 Runtime, (Legacy)PhysX, OpenAL, K-Lite Codec Pack
 
 <br/>
 <br/>
