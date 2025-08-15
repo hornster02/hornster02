@@ -52,7 +52,7 @@ V roce 2024 vznikla jakási česká alternativa ISXPM [```🟦 CZMaker```](https
 <br/>
 <img width="349" alt="czmaker" src="https://github.com/hornster02/hornster02/assets/127822397/9c3e97e2-88fd-45c1-a04f-8d9ac375eeba"> <img width="417" alt="isxpm-cz" src="https://github.com/user-attachments/assets/bfd1cd5a-69da-408b-bfac-5932e81293ad" />
 <br/>
-***🟦 Universal Extractor, 🟦 Dragon UnPACKer, 🟦 Game Extractor, https://aluigi.altervista.org/quickbms.htm https://oezmen.eu/gameresources/ https://www.gildor.org/***
+***🟦 Dragon UnPACKer, 🟦 Game Extractor, https://aluigi.altervista.org/quickbms.htm https://oezmen.eu/gameresources/ https://www.gildor.org/***
 
 ***[📥 Level list (1995-2012)](https://github.com/hornster02/hornster02/raw/main/level.rar)***
 <br/>
@@ -64,7 +64,7 @@ V roce 2024 vznikla jakási česká alternativa ISXPM [```🟦 CZMaker```](https
 
 ***RTSS*** - překrytí obrazu - čas, HW monitoring, limit FPS/Frametime (klávesové zkratky), Scanline Sync, tray ikony. Omezením FPS se v některých hrách značně prodlouží nahrávací časy
 
-***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) pro DX1-9 hry, možnost zvětšení rozhraní her při vysokých rozlišeních (rozlišení ve hře je 1280x720 a přes dgVoodoo2 se nastaví 1920x1080 = rozhraní bude velké jako v 720p, ale rozlišení bude 1080p) a vnutit hře nepodporovaná rozlišení, obnovovací frekvenci, limit FPS, AF filtrování textur... Pravý klik myší zpřístupní pokročilé možnosti. Pro zapnutí wrapperu se musí potřebné DLL soubory z podsložky dgVoodoo2 nakopírovat k (hlavnímu) EXE souboru hry a pak nakonfigurovat (dgVoodooCpl.exe) čímž se u EXE souboru hry vytvoří "dgVoodoo.conf". Příklad pro zachování ostrého (ne pixelovatého a ne rozmazaného přes AA) obrazu ve hrách s fixním/omezeným rozlišením - ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear), ale vzhledem k tomu, že i bez dgV má většina her rozmazaný obraz i v nativním rozlišení - Bilinear - , tak se může hodit vynucení Lanczos-3
+***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) pro DX1-9 hry, možnost zvětšení rozhraní her při vysokých rozlišeních (rozlišení ve hře je 1280x720 a přes dgVoodoo2 se nastaví 1920x1080 = rozhraní bude velké jako v 720p, ale rozlišení bude 1080p) a vnutit hře nepodporovaná rozlišení, obnovovací frekvenci, limit FPS, AF filtrování textur... Pravý klik myší zpřístupní pokročilé možnosti. Pro zapnutí wrapperu se musí potřebné DLL soubory z podsložky dgVoodoo2 nakopírovat k (hlavnímu) EXE souboru hry a pak nakonfigurovat (dgVoodooCpl.exe) čímž se u EXE souboru hry vytvoří "dgVoodoo.conf". Příklad pro zachování ostrého (ne pixelovatého a ne rozmazaného přes AA) obrazu ve hrách s fixním/omezeným rozlišením - ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear), ale vzhledem k tomu, že i bez dgV má většina her rozmazaný obraz i v nativním rozlišení - Bilinear - , tak se může hodit vynucení Lanczos-3. Pokud není možné hýbat kurzorem do všech koutů obrazovky (kvůli rozlišení/DPI), tak zapnout ```GeneralExt``` Free mouse
 
 ***🟦 4GB Patch*** - prolomení 2GB RAM limitu u 32-bit aplikací. U některých her se mohou zvýšit minimální FPS, zrychlit nahrávací časy, omezit pády
 
@@ -232,7 +232,7 @@ Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkr
 <br/>
 ***ExplorerPatcher, 🟦 WinPaletter,*** [***🟦 Classic Theme and UI***](https://www.askvg.com/enable-classic-theme-and-ui-in-windows-11-using-askvg-theme/) - oprava rozbitého/matoucího/šedobílého Win11 rozhraní z devadesátých let 🤮
 
-***🟦 Pazera Free Audio Extractor, 🟦 MKVToolNix*** - úprava videosouborů bez nutnosti konverze.  Odstraňování/extrahování audiostop, podrobné informace o audio/video souborech, ...
+***🟦 Pazera Free Audio Extractor, 🟦 MKVToolNix*** - úprava videosouborů bez nutnosti konverze. Odstraňování/extrahování audiostop, podrobné informace o audio/video souborech, ...
 
 ***🟦 WinRAR*** - archivace dat. ```Výhody oproti 7-Zip``` -
 <br/>
@@ -250,15 +250,19 @@ Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkr
 <br/>
 -možnost vyloučit určité soubory/složky při vytváření archivů
 <br/>
--možnost nekomprimovat určité soubory a tím urychlit proces
+-možnost nekomprimovat určité soubory/přípony a tím urychlit proces
 
 -je možné, že 7z nepodporuje NTFS souborový systém a neumí archivovat komplexnější data obsahující různá zabezpečení a symbolické odkazy? Jak docílit archivace odkazu a ne dat na která se odkazuje a tím mimo jiné nerozbít datovou strukturu?
+<br/>
+-je možné, že 7z archivy není možné kdykoli otevřít v průběhu stahování a je třeba počkat na dokončení (které může trvat i desítky hodin)?
 
 -co tedy zbývá 7-Zip? Celkově lepší komprese (ale horší než ***🟦 PeaZip***) a hlavně DALEKO širší podpora formátů (často jenom read-only, což ale není vůbec málo). Být zdarma (to ale může být WinRAR také a případná vyskakovací okna se mohou automaticky zavírat pomocí skriptu) je v této podobě asi nutnost...
 
 ```Návrhy na zlepšení``` -
 <br/>
 -katalog dat s využitím existující funkce - při vytváření archivu je možné přidat informační záznam o datech (Quick open information), který se ukládá na konec archivu a je nejen pro běžného uživatele těžko prozkoumatelný přes HEX/Notepad++. Pokud by (pro nechráněné archivy?) byl informační záznam povinný a byl uložen na začátku archivu a bylo by možné ho přes WinRAR použít (pro pokročilejšího uživatele možnost zobrazit obsah archivu primárně z informačního záznamu bez ohledu na fyzicky chybějící/poškozená data), tak pro zjištění obsahu+záhlaví souborů např. neznámého 100GB RAR archivu někde na úložišti by nebylo nutné stahovat celý RAR, ale stačilo by prvních ~0-10MB
+
+***🟦 Universal Extractor*** - ultimátní extraktor s podporou stovek formátů. Možnost hromadného extrahování archivů jedním klikem s použitím TXT seznamu s nastřádanými hesly
 
 ***🟦 Total Commander*** - rychlá/efektivní náhrada Průzkumníka/Plochy/NabídkyStart se spoustou funkcí navíc (vnitřní přidružení souborů včetně ikon, porovnání souborů podle obsahu, změna atributů, kopírování cest k datům do schránky, zobrazit/skrýt určité soubory/složky, kopírování souborů jenom s určitým datem se zachováním adresářové struktury, ověření nakopírovaných dat kvůli jejich případnému poškození, ... = nižší stovky klávesových zkratek). Pár užitečných "wincmd.ini" tweaků (první 2 jsou velmi důležité a moc nechápu, že TotalCMD tak není nastaven v základu - první zrychlí/zpřehlední vyhledávání dat tím, že ignoruje NTFS linky = vyhledává data jak jsou zapsaná na disku a neukazuje "falešné duplikáty". Druhý kopíruje/přesunuje NTFS linky jako linky a ne jako složky - bohužel to [```nefunguje u souborů```](https://www.ghisler.ch/board/viewtopic.php?t=40835) u kterých je pro manipulaci nutné použít třeba WinRAR
 <br/>
@@ -365,7 +369,7 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 
 ***RTSS*** - screen overlay - time, HW monitoring, FPS/Frametime limit (hotkeys), Scanline Sync, tray icons. Limiting FPS will significantly increase loading times in some games
 
-***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) for DX1-9 games, option to enlarge interface of games at high resolutions (resolution in game is 1280x720 and through app it is set to 1920x1080 = interface will be big as in 720p, but resolution will be 1080p) and force unsupported resolution into game (+refresh rate/FPS limit/AF texture filtering/...). Right mouse click opens advanced options. To enable wrapper, necessary DLL files from dgVoodoo2 subfolder must be copied to (main) EXE file of game and then configured (dgVoodooCpl.exe) = "dgVoodoo.conf" will be created. An example for keeping image sharp (not pixelated and not blurred through AA) in fixed/limited resolution games - ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear)
+***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) for DX1-9 games, option to enlarge interface of games at high resolutions (resolution in game is 1280x720 and through app it is set to 1920x1080 = interface will be big as in 720p, but resolution will be 1080p) and force unsupported resolution into game (+refresh rate/FPS limit/AF texture filtering/...). Right mouse click opens advanced options. To enable wrapper, necessary DLL files from dgVoodoo2 subfolder must be copied to (main) EXE file of game and then configured (dgVoodooCpl.exe) = "dgVoodoo.conf" will be created. An example for keeping image sharp (not pixelated and not blurred through AA) in fixed/limited resolution games - ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear). If it is not possible to move cursor (due to resolution/DPI) to all corners of screen, enable ```GeneralExt``` “Free mouse”
 
 ***🟦 4GB Patch*** - 2GB RAM limit workaround for 32-bit apps. For some games it can increase minimum FPS, speed up loading times, reduce crashes
 
@@ -554,12 +558,16 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry pa
 -option to uncompress certain files to speed up process
 
 -is it possible that 7z doesn't support NTFS file system and can't archive more complex data that contains various security and symbolic links? How to achieve archiving link and not data it references and thus not break data structure, among other things?
+<br/>
+-is it possible that 7z archives cannot be opened during download and it is necessary to wait until download is complete (which can take tens of hours)?
 
 -7-Zip has overall better compression (but worse than ***🟦 PeaZip***) and, most importantly, FAR wider format support (often read-only, but that's no small thing at all). Being free in this form is probably a necessity...
 
 ```Suggestions for improvement``` -
 <br/>
 -data catalogue with using an existing function - when creating an archive, it is possible to add an information record about data (Quick open information), which is stored at end of archive and not only for a normal user is difficult to explore via HEX/Notepad++. If (for unprotected archives?) information record was mandatory and was stored at beginning of archive and could be used via WinRAR (for more advanced users possibility to view archive content primarily from "Quick open information" regardless of physically missing/damaged data), then to get content+file headers of e.g. an unknown 100GB RAR archive somewhere on webstorage it would not be necessary to download whole RAR, but first ~0-10MB would be enough
+
+***🟦 Universal Extractor*** - ultimate extractor supporting hundreds of formats. Ability to extract archives in bulk with a single click using a TXT list with accumulated passwords
 
 ***🟦 Total Commander*** - fast/efficient replacement of Explorer/Desktop/Start Menu with lots of extra features (internal file association including icons, file comparison by content, change attributes, copy data paths to clipboard, show/hide certain files/folders, copying files with certain date while preserving directory structure, verifying copied data for possible damage, ... = lower hundreds of hotkeys). A few useful "wincmd.ini" tweaks (first 2 are very important and I don't understand why app is not set up that way in base - first one speeds up/transparent data search by ignoring NTFS links = searches for data as written on disk and doesn't show "false duplicates". Second copies/moves NTFS links as links and not as folders - unfortunately this [```does not work for files```](https://www.ghisler.ch/board/viewtopic.php?t=40835), where for manipulation is needed use for example WinRAR
 <br/>
