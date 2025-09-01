@@ -1,3 +1,4 @@
+
 ***Useful software for Win7, 🟦 PORTABLE (official or with help of 🟦 7-Zip)***
 <br/>
 ⬇️ ***CZ*** - [Security](#security-cz) / [HW](#hw-cz) / [Games](#games-cz) / [Other](#other-cz)⠀⠀⠀⠀⠀⠀***EN***(deepl.com) - [Security](#security-en) / [HW](#hw-en) / [Games](#games-en) / [Other](#other-en) ⬇️
@@ -57,6 +58,11 @@ V roce 2024 vznikla jakási česká alternativa ISXPM [```🟦 CZMaker```](https
 ***[📥 Level list (1995-2012)](https://github.com/hornster02/hornster02/raw/main/level.rar)***
 <br/>
 <img width="960" alt="level" src="https://github.com/user-attachments/assets/025b6f96-2f79-449f-a36d-67d1232fda59" />
+
+***[📥 game-copy-world-list (2025-08)](https://drive.google.com/file/d/1X2ez82eJaRQzIox53xc__wHmYsFY8_HH/view)***
+<br/>
+<img width="960" height="540" alt="gcw" src="https://github.com/user-attachments/assets/bf1c82c0-b320-462b-a195-1f44c66732d6" />
+
 
 ***🟦 ISO Directory v0.5***(Michel) - vytvoření mini-image CD/DVD (velikost pár kB) - pokud pro českou verzi hry neexistuje crack a hra trvá na vloženém médiu v mechanice
 
@@ -172,7 +178,7 @@ Záloha systému se ale může provést i přes WinRAR (jsou to data jako každ�
 
 ***🟦 Mouse Settings Changer*** - přepínání citlivosti myši/touchpadu (ovládací panely) klávesovou zkratkou/zástupcem - pro skrytí vyskakovacího okna při přepnutí profilu se může použít AHK - AltGr+F7 ```VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide```
 
-***🟦 XInput Plus*** - detailní nastavení gamepadu
+***🟦 XInput Plus*** - detailní nastavení gamepadu. Pro možnost přemapování (KeyAssign, levá je funkce a pravá vybírací je HW tlačítko = člověka odkojeného Autohotkeyem to může zmást) tlačítek zapnout ```Enable DirectInput Output``` (DirectInput)
 
 ***Comfort On-Screen Keyboard Pro*** - SW klávesnice
 
@@ -477,7 +483,7 @@ System backup can also be done via WinRAR (it's data like any other, just ⚠️
 
 ***🟦 Mouse Settings Changer*** - switching mouse/touchpad sensitivity (control panels) even with a hotkeys - AHK can be used to hide popup window when switching profile - AltGr+F7 ```VKA5 & F7::Run, C:\MouseSC_x64.exe /Speed:6, , Hide```
 
-***🟦 XInput Plus*** - detailed gamepad settings
+***🟦 XInput Plus*** - detailed gamepad settings. To remap buttons (KeyAssign, left is a function and right selectable is a HW button) enable ```Enable DirectInput Output``` (DirectInput)
 
 ***Comfort On-Screen Keyboard Pro*** - SW keyboard
 
