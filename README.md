@@ -1,4 +1,5 @@
 
+
 ***Useful software for Win7, 🟦 PORTABLE (official or with help of 🟦 7-Zip)***
 <br/>
 ⬇️ ***CZ*** - [Security](#security-cz) / [HW](#hw-cz) / [Games](#games-cz) / [Other](#other-cz)⠀⠀⠀⠀⠀⠀***EN***(deepl.com) - [Security](#security-en) / [HW](#hw-en) / [Games](#games-en) / [Other](#other-en) ⬇️
@@ -32,7 +33,7 @@ Remaining SYS Apps ```10``` ```16``` ```16``` (android ```4``` ```7``` ```9```)
 
 ## Games CZ
 
-***[↗️ Češtiny do her (100+ / 1998-2014)](https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name)***. Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Navíc instalátory po sobě často nechávají v lepším případě spoušť (instalací s hrou nesouvisejícím SW - ovladače/zápisy do registru+sys složek/instalace instalátorů/...) v horším - dokud nedojde k ručnímu smazání SYS ovladačů protipirátských ochran (starforce) - i "znefunkčnění" systému (bluescreen). A opravdu málokdo používá takové zabezpečení a SW, aby k ničemu takovému nedocházelo. Zahraničních abandonware archivů/repack/rip/portable existuje, a vždy bude, spousta... Neopravuji překlady pokud dojde k vydání patche/remasteru. ***Skryté překlady*** (ve stejné/podobné/lepší formě byly později nahrány na oficiálnější servery) - [1](https://github.com/hornster02/King-s_Bounty_Dark_Side-2014-CZ) [2](https://github.com/hornster02/No_One_Lives_Forever-2000-CZ)
+***[↗️ Češtiny do her (100+ / 1998-2014)](https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name)***. Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Navíc instalátory po sobě často nechávají v lepším případě spoušť (instalací s hrou nesouvisejícím SW - ovladače/zápisy do registru+sys složek/instalace instalátorů/...) v horším - dokud nedojde k ručnímu smazání SYS ovladačů protipirátských ochran (starforce) - i "znefunkčnění" systému (bluescreen, některé "legitimní"/originální necracknuté EXE mohou být dnes automaty označovány za virus - s tím naprosto souhlasím - a před jejich nahráním do onlinu může být nutné archivy šifrovat). A opravdu málokdo používá takové zabezpečení a SW, aby k ničemu takovému nedocházelo. Zahraničních abandonware archivů/repack/rip/portable existuje, a vždy bude, spousta... Neopravuji překlady pokud dojde k vydání patche/remasteru. ***Skryté překlady*** (ve stejné/+-podobné/?lepší? formě byly později nahrány na oficiálnější servery) - [1](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/King-s_Bounty_Dark_Side-2014-CZ) [2](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/No_One_Lives_Forever-2000-CZ)
 
 ***[📥 Ultimátní seznamy CZ+SK překladů včetně odkazů a dalších podrobností (2024-12). 10 000+ překladů z 33 serverů](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
 <br/>
@@ -62,7 +63,6 @@ V roce 2024 vznikla jakási česká alternativa ISXPM [```🟦 CZMaker```](https
 ***[📥 game-copy-world-list (2025-08)](https://drive.google.com/file/d/1X2ez82eJaRQzIox53xc__wHmYsFY8_HH/view)***
 <br/>
 <img width="960" height="540" alt="gcw" src="https://github.com/user-attachments/assets/bf1c82c0-b320-462b-a195-1f44c66732d6" />
-
 
 ***🟦 ISO Directory v0.5***(Michel) - vytvoření mini-image CD/DVD (velikost pár kB) - pokud pro českou verzi hry neexistuje crack a hra trvá na vloženém médiu v mechanice
 
@@ -156,7 +156,7 @@ Záloha systému se ale může provést i přes WinRAR (jsou to data jako každ�
 
 ***🟦 Process Monitor, (🟦 FileActivityWatch)*** - detailní seznam činností na SSD/registru/sítě
 
-***🟦 HxD+CFF Explorer+🟦 Resource Hacker*** - úpravy spustitelných souborů a jiné
+***🟦 HxD+CFF Explorer+🟦 Resource Hacker*** - úpravy spustitelných (minimální požadavky na verzi Win atd) a jiných souborů
 
 ***🟦 NetSpeedMonitor*** - monitoring rychlosti a objemu stažených dat+historie, tray
 
@@ -188,7 +188,7 @@ Záloha systému se ale může provést i přes WinRAR (jsou to data jako každ�
 
 ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦 Polaris Bios Editor PBE + 🟦 AMDVBFlash / ATI ATIFlash + 🟦 AMD/ATI Pixel Clock Patcher*** - podepsání Radeon ovladačů po úpravě biosu GPU  (přejmenovat na "atikmdag-patcher-bios.exe")
 
-***ArgusMonitor, Speedfan*** - regulace otáček ventilátorů CPU+GPU+skříně a jejich křivky+vypínání
+***ArgusMonitor, Speedfan*** - regulace otáček ventilátorů CPU+GPU+skříně a jejich křivky+vypínání. Efektivní nastavení pro semi-pasivní chlazení+příklady teplot (Argus) - ```1``` 5% rychlost větráku až do 64C (pasivní chlazení), ```2``` 65C (aktivní chlazení č.1 = zjistit minimální % pro schopnost okamžitého roztočení a přidat 5% jako takovou pojistku), ```3``` 70C (aktivní chlazení č.2 - navýšení % rychlosti), ```0``` Hystereze 5C (= po přechodu do aktivního chlazení č.1 snížit teplotu o 5C na 60C a pak přejít do pasivního chlazení = omezit časté roztáčení+vypínání větráku = omezit přepínání rychlostí = raději udržovat delší dobu nižší konstantní rychlost, než kratší dobu s výkyvy = 1 rychlost operuje v rozmezí 10C)
 
 ***🟦 ClickMonitorDDC*** - změna jasu/kontrastu/hlasitosti/zapnutí/vypnutí ```monitoru```, tray ikony; profily - klávesové zkratky. Funguje i ve hrách
 
@@ -355,7 +355,7 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 <br/>
 ```ren 4 1``` ***/*** ```ren 4.* 1.exe``` - přejmenovat soubor/složku 4 na 1 ***/*** přejmenovat soubor 4.cokoliv na 1.exe
 <br/>
-```start 4.exe``` ***/*** ```4.exe``` ***/*** ```"4.exe" -1``` ***/*** ```start /max 4.exe``` ***/*** ```taskkill /im 4.exe /f``` - spustit 4.exe v novém okně ***/*** spustit 4.exe ***/*** spustit 4.exe s parametrem 1 ***/*** spustit 4.exe v maximalizovaném okně ***/*** vynutit vypnutí 4.exe
+```start 4.exe``` ***/*** ```4.exe``` ***/*** ```"4.exe" 1``` ***/*** ```start /max 4.exe``` ***/*** ```taskkill /im 4.exe /f``` - spustit 4.exe v novém okně ***/*** spustit 4.exe ***/*** spustit 4.exe s parametrem 1 ***/*** spustit 4.exe v maximalizovaném okně ***/*** vynutit vypnutí 4.exe
 <br/>
 ```timeout 4``` - počkat 4 vteřiny
 <br/>
@@ -461,7 +461,7 @@ System backup can also be done via WinRAR (it's data like any other, just ⚠️
 
 ***🟦 Process Monitor, (🟦 FileActivityWatch)*** - detailed list of activities on SSD/registry/network
 
-***🟦 HxD+CFF Explorer+🟦 Resource Hacker*** - editing executables and more
+***🟦 HxD+CFF Explorer+🟦 Resource Hacker*** - editing executables (minimum requirements for Win version, etc.) and more
 
 ***🟦 NetSpeedMonitor*** - monitoring of download/upload speed and data amount+history, tray
 
@@ -493,7 +493,7 @@ System backup can also be done via WinRAR (it's data like any other, just ⚠️
 
 ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦 Polaris Bios Editor PBE + 🟦 AMDVBFlash / ATI ATIFlash + 🟦 AMD/ATI Pixel Clock Patcher*** - sign Radeon drivers after modifying GPU bios (rename to "atikmdag-patcher-bios.exe")
 
-***ArgusMonitor, Speedfan*** - regulation of CPU+GPU+case fans speed and their curves+switching off
+***ArgusMonitor, Speedfan*** - regulation of CPU+GPU+case fans speed and their curves+switching off. Effective settings for semi-passive cooling+temperature examples (Argus) - ```1``` 5% fan speed up to 64C (passive cooling), ```2``` 65C (active cooling no. 1 = determine minimum % for immediate spin-up capability and add 5% as a safety value), ```3``` 70C (active cooling no. 2 - increase % speed), ```0``` Hysteresis 5C (= after switching to active cooling no. 1, reduce temperature by 5C to 60C and then switch to passive cooling = limit frequent spinning+fan shutdown = limit speed switching = better to maintain a lower speed for a longer period than a shorter period with speed fluctuations = 1 speed is in range of 10C)
 
 ***🟦 ClickMonitorDDC*** - ```change monitor``` brightness/contrast/volume/on/off, tray icons; profiles - hotkeys. Works in games too
 
@@ -658,7 +658,7 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry pa
 <br/>
 ```ren 4 1``` ***/*** ```ren 4.* 1.exe``` - rename file/folder 4 to 1 ***/*** rename file 4.whatever to 1.exe
 <br/>
-```start 4.exe``` ***/*** ```4.exe``` ***/*** ```"4.exe" -1``` ***/*** ```start /max 4.exe``` ***/*** ```taskkill /im 4.exe /f``` - run 4.exe in new window ***/*** run 4.exe ***/*** run 4.exe with parameter 1 ***/*** run 4.exe in maximized window ***/*** force kill 4.exe
+```start 4.exe``` ***/*** ```4.exe``` ***/*** ```"4.exe" 1``` ***/*** ```start /max 4.exe``` ***/*** ```taskkill /im 4.exe /f``` - run 4.exe in new window ***/*** run 4.exe ***/*** run 4.exe with parameter 1 ***/*** run 4.exe in maximized window ***/*** force kill 4.exe
 <br/>
 ```timeout 4``` - wait 4 seconds
 <br/>
