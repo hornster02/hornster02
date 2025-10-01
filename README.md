@@ -4,7 +4,9 @@
 <br/>
 ⬇️ ***CZ*** - [Security](#security-cz) / [HW](#hw-cz) / [Games](#games-cz) / [Other](#other-cz)⠀⠀⠀⠀⠀⠀***EN***(deepl.com) - [Security](#security-en) / [HW](#hw-en) / [Games](#games-en) / [Other](#other-en) ⬇️
 <br/>
-```What's new``` - Gamma Panel (Apr 15, 2025), FileLocker+EaseFilter+File System Protector (Jun 1, 2025)
+```What's new``` - Gamma Panel (Apr 15, 2025), FileLocker+EaseFilter+File System Protector (Jun 1, 2025), Verpatch (Oct 1, 2025)
+<br/>
+https://github.com/stars/hornster02/lists/non-41444
 
 ⬇️ [Autohotkey v1.1 scripts](#ahk) / [KMPlayer Skin + AHK](#kmp) ⬇️
 
@@ -46,7 +48,7 @@ Přepnutí jakékoli stránky na "bez stylu" obejde většinu nesmyslných přek
 
 ***🟦 Inno Setup XDELTA Patch Maker*** - vytvoření patche s češtinou do hry, ze které "nejde" překlad vytáhnout (chybějící nástroje a různě chráněná herní data nebo překlad ve spouštěcích souborech atd.) - velikost takového patche je běžně o 70-99% menší než celá "warez" verze hry (a sdílení takového patche je pochopitelně i daleko jednodušší a méně ošemetné = nesourodé útržky dat nejsou warez, 🔒i nechráněný patch může také být nestandardní a neprolomitelnou formou šifrování šifrovaných dat - pokud se oba typy souborů ručně poškodí, záhlaví, zápatí, nedohledatelná hash a názvy souborů, tak hledat potenciálně podezřelé soubory a zjistit které k sobě pasují a jak je upravit aby bylo možné aplikování nebude žádná sranda ani pro ty nejvykvantovanější AI PC 4-tého milénia). Pokud překlad vyžaduje i svoje konkrétní DLL+EXE+... soubory a vytvářený patch bude zamýšlený pro digitálně prodávanou hru, tak je dobré tyto soubory z cíle (např. STEAM verze) dočasně odebrat (tím při patchování dojde k obyčejnému zkopírování zdrojových souborů do cíle bez ohledu na jejich verzi = výsledný patch může být kompatibilní i s jinými verzemi typu GOG,MYABANDONWARE,...) = tyto soubory mají běžně velikost maximálně pár desítek MB a jdou dobře komprimovat, takže "patch" způsob by celkově přinesl úsporu dat pouze v rámci jednotek MB, ale pokud by se v cílové verzi v budoucnu změnil jediný bit (a že je to u digitálních produktů daleko pravděpodobnější/jednodušší než že dojde k úpravě samotných velkých herních dat), tak bude celý patch nefunkční. Pokud hra obsahuje stejné typy souborů lišící se v názvu nebo pokud jsou uložená v jiných složkách, tak pokud se tyto věci ručně sjednotí, tak výsledná velikost patche bude menší = nedojde pouze ke komprimaci celých dat, ale ke komprimaci rozdílných částí dat. Vytvořený patch bych zkusil aplikovat a pak porovnal data podle obsahu třeba v Total Commander (původní CZ verze/updatovaná EN-CZ verze) kvůli případné HW/SW chybě a tím pádem změněným=poškozeným datům (ale i před vytvářením patche je nejjistější metoda dvou nezávislých instalací stejné verze hry a porovnání dat). Spuštěný ISXPM vypadá strašně složitě, ale ve skutečnosti může patch vytvořit i naprostý laik (jediná menší komplikace ve vyjímečných případech může být nutnost CZ aktivovat přes nějaký klíč v registru nebo souborem mimo herní data) který si vystačí klidně i jen s řádky "Old version" a "Final version" - výše napsaná doporučení nejsou až tak důležitá, pokud člověk nelpí na univerzálnosti a co nejmenší velikosti patche.
 <br/>
-***[📥 Přednastavený konfigurační soubor + CZ překlad těch nejhlavnějších textů + popis procesu a možných workarounds jako výplň jinak prázdného místa v jednoobrazovkovém patchi](https://github.com/hornster02/hornster02/raw/main/_ISXPM-2.6.4.3-CONFIG-2024-03.rar)*** (stačí ho načíst přes "LOAD PROJECT") zaměřený na ještě menší velikost patche (rozdíl je až v desítkách %). Využití RAM paměti bude běžně mezi 10-20GB (1GB soubor na obou stranách = ~6GB RAM) - proces se může zrychlit zvýšením "Generating cores" v sekci "Build and Log Options" (počet zpracovávaných souborů v jeden okamžik - např. 8x5GB soubor na obou stranách = ~240GB RAM). Komprese (2 druhy) v ISXPM je vyřešena nešťastně - "Compression" v sekci "Patch Options" (komprimuje ne-patch ne-XDELTA soubory jako celek s omezenými možnostmi nastavení = výsledná komprese může být nedostatečná), a "Built-in Presets" + "Custom HDiffPatch parameters" v sekci "Patch-Data Generator" (komprimuje patch XDELTA soubor po souboru s možnostmi nastavení = komprese jednotlivých souborů odděleně snižuje efektivitu komprese). V konfiguračním souboru jsou všechny komprese vypnuté = data jde komprimovat jenom jednou a nejvyšší efektivity se dosáhne zabalením všeho najednou přes 7-Zip/PeaZip a díky tomu je možné v budoucnu patch pouze přebalit a dosáhnout vyšší komprese bez jeho znovuvytváření. Je možné neaktualizovat samotný ISXPM (když nebudu počítat kompresi, tak nemá na velikost patche vliv) a podle potřeby aktualizovat pouze "Patch Engine". Tipy na případnou automatizaci při aplikování patche pomocí BAT jsou dole. *2
+***[📥 Přednastavený konfigurační soubor + CZ překlad těch nejhlavnějších textů + popis procesu a možných workarounds jako výplň jinak prázdného místa v jednoobrazovkovém patchi](https://github.com/hornster02/hornster02/raw/main/_ISXPM-2.6.4.3-CONFIG-2024-03.rar)*** (stačí ho načíst přes "LOAD PROJECT") zaměřený na ještě menší velikost patche (rozdíl je až v desítkách %). Využití RAM paměti bude běžně mezi 10-20GB (1GB soubor na obou stranách = ~6GB RAM) - proces se může zrychlit zvýšením "Generating cores" v sekci "Build and Log Options" (počet zpracovávaných souborů v jeden okamžik - např. 8x5GB soubor na obou stranách = ~240GB RAM). Komprese (2 druhy) v ISXPM je vyřešena nešťastně - "Compression" v sekci "Patch Options" (komprimuje ne-patch "ne-XDELTA" soubory jako celek s omezenými možnostmi nastavení = výsledná komprese může být nedostatečná), a "Built-in Presets" + "Custom HDiffPatch parameters" v sekci "Patch-Data Generator" (komprimuje patch "XDELTA" soubor po souboru s možnostmi nastavení = komprese jednotlivých souborů odděleně snižuje efektivitu komprese). V konfiguračním souboru jsou všechny komprese vypnuté = data jde komprimovat jenom jednou a nejvyšší efektivity se dosáhne zabalením všeho najednou přes 7-Zip (až ```3 komprese``` patch data+nepatch data+7z nahraný na internet ```+``` případné umístění všech dat do Patch.exe, které se po spuštění musí extrahovat do TEMP = další důsledky toho všeho je až násobné zpomalení patch procesu, zvlášť při spuštěných antiVIRUS programech, a více zápisů na SSD než je nutné, navíc pro "reverzní inženýrství" je co nejméně dodatečných úprav a co nejvíce otevřenosti přínosem /// pokud není Patch.exe komprimovaný - první uvedená komprese výše - , tak se v něm dá snadno zjistit použitá verze HDiffPatch - ```hpatchz v``` vyšší hodnota platí /// hdiffz-x64.exe 4.12.0-2025+ určený pro tvorbu/aplikování už ve Win7 "nefunguje", ale hpatchz-x64.exe určený pro aplikování a obsažený i v Patch.exe funguje) a díky tomu je možné v budoucnu patch pouze přebalit a dosáhnout vyšší komprese bez jeho znovuvytváření. Je možné neaktualizovat samotný ISXPM (když nebudu počítat kompresi, tak nemá na velikost patche vliv) a podle potřeby aktualizovat pouze "Patch Engine" (těch je na výběr několik, ale HDiffPatch má snad bez vyjímky nejlepší výsledky). Tipy na případnou automatizaci před/při/po aplikování patche pomocí BAT jsou dole *2 .
 <br/>
 V roce 2024 vznikla jakási česká alternativa ISXPM [```🟦 CZMaker```](https://lokalizace.net/aplikace-ke-stazeni) (navzdory nepodpoře funguje i ve Win7). Provedl jsem malý benchmark s [```těmito```](https://get.videolan.org/vlc/2.2.0/win32/vlc-2.2.0-win32.exe) [```soubory```](https://get.videolan.org/vlc/3.0.18/win32/vlc-3.0.18-win32.exe). EXE soubory byly přes 7-Zip rozbaleny a všechna data kromě rozdílných byla smazána = zaměřil jsem se čistě na patch+kompresní funkcionalitu (je úplný nesmysl 😉 místo "zazipování" dat která se pouze kopírují vytvářet EXE instalátor s češtinou - z hlediska bezpečnosti/univerzálnosti/velikosti/...). Výsledný patch byl oproti ISXPM o 24% větší (při druhém pokusu u EN/CZ verzí "Data1.fbz" hry Shadowgrounds byl nárůst 75%, třetí pokus by byl zbytečný). Nepovažuji za šťastné rozhodnutí nutnost přejmenování přípon souborů a nasypání všech dat dohromady = ani prase se v tom nevyzná a data nejde mezi sebou porovnávat či je normálně používat... A také se zdá, že CZMaker neumí vytvořit instalátor (v případě ISXPM se jedná o 1MB dat). Je možné, že je to kvůli vnucení další "naprosto nezbytné" aplikace ```CZ Manager```? (který narozdíl od ISXPM vyžaduje i ```.NET Desktop Runtime 8``` a ```přístup k internetu``` - umožnění offline instalace češtin je prý zvrácená myšlenka... Zřejmě se jedná o jakousi formu DRM pro překlady - i když samozřejmě že všechny jdou ripnout do více future-proof a komprimovanějšího offline formátu). A ano, ISXPM umí bájnou metodu patch/insert. A ne, ani samotné stažené soubory by vám nebyly k ničemu, protože aplikace patche je možná i ručně přes CMD bez ISXPM - pro [***🟦 HDiffPatch***](https://github.com/sisong/HDiffPatch) se může použít příkaz ```hdiffz-x64.exe -f --patch "a:\Stary\0.txt" "a:\Patch\0.txt.xdelta" "a:\Novy\0.txt"```. Proces je možné částečně automatizovat. ```1``` TotalCmd - vygenerovat seznam "Patch" souborů včetně cest do TXT + někam zkopírovat "Patch" data bez souborů čímž se vytvoří podsložky které poslouží jako cíl "Novy". ```2``` Notepad++ - vytvořit (ze seznamu "Patch" souborů) "Stary" "Novy" cesty (najít/nahradit +regulární výrazy pro přidání uvozovek). ```3``` ***🟦 LibreOffice Calc*** - výsledný polotovar se stejným počtem řádků a o 4 částech (EXE,Stary,Patch,Novy) dát vedle sebe do sloupců a pak vykopírovat zpět do TXT/BAT (před uvozovkami - sloupci - má být klasická mezera). [```[2/3] CZMaker (Jak dělat balíčky pro manager)```](https://youtu.be/fBQSt8eEe2Y) (Pozor! Obsahuje dezinformace)
 <br/>
@@ -82,11 +84,13 @@ V roce 2024 vznikla jakási česká alternativa ISXPM [```🟦 CZMaker```](https
 
 ***🟦 ATI GPU Scaling Fix***(legacy)
 
-***🟦 PortableWinCDEmu, (DAEMON Tools Lite)*** - virtuální mechanika
+***🟦 WinCDEmu, (Alcohol 52%)*** - virtuální mechanika
 
 ## Security CZ
 
 ***Total Uninstall*** - sken systému (před/po spuštění/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci. Doporučuji odstranit výchozí vyjímky - velmi užitečné (záruka čistého systému, který není nutné desítky let přeinstalovávat) a zároveň ⚠️destrukční pokud člověk neví co dělá
+
+Sjednocení datumů všech souborů a vytvoření hashe pro všechny např. EXE+DLL+SYS může zásadně zrychlit/zpřehlednit kontrolu systému
 
 ```🚫update``` ***EXE Radar Pro v3 (Beta)*** - při spuštění spustitelného souboru (EXE/COM/SCR, DLL+SYS bohužel nepodporuje) se zobrazí okno s dotazem zda ho spustit nebo ukončit (uživatelem definovaný Command-Line/whitelist/blacklist probíhá automaticky v pozadí systému). Ověření přes kontrolní součet. Doporučuji odstranit výchozí vyjímky
 
@@ -148,7 +152,7 @@ Záloha systému se ale může provést i přes WinRAR (jsou to data jako každ�
 
 ***Microsoft Management Console*** (MMC) - přidání vlastních modulů do jedné MMC konzole. Postup - spustit/mmc/přidat nebo odebrat moduly snap-in/vybrat moduly/uložit
 
-***🟦 SmartSteamEmu*** - nenáročná alternativa Steam klienta bez nutnosti aktualizací (Game Booster). V mém případě se jedná o 1 vs. 60+ vteřin pro start a 40MB vs. 1,5GB (bez přístupu k internetu pro ```steamwebhelper.exe``` jinak by se jednalo o 2,5-3GB) spotřebované V+RAM
+***🟦 Goldberg Emulator + 🟦 SmartSteamEmu*** - alternativy Steam klienta (Goldberg je bez zbytečného UI). Nenáročné na RAM - v mém případě se jedná o 0 vs. 1,5GB (bez přístupu k internetu pro ```steamwebhelper.exe``` jinak by se jednalo o 2,5-3GB) spotřebované V+RAM a o 0 vs. 1+ minutu pro start klienta. Nefalšovaný offline mód (žádné přihlašování a vynucování aktualizací) + Game Booster
 
 ***🟦 WizTree*** - analýza dat na disku
 
@@ -156,7 +160,7 @@ Záloha systému se ale může provést i přes WinRAR (jsou to data jako každ�
 
 ***🟦 Process Monitor, (🟦 FileActivityWatch)*** - detailní seznam činností na SSD/registru/sítě
 
-***🟦 HxD+CFF Explorer+🟦 Resource Hacker*** - úpravy spustitelných (minimální požadavky na verzi Win atd) a jiných souborů
+***🟦 HxD+CFF Explorer+🟦 Resource Hacker+🟦 Verpatch*** - úpravy spustitelných (minimální požadavky na verzi Win, metadata atd) a jiných souborů
 
 ***🟦 NetSpeedMonitor*** - monitoring rychlosti a objemu stažených dat+historie, tray
 
@@ -262,7 +266,7 @@ Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkr
 <br/>
 -je možné, že 7z archivy není možné kdykoli otevřít v průběhu stahování a je třeba počkat na dokončení (které může trvat i desítky hodin)?
 
--co tedy zbývá 7-Zip? Celkově lepší komprese (ale horší než ***🟦 PeaZip***) a hlavně DALEKO širší podpora formátů (často jenom read-only, což ale není vůbec málo). Být zdarma (to ale může být WinRAR také a případná vyskakovací okna se mohou automaticky zavírat pomocí skriptu) je v této podobě asi nutnost...
+-co tedy zbývá 7-Zip? Celkově lepší komprese (ale horší než ***🟦 PeaZip*** - ZPAQ) a hlavně DALEKO širší podpora formátů (často jenom read-only, což ale není vůbec málo). Být zdarma (to ale může být WinRAR také a případná vyskakovací okna se mohou automaticky zavírat pomocí skriptu) je v této podobě asi nutnost...
 
 ```Návrhy na zlepšení``` -
 <br/>
@@ -339,7 +343,7 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 
 ***🟦 Video-subtitle-extractor (VSE)*** - OCR metoda automatického vytvoření titulků
 
-***🟦 uTorrent, (🟦 qBittorrent)*** (doporučení pro tvorbu, které mi ale selským rozumem nedává smysl) - předpoklad dlouhého fungování [```1 torrentu```](https://sktorrent.eu/torrent/details.php?id=3adcdc3e45bd26ce481a6a03bb9875c50eaeffd9) se zvýší, pokud obsahuje pouze 1 archiv (RAR/ISO/MKV/...) a nic navíc. Torrent se dá přirovnat k RARu rozděleném na několik částí (většinou 16kb až 16MB). Zbytné soubory (části torrentu) se mohou časem u uživatelů poztrácet čímž zanikne jejich status "seeder" (100%). [```Příklad 99,8% (99,9% ISO) torrentu```](https://sktorrent.eu/torrent/details.php?id=ac3580f12b3fcfea20e1f119f95a0aa53187d0cf) (rozdělen po 8MB částech) - roky chybějící 2 obrázky o velikosti 5MB (stažených 766 částí z 767) = z 61% prázdný 5MB soubor ```Manual_pol.pdf``` (matematicky zřejmě jediný a čirou náhodou pro instalaci/užívání nedůležitý). Nepřidávat ručně tracker, při nahrání na server bude automaticky vytvořen
+***🟦 uTorrent, (🟦 qBittorrent)*** - předpoklad dlouhého fungování [```1 torrentu```](https://sktorrent.eu/torrent/details.php?id=3adcdc3e45bd26ce481a6a03bb9875c50eaeffd9) se zvýší, pokud obsahuje pouze 1 archiv (RAR/ISO/MKV/...) a nic navíc. Torrent se dá přirovnat k RARu rozděleném na několik částí (většinou 16kb až 16MB). Zbytné soubory (části torrentu) se mohou časem u uživatelů poztrácet čímž zanikne jejich status "seeder" (100%). [```Příklad 99,8% (99,9% ISO) torrentu```](https://sktorrent.eu/torrent/details.php?id=ac3580f12b3fcfea20e1f119f95a0aa53187d0cf) (rozdělen po 8MB částech) - roky chybějící 2 obrázky o velikosti 5MB (stažených 766 částí z 767) = z 61% prázdný 5MB soubor ```Manual_pol.pdf``` (matematicky zřejmě jediný a čirou náhodou pro instalaci/užívání nedůležitý). Nepřidávat ručně tracker, při nahrání na server bude automaticky vytvořen. "Passiv" uživatel (těch je drtivá většina) "nemůže" stahovat data od "Passiv" uživatelů [```(někdo by musel být "Aktiv")```](https://sktorrent.eu/torrent/forum.php?action=viewtopic&topicid=37) (otevřený port, UPnP, veřejná IP, Port Forwarding)
 
 ***cmd.exe / BAT - práce se soubory*** *2
 <br/>
@@ -360,6 +364,8 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 ```timeout 4``` - počkat 4 vteřiny
 <br/>
 ```shutdown /l``` - odhlásit se
+
+***IPCONFIG.exe /ALL*** - informace o síti
 
 ***🟦 Audacity, 🟦 Avidemux, 🟦 FastStone Capture, 🟦 HTTrack Website Copier, 🟦 InnoSetup Uninstall Log Reader, 🟦 PHP, 🟦 Python, 🟦 VLC, 🟦 XnViewMP, PDF Image Extractor Free***
 
@@ -387,11 +393,13 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 
 ***🟦 ATI GPU Scaling Fix***(legacy)
 
-***🟦 PortableWinCDEmu, (DAEMON Tools Lite)*** - virtual drive
+***🟦 WinCDEmu, (Alcohol 52%)*** - virtual drive
 
 ## Security EN
 
 ***Total Uninstall*** - system scan (before/after app launch/installation) and display changes (files/folders/registry), export registry changes to REG file for un/install. I recommend removing default exceptions - very useful (guaranteeing a clean system that doesn't need to be reinstalled for decades) and ⚠️destructive if one doesn't know what he's doing
+
+Unifying dates of all files and creating a hash for all e.g. EXE+DLL+SYS, can significantly speed up/clarify system checks
 
 ```🚫update``` ***EXE Radar Pro v3 (Beta)*** - when running an executable file (EXE/COM/SCR, DLL+SYS is unfortunately not supported) a window will appear asking whether to run or exit it (user-defined Command-Line/whitelist/blacklist runs automatically in background of system). Verification via checksum. I recommend removing default exceptions
 
@@ -453,7 +461,7 @@ System backup can also be done via WinRAR (it's data like any other, just ⚠️
 
 ***Microsoft Management Console*** (MMC) - add custom modules to a single MMC console. Procedure - run/mmc/add or remove snap-in modules/select modules/save
 
-***🟦 SmartSteamEmu*** - lightweight alternative to Steam client with no updates required (Game Booster). In my case it is 1 vs. 60+ seconds for starting app and 40MB vs. 1,5GB (without internet access for ```steamwebhelper.exe``` otherwise it would be 2,5-3GB) used V+RAM
+***🟦 Goldberg Emulator + 🟦 SmartSteamEmu*** - Steam client alternatives (Goldberg is without UI). Low RAM requirements – in my case, it's 0 vs. 1.5GB (without internet access for ```steamwebhelper.exe```, otherwise it would be 2,5-3GB) consumed V+RAM and 0 vs. 1+ minute to start client. True offline mode (no login and forced updates) + Game Booster
 
 ***🟦 WizTree*** - disk data analysis
 
@@ -461,7 +469,7 @@ System backup can also be done via WinRAR (it's data like any other, just ⚠️
 
 ***🟦 Process Monitor, (🟦 FileActivityWatch)*** - detailed list of activities on SSD/registry/network
 
-***🟦 HxD+CFF Explorer+🟦 Resource Hacker*** - editing executables (minimum requirements for Win version, etc.) and more
+***🟦 HxD+CFF Explorer+🟦 Resource Hacker+🟦 Verpatch*** - editing executables (minimum requirements for Win version, metadata etc.) and more
 
 ***🟦 NetSpeedMonitor*** - monitoring of download/upload speed and data amount+history, tray
 
@@ -567,7 +575,7 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry pa
 <br/>
 -is it possible that 7z archives cannot be opened during download and it is necessary to wait until download is complete (which can take tens of hours)?
 
--7-Zip has overall better compression (but worse than ***🟦 PeaZip***) and, most importantly, FAR wider format support (often read-only, but that's no small thing at all). Being free in this form is probably a necessity...
+-7-Zip has overall better compression (but worse than ***🟦 PeaZip*** - ZPAQ) and, most importantly, FAR wider format support (often read-only, but that's no small thing at all). Being free in this form is probably a necessity...
 
 ```Suggestions for improvement``` -
 <br/>
@@ -663,6 +671,8 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry pa
 ```timeout 4``` - wait 4 seconds
 <br/>
 ```shutdown /l``` - log off
+
+***IPCONFIG.exe /ALL*** - network information
 
 ***🟦 Audacity, 🟦 Avidemux, 🟦 FastStone Capture, 🟦 HTTrack Website Copier, 🟦 InnoSetup Uninstall Log Reader, 🟦 PHP, 🟦 Python, 🟦 qBittorrent, 🟦 uTorrent, 🟦 VLC, 🟦 XnViewMP, PDF Image Extractor Free***
 
