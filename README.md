@@ -1,5 +1,4 @@
 
-
 ***Useful software for Win7, 🟦 PORTABLE (official or with help of 🟦 7-Zip)***
 <br/>
 ⬇️ ***CZ*** - [Security](#security-cz) / [HW](#hw-cz) / [Games](#games-cz) / [Other](#other-cz)⠀⠀⠀⠀⠀⠀***EN***(deepl.com) - [Security](#security-en) / [HW](#hw-en) / [Games](#games-en) / [Other](#other-en) ⬇️
@@ -35,7 +34,7 @@ Remaining SYS Apps ```10``` ```16``` ```16``` (android ```4``` ```7``` ```9```)
 
 ## Games CZ
 
-***[↗️ Češtiny do her (100+ / 1998-2014)](https://github.com/hornster02?tab=repositories&q=&type=template&language=&sort=name)***. Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Navíc instalátory po sobě často nechávají v lepším případě spoušť (instalací s hrou nesouvisejícím SW - ovladače/zápisy do registru+sys složek/instalace instalátorů/...) v horším - dokud nedojde k ručnímu smazání SYS ovladačů protipirátských ochran (starforce) - i "znefunkčnění" systému (bluescreen, některé "legitimní"/originální necracknuté EXE mohou být dnes automaty označovány za virus - s tím naprosto souhlasím - a před jejich nahráním do onlinu může být nutné archivy šifrovat). A opravdu málokdo používá takové zabezpečení a SW, aby k ničemu takovému nedocházelo. Zahraničních abandonware archivů/repack/rip/portable existuje, a vždy bude, spousta... Neopravuji překlady pokud dojde k vydání patche/remasteru. ***Skryté překlady*** (ve stejné/+-podobné/?lepší? formě byly později nahrány na oficiálnější servery) - [1](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/King-s_Bounty_Dark_Side-2014-CZ) [2](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/No_One_Lives_Forever-2000-CZ)
+***[↗️ Češtiny do her (100+ / 1998-2016)](https://github.com/hornster02?language=&page=1&q=&sort=name&tab=repositories&type=template)***. Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Navíc instalátory po sobě často nechávají v lepším případě spoušť (instalací s hrou nesouvisejícím SW - ovladače/zápisy do registru+sys složek/instalace instalátorů/...) v horším - dokud nedojde k ručnímu smazání SYS ovladačů protipirátských ochran (starforce) - i "znefunkčnění" systému (bluescreen, některé "legitimní"/originální necracknuté EXE mohou být dnes automaty označovány za virus - s tím naprosto souhlasím - a před jejich nahráním do onlinu může být nutné archivy šifrovat). A opravdu málokdo používá takové zabezpečení a SW, aby k ničemu takovému nedocházelo. Zahraničních abandonware archivů/repack/rip/portable existuje, a vždy bude, spousta... Neopravuji překlady pokud dojde k vydání patche/remasteru. ***Skryté překlady*** (ve stejné/+-podobné/?lepší? formě byly později nahrány na oficiálnější servery) - [1](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/King-s_Bounty_Dark_Side-2014-CZ) [2](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/No_One_Lives_Forever-2000-CZ)
 
 ***[📥 Ultimátní seznamy CZ+SK překladů včetně odkazů a dalších podrobností (2024-12). 10 000+ překladů z 33 serverů](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
 <br/>
@@ -295,7 +294,13 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 <br/>
 ```a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z```
 <br/>
--najít CSS soubor který má někde v názvu TAB - ```*tab*.css```
+-najít CSS soubor který má někde v názvu 4 - ```*4*.css```
+<br/>
+-hromadně zkopírovat soubory do různých složek - vyhledat+označit složky (panel1), vyhledat+označit soubory (panel2) a ty přetáhnout do panel1 (+ "Možnosti" + "Kopírovat do všech vybraných složek nebo odkazů v cílovém panelu")
+<br/>
+```Návrhy na zlepšení``` -
+<br/>
+-(hex)editace v "porovnání obsahu" bez omezení
 
 ***🟦 Notepad++*** - hromadné označení vybraných řádků záložkami a jejich odstranění/zachování, hromadné odstranění řádků obsahující prázdné/žádné znaky, výběr bloku textu ```ALT+levé tlačítko```, ... Regulární výrazy -
 <br/>
@@ -343,7 +348,10 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 
 ***🟦 Video-subtitle-extractor (VSE)*** - OCR metoda automatického vytvoření titulků
 
-***🟦 uTorrent, (🟦 qBittorrent)*** - předpoklad dlouhého fungování [```1 torrentu```](https://sktorrent.eu/torrent/details.php?id=3adcdc3e45bd26ce481a6a03bb9875c50eaeffd9) se zvýší, pokud obsahuje pouze 1 archiv (RAR/ISO/MKV/...) a nic navíc. Torrent se dá přirovnat k RARu rozděleném na několik částí (většinou 16kb až 16MB). Zbytné soubory (části torrentu) se mohou časem u uživatelů poztrácet čímž zanikne jejich status "seeder" (100%). [```Příklad 99,8% (99,9% ISO) torrentu```](https://sktorrent.eu/torrent/details.php?id=ac3580f12b3fcfea20e1f119f95a0aa53187d0cf) (rozdělen po 8MB částech) - roky chybějící 2 obrázky o velikosti 5MB (stažených 766 částí z 767) = z 61% prázdný 5MB soubor ```Manual_pol.pdf``` (matematicky zřejmě jediný a čirou náhodou pro instalaci/užívání nedůležitý). Nepřidávat ručně tracker, při nahrání na server bude automaticky vytvořen. "Passiv" uživatel (těch je drtivá většina) "nemůže" stahovat data od "Passiv" uživatelů [```(někdo by musel být "Aktiv")```](https://sktorrent.eu/torrent/forum.php?action=viewtopic&topicid=37) (otevřený port, UPnP, veřejná IP, Port Forwarding)
+***🟦 uTorrent*** - předpoklad dlouhého fungování [```1 torrentu```](https://sktorrent.eu/torrent/details.php?id=3adcdc3e45bd26ce481a6a03bb9875c50eaeffd9) se zvýší, pokud obsahuje pouze 1 archiv (RAR/ISO/MKV/...) a nic navíc. Torrent se dá přirovnat k RARu rozděleném na několik částí (většinou 16kb až 16MB). Zbytné soubory (části torrentu) se mohou časem u uživatelů poztrácet čímž zanikne jejich status "seeder" (100%). [```Příklad 99,8% (99,9% ISO) torrentu```](https://sktorrent.eu/torrent/details.php?id=ac3580f12b3fcfea20e1f119f95a0aa53187d0cf) (rozdělen po 8MB částech) - roky chybějící 2 obrázky o velikosti 5MB (stažených 766 částí z 767) = z 61% prázdný 5MB soubor ```Manual_pol.pdf``` (matematicky zřejmě jediný a čirou náhodou pro instalaci/užívání nedůležitý). Nepřidávat ručně tracker, při nahrání na server bude automaticky vytvořen. Problémy se stahováním -
+-"passiv" uživatel (těch je drtivá většina) "nemůže" stahovat data od "passiv" uživatelů [```(někdo by musel být "aktiv")```](https://sktorrent.eu/torrent/forum.php?action=viewtopic&topicid=37) (otevřený port, UPnP, veřejná IP, Port Forwarding)
+<br/>
+-zapnutý/vypnutý "Protocol Encryption" může vyřešit nepřipojení k seedům/peerům
 
 ***cmd.exe / BAT - práce se soubory*** *2
 <br/>
@@ -604,7 +612,13 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry pa
 <br/>
 ```a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z```
 <br/>
--find a CSS file that has somewhere in name TAB - ```*tab*.css```
+-find a CSS file that has somewhere in name 4 - ```*4*.css```
+<br/>
+-copy files to different folders in bulk - search+select folders (panel 1), search+select files (panel 2) and drag them to panel 1 (+ "Options" + "Copy to all selected folders or links in destination panel")
+<br/>
+```Suggestions for improvement``` -
+<br/>
+-(hex)editing in "content comparison" without restrictions
 
 ***🟦 Notepad++*** - bulk marking of selected rows with bookmarks and their removal/retention, bulk removal of rows containing empty/no characters, select text block ```ALT+left button```, regular expressions -
 <br/>
@@ -652,6 +666,11 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry pa
 
 ***🟦 Video-subtitle-extractor (VSE)*** - OCR method of automatic subtitles creation
 
+***🟦 uTorrent*** - likelihood of long-term functionality [```1 torrent```](https://sktorrent.eu/torrent/details.php?id=3adcdc3e45bd26ce481a6a03bb9875c50eaeffd9) increases if it contains only 1 archive (RAR/ISO/MKV/...) and nothing else. A torrent can be compared to a RAR file divided into several parts (usually 16kb to 16MB). Unnecessary files (parts of torrent) can be lost by users over time, causing them to lose their "seeder" status (100%). [```Example of a 99.8% (99.9% ISO) torrent```](https://sktorrent.eu/torrent/details.php?id=ac3580f12b3fcfea20e1f119f95a0aa53187d0cf) (divided into 8MB parts) - 2 missing images of 5MB size (766 parts downloaded out of 767) = 61% empty 5MB file ```Manual_pol.pdf``` (mathematically probably only one and, by pure coincidence, unimportant for installation/use). Do not add tracker manually, it will be created automatically when uploaded to server. Download problems -
+-"passive" users (vast majority) "cannot" download data from "passive" users [```(someone would have to be "active")```](https://sktorrent.eu/torrent/forum.php?action=viewtopic&topicid=37) (open port, UPnP, public IP, Port Forwarding)
+<br/>
+-on/off "Protocol Encryption" can solve inability to connect to seeds/peers
+
 ***cmd.exe / BAT - work with files***
 <br/>
 ```Robocopy.exe "c:\1" "e:\1" /E /PURGE /w:0 /r:0 /MOT:10``` - automatic synchronization of two folders. ```c:\1``` is source folder and ```e:\1``` is backup. If a file/folder is created/changed in source folder, it is copied to backup. If a file/folder is deleted in source folder, it will be deleted from backup. "MOT:10" is 10 minutes of waiting and then synchronization. Is it synchronization (comparison) and not "delete entire backup/copy entire resource", so it does not reduce lifetime of SSD with unnecessary writes, among other things. A drawback is that there is no comparison of files by content, but only by attributes+size (fast/non-demanding). It is possible to close console window by terminating "conhost.exe" process and leave only "ROBOCOPY.exe" (automatic synchronization in background of system) on. Useful in combination with NTFS links for automatic SAVEGAME backup.
@@ -674,7 +693,7 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry pa
 
 ***IPCONFIG.exe /ALL*** - network information
 
-***🟦 Audacity, 🟦 Avidemux, 🟦 FastStone Capture, 🟦 HTTrack Website Copier, 🟦 InnoSetup Uninstall Log Reader, 🟦 PHP, 🟦 Python, 🟦 qBittorrent, 🟦 uTorrent, 🟦 VLC, 🟦 XnViewMP, PDF Image Extractor Free***
+***🟦 Audacity, 🟦 Avidemux, 🟦 FastStone Capture, 🟦 HTTrack Website Copier, 🟦 InnoSetup Uninstall Log Reader, 🟦 PHP, 🟦 Python, 🟦 VLC, 🟦 XnViewMP, PDF Image Extractor Free***
 
 🟦 NirSoft (*1 ***DiskCountersView/AppReadWriteCounter/OpenedFilesView/ProcessActivityView/FileAccessErrorView/LiveTcpUdpWatch/CurrPorts/AdvancedRun/AppAudioConfig/DriveLetterView/FileTypesMan/GUIPropView/InstalledCodec/InstalledPackagesView/KeyboardStateView/AppCrashView/BlueScreenView/ShellExView/ShellMenuView/OpenWithView/SpecialFoldersView/EventLogSourcesView/FullEventLogView/MyEventViewer/ ⚠️EventLogChannelsView***)
 
