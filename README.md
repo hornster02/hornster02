@@ -40,9 +40,8 @@ Remaining SYS Apps ```10``` ```16``` ```16``` (android ```4``` ```7``` ```9```)
 <br/>
 ![cz+sk](https://github.com/user-attachments/assets/31c8472b-8d21-49a4-bdaf-a24b187d9b10)
 
-Podle Googlu byl v 2025-01 na ***[komunitni-preklady.org](https://komunitni-preklady.org/ostatni-cestiny)***  uveřejněn nástupce mého seznamu překladů, který na CZ/SK scéně také nemá obdoby (ale nefunguje offline = omezená životnost). V 2025-03 obsahuje 3200+ překladů z ~15 serverů. Ochrany proti kopírování - ```1``` tabulka načte+zobrazí pouze část která je zrovna viditelná, ```2``` stahovací odkazy pod tlačítky v sloupci "Odkaz" jsou skryté (po kliknutí se spouští JS event, neznámé odkazy = bezpečnostní riziko) ```3``` na archive.org je pár záznamů serveru, ale nezobrazí se ani písmeno. Ochrana ```1``` se dá snadno obejít nastavením stylu stránky na "bez stylu" a následným uložením (dojde i k uložení stylů ale samozřejmě JS soubory pro filtrování budou nefunkční). Za ochranu ```2``` jeden VELKÝ 👎 . Překlady od ```Mrazíka``` se v roce 2025 přesunuly na tento server, bohužel spousta z nich je nefunkční (umělé překážky v podobě kontroly registru, případně dat i když zřejmě nedochází k patchování = např. původní Alice instalátor je 12,3x větší než portable verze bez podmínek) - nevím zda existuje univerzální extraktor, ale dotazované cesty se mohou vyčíst z ```Process Monitor```.
+Podle Googlu byl v 2025-01 na ***[komunitni-preklady.org](https://komunitni-preklady.org/ostatni-cestiny)***  uveřejněn nástupce mého seznamu překladů, který na CZ/SK scéně také nemá obdoby (ale nefunguje offline = omezená životnost). V 2025-03 obsahuje 3200+ překladů z ~15 serverů. Překlady od ```Mrazíka``` se v roce 2025 přesunuly na tento server, bohužel spousta z nich je nefunkční (umělé překážky v podobě kontroly registru, případně dat i když zřejmě nedochází k patchování = např. původní Alice instalátor je 12,3x větší než portable verze bez podmínek) - nevím zda existuje univerzální extraktor, ale dotazované cesty se mohou vyčíst z ```Process Monitor```.
 <br/>
-Přepnutí jakékoli stránky na "bez stylu" obejde většinu nesmyslných překážek - i "tzv. behaviorální biometrii" u mBank zavedenou v 2024 kdy je pro platbu nutné přepisovat náhodné texty (funkce kopírovat/vložit jsou "zakázány") - ale psát=vložit se může i automaticky AHK skriptem (CTRL+SHIFT+V) ```^+v::SendRaw %clipboard%```. Citace banky "Dokážeme si totiž porovnat rychlost zadávání znaků na klávesnici s jinými transakcemi, které jste provedli v minulosti. Pokud nám to nebude sedět, platbu neprovedeme." Moje doporučení použití skriptu má přesnost ~1ms. Další možnost je použít FF addon ```NoScript```.
 ![cz+sk-kp](https://github.com/user-attachments/assets/22885706-03e1-477b-9f64-91a15adf928c)
 
 ***🟦 Inno Setup XDELTA Patch Maker*** - vytvoření patche s češtinou do hry, ze které "nejde" překlad vytáhnout (chybějící nástroje a různě chráněná herní data nebo překlad ve spouštěcích souborech atd.) - velikost takového patche je běžně o 70-99% menší než celá "warez" verze hry (a sdílení takového patche je pochopitelně i daleko jednodušší a méně ošemetné = nesourodé útržky dat nejsou warez, 🔒i nechráněný patch může také být nestandardní a neprolomitelnou formou šifrování šifrovaných dat - pokud se oba typy souborů ručně poškodí, záhlaví, zápatí, nedohledatelná hash a názvy souborů, tak hledat potenciálně podezřelé soubory a zjistit které k sobě pasují a jak je upravit aby bylo možné aplikování nebude žádná sranda ani pro ty nejvykvantovanější AI PC 4-tého milénia). Pokud překlad vyžaduje i svoje konkrétní DLL+EXE+... soubory a vytvářený patch bude zamýšlený pro digitálně prodávanou hru, tak je dobré tyto soubory z cíle (např. STEAM verze) dočasně odebrat (tím při patchování dojde k obyčejnému zkopírování zdrojových souborů do cíle bez ohledu na jejich verzi = výsledný patch může být kompatibilní i s jinými verzemi typu GOG,MYABANDONWARE,...) = tyto soubory mají běžně velikost maximálně pár desítek MB a jdou dobře komprimovat, takže "patch" způsob by celkově přinesl úsporu dat pouze v rámci jednotek MB, ale pokud by se v cílové verzi v budoucnu změnil jediný bit (a že je to u digitálních produktů daleko pravděpodobnější/jednodušší než že dojde k úpravě samotných velkých herních dat), tak bude celý patch nefunkční. Pokud hra obsahuje stejné typy souborů lišící se v názvu nebo pokud jsou uložená v jiných složkách, tak pokud se tyto věci ručně sjednotí, tak výsledná velikost patche bude menší = nedojde pouze ke komprimaci celých dat, ale ke komprimaci rozdílných částí dat. Vytvořený patch bych zkusil aplikovat a pak porovnal data podle obsahu třeba v Total Commander (původní CZ verze/updatovaná EN-CZ verze) kvůli případné HW/SW chybě a tím pádem změněným=poškozeným datům (ale i před vytvářením patche je nejjistější metoda dvou nezávislých instalací stejné verze hry a porovnání dat). Spuštěný ISXPM vypadá strašně složitě, ale ve skutečnosti může patch vytvořit i naprostý laik (jediná menší komplikace ve vyjímečných případech může být nutnost CZ aktivovat přes nějaký klíč v registru nebo souborem mimo herní data) který si vystačí klidně i jen s řádky "Old version" a "Final version" - výše napsaná doporučení nejsou až tak důležitá, pokud člověk nelpí na univerzálnosti a co nejmenší velikosti patche.
@@ -155,7 +154,7 @@ Záloha systému se ale může provést i přes WinRAR (jsou to data jako každ�
 
 ***🟦 WizTree*** - analýza dat na disku
 
-***🟦 Desktop VLocker*** - uzamčení systému
+***🟦 Desktop VLocker*** - uzamčení systému (pozor, heslo se ukládá v textové podobě)
 
 ***🟦 Process Monitor, (🟦 FileActivityWatch)*** - detailní seznam činností na SSD/registru/sítě
 
@@ -295,6 +294,8 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 ```a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z```
 <br/>
 -najít CSS soubor který má někde v názvu 4 - ```*4*.css```
+<br/>
+-najít přípony abc a ignorovat první nalezené složky 12 (nepíšou se cesty a proto to prakticky nefunguje) - ```*.a *.b *.c |1\ |2\```
 <br/>
 -hromadně zkopírovat soubory do různých složek - vyhledat+označit složky (panel1), vyhledat+označit soubory (panel2) a ty přetáhnout do panel1 (+ "Možnosti" + "Kopírovat do všech vybraných složek nebo odkazů v cílovém panelu")
 <br/>
@@ -473,7 +474,7 @@ System backup can also be done via WinRAR (it's data like any other, just ⚠️
 
 ***🟦 WizTree*** - disk data analysis
 
-***🟦 Desktop VLocker*** - computer lock
+***🟦 Desktop VLocker*** - computer lock (beware, password is stored in plain text)
 
 ***🟦 Process Monitor, (🟦 FileActivityWatch)*** - detailed list of activities on SSD/registry/network
 
@@ -613,6 +614,8 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry pa
 ```a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z```
 <br/>
 -find a CSS file that has somewhere in name 4 - ```*4*.css```
+<br/>
+-find abc extensions and ignore first founded folders 12 (paths are not written, and therefore it doesn't really work in practice) - ```*.a *.b *.c |1\ |2\```
 <br/>
 -copy files to different folders in bulk - search+select folders (panel 1), search+select files (panel 2) and drag them to panel 1 (+ "Options" + "Copy to all selected folders or links in destination panel")
 <br/>
