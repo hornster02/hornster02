@@ -100,15 +100,9 @@ Sjednocení datumů všech souborů a vytvoření hashe pro všechny např. EXE+
 
 🚫Vytvoření souboru místo složky, mazání klidně i systémových souborů - tyto klasické metody nikdy nezklamou
 
-🚫***Firewall***  - Outpost/TinyWall/Firewall App Blocker. Win firewall má pravidla uložená zde
+🚫***Firewall***  - Outpost/TinyWall/Firewall App Blocker
 <br/>
-```HKLM\SYSTEM\ControlSet\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules```
-<br/>
-```HKLM\SYSTEM\ControlSet001\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules```
-<br/>
-```HKLM\SYSTEM\ControlSet002\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules```
-<br/>
-a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úpravou oprávnění pro "Everyone" 
+Win firewall má pravidla uložená zde ```HKLM\SYSTEM\ControlSet\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules``` a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úpravou oprávnění pro "Everyone" (⚠️ pozor, při neodborné manipulaci se může znemožnit internetové připojení a to dokonce bez ohledu zda jsou firewall nebo přidružené SYS služby spuštěné = chyby/varování nemusí být v Eventlogu uvedeny)
 
 🚫***🟦 Autoruns*** - automaticky spouštěné aplikace/knihovny/ovladače
 
@@ -208,7 +202,7 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***🟦 NAPS2*** - skenování, export do PDF, OCR
 
-***🟦 Display Driver Uninstaller*** - odinstalování audio/video ovladačů, ***Device Remover*** - možné zásadní zrychlení spuštění "Správce zařízení" (záleží kolika PC/komponenty systém prošel)
+***🟦 Display Driver Uninstaller*** - odinstalování audio/video ovladačů, ***Device Remover*** - možné zásadní zrychlení spuštění "Správce zařízení" (záleží kolika PC/komponenty systém prošel). Užitečný také pro řešení problémů s chybějícím (nedetekovatelným) HW/SW ve "Správce zařízení". Příklad pro detekci+instalaci zvukového zařízení HDMI/DisplayPort (AMD) - ... --> Show only hidden/detached devices --> Sound, video and game controllers ```+``` System devices --> označit+hromadně odstranit High Definition Audio Device ```+``` High Definition Audio Controller --> restartovat GPU ovladač --> měla by nastat automatická detekce nového zařízení, pokud ne, tak spustit manuální. ⚠️ Pozor v případě používání 3rd party SW (a nejen jich?) pro GPU (napětí/frekvence/chlazení/...) = může být nutné je poté restartovat
 
 ***🟦 RimhillEx*** - omezení rychlosti čtení CD/DVD
 
@@ -263,12 +257,16 @@ Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkr
 -je možné, že 7z nepodporuje NTFS souborový systém a neumí archivovat komplexnější data obsahující různá zabezpečení a symbolické odkazy? Jak docílit archivace odkazu a ne dat na která se odkazuje a tím mimo jiné nerozbít datovou strukturu?
 <br/>
 -je možné, že 7z archivy není možné kdykoli otevřít v průběhu stahování a je třeba počkat na dokončení (které může trvat i desítky hodin)?
+<br/>
+-je možné, že 7-Zip nepodporuje hromadné rozbalení všech archivů ve svých složkách do složek automaticky vytvořených+pojmenovaných podle extrahovaných archivů (vybrat složky + Extract to + Options + Subfolders in archive folders - rozdělené archivy se extrahují do jedné složky)?
 
 -co tedy zbývá 7-Zip? Celkově lepší komprese (ale horší než ***🟦 PeaZip*** - ZPAQ) a hlavně DALEKO širší podpora formátů (často jenom read-only, což ale není vůbec málo). Být zdarma (to ale může být WinRAR také a případná vyskakovací okna se mohou automaticky zavírat pomocí skriptu) je v této podobě asi nutnost...
 
-```Návrhy na zlepšení``` -
+```Jak docílit?``` -
 <br/>
 -katalog dat s využitím existující funkce - při vytváření archivu je možné přidat informační záznam o datech (Quick open information), který se ukládá na konec archivu a je nejen pro běžného uživatele těžko prozkoumatelný přes HEX/Notepad++. Pokud by (pro nechráněné archivy?) byl informační záznam povinný a byl uložen na začátku archivu a bylo by možné ho přes WinRAR použít (pro pokročilejšího uživatele možnost zobrazit obsah archivu primárně z informačního záznamu bez ohledu na fyzicky chybějící/poškozená data), tak pro zjištění obsahu+záhlaví souborů např. neznámého 100GB RAR archivu někde na úložišti by nebylo nutné stahovat celý RAR, ale stačilo by prvních ~0-10MB
+<br/>
+-hromadné extrahování do složek automaticky pojmenovaných podle archivů s automatickým vytvořením původních cest k archivům (částečná obdoba "Subfolders in archive folders" ale s možností extrahování např. na jinou jednotku)
 
 ***🟦 Universal Extractor*** - ultimátní extraktor s podporou stovek formátů. Možnost hromadného extrahování archivů jedním klikem s použitím TXT seznamu s nastřádanými hesly
 
@@ -299,7 +297,7 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 <br/>
 -hromadně zkopírovat soubory do různých složek - vyhledat+označit složky (panel1), vyhledat+označit soubory (panel2) a ty přetáhnout do panel1 (+ "Možnosti" + "Kopírovat do všech vybraných složek nebo odkazů v cílovém panelu")
 <br/>
-```Návrhy na zlepšení``` -
+```Jak docílit?``` -
 <br/>
 -(hex)editace v "porovnání obsahu" bez omezení
 
@@ -350,6 +348,7 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 ***🟦 Video-subtitle-extractor (VSE)*** - OCR metoda automatického vytvoření titulků
 
 ***🟦 uTorrent*** - předpoklad dlouhého fungování [```1 torrentu```](https://sktorrent.eu/torrent/details.php?id=3adcdc3e45bd26ce481a6a03bb9875c50eaeffd9) se zvýší, pokud obsahuje pouze 1 archiv (RAR/ISO/MKV/...) a nic navíc. Torrent se dá přirovnat k RARu rozděleném na několik částí (většinou 16kb až 16MB). Zbytné soubory (části torrentu) se mohou časem u uživatelů poztrácet čímž zanikne jejich status "seeder" (100%). [```Příklad 99,8% (99,9% ISO) torrentu```](https://sktorrent.eu/torrent/details.php?id=ac3580f12b3fcfea20e1f119f95a0aa53187d0cf) (rozdělen po 8MB částech) - roky chybějící 2 obrázky o velikosti 5MB (stažených 766 částí z 767) = z 61% prázdný 5MB soubor ```Manual_pol.pdf``` (matematicky zřejmě jediný a čirou náhodou pro instalaci/užívání nedůležitý). Nepřidávat ručně tracker, při nahrání na server bude automaticky vytvořen. Problémy se stahováním -
+<br/>
 -"passiv" uživatel (těch je drtivá většina) "nemůže" stahovat data od "passiv" uživatelů [```(někdo by musel být "aktiv")```](https://sktorrent.eu/torrent/forum.php?action=viewtopic&topicid=37) (otevřený port, UPnP, veřejná IP, Port Forwarding)
 <br/>
 -zapnutý/vypnutý "Protocol Encryption" může vyřešit nepřipojení k seedům/peerům
@@ -368,9 +367,13 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 <br/>
 ```ren 4 1``` ***/*** ```ren 4.* 1.exe``` - přejmenovat soubor/složku 4 na 1 ***/*** přejmenovat soubor 4.cokoliv na 1.exe
 <br/>
+```cd..``` - přejít o složku zpět
+<br/>
 ```start 4.exe``` ***/*** ```4.exe``` ***/*** ```"4.exe" 1``` ***/*** ```start /max 4.exe``` ***/*** ```taskkill /im 4.exe /f``` - spustit 4.exe v novém okně ***/*** spustit 4.exe ***/*** spustit 4.exe s parametrem 1 ***/*** spustit 4.exe v maximalizovaném okně ***/*** vynutit vypnutí 4.exe
 <br/>
 ```timeout 4``` - počkat 4 vteřiny
+<br/>
+```::``` - komentář
 <br/>
 ```shutdown /l``` - odhlásit se
 
@@ -420,15 +423,9 @@ Unifying dates of all files and creating a hash for all e.g. EXE+DLL+SYS, can si
 
 🚫Create a file instead of a folder, deleting even system files - these classic methods never fail
 
-🚫***Firewall*** - Outpost/TinyWall/Firewall App Blocker. Win firewall has rules stored here
+🚫***Firewall*** - Outpost/TinyWall/Firewall App Blocker
 <br/>
-```HKLM\SYSTEM\ControlSet\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules```
-<br/>
-```HKLM\SYSTEM\ControlSet001\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules```
-<br/>
-```HKLM\SYSTEM\ControlSet002\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules```
-<br/>
-and forbidding of arbitrarily adding exceptions is easily done by adding and modifying permissions for "Everyone"
+Win firewall has rules stored here ```HKLM\SYSTEM\ControlSet\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules``` and forbidding of arbitrarily adding exceptions is easily done by adding and modifying permissions for "Everyone" (⚠️ caution, improper handling may block Internet connection, regardless of whether firewall or associated SYS services are running = errors/warnings may not be listed in the EventLog)
 
 🚫***🟦 Autoruns*** - automatically launched apps/libraries/drivers
 
@@ -528,7 +525,7 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***🟦 NAPS2*** - scan, export to PDF, OCR
 
-***🟦 Display Driver Uninstaller*** - uninstall audio/video drivers, ***Device Remover*** - possible major speed up of "Device Manager" startup (depends on how many PCs/components system has gone through)
+***🟦 Display Driver Uninstaller*** - uninstall audio/video drivers, ***Device Remover*** - possible major speed up of "Device Manager" startup (depends on how many PCs/components system has gone through). Also useful for troubleshooting missing (undetectable) HW/SW in "Device Manager". Example for detecting and installing HDMI/DisplayPort audio device (AMD) - ... --> Show only hidden/detached devices --> Sound, video, and game controllers ```+``` System devices --> select+bulk delete High Definition Audio Device ```+``` High Definition Audio Controller --> restart GPU driver --> automatic detection of new device should occur, if not, run manual detection. ⚠️ Caution when using 3rd party SW (and not only them?) for GPU (voltage/frequency/cooling/...) = it may be necessary to restart them afterwards
 
 ***🟦 RimhillEx*** - CD/DVD read speed limitation
 
@@ -583,12 +580,16 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry pa
 -is it possible that 7z doesn't support NTFS file system and can't archive more complex data that contains various security and symbolic links? How to achieve archiving link and not data it references and thus not break data structure, among other things?
 <br/>
 -is it possible that 7z archives cannot be opened during download and it is necessary to wait until download is complete (which can take tens of hours)?
+<br/>
+-is it possible that 7-Zip doesn't support bulk extraction of all archives in their folders to automatically created+named folders after extracted archives (select folders + Extract to + Options + Subfolders in archive folders - split archives are extracted to a single folder)?
 
 -7-Zip has overall better compression (but worse than ***🟦 PeaZip*** - ZPAQ) and, most importantly, FAR wider format support (often read-only, but that's no small thing at all). Being free in this form is probably a necessity...
 
-```Suggestions for improvement``` -
+```How to achieve?``` -
 <br/>
 -data catalogue with using an existing function - when creating an archive, it is possible to add an information record about data (Quick open information), which is stored at end of archive and not only for a normal user is difficult to explore via HEX/Notepad++. If (for unprotected archives?) information record was mandatory and was stored at beginning of archive and could be used via WinRAR (for more advanced users possibility to view archive content primarily from "Quick open information" regardless of physically missing/damaged data), then to get content+file headers of e.g. an unknown 100GB RAR archive somewhere on webstorage it would not be necessary to download whole RAR, but first ~0-10MB would be enough
+<br/>
+-bulk extraction to folders automatically named after archives with automatic creation of original paths to archives (partially similar to "Subfolders in archive folders" but with option of extracting to a different drive, for example)
 
 ***🟦 Universal Extractor*** - ultimate extractor supporting hundreds of formats. Ability to extract archives in bulk with a single click using a TXT list with accumulated passwords
 
@@ -619,7 +620,7 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry pa
 <br/>
 -copy files to different folders in bulk - search+select folders (panel 1), search+select files (panel 2) and drag them to panel 1 (+ "Options" + "Copy to all selected folders or links in destination panel")
 <br/>
-```Suggestions for improvement``` -
+```How to achieve?``` -
 <br/>
 -(hex)editing in "content comparison" without restrictions
 
@@ -670,6 +671,7 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry pa
 ***🟦 Video-subtitle-extractor (VSE)*** - OCR method of automatic subtitles creation
 
 ***🟦 uTorrent*** - likelihood of long-term functionality [```1 torrent```](https://sktorrent.eu/torrent/details.php?id=3adcdc3e45bd26ce481a6a03bb9875c50eaeffd9) increases if it contains only 1 archive (RAR/ISO/MKV/...) and nothing else. A torrent can be compared to a RAR file divided into several parts (usually 16kb to 16MB). Unnecessary files (parts of torrent) can be lost by users over time, causing them to lose their "seeder" status (100%). [```Example of a 99.8% (99.9% ISO) torrent```](https://sktorrent.eu/torrent/details.php?id=ac3580f12b3fcfea20e1f119f95a0aa53187d0cf) (divided into 8MB parts) - 2 missing images of 5MB size (766 parts downloaded out of 767) = 61% empty 5MB file ```Manual_pol.pdf``` (mathematically probably only one and, by pure coincidence, unimportant for installation/use). Do not add tracker manually, it will be created automatically when uploaded to server. Download problems -
+<br/>
 -"passive" users (vast majority) "cannot" download data from "passive" users [```(someone would have to be "active")```](https://sktorrent.eu/torrent/forum.php?action=viewtopic&topicid=37) (open port, UPnP, public IP, Port Forwarding)
 <br/>
 -on/off "Protocol Encryption" can solve inability to connect to seeds/peers
@@ -688,9 +690,13 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry pa
 <br/>
 ```ren 4 1``` ***/*** ```ren 4.* 1.exe``` - rename file/folder 4 to 1 ***/*** rename file 4.whatever to 1.exe
 <br/>
+```cd..``` - go back one folder
+<br/>
 ```start 4.exe``` ***/*** ```4.exe``` ***/*** ```"4.exe" 1``` ***/*** ```start /max 4.exe``` ***/*** ```taskkill /im 4.exe /f``` - run 4.exe in new window ***/*** run 4.exe ***/*** run 4.exe with parameter 1 ***/*** run 4.exe in maximized window ***/*** force kill 4.exe
 <br/>
 ```timeout 4``` - wait 4 seconds
+<br/>
+```::``` - comment
 <br/>
 ```shutdown /l``` - log off
 
