@@ -12,6 +12,8 @@ https://github.com/stars/hornster02/lists/non-41444
 ***[📥 Win```7``` Epyc Bloatware List (services/tasks/processes/drivers/devices/installations) + 4th mouse button AHK + NirSoft apps for comparing system via TXT/HTML + some REG files](https://github.com/hornster02/hornster02/raw/main/win-bloatware.rar)***
 <br/>
 <img width="960" alt="win" src="https://github.com/user-attachments/assets/398697e5-a06a-4dd1-9d30-4d446a29f778" />
+<br/>
+<img width="720" height="540" alt="win-compare" src="https://github.com/user-attachments/assets/7063a12d-4156-4d6f-bb97-855c21cf6060" />
 
 [***📥 android Epyc Bloatware List + 🟦 ADB AppControl presets***](https://github.com/hornster02/hornster02/raw/main/android.rar)
 <br/>
@@ -36,7 +38,7 @@ Remaining SYS Apps ```10``` ```16``` ```16``` (android ```4``` ```7``` ```9```)
 
 ***[↗️ Češtiny do her (100+ / 1998-2016)](https://github.com/hornster02?language=&page=1&q=&sort=name&tab=repositories&type=template)***. Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Navíc instalátory po sobě často nechávají v lepším případě spoušť (instalací s hrou nesouvisejícím SW - ovladače/zápisy do registru+sys složek/instalace instalátorů/...) v horším - dokud nedojde k ručnímu smazání SYS ovladačů protipirátských ochran (starforce) - i "znefunkčnění" systému (bluescreen, některé "legitimní"/originální necracknuté EXE mohou být dnes automaty označovány za virus - s tím naprosto souhlasím - a před jejich nahráním do onlinu může být nutné archivy šifrovat). A opravdu málokdo používá takové zabezpečení a SW, aby k ničemu takovému nedocházelo. Zahraničních abandonware archivů/repack/rip/portable existuje, a vždy bude, spousta... Neopravuji překlady pokud dojde k vydání patche/remasteru. ***Skryté překlady*** (ve stejné/+-podobné/?lepší? formě byly později nahrány na oficiálnější servery) - [1](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/King-s_Bounty_Dark_Side-2014-CZ) [2](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/No_One_Lives_Forever-2000-CZ)
 
-***[📥 Ultimátní seznamy CZ+SK překladů včetně odkazů a dalších podrobností (2024-12). 10 000+ překladů z 33 serverů](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
+***[📥 Ultimátní seznamy CZ+SK překladů - 2025-12 (35 000+ řádků z 43 serverů = offline Google^4 bez nesouvisejícího balastu okolo, nebo AI budoucnosti?)](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
 <br/>
 ![cz+sk](https://github.com/user-attachments/assets/31c8472b-8d21-49a4-bdaf-a24b187d9b10)
 
@@ -44,7 +46,7 @@ Podle Googlu byl v 2025-01 na ***[komunitni-preklady.org](https://komunitni-prek
 <br/>
 ![cz+sk-kp](https://github.com/user-attachments/assets/22885706-03e1-477b-9f64-91a15adf928c)
 
-***🟦 Inno Setup XDELTA Patch Maker*** - vytvoření patche s češtinou do hry, ze které "nejde" překlad vytáhnout (chybějící nástroje a různě chráněná herní data nebo překlad ve spouštěcích souborech atd.) - velikost takového patche je běžně o 70-99% menší než celá "warez" verze hry (a sdílení takového patche je pochopitelně i daleko jednodušší a méně ošemetné = nesourodé útržky dat nejsou warez, 🔒i nechráněný patch může také být nestandardní a neprolomitelnou formou šifrování šifrovaných dat - pokud se oba typy souborů ručně poškodí, záhlaví, zápatí, nedohledatelná hash a názvy souborů, tak hledat potenciálně podezřelé soubory a zjistit které k sobě pasují a jak je upravit aby bylo možné aplikování nebude žádná sranda ani pro ty nejvykvantovanější AI PC 4-tého milénia). Pokud překlad vyžaduje i svoje konkrétní DLL+EXE+... soubory a vytvářený patch bude zamýšlený pro digitálně prodávanou hru, tak je dobré tyto soubory z cíle (např. STEAM verze) dočasně odebrat (tím při patchování dojde k obyčejnému zkopírování zdrojových souborů do cíle bez ohledu na jejich verzi = výsledný patch může být kompatibilní i s jinými verzemi typu GOG,MYABANDONWARE,...) = tyto soubory mají běžně velikost maximálně pár desítek MB a jdou dobře komprimovat, takže "patch" způsob by celkově přinesl úsporu dat pouze v rámci jednotek MB, ale pokud by se v cílové verzi v budoucnu změnil jediný bit (a že je to u digitálních produktů daleko pravděpodobnější/jednodušší než že dojde k úpravě samotných velkých herních dat), tak bude celý patch nefunkční. Pokud hra obsahuje stejné typy souborů lišící se v názvu nebo pokud jsou uložená v jiných složkách, tak pokud se tyto věci ručně sjednotí, tak výsledná velikost patche bude menší = nedojde pouze ke komprimaci celých dat, ale ke komprimaci rozdílných částí dat. Vytvořený patch bych zkusil aplikovat a pak porovnal data podle obsahu třeba v Total Commander (původní CZ verze/updatovaná EN-CZ verze) kvůli případné HW/SW chybě a tím pádem změněným=poškozeným datům (ale i před vytvářením patche je nejjistější metoda dvou nezávislých instalací stejné verze hry a porovnání dat). Spuštěný ISXPM vypadá strašně složitě, ale ve skutečnosti může patch vytvořit i naprostý laik (jediná menší komplikace ve vyjímečných případech může být nutnost CZ aktivovat přes nějaký klíč v registru nebo souborem mimo herní data) který si vystačí klidně i jen s řádky "Old version" a "Final version" - výše napsaná doporučení nejsou až tak důležitá, pokud člověk nelpí na univerzálnosti a co nejmenší velikosti patche.
+***🟦 Inno Setup XDELTA Patch Maker*** - pokud jsou lokalizační data chráněna a součástí větších souborů a potřebné nástroje nejsou k dispozici, případně pokud hra "neumí" načíst externí rozbalená data, tak poslední možnost jak zprostředkovat překlad je vytvořit rozdílový patch - jeho velikost je běžně o 70-99% menší než celá "warez" verze hry (a sdílení takového patche je pochopitelně i daleko jednodušší a méně ošemetné = nesourodé útržky dat nejsou warez, 🔒i nechráněný patch může také být nestandardní a neprolomitelnou formou šifrování šifrovaných dat - pokud se oba typy souborů ručně poškodí, záhlaví, zápatí, nedohledatelná hash a názvy souborů, tak hledat potenciálně podezřelé soubory a zjistit které k sobě pasují a jak je upravit aby bylo možné aplikování nebude žádná sranda ani pro ty nejvykvantovanější AI PC 4-tého milénia). Pokud překlad vyžaduje i svoje konkrétní DLL+EXE+... soubory a vytvářený patch bude zamýšlený pro digitálně prodávanou hru, tak je dobré tyto soubory z cíle (např. STEAM verze) dočasně odebrat (tím při patchování dojde k obyčejnému zkopírování zdrojových souborů do cíle bez ohledu na jejich verzi = výsledný patch může být kompatibilní i s jinými verzemi typu GOG,MYABANDONWARE,...) = tyto soubory mají běžně velikost maximálně pár desítek MB a jdou dobře komprimovat, takže "patch" způsob by celkově přinesl úsporu dat pouze v rámci jednotek MB, ale pokud by se v cílové verzi v budoucnu změnil jediný bit (a že je to u digitálních produktů daleko pravděpodobnější/jednodušší než že dojde k úpravě samotných velkých herních dat), tak bude celý patch nefunkční. Pokud hra obsahuje stejné typy souborů lišící se v názvu nebo pokud jsou uložená v jiných složkách, tak pokud se tyto věci ručně sjednotí, tak výsledná velikost patche bude menší = nedojde pouze ke komprimaci celých dat, ale ke komprimaci rozdílných částí dat. Vytvořený patch bych zkusil aplikovat a pak porovnal data podle obsahu třeba v Total Commander (původní CZ verze/updatovaná EN-CZ verze) kvůli případné HW/SW chybě a tím pádem změněným=poškozeným datům (ale i před vytvářením patche je nejjistější metoda dvou nezávislých instalací stejné verze hry a porovnání dat). Spuštěný ISXPM vypadá strašně složitě, ale ve skutečnosti může patch vytvořit i naprostý laik (jediná menší komplikace ve vyjímečných případech může být nutnost CZ aktivovat přes nějaký klíč v registru nebo souborem mimo herní data) který si vystačí klidně i jen s řádky "Old version" a "Final version" - výše napsaná doporučení nejsou až tak důležitá, pokud člověk nelpí na univerzálnosti a co nejmenší velikosti patche.
 <br/>
 ***[📥 Přednastavený konfigurační soubor + CZ překlad těch nejhlavnějších textů + popis procesu a možných workarounds jako výplň jinak prázdného místa v jednoobrazovkovém patchi](https://github.com/hornster02/hornster02/raw/main/_ISXPM-2.6.4.3-CONFIG-2024-03.rar)*** (stačí ho načíst přes "LOAD PROJECT") zaměřený na ještě menší velikost patche (rozdíl je až v desítkách %). Využití RAM paměti bude běžně mezi 10-20GB (1GB soubor na obou stranách = ~6GB RAM) - proces se může zrychlit zvýšením "Generating cores" v sekci "Build and Log Options" (počet zpracovávaných souborů v jeden okamžik - např. 8x5GB soubor na obou stranách = ~240GB RAM). Komprese (2 druhy) v ISXPM je vyřešena nešťastně - "Compression" v sekci "Patch Options" (komprimuje ne-patch "ne-XDELTA" soubory jako celek s omezenými možnostmi nastavení = výsledná komprese může být nedostatečná), a "Built-in Presets" + "Custom HDiffPatch parameters" v sekci "Patch-Data Generator" (komprimuje patch "XDELTA" soubor po souboru s možnostmi nastavení = komprese jednotlivých souborů odděleně snižuje efektivitu komprese). V konfiguračním souboru jsou všechny komprese vypnuté = data jde komprimovat jenom jednou a nejvyšší efektivity se dosáhne zabalením všeho najednou přes 7-Zip (až ```3 komprese``` patch data+nepatch data+7z nahraný na internet ```+``` případné umístění všech dat do Patch.exe, které se po spuštění musí extrahovat do TEMP = další důsledky toho všeho je až násobné zpomalení patch procesu, zvlášť při spuštěných antiVIRUS programech, a více zápisů na SSD než je nutné, navíc pro "reverzní inženýrství" je co nejméně dodatečných úprav a co nejvíce otevřenosti přínosem /// pokud není Patch.exe komprimovaný - první uvedená komprese výše - , tak se v něm dá snadno zjistit použitá verze HDiffPatch - ```hpatchz v``` vyšší hodnota platí /// hdiffz-x64.exe 4.12.0-2025+ určený pro tvorbu/aplikování už ve Win7 "nefunguje", ale hpatchz-x64.exe určený pro aplikování a obsažený i v Patch.exe funguje) a díky tomu je možné v budoucnu patch pouze přebalit a dosáhnout vyšší komprese bez jeho znovuvytváření. Je možné neaktualizovat samotný ISXPM (když nebudu počítat kompresi, tak nemá na velikost patche vliv) a podle potřeby aktualizovat pouze "Patch Engine" (těch je na výběr několik, ale HDiffPatch má snad bez vyjímky nejlepší výsledky). Tipy na případnou automatizaci před/při/po aplikování patche pomocí BAT jsou dole *2 .
 <br/>
@@ -301,13 +303,25 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 <br/>
 -(hex)editace v "porovnání obsahu" bez omezení
 
-***🟦 Notepad++*** - hromadné označení vybraných řádků záložkami a jejich odstranění/zachování, hromadné odstranění řádků obsahující prázdné/žádné znaky, výběr bloku textu ```ALT+levé tlačítko```, ... Regulární výrazy -
+***🟦 Notepad++*** - hromadné odstranění řádků obsahující prázdné/žádné znaky/duplikáty, výběr bloku textu ```ALT+levé tlačítko```, ...
+<br/>
+Regulární výrazy (může se hodit především "Na konci znovu od začátku") -
 <br/>
 -odstranit všechny znaky na řádcích pokud jich je 4 a méně ```^.{0,4}$```
 <br/>
 -odstranit první 4 znaky na řádcích ```^.{4}(.*)$``` ```$1```
 <br/>
 -odstranit 4 a 4 a vše mezi tím ```4.*?4```
+<br/>
+-odstranit vše mezi 4 a 4, ale 4 a 4 zachovat ```4.*?4``` ```44```
+<br/>
+-odstranit vše kromě 4 a 4 a všech znaků mezi nimi (zachová jenom 1 nález na řádek) ```.*(4)(.*?)(4).*``` ```$1$2$3```
+<br/>
+-odstranit vše kromě 4 a všech ostatních znaků na řádcích následujících ```(?-s)^.+?(4.+)*$``` ```\1```
+<br/>
+-odstranit 4 čísla a 2 - (=6 znaků) ve formátu "-11-11" ```\d{0}-\d{2}-\d{2}``` nebo "11-11-" ```\d{2}-\d{2}-\d{0}``` = "4444-11-11" nebo "11-11-4444" = výsledek je "4444" (pro předejití nechtěným+neznámým nahrazením může být nutné nalezené řádky nejdříve označit + dočasně odstranit neoznačené řádky, které se nebudou upravovat + ručně zkontrolovat ty zbylé označené určené k hromadnému nahrazení)
+<br/>
+-odstranit měsíce+dny ve formátu "January 4, 4444" ```(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+``` = výsledek je "4444" (pro předejití nechtěným+... ⬆️)
 <br/>
 -najít 4 a vložit prázdný řádek ```(?-s)4.*``` ```$0\r\n```
 <br/>
@@ -316,6 +330,14 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 -vložit 4 na začátek řádku ```^``` ```4```
 <br/>
 -vložit 4 na konec řádku ```$``` ```4```
+<br/>
+-najít stejné řádky ```^((?-s).+?)\R(?=(?s).*?^\1(?:\R|\z))```
+<br/>
+Rozšířené vyhledávání -
+<br/>
+-najít řádek s textem "a" a pod ním řádek s textem "b" a nahradit texty na "4" a "1"  (řádky nesmí obsahovat nic navíc) ```a\r\nb\r\n``` ```4\r\n1\r\n```
+<br/>
+-najít text "41" na 1 řádku a rozdělit ho do 2 řádků na "4" a "1" (řádky mohou obsahovat něco navíc) ```41``` ```41\r\n```
 
 ***🟦 T-Clock*** - pokročilá náhrada tray hodin. Program s desítky let dlouhou historií a několika autory = možnosti nastavení a rozsah funkcí (které ani s hodinami nesouvisí) je nebývalý
 
@@ -381,7 +403,7 @@ S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce kompri
 
 ***🟦 Audacity, 🟦 Avidemux, 🟦 FastStone Capture, 🟦 HTTrack Website Copier, 🟦 InnoSetup Uninstall Log Reader, 🟦 PHP, 🟦 Python, 🟦 VLC, 🟦 XnViewMP, PDF Image Extractor Free***
 
-🟦 NirSoft (*1 ***DiskCountersView/AppReadWriteCounter/OpenedFilesView/ProcessActivityView/FileAccessErrorView/LiveTcpUdpWatch/CurrPorts/AdvancedRun/AppAudioConfig/DriveLetterView/FileTypesMan/GUIPropView/InstalledCodec/InstalledPackagesView/KeyboardStateView/AppCrashView/BlueScreenView/ShellExView/ShellMenuView/OpenWithView/SpecialFoldersView/EventLogSourcesView/FullEventLogView/MyEventViewer/ EventLogChannelsView*** ⚠️nevinné pozapínání ve výchozím stavu vypnutých kanálů může zásadně nabořit systém znefunkčněním minimálně služeb eventlog+schedule = největší problém je, že bez nich EventLogChannelsView nefunguje a není možné přes něj kanály zase povypínat = opravit takový systém bez následků a použití Total Uninstall zvládnou jen opravdoví mistři)
+🟦 NirSoft (*1 ***DiskCountersView/AppReadWriteCounter/OpenedFilesView/BulkFileChanger/ProcessActivityView/FileAccessErrorView/LiveTcpUdpWatch/CurrPorts/AdvancedRun/AppAudioConfig/DriveLetterView/FileTypesMan/GUIPropView/InstalledCodec/InstalledPackagesView/KeyboardStateView/USBDeview/AppCrashView/BlueScreenView/ShellExView/ShellMenuView/OpenWithView/SpecialFoldersView/EventLogSourcesView/FullEventLogView/MyEventViewer/ EventLogChannelsView*** ⚠️nevinné pozapínání ve výchozím stavu vypnutých kanálů může zásadně nabořit systém znefunkčněním minimálně služeb eventlog+schedule = největší problém je, že bez nich EventLogChannelsView nefunguje a není možné přes něj kanály zase povypínat = opravit takový systém bez následků a použití Total Uninstall zvládnou jen opravdoví mistři)
 
 ## Games EN
 
@@ -624,13 +646,25 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry pa
 <br/>
 -(hex)editing in "content comparison" without restrictions
 
-***🟦 Notepad++*** - bulk marking of selected rows with bookmarks and their removal/retention, bulk removal of rows containing empty/no characters, select text block ```ALT+left button```, regular expressions -
+***🟦 Notepad++*** - bulk removal of rows containing empty/no/duplicates characters, select text block ```ALT+left button```, ...
+<br/>
+Regular expressions (useful "At the end, start again") -
 <br/>
 -remove all characters on lines if there are 4 or less ```^.{0,4}$```
 <br/>
 -remove first 4 characters on lines ```^.{4}(.*)$``` ```$1```
 <br/>
 -remove 4 and 4 and everything between ```4.*?4```
+<br/>
+-remove everything between 4 and 4, but keep 4 and 4 ```4.*?4``` ```44```
+<br/>
+-remove everything except 4 and 4 and all characters between them (keeps only 1 match per line) ```.*(4)(.*?)(4).*``` ```$1$2$3```
+<br/>
+-remove everything except 4 and all other characters on rows following ```(?-s)^.+?(4.+)*$``` ```\1```
+<br/>
+-remove 4 numbers and 2 - (=6 characters) in format "-11-11" ```\d{0}-\d{2}-\d{2}``` or "11-11-" ```\d{2}-\d{2}-\d{0}``` = "4444-11-11" or "11-11-4444" = result is "4444" (to avoid unwanted+unknown replacements, it may be necessary to first mark founded lines + temporarily remove unmarked lines that will not be edited + manually check the remaining marked lines intended for bulk replacement)
+<br/>
+-remove months+days in format "January 4, 4444" ```(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+```  = result is "4444" (to avoid unwanted+... ⬆️)
 <br/>
 -find 4 and insert empty line ```(?-s)4.*``` ```$0\r\n```
 <br/>
@@ -639,6 +673,14 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry pa
 -insert 4 at beginning of line ```^``` ```4```
 <br/>
 -insert 4 at end of line ```$``` ```4```
+<br/>
+-find identical lines ```^((?-s).+?)\R(?=(?s).*?^\1(?:\R|\z))```
+<br/>
+Advanced search -
+<br/>
+-find line with text "a" and line below it with text "b" and replace texts with "4" and "1"  (lines must not contain anything else) ```a\r\nb\r\n``` ```4\r\n1\r\n```
+<br/>
+-find text "41" on 1 line and split it into 2 lines, "4" and "1" (lines may contain additional text) ```41``` ```41\r\n```
 
 ***🟦 T-Clock*** - advanced replacement of tray clock. App with decades of history and several authors = possibilities of settings and range of functions (not even related to clock) is unprecedented
 
@@ -704,7 +746,7 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry pa
 
 ***🟦 Audacity, 🟦 Avidemux, 🟦 FastStone Capture, 🟦 HTTrack Website Copier, 🟦 InnoSetup Uninstall Log Reader, 🟦 PHP, 🟦 Python, 🟦 VLC, 🟦 XnViewMP, PDF Image Extractor Free***
 
-🟦 NirSoft (*1 ***DiskCountersView/AppReadWriteCounter/OpenedFilesView/ProcessActivityView/FileAccessErrorView/LiveTcpUdpWatch/CurrPorts/AdvancedRun/AppAudioConfig/DriveLetterView/FileTypesMan/GUIPropView/InstalledCodec/InstalledPackagesView/KeyboardStateView/AppCrashView/BlueScreenView/ShellExView/ShellMenuView/OpenWithView/SpecialFoldersView/EventLogSourcesView/FullEventLogView/MyEventViewer/ ⚠️EventLogChannelsView***)
+🟦 NirSoft (*1 ***DiskCountersView/AppReadWriteCounter/OpenedFilesView/BulkFileChanger/ProcessActivityView/FileAccessErrorView/LiveTcpUdpWatch/CurrPorts/AdvancedRun/AppAudioConfig/DriveLetterView/FileTypesMan/GUIPropView/InstalledCodec/InstalledPackagesView/KeyboardStateView/USBDeview/AppCrashView/BlueScreenView/ShellExView/ShellMenuView/OpenWithView/SpecialFoldersView/EventLogSourcesView/FullEventLogView/MyEventViewer/ ⚠️EventLogChannelsView***)
 
 <br/>
 <br/>
