@@ -3,19 +3,19 @@
 <br/>
 ⬇️ ***CZ*** - [Security](#security-cz) / [HW](#hw-cz) / [Games](#games-cz) / [Other](#other-cz)⠀⠀⠀⠀⠀⠀***EN***(deepl.com) - [Security](#security-en) / [HW](#hw-en) / [Games](#games-en) / [Other](#other-en) ⬇️
 <br/>
-```What's new``` - Gamma Panel (Apr 15, 2025), FileLocker+EaseFilter+File System Protector (Jun 1, 2025), Verpatch (Oct 1, 2025)
+```What's new``` - Gamma Panel (Apr 15, 2025), FileLocker+EaseFilter+File System Protector (Jun 1, 2025), Verpatch (Oct 1, 2025), RunAsTrustedInstaller,Streams + more detailed CTRL+C/V metod for Windows install/backup/restore process (Jan 15, 2026)
 <br/>
 https://github.com/stars/hornster02/lists/non-41444
 
 ⬇️ [Autohotkey v1.1 scripts](#ahk) / [KMPlayer Skin + AHK](#kmp) ⬇️
 
-***[📥 Win```7``` Epyc Bloatware List (services/tasks/processes/drivers/devices/installations) + 4th mouse button AHK + NirSoft apps for comparing system via TXT/HTML + some REG files](https://github.com/hornster02/hornster02/raw/main/win-bloatware.rar)***
+***[📥 Win```7``` Epyc Bloatware List (services/tasks/processes/drivers/devices/installations) + 4th mouse button AHK + NirSoft apps for comparing system via TXT/HTML + some REG files. Size 1MB](https://github.com/hornster02/hornster02/raw/main/win-bloatware.rar)***
 <br/>
 <img width="960" alt="win" src="https://github.com/user-attachments/assets/398697e5-a06a-4dd1-9d30-4d446a29f778" />
 <br/>
 <img width="720" height="540" alt="win-compare" src="https://github.com/user-attachments/assets/7063a12d-4156-4d6f-bb97-855c21cf6060" />
 
-[***📥 android Epyc Bloatware List + 🟦 ADB AppControl presets***](https://github.com/hornster02/hornster02/raw/main/android.rar)
+[***📥 android Epyc Bloatware List + 🟦 ADB AppControl presets. Size 1MB***](https://github.com/hornster02/hornster02/raw/main/android.rar)
 <br/>
 ```Question``` What is purpose of this list?
 <br/>
@@ -38,7 +38,7 @@ Remaining SYS Apps ```10``` ```16``` ```16``` (android ```4``` ```7``` ```9```)
 
 ***[↗️ Češtiny do her (100+ / 1998-2016)](https://github.com/hornster02?language=&page=1&q=&sort=name&tab=repositories&type=template)***. Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Navíc instalátory po sobě často nechávají v lepším případě spoušť (instalací s hrou nesouvisejícím SW - ovladače/zápisy do registru+sys složek/instalace instalátorů/...) v horším - dokud nedojde k ručnímu smazání SYS ovladačů protipirátských ochran (starforce) - i "znefunkčnění" systému (bluescreen, některé "legitimní"/originální necracknuté EXE mohou být dnes automaty označovány za virus - s tím naprosto souhlasím - a před jejich nahráním do onlinu může být nutné archivy šifrovat). A opravdu málokdo používá takové zabezpečení a SW, aby k ničemu takovému nedocházelo. Zahraničních abandonware archivů/repack/rip/portable existuje, a vždy bude, spousta... Neopravuji překlady pokud dojde k vydání patche/remasteru. ***Skryté překlady*** (ve stejné/+-podobné/?lepší? formě byly později nahrány na oficiálnější servery) - [1](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/King-s_Bounty_Dark_Side-2014-CZ) [2](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/No_One_Lives_Forever-2000-CZ)
 
-***[📥 Ultimátní seznamy CZ+SK překladů - 2025-12 (35 000+ řádků z 43 serverů = offline Google^4 bez nesouvisejícího balastu okolo, nebo AI budoucnosti?)](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
+***[📥 Ultimátní seznamy CZ+SK překladů - 2025-12 (35 000+ řádků z 43 serverů = offline Google^4 bez nesouvisejícího balastu okolo, nebo AI budoucnosti? Velikost 1MB)](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
 <br/>
 ![cz+sk](https://github.com/user-attachments/assets/31c8472b-8d21-49a4-bdaf-a24b187d9b10)
 
@@ -48,9 +48,9 @@ Podle Googlu byl v 2025-01 na ***[komunitni-preklady.org](https://komunitni-prek
 
 ***🟦 Inno Setup XDELTA Patch Maker*** - pokud jsou lokalizační data chráněna a součástí větších souborů a potřebné nástroje nejsou k dispozici, případně pokud hra "neumí" načíst externí rozbalená data, tak poslední možnost jak zprostředkovat překlad je vytvořit rozdílový patch - jeho velikost je běžně o 70-99% menší než celá "warez" verze hry (a sdílení takového patche je pochopitelně i daleko jednodušší a méně ošemetné = nesourodé útržky dat nejsou warez, 🔒i nechráněný patch může také být nestandardní a neprolomitelnou formou šifrování šifrovaných dat - pokud se oba typy souborů ručně poškodí, záhlaví, zápatí, nedohledatelná hash a názvy souborů, tak hledat potenciálně podezřelé soubory a zjistit které k sobě pasují a jak je upravit aby bylo možné aplikování nebude žádná sranda ani pro ty nejvykvantovanější AI PC 4-tého milénia). Pokud překlad vyžaduje i svoje konkrétní DLL+EXE+... soubory a vytvářený patch bude zamýšlený pro digitálně prodávanou hru, tak je dobré tyto soubory z cíle (např. STEAM verze) dočasně odebrat (tím při patchování dojde k obyčejnému zkopírování zdrojových souborů do cíle bez ohledu na jejich verzi = výsledný patch může být kompatibilní i s jinými verzemi typu GOG,MYABANDONWARE,...) = tyto soubory mají běžně velikost maximálně pár desítek MB a jdou dobře komprimovat, takže "patch" způsob by celkově přinesl úsporu dat pouze v rámci jednotek MB, ale pokud by se v cílové verzi v budoucnu změnil jediný bit (a že je to u digitálních produktů daleko pravděpodobnější/jednodušší než že dojde k úpravě samotných velkých herních dat), tak bude celý patch nefunkční. Pokud hra obsahuje stejné typy souborů lišící se v názvu nebo pokud jsou uložená v jiných složkách, tak pokud se tyto věci ručně sjednotí, tak výsledná velikost patche bude menší = nedojde pouze ke komprimaci celých dat, ale ke komprimaci rozdílných částí dat. Vytvořený patch bych zkusil aplikovat a pak porovnal data podle obsahu třeba v Total Commander (původní CZ verze/updatovaná EN-CZ verze) kvůli případné HW/SW chybě a tím pádem změněným=poškozeným datům (ale i před vytvářením patche je nejjistější metoda dvou nezávislých instalací stejné verze hry a porovnání dat). Spuštěný ISXPM vypadá strašně složitě, ale ve skutečnosti může patch vytvořit i naprostý laik (jediná menší komplikace ve vyjímečných případech může být nutnost CZ aktivovat přes nějaký klíč v registru nebo souborem mimo herní data) který si vystačí klidně i jen s řádky "Old version" a "Final version" - výše napsaná doporučení nejsou až tak důležitá, pokud člověk nelpí na univerzálnosti a co nejmenší velikosti patche.
 <br/>
-***[📥 Přednastavený konfigurační soubor + CZ překlad těch nejhlavnějších textů + popis procesu a možných workarounds jako výplň jinak prázdného místa v jednoobrazovkovém patchi](https://github.com/hornster02/hornster02/raw/main/_ISXPM-2.6.4.3-CONFIG-2024-03.rar)*** (stačí ho načíst přes "LOAD PROJECT") zaměřený na ještě menší velikost patche (rozdíl je až v desítkách %). Využití RAM paměti bude běžně mezi 10-20GB (1GB soubor na obou stranách = ~6GB RAM) - proces se může zrychlit zvýšením "Generating cores" v sekci "Build and Log Options" (počet zpracovávaných souborů v jeden okamžik - např. 8x5GB soubor na obou stranách = ~240GB RAM). Komprese (2 druhy) v ISXPM je vyřešena nešťastně - "Compression" v sekci "Patch Options" (komprimuje ne-patch "ne-XDELTA" soubory jako celek s omezenými možnostmi nastavení = výsledná komprese může být nedostatečná), a "Built-in Presets" + "Custom HDiffPatch parameters" v sekci "Patch-Data Generator" (komprimuje patch "XDELTA" soubor po souboru s možnostmi nastavení = komprese jednotlivých souborů odděleně snižuje efektivitu komprese). V konfiguračním souboru jsou všechny komprese vypnuté = data jde komprimovat jenom jednou a nejvyšší efektivity se dosáhne zabalením všeho najednou přes 7-Zip (až ```3 komprese``` patch data+nepatch data+7z nahraný na internet ```+``` případné umístění všech dat do Patch.exe, které se po spuštění musí extrahovat do TEMP = další důsledky toho všeho je až násobné zpomalení patch procesu, zvlášť při spuštěných antiVIRUS programech, a více zápisů na SSD než je nutné, navíc pro "reverzní inženýrství" je co nejméně dodatečných úprav a co nejvíce otevřenosti přínosem /// pokud není Patch.exe komprimovaný - první uvedená komprese výše - , tak se v něm dá snadno zjistit použitá verze HDiffPatch - ```hpatchz v``` vyšší hodnota platí /// hdiffz-x64.exe 4.12.0-2025+ určený pro tvorbu/aplikování už ve Win7 "nefunguje", ale hpatchz-x64.exe určený pro aplikování a obsažený i v Patch.exe funguje) a díky tomu je možné v budoucnu patch pouze přebalit a dosáhnout vyšší komprese bez jeho znovuvytváření. Je možné neaktualizovat samotný ISXPM (když nebudu počítat kompresi, tak nemá na velikost patche vliv) a podle potřeby aktualizovat pouze "Patch Engine" (těch je na výběr několik, ale HDiffPatch má snad bez vyjímky nejlepší výsledky). Tipy na případnou automatizaci před/při/po aplikování patche pomocí BAT jsou dole *2 .
+***[📥 Přednastavený konfigurační soubor + CZ překlad těch nejhlavnějších textů + popis procesu a možných workarounds jako výplň jinak prázdného místa v jednoobrazovkovém patchi - Velikost 1MB](https://github.com/hornster02/hornster02/raw/main/_ISXPM-2.6.4.3-CONFIG-2024-03.rar)*** (stačí ho načíst přes "LOAD PROJECT") zaměřený na ještě menší velikost patche (rozdíl je až v desítkách %). Využití RAM paměti bude běžně mezi 10-20GB (1GB soubor na obou stranách = ~6GB RAM) - proces se může zrychlit zvýšením "Generating cores" v sekci "Build and Log Options" (počet zpracovávaných souborů v jeden okamžik - např. 8x5GB soubor na obou stranách = ~240GB RAM). Komprese (2 druhy) v ISXPM je vyřešena nešťastně - "Compression" v sekci "Patch Options" (komprimuje ne-patch "ne-XDELTA" soubory jako celek s omezenými možnostmi nastavení = výsledná komprese může být nedostatečná), a "Built-in Presets" + "Custom HDiffPatch parameters" v sekci "Patch-Data Generator" (komprimuje patch "XDELTA" soubor po souboru s možnostmi nastavení = komprese jednotlivých souborů odděleně snižuje efektivitu komprese). V konfiguračním souboru jsou všechny komprese vypnuté = data jde komprimovat jenom jednou a nejvyšší efektivity se dosáhne zabalením všeho najednou přes 7-Zip (až ```3 komprese``` patch data+nepatch data+7z nahraný na internet ```+``` případné umístění všech dat do Patch.exe, které se po spuštění musí extrahovat do TEMP = další důsledky toho všeho je až násobné zpomalení patch procesu, zvlášť při spuštěných antiVIRUS programech, a více zápisů na SSD než je nutné, navíc pro "reverzní inženýrství" je co nejméně dodatečných úprav a co nejvíce otevřenosti přínosem /// pokud není Patch.exe komprimovaný - první uvedená komprese výše - , tak se v něm dá snadno zjistit použitá verze HDiffPatch - ```hpatchz v``` vyšší hodnota platí /// hdiffz-x64.exe 4.12.0-2025+ určený pro tvorbu/aplikování už ve Win7 "nefunguje", ale hpatchz-x64.exe určený pro aplikování a obsažený i v Patch.exe funguje) a díky tomu je možné v budoucnu patch pouze přebalit a dosáhnout vyšší komprese bez jeho znovuvytváření. Je možné neaktualizovat samotný ISXPM (když nebudu počítat kompresi, tak nemá na velikost patche vliv) a podle potřeby aktualizovat pouze "Patch Engine" (těch je na výběr několik, ale HDiffPatch má snad bez vyjímky nejlepší výsledky). Tipy na BAT automatizaci před/při/po aplikování patche *2 .
 <br/>
-V roce 2024 vznikla jakási česká alternativa ISXPM [```🟦 CZMaker```](https://lokalizace.net/aplikace-ke-stazeni) (navzdory nepodpoře funguje i ve Win7). Provedl jsem malý benchmark s [```těmito```](https://get.videolan.org/vlc/2.2.0/win32/vlc-2.2.0-win32.exe) [```soubory```](https://get.videolan.org/vlc/3.0.18/win32/vlc-3.0.18-win32.exe). EXE soubory byly přes 7-Zip rozbaleny a všechna data kromě rozdílných byla smazána = zaměřil jsem se čistě na patch+kompresní funkcionalitu (je úplný nesmysl 😉 místo "zazipování" dat která se pouze kopírují vytvářet EXE instalátor s češtinou - z hlediska bezpečnosti/univerzálnosti/velikosti/...). Výsledný patch byl oproti ISXPM o 24% větší (při druhém pokusu u EN/CZ verzí "Data1.fbz" hry Shadowgrounds byl nárůst 75%, třetí pokus by byl zbytečný). Nepovažuji za šťastné rozhodnutí nutnost přejmenování přípon souborů a nasypání všech dat dohromady = ani prase se v tom nevyzná a data nejde mezi sebou porovnávat či je normálně používat... A také se zdá, že CZMaker neumí vytvořit instalátor (v případě ISXPM se jedná o 1MB dat). Je možné, že je to kvůli vnucení další "naprosto nezbytné" aplikace ```CZ Manager```? (který narozdíl od ISXPM vyžaduje i ```.NET Desktop Runtime 8``` a ```přístup k internetu``` - umožnění offline instalace češtin je prý zvrácená myšlenka... Zřejmě se jedná o jakousi formu DRM pro překlady - i když samozřejmě že všechny jdou ripnout do více future-proof a komprimovanějšího offline formátu). A ano, ISXPM umí bájnou metodu patch/insert. A ne, ani samotné stažené soubory by vám nebyly k ničemu, protože aplikace patche je možná i ručně přes CMD bez ISXPM - pro [***🟦 HDiffPatch***](https://github.com/sisong/HDiffPatch) se může použít příkaz ```hdiffz-x64.exe -f --patch "a:\Stary\0.txt" "a:\Patch\0.txt.xdelta" "a:\Novy\0.txt"```. Proces je možné částečně automatizovat. ```1``` TotalCmd - vygenerovat seznam "Patch" souborů včetně cest do TXT + někam zkopírovat "Patch" data bez souborů čímž se vytvoří podsložky které poslouží jako cíl "Novy". ```2``` Notepad++ - vytvořit (ze seznamu "Patch" souborů) "Stary" "Novy" cesty (najít/nahradit +regulární výrazy pro přidání uvozovek). ```3``` ***🟦 LibreOffice Calc*** - výsledný polotovar se stejným počtem řádků a o 4 částech (EXE,Stary,Patch,Novy) dát vedle sebe do sloupců a pak vykopírovat zpět do TXT/BAT (před uvozovkami - sloupci - má být klasická mezera). [```[2/3] CZMaker (Jak dělat balíčky pro manager)```](https://youtu.be/fBQSt8eEe2Y) (Pozor! Obsahuje dezinformace)
+V roce 2024 vznikla jakási česká alternativa ISXPM [```🟦 CZMaker```](https://lokalizace.net/aplikace-ke-stazeni) (navzdory nepodpoře funguje i ve Win7). Provedl jsem malý benchmark s [```těmito```](https://get.videolan.org/vlc/2.2.0/win32/vlc-2.2.0-win32.exe) [```soubory```](https://get.videolan.org/vlc/3.0.18/win32/vlc-3.0.18-win32.exe). EXE soubory byly přes 7-Zip rozbaleny a všechna data kromě rozdílných byla smazána = zaměřil jsem se čistě na patch+kompresní funkcionalitu (je úplný nesmysl 😉 místo "zazipování" dat která se pouze kopírují vytvářet EXE instalátor s češtinou - z hlediska bezpečnosti/univerzálnosti/velikosti/...). Výsledný patch byl oproti ISXPM o 24% větší (při druhém pokusu u EN/CZ verzí "Data1.fbz" hry Shadowgrounds byl nárůst 75%, třetí pokus by byl zbytečný). Nepovažuji za šťastné rozhodnutí nutnost přejmenování přípon souborů a nasypání všech dat dohromady = ani prase se v tom nevyzná a data nejde mezi sebou porovnávat či je normálně používat... A také se zdá, že CZMaker neumí vytvořit instalátor (v případě ISXPM se jedná o 1MB dat). Je možné, že je to kvůli vnucení další "naprosto nezbytné" aplikace ```CZ Manager```? (který narozdíl od ISXPM vyžaduje i ```.NET Desktop Runtime 8``` a ```přístup k internetu``` - umožnění offline instalace češtin je prý zvrácená myšlenka... Zřejmě se jedná o jakousi formu DRM pro překlady - i když samozřejmě že všechny jdou ripnout do více future-proof a komprimovanějšího offline formátu). A ano, ISXPM umí bájnou metodu patch/insert. A ne, ani samotné stažené soubory by vám nebyly k ničemu, protože aplikace patche je možná i ručně přes CMD bez ISXPM - pro [***🟦 HDiffPatch***](https://github.com/sisong/HDiffPatch) se může použít příkaz ```hdiffz-x64.exe -f --patch "a:\Stary\0.txt" "a:\Patch\0.txt.xdelta" "a:\Novy\0.txt"```. Proces je možné částečně automatizovat. ```1``` TotalCmd - vygenerovat seznam "Patch" souborů včetně cest do TXT + někam zkopírovat "Patch" data bez souborů čímž se vytvoří podsložky které poslouží jako cíl "Novy". ```2``` Notepad++ - vytvořit (ze seznamu "Patch" souborů) "Stary" "Novy" cesty (najít/nahradit +regulární výrazy pro přidání uvozovek). ```3``` LibreOffice Calc - výsledný polotovar se stejným počtem řádků a o 4 částech (EXE,Stary,Patch,Novy) dát vedle sebe do sloupců a pak vykopírovat zpět do TXT/BAT (před uvozovkami - sloupci - má být klasická mezera). [```[2/3] CZMaker (Jak dělat balíčky pro manager)```](https://youtu.be/fBQSt8eEe2Y) (Pozor! Obsahuje dezinformace)
 <br/>
 <img width="941" alt="Inno Setup XDELTA Patch Maker" src="https://github.com/hornster02/hornster02/assets/127822397/91d7745e-6dd3-4c06-a382-794fbe422488">
 <br/>
@@ -58,11 +58,11 @@ V roce 2024 vznikla jakási česká alternativa ISXPM [```🟦 CZMaker```](https
 <br/>
 ***🟦 Dragon UnPACKer, 🟦 Game Extractor, https://aluigi.altervista.org/quickbms.htm https://oezmen.eu/gameresources/ https://www.gildor.org/***
 
-***[📥 Level list (1995-2012)](https://github.com/hornster02/hornster02/raw/main/level.rar)***
+***[📥 Level list (1995-2012). Velikost 1MB](https://github.com/hornster02/hornster02/raw/main/level.rar)***
 <br/>
 <img width="960" alt="level" src="https://github.com/user-attachments/assets/025b6f96-2f79-449f-a36d-67d1232fda59" />
 
-***[📥 game-copy-world-list (2025-08)](https://drive.google.com/file/d/1X2ez82eJaRQzIox53xc__wHmYsFY8_HH/view)***
+***[📥 game-copy-world-list (2025-08). Size 1MB](https://drive.google.com/file/d/1X2ez82eJaRQzIox53xc__wHmYsFY8_HH/view)***
 <br/>
 <img width="960" height="540" alt="gcw" src="https://github.com/user-attachments/assets/bf1c82c0-b320-462b-a195-1f44c66732d6" />
 
@@ -92,7 +92,7 @@ V roce 2024 vznikla jakási česká alternativa ISXPM [```🟦 CZMaker```](https
 
 Sjednocení datumů všech souborů a vytvoření hashe pro všechny např. EXE+DLL+SYS může zásadně zrychlit/zpřehlednit kontrolu systému
 
-```🚫update``` ***EXE Radar Pro v3 (Beta)*** - při spuštění spustitelného souboru (EXE/COM/SCR, DLL+SYS bohužel nepodporuje) se zobrazí okno s dotazem zda ho spustit nebo ukončit (uživatelem definovaný Command-Line/whitelist/blacklist probíhá automaticky v pozadí systému). Ověření přes kontrolní součet. Doporučuji odstranit výchozí vyjímky
+```🚫update``` ***EXE Radar Pro v3 (Beta)*** - při spuštění spustitelného souboru (EXE/COM/SCR, DLL+SYS bohužel nepodporuje) se zobrazí okno s dotazem zda ho spustit nebo ukončit (uživatelem definovaný Command-Line/whitelist/blacklist probíhá automaticky v pozadí systému). Hash ověření. Doporučuji odstranit výchozí vyjímky
 
 🚫***Easy File Locker*** - zakázání čtení/zápisu/mazání/ skrytí souborů/složek. Zamknutí funguje jen když je spuštěný SYS ovladač (dá se zapínat/vypínat přes zástupce/klávesové zkratky bez nutnosti spouštět EFL - NirCmd). ⚠️Neošetřené NTFS linky mohou ochranu obejít
 
@@ -108,33 +108,35 @@ Win firewall má pravidla uložená zde ```HKLM\SYSTEM\ControlSet\services\Share
 
 🚫***🟦 Autoruns*** - automaticky spouštěné aplikace/knihovny/ovladače
 
-⓿🚫***🟦 NSudo*** - spouštění aplikací s nejvyššími právy. V kombinaci i s Autoruns je snadné se zbavit veškerého MS bloatwaru (aktualizace/služby/plánovače úloh/Defender/Edge/OneDrive/Slutana/Store/StartMenu/...)
+⓿🚫***🟦 RunAsTrustedInstaller*** - spouštění aplikací s nejvyššími právy. V kombinaci i s Autoruns je snadné se zbavit veškerého MS bloatwaru (aktualizace/služby/plánovače úloh/Defender/Edge/OneDrive/Slutana/Store/StartMenu/...)
 
-❶🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** - správa zabezpečení dat, záložky pro rychlý přístup
+❶🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** - správa zabezpečení dat, záložky pro rychlý přístup. Omezení přístupu k datům (povolit, pouze ke čtení, odepřít, změna vlastníka na SYSTEM/TrustedInstaller/atd.). "Replace all child object permissions" je pro hromadné nahrazení oprávnění veškerého obsahu ve vybrané složce (nenásleduje NTFS linky, ale bohužel ani oprávnění nenahrazuje)
 
-❷***Link Shell Extension+🟦 NTFSLinksView*** - NTFS linky a přesměrování nastavení programů do vlastních složek. Ovládání přes kontextovou nabídku - vybrat zdroj (nové umístění) / vložit jako (původní umístění)
+❷***🟦 BootICE*** - vytvoření bootovacího média bez formátování a ztráty dat (MBR/PBR pro HDD/SSD/USB), úprava Windows souborů BCD/UEFI (multiboot, změna systémové partition, ...), skrytí/aktivace partition
 
-❸***🟦 BootICE*** - vytvoření bootovacího média bez formátování a ztráty dat (MBR/PBR pro HDD/SSD/USB), úprava Windows souborů BCD/UEFI (multiboot, změna systémové partition, ...), skrytí/aktivace partition
+❸***🟦 Gandalf’s Windows*** (Win7-11) - spustitelný (bez formátování a ztráty dat⬆️) z USB s možností internetu a instalování programů/ovladačů. Víceméně plnohodnotný systém (po restartu se vrací do výchozího nastavení). Je možné nastartovat i z telefonu (pokud podporuje připojení jako velkokapacitní úložiště, android4/Samsung Galaxy Ace 2) a sdílet internetové připojení přes Wi-Fi (pokud se po nastartování Win nahrají potřebná data/programy do ramdisku a telefon se připojí přes nestandardní ADB/MTP/..., tak je možné sdílení i přes USB = připojení jako velkokapacitní úložiště nepodporuje USB sdílení), telefon je při všech způsobech připojení normálně použitelný, komprimovaný Win se celý nahrává do RAM takže ani nemusí být připojený - velikost dodatečně upraveného Win8.1 64-bit může být 770MB (ale i méně, záleží na vyžadované funkčnosti, extrémní verze WinXP jdou až na nižší desítky MB), takže pro základní použití i s troškou toho ramdiskování stačí PC s 2,5GB RAM, není nutné mít HDD/SSD
 
-❹***🟦 Gandalf’s Windows*** (Win7-11) - spustitelný (bez formátování a ztráty dat⬆️) z USB s možností internetu a instalování programů/ovladačů. Víceméně plnohodnotný systém (po restartu se vrací do výchozího nastavení). Je možné nastartovat i z telefonu (pokud podporuje připojení jako velkokapacitní úložiště, android4/Samsung Galaxy Ace 2) a sdílet internetové připojení přes Wi-Fi (pokud se po nastartování Win nahrají potřebná data/programy do ramdisku a telefon se připojí přes nestandardní ADB/MTP/..., tak je možné sdílení i přes USB = připojení jako velkokapacitní úložiště nepodporuje USB sdílení), telefon je při všech způsobech připojení normálně použitelný, komprimovaný Win se celý nahrává do RAM takže ani nemusí být připojený - velikost dodatečně upraveného Win8.1 64-bit může být 770MB (ale i méně, záleží na vyžadované funkčnosti, extrémní verze WinXP jdou až na nižší desítky MB), takže pro základní použití i s troškou toho ramdiskování stačí PC s 2,5GB RAM, není nutné mít HDD/SSD
+❹***🟦 WinNTSetup*** - instalace/záloha/obnova Windows (např. Win11 2021 jde provést i s použitím zastaralých BootICE 2015 + WinNTSetup 2015) ***bez*** ztráty dat, formátování, nutnosti více partitions než 1, vytváření bootovacího média, upravování instalačních souborů = CTRL+C/V metoda. WIM/SWM/VHD/ISO (podporuje je i 7-Zip) + možnost přidání ovladačů/tweaků. Proces není HW závislý, takže i obnovení zálohy Win jde provést na jakékoli PC. Jde instalovat i na USB disky a minimálně Win11 z nich jde bez dalších úprav spustit (ovladače se načítají při bootu, takže nezáleží jak a na jakém PC se bude spouštět - Bios/UEFI/USB/SATA/M.2/...) - jeho nesmyslné minimální požadavky jsou ignorovány (první část věčně problémových MS instalátorů je vždy vynechaná). ***1 -*** Vložit a vybrat edici Win. ***2 -*** "Boot drive+Installation drive" může být stejné písmeno. ***3 -*** ```MBR+PBR+BOOT PART``` případně vytvořit/opravit boot v BootICE (pravé tlačítko myši na title bar) - ```MBR``` Win NT 6.x, ```PBR``` BOOTMGR, ```Parts Manage```  Activate. ***4 -*** Setup+OK (budou vytvořena Bios+UEFI data a první část instalace). ***5 -*** Vypnout internet a restartovat PC (pokud je instalace určená pro jiné zařízení, tak přepojit disk).
+<br/>
+Záloha Windows (Local Windows Installations/Capture Wim), vyjímky ze zálohy bez uvádění písmen disků (WimScript.ini). Možné řešení chyb -
+<br/>
+-chyby v záloze (7-Zip), HDD - poškozené sektory, CPU+RAM - problémy se stabilitou, vypnout kompresi nebo zpomalit proces (Battle Encoder Shirasé)
+<br/>
+-obnova Win se může provést i rozbalením (7-Zip) + případně vytvořit/opravit boot (BootICE).
 
-❺***🟦 WinNTSetup*** - instalace/záloha/obnovení Windows bez formátování a ztráty dat a vytváření bootovacího instalačního média (přeskočení věčně chybového/nebezpečného MS instalačního procesu = po nakopírování dat a restartu PC se spouští systém). Iso/wim/swm/vhd (dají se používat i v 7-Zip)+možnost přidání ovladačů/tweaků. Proces není závislý na konkrétní HW, takže třeba obnovení zálohy systému jde provést na jakékoli PC. Jde instalovat i na USB disky a minimálně Win11 z nich jde bez dalších úprav spustit (potřebné ovladače se načítají při bootu, takže nezáleží na jakém PC se bude spouštět) - jeho nesmyslné požadavky jsou ignorovány (UEFI/TPM/...) "Boot drive+Installation drive" může být stejný oddíl jednoho disku (WinNTSetup je pro běžného uživatele přednastavený - stačí vybrat edici Windows, kliknout na "Setup+OK" a proces začíná - na konci se automaticky vytvoří Bios+UEFI boot a poté v případě MBR disku doporučuji zkontrolovat zda je zelená tečka u BOOT PART). Záloha se provádí přes "Local Windows Installations/Capture Wim" - vyjímky se mohou přidat do "WimScript.ini". Možné řešení chyb
+***Záloha/obnova Windows přes WinRAR*** - v NTFS options zaškrtnout - Save file security+Store symbolic links as links+Store hard links as links. Výhody jsou - univerzální/nezávislý přístup k datům, možnost obnovit třeba jen 1 soubor + malý balíček dat díky vysoké kompresi a možnosti vyloučit (jako u WinNTSetup) jakákoli data (v mém případě je poměr 21% = 30,8GB data / 6,5GB záloha) + jednoduchost (postupy+SW mohou zůstat prakticky desítky let neměnné+neaktualizované). Obecně zbytečná data pro zálohu jsou různé cache/temp/crash/dump/log/prefetch/SYS na C:/atd., případně RECYCLE/System Volume Information/instalátory/updaty/atd. (prostě podle chuti), nemusí být špatné si před zálohou vyfiltrovat soubory řekněme od 10MB, ty seřadit podle velikosti/přípon a rozhodnout se, co je zálohy hodno. ***0 -*** RunAsTrustedInstaller je základ všeho. Vždy a všude.
 <br/>
--vložené ISO hlásí "No Windows Source Detected" / "Windows Source invalid" - vložit samotný instalační soubor (zbývající obsah je stejně zbytečný)
+U WinXP je tento způsob zálohy bezproblémový, u Win7 je to složitější (zřejmě už od Vista = NTFS zabezpečení, linky a jiný boot), u Win11 by to mělo být stejné (pokud by ze "zálohovacího" Win došlo k "WinRAR: Diagnostic messages - Systém nemůže získat přístup k souboru" - a to i přes oprávnění NT AUTHORITY\SYSTEM s neodepřeným NTFS přístupem pro všechny uživatele, tak ve spuštěném Win11 určeném k zálohování by zkopírování zbytku neměl být problém = pro vytvoření řádků z toho RAR logu pro jejich použití v BAT/xcopy stačí použít regulární výrazy a LibreOffice Calc). Jediná věc která může bránit ve spuštění CTRL+C/V Win je boot = pokud zůstává IDE/AHCI/GPT/MBR, tak je oprava v BootICE na pár kliků ***1 -*** případně vytvořit/opravit boot - ⬆️ MBR+PBR a partition aktivovat ⬆️ . ***2 -*** vybrat správnou partition v BCD/UEFI (BCD soubor je pro Bios ve složce ```Boot```, pro UEFI v ```EFI\Microsoft\Boot```). ***3 -*** pokus o boot se špatným písmenem/partition v lepším případě okamžitě skončí hláškou o chybějících souborech, v horším se může přistupovat na nechtěnou partition (tedy pokud se předem dočasně neskryje, nezakáže v biosu nebo fyzicky neodpojí, což doporučuji vždy, tedy nejen při všech těchto "nedogmatických" postupech okolo) čímž by mohl započít nehezký proces asimilace ve stylu The Thing = změna písmen disků v ```HKLM\SYSTEM\MountedDevices``` (\DosDevices\XXX: - pokud byla z bezpečnostních důvodů všechna ostatní partitions znepřístupněna, tak zde není nutné nic mazat/upravovat - pokud Win projde prvním bootem se správným písmenem, tak se může pro aktuální partition/disk ponechat rezervované = rezervovat jde ABC a částečně Z a zpět, rezervovat nejde D a dál). Pokud se bootovací disk neformátuje, nemění za jiný, neupravuje partition, případně nemění systémové písmeno tak nic z tohoto odstavce není nutné pro obnovu Win dělat = schopnost bootu (MBR+PBR+BOOT PART) nejde zrušit pouhým smazáním všech dat (BCD/UEFI zůstávají v RARu). Pro větší bezpečnost doporučuji nastavit obsah složek Boot+EFI pouze ke čtení a změnit vlastníka na SYSTEM/TrustedInstaller *2
 <br/>
--chyby v záloze (7-Zip), HDD - poškozené sektory, CPU+RAM - vypnout kompresi nebo zpomalit proces
-<br/>
--obnova systému se může provést i rozbalením na disk (7-Zip) a nakonec případně opravit boot (BootICE)
-<br/>
-Záloha systému se ale může provést i přes WinRAR (jsou to data jako každá jiná, jen ⚠️pozor na NTFS zabezpečení a linky), výhody jsou
-<br/>
--nezávislost na obskurních zálohovacích softwarech, univerzálnost
-<br/>
--okamžitý přístup k datům, možnost obnovit třeba jen 1 soubor
-<br/>
--malý balíček dat díky vysoké kompresi (v mém případě je poměr 21% = 30,8GB systém / 6,5GB záloha)
+***Instalace Windows přes CMD*** (***bez*** ztráty dat, formátování, nutnosti více partitions než 1, vytváření bootovacího média, upravování instalačních souborů = CTRL+C/V metoda) - ***1 -*** Zjistit Index číslo které chci instalovat ```Dism /Get-WimInfo /WimFile:"a:\install.wim"```. ***2 -*** Instalovat Index 5 (Win11 Pro?) ze souboru "a:\install.wim" na disk Z: (příkaz nemusí fungovat ve Win8- , error 87, WinNTSetup potřebné soubory obsahuje) ```dism /Apply-Image /ImageFile:"a:\install.wim" /Index:5 /ApplyDir:z:```. ***3 -*** Vytvořit Bios+UEFI data ```bcdboot z:\Windows /s z: /f ALL```. ***4 -*** Případně vytvořit/opravit boot - ⬆️ MBR+PBR a partition aktivovat ⬆️. ***5 -*** Vypnout internet a restartovat PC (pokud je instalace určená pro jiné zařízení, tak přepojit disk). Při instalaci by nikdy problém s písmenem v registru (před prvotním bootem bez dodatečných úprav žádná neexistují) nebo partition neměl nastat. Některé verze Win mohou jako instalační soubor používat místo jednoho WIM více SWM souborů a v tom případě je příkaz ***2 -*** ```dism /Apply-Image /ImageFile:"a:\install.swm" /swmfile:"a:\install*.swm" /Index:5 /ApplyDir:z:``` (```*``` značí automatické načtení všech SWM která jsou k dispozici)
+
+***USB boot*** - BootDriverFlags, 0x14 ```HKLM\SYSTEM\HardwareConfig\XXX``` - změna pořadí načítaných ovladačů při bootu Win10+ = jeden systém se všemi programy+nastavením, který jde spustit na "jakémkoli" PC přes interní i externí disk (chybějící USB ovladače nebo IDE/AHCI mód atd. můžou být problém i když ne neřešitelný)
 
 ***🟦 GImageX*** - tvorba WIM image (Windows v jednom komprimovaném souboru - bootovací nebo pro kompletní zálohu systému). Capture/Apply/Mount
+
+***Link Shell Extension+🟦 NTFSLinksView*** - NTFS linky a přesměrování nastavení programů do vlastních složek. Ovládání přes kontextovou nabídku - vybrat zdroj (nové umístění) / vložit jako (původní umístění)
+
+***🟦 Streams*** - ```streams64.exe -s "a:"``` (-d = delete). NTFS ADS (odhalit a případně odstranit skrytá data - např. označení že soubor pochází z jiného PC). Při archivaci dat např. přes WinRAR se ve výchozím nastavení skrytá data neukládají
 
 ***🟦 Registry Workshop*** - pokročilá náhrada "Regedit". Load Hive slouží pro načtení externího registru - je možné ho upravovat. Integrace s Total Uninstall se v jeho nastavení provede příkazem - ```"RegWorkshopX64.exe" /g```
 
@@ -161,6 +163,10 @@ Záloha systému se ale může provést i přes WinRAR (jsou to data jako každ�
 ***ImDisk Toolkit*** - ramdisk
 
 ***Primo Ramdisk*** - možnost stránkovacího souboru v ramdisku nebo využít nepřístupnou část RAM paměti (Invisible Memory) - 32-Bit Win má limit ~4GB, Win11 Home 128GB (jako WinXP)
+
+***Kontrola+oprava systémových souborů*** - vzhledem k tomu, že trochu znalejšímu uživateli se nikdy nemůžou poškodit, tak velmi nedoporučuji příkazy používat = může dojít k odstranění "systémově nestandardních" uživatelských úprav, případně se "opravy" kvůli nim ani nepodaří dokončit
+<br/>
+```sfc /scannow``` - základní kontrola+oprava /// ```DISM /Online /Cleanup-Image /CheckHealth``` ```DISM /Online /Cleanup-Image /ScanHealth``` - hlubší kontrola /// ```DISM /Online /Cleanup-Image /RestoreHealth``` - hlubší kontrola+oprava
 
 ***🟦 HDD Low Level Format Tool, 🟦 ADB Explorer, 🟦 APK-Info, MEmu,  🟦 Kaspersky Virus Removal Tool,  🟦 Recuva, 🟦 x64dbg***
 
@@ -190,11 +196,11 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***🟦 ClickMonitorDDC*** - změna jasu/kontrastu/hlasitosti/zapnutí/vypnutí ```monitoru```, tray ikony; profily - klávesové zkratky. Funguje i ve hrách
 
-***🟦 Gamma Panel*** - ```softwarová``` změna jasu/kontrastu/gammy - profily - klávesové zkratky. Funguje i ve hrách (bezproblémový windowed/borderless, ale ve fullscreen některé hry změny neumožňují - ale v ```dgVoodoo2``` se tyto změny mohou vynutit - Output API / Inherit Color Profile...). Problémy s AHK - klávesu ALT poslanou (fyzicky nestisknutou) přes AHK Gamma Panel neakceptuje = při nepoužívání přepínačů (více funkcí na jedné klávese) to nemusí být problém protože Gamma Panel zkratky zřejmě bez omezení podporuje. Druhý problém je "nemožnost" spustit Gamma Panel (EXE,LNK) přes AHK protože nebude načten "gapa.ini" (obejde se to spuštěním přes BAT). ***[📥 PowerStrip](https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key.rar)*** https://entechtaiwan.com/util/ps.shtm
+***🟦 Gamma Panel*** - ```softwarová``` změna jasu/kontrastu/gammy - profily - klávesové zkratky. Funguje i ve hrách (bezproblémový windowed/borderless, ale ve fullscreen některé hry změny neumožňují - ale v ```dgVoodoo2``` se tyto změny mohou vynutit - Output API / Inherit Color Profile...). Problémy s AHK - klávesu ALT poslanou (fyzicky nestisknutou) přes AHK Gamma Panel neakceptuje = při nepoužívání přepínačů (více funkcí na jedné klávese) to nemusí být problém protože Gamma Panel zkratky zřejmě bez omezení podporuje. Druhý problém je "nemožnost" spustit Gamma Panel (EXE,LNK) přes AHK protože nebude načten "gapa.ini" (obejde se to spuštěním přes BAT). ***📥 PowerStrip***
 
 ***🟦 UniFlash*** (MS-DOS, Rainbow Software) - uložení/obnovení CMOS paměti biosu (nastavení) do souboru. Na novějším HW možná už nefunkční (AM3+ +)
 
-***🟦 NirCmd+🟦 DevManView*** - změna rozlišení+frekvence, zapínání/vypínání HW+SW zařízení, ... - ovládání i přes klávesové zkratky/zástupce
+***🟦 NirCmd+🟦 DevManView*** - změna rozlišení+barevné hloubky+frekvence - ```c:\nircmdc.exe setdisplay 2560 1080 32 75```. Zakázání/manuální start služby 4 - ```"c:\nircmdc.exe service disabled 4"``` / ```"c:\nircmdc.exe service manual 4"```. Zapnutí/vypnutí zařízení 4 - ```C:\DevManView.exe /enable "4"``` / ```C:\DevManView.exe /disable "4"```... Ovládání i přes klávesové zkratky/zástupce
 
 ***🟦 Mem Reduct*** - uvolnění RAM paměti bez ukončení procesů klávesovou zkratkou nebo klikem na tray ikonu. Může ale docházet k většímu zápisu do stránkovacího souboru = opotřebení SSD*1
 
@@ -216,15 +222,21 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***HDD Regenerator*** - oprava poškozených sektorů na HDD bez ztráty dat (Win/MS-DOS)
 
-***🟦 Driver Booster for Steam*** - aktualizace ovladačů
+***🟦 Driver Booster Free*** - aktualizace ovladačů. Výhoda -
+<br/>
+-stažené archivy jsou vysoce komprimované a zbavené obvyklých zbytečných instalátorů z internetu čímž se udrží systém relativně čistý
+<br/>
+Nevýhody -
+<br/>
+-instalace ovladačů (sken) nefunguje offline
+<br/>
+-stažené archivy nejsou ve složce pojmenované/oddělené/verzemi/systémů
+<br/>
+-pro instalaci není možné upřednostnit starší ovladač na úložišti, není poznat zda je/bude ovladač stahován
 
 ***🟦 System Explorer*** - náhrada "Správce úloh" - možnost uložit prioritu/afinitu aplikací pro jejich automatické nastavení při dalším spuštění. ***🟦 Process Hacker***
 
 Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkratky/zástupce. Cesta v registru ```HKLM\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes``` příkaz ve formátu ```powercfg.exe -setactive XXX``` místo XXX se napíše název potřebného klíče
-
-***USB boot*** - BootDriverFlags, 0x14 ```HKLM\SYSTEM\HardwareConfig\XXX``` - změna pořadí načítaných ovladačů při bootu Win10+ = jeden systém se všemi programy+nastavením, který jde spustit na "jakémkoli" PC přes interní i externí disk (chybějící USB ovladače nebo IDE/AHCI mód atd. můžou být problém i když ne neřešitelný)
-
-***Změna písmen disků přes registr*** ```HKLM\SYSTEM\MountedDevices```
 
 ***Ovladače*** - Visual C++ Redistributable 2005-2022, .NET Framework3.5+4.8, .NET Desktop Runtime 5-8, DirectX End-User Runtimes, Edge WebView2 Runtime, (Legacy)PhysX, OpenAL, K-Lite Codec Pack, 🟦 Xliveless
 
@@ -333,6 +345,8 @@ Regulární výrazy (může se hodit především "Na konci znovu od začátku")
 <br/>
 -najít stejné řádky ```^((?-s).+?)\R(?=(?s).*?^\1(?:\R|\z))```
 <br/>
+-sloučit řádky do jednoho ```\s*(.+)\s+``` ```$1```
+<br/>
 Rozšířené vyhledávání -
 <br/>
 -najít řádek s textem "a" a pod ním řádek s textem "b" a nahradit texty na "4" a "1"  (řádky nesmí obsahovat nic navíc) ```a\r\nb\r\n``` ```4\r\n1\r\n```
@@ -383,13 +397,19 @@ Rozšířené vyhledávání -
 <br/>
 ```a:``` ***/*** ```cd\``` ***/*** ```cd /d c:\``` ***/*** ```cd 4``` - přejít na A: ***/*** přejít do kořenové složky ***/*** přejít na C: bez ohledu na aktuální pozici ***/*** přejít do složky 4
 <br/>
-```move "1" "../1"``` ***/*** ```move "1" "5/1"``` - po použití horního "cd 4" přesunout soubor/složku 1 ze složky 4 do složky která jí předchází (nespecifikovaná) ***/*** přesunout soubor/složku 1 ze složky 4 do složky 5
+```move "1" "../1"``` ***/*** ```move "1" "5/1"``` - ***po použití horního*** "cd 4" přesunout soubor/složku 1 ze složky 4 do složky která jí předchází (nespecifikovaná) ***/*** přesunout soubor/složku 1 ze složky 4 do složky 5
 <br/>
 ```mkdir 4``` ***/*** ```type nul >1``` - vytvořit složku 4 ***/*** vytvořit soubor 1
 <br/>
 ```ren 4 1``` ***/*** ```ren 4.* 1.exe``` - přejmenovat soubor/složku 4 na 1 ***/*** přejmenovat soubor 4.cokoliv na 1.exe
 <br/>
 ```cd..``` - přejít o složku zpět
+<br/>
+```xcopy /h /k /b "a:\1\4*" "a:\2\4*"``` - zkopírovat soubor/NTFS link "4" ze složky "1" do složky "2" (automaticky se vytvoří, pokud chybí) a zachovat atributy = zdroj bez jakýchkoliv ex post úprav zkopírovat do cíle
+<br/>
+```xcopy /h /k /b /e /i "a:\4" "a:\1"``` - zkopírovat obsah složky "4" do složky "1" (automaticky se vytvoří, pokud chybí) a zachovat atributy/NTFS linky = zdroj bez jakýchkoliv ex post úprav zkopírovat do cíle
+<br/>
+```icacls "a:\4" /setowner "System" /t /c /l``` - změnit vlastníka složky "4" (a veškerého obsahu) na "System". Takto zadaný příkaz nefunguje, pokud je u dat odepřený přístup nebo pouze ke čtení (NTFS). MS má tento nástroj zřejmě zabugovaný a i když obsahuje /l (nešířit se u toho jako rakovina a nenásledovat NTFS linky), tak to u složek ignoruje
 <br/>
 ```start 4.exe``` ***/*** ```4.exe``` ***/*** ```"4.exe" 1``` ***/*** ```start /max 4.exe``` ***/*** ```taskkill /im 4.exe /f``` - spustit 4.exe v novém okně ***/*** spustit 4.exe ***/*** spustit 4.exe s parametrem 1 ***/*** spustit 4.exe v maximalizovaném okně ***/*** vynutit vypnutí 4.exe
 <br/>
@@ -400,6 +420,10 @@ Rozšířené vyhledávání -
 ```shutdown /l``` - odhlásit se
 
 ***IPCONFIG.exe /ALL*** - informace o síti
+
+***🟦 LibreOffice*** - do ```registrymodifications.xcu``` se ukládá nastavení a bohužel i historie
+<br/>
+```Jak docílit?``` - v Calc lištu s "panely" klasicky nahoře?
 
 ***🟦 Audacity, 🟦 Avidemux, 🟦 FastStone Capture, 🟦 HTTrack Website Copier, 🟦 InnoSetup Uninstall Log Reader, 🟦 PHP, 🟦 Python, 🟦 VLC, 🟦 XnViewMP, PDF Image Extractor Free***
 
@@ -447,37 +471,39 @@ Unifying dates of all files and creating a hash for all e.g. EXE+DLL+SYS, can si
 
 🚫***Firewall*** - Outpost/TinyWall/Firewall App Blocker
 <br/>
-Win firewall has rules stored here ```HKLM\SYSTEM\ControlSet\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules``` and forbidding of arbitrarily adding exceptions is easily done by adding and modifying permissions for "Everyone" (⚠️ caution, improper handling may block Internet connection, regardless of whether firewall or associated SYS services are running = errors/warnings may not be listed in the EventLog)
+Win firewall has rules stored here ```HKLM\SYSTEM\ControlSet\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules``` and forbidding of arbitrarily adding exceptions is easily done by adding and modifying permissions for "Everyone" (⚠️ caution, improper handling may block Internet connection, regardless of whether firewall or associated SYS services are running = errors/warnings may not be listed in EventLog)
 
 🚫***🟦 Autoruns*** - automatically launched apps/libraries/drivers
 
-⓿🚫***🟦 NSudo*** - run apps with highest privileges. Combined with Autoruns it is easy to get rid of all MS bloatware (updates/services/tasks/Defender/Edge/OneDrive/Slutana/Store/StartMenu/...)
+⓿🚫***🟦 RunAsTrustedInstaller*** - run apps with highest privileges. Combined with Autoruns it is easy to get rid of all MS bloatware (updates/services/tasks/Defender/Edge/OneDrive/Slutana/Store/StartMenu/...)
 
-❶🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** - data security management, bookmarks for quick access
+❶🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** - data security management, bookmarks for quick access. Restricting access to data (allow, read-only, deny, change owner to SYSTEM/TrustedInstaller/etc.). "Replace all child object permissions" is used for bulk replacement of permissions for all content in selected folder (it does not follow NTFS links, but unfortunately it does not replace permissions either)
 
-❷***Link Shell Extension+🟦 NTFSLinksView*** - NTFS links and redirecting apps settings to custom folders. Control via context menu - pick link source (new location) / drop as (original location)
+❷***🟦 BootICE*** - create bootable media without formatting and data loss (MBR/PBR for HDD/SSD/USB), modify Windows BCD/UEFI files (multiboot, change system partition, ...), hide/activate partition
 
-❸***🟦 BootICE*** - create bootable media without formatting and data loss (MBR/PBR for HDD/SSD/USB), modify Windows BCD/UEFI files (multiboot, change system partition, ...), hide/activate partition
+❸***🟦 Gandalf's Windows*** (Win7-11) - bootable (without formatting and losing data⬆️) from USB with internet capability and installing apps/drivers. More or less complete system (after reboot it returns to default settings). Can also boot from phone (if supports mass storage connection, android4/Samsung Galaxy Ace 2) with sharing Wi-Fi internet connection (if apps are copied to ramdisk after Win boots and phone is connected via non-standard ADB/MTP/... for data access, then sharing via USB is also possible = connection as mass storage does't support USB sharing), phone is normally usable in all connection methods, compressed Win is copied into RAM so it does't even need to be connected (size additionally modified Win8.1 64-bit can be 770MB, so a PC with 2.5GB RAM is enough for basic use, no HDD/SSD required)
 
-❹***🟦 Gandalf's Windows*** (Win7-11) - bootable (without formatting and losing data⬆️) from USB with internet capability and installing apps/drivers. More or less complete system (after reboot it returns to default settings). Can also boot from phone (if supports mass storage connection, android4/Samsung Galaxy Ace 2) with sharing Wi-Fi internet connection (if apps are copied to ramdisk after Win boots and phone is connected via non-standard ADB/MTP/... for data access, then sharing via USB is also possible = connection as mass storage does't support USB sharing), phone is normally usable in all connection methods, compressed Win is copied into RAM so it does't even need to be connected (size additionally modified Win8.1 64-bit can be 770MB, so a PC with 2.5GB RAM is enough for basic use, no HDD/SSD required)
+❹***🟦 WinNTSetup*** - install/backup/restore Windows (e.g., Win11 2021 can also be performed using outdated BootICE 2015 + WinNTSetup 2015) ***without*** data loss, formatting, more than 1 partition, creating bootable media, editing installation files = CTRL+C/V method. WIM/SWM/VHD/ISO (also supported by 7-Zip) + option to add drivers/tweaks. Process is not HW dependent, so even Win restore can be performed on any PC. It can also be installed on USB drives, and at least Win11 can be run from them without further modifications (drivers are loaded at boot, so it doesn't matter how and on which PC it will run - Bios/UEFI/USB/SATA/M.2/...) - its nonsensical minimum requirements are ignored (first part of eternally problematic MS installers is always omitted). ***1 -*** Insert and select Win edition. ***2 -*** "Boot drive+Installation drive" can be same letter. ***3 -*** ```MBR+PBR+BOOT PART``` if necessary create/repair a boot in BootICE (right-click on title bar) - ```MBR``` Win NT 6.x, ```PBR``` BOOTMGR, ```Parts Manage```  Activate. ***4 -*** Setup+OK (Bios+UEFI data and first part of installation will be created). ***5 -*** Turn off internet and restart PC (if installation is intended for another device, reconnect disk).
+<br/>
+Windows backup (Local Windows Installations/Capture Wim), exceptions from backup without specifying drive letters (WimScript.ini). Possible error solutions -
+<br/>
+-errors in backup (7-Zip), HDD - damaged sectors, CPU+RAM - stability issues, disable compression or slowdown process (Battle Encoder Shirasé)
+<br/>
+-Win recovery can also be performed by unzipping (7-Zip) + if necessary create/repair a boot (BootICE).
 
-❺***🟦 WinNTSetup*** - install/backup/restore Windows without formatting and data loss and creating a bootable installation media (skipping constantly erroneous/dangerous MS installation process = after copying data and restarting PC, system starts). Iso/wim/swm/vhd (can also be used in 7-Zip)+option to add drivers/tweaks. Process is not dependent on specific HW, so for example restoring a system backup can be done on any PC. It can also be installed on USB drives and at least Win11 can be started from them without any further modifications (necessary drivers are loaded at boot, so it does not matter which PC it will be started on) - its meaningless requirements are ignored (UEFI/TPM/...) "Boot drive+Installation drive" can be same partition of one disk (app is preset for a regular user - just select Windows edition, click "Setup+OK" and then process starts - at end Bios+UEFI boot is automatically created and then in case of MBR disk I recommend checking if there is a green dot at BOOT PART). Backup is done via "Local Windows Installations/Capture Wim" - exceptions can be added to "WimScript.ini". Possible bug fixes
+***Backup/restore Windows with WinRAR*** - in NTFS options check - Save file security+Store symbolic links as links+Store hard links as links. Advantages are - universal/independent access to data, ability to restore even just 1 file + small data package thanks to high compression and ability to exclude (as with WinNTSetup) any data (in my case, ratio is 21% = 30.8GB of data / 6.5GB backup) + simplicity (procedures+SW can practically remain for decades unchanged+unupdated). Generally, unnecessary data for backup includes various cache/temp/crash/dump/log/prefetch/SYS on C:/etc., or RECYCLE/System Volume Information/installers/updates/etc. (just as you like), it may be a good idea to filter files larger than, say, 10MB before backup, sort them by size/extension, and decide what is worth backup. ***0 -*** RunAsTrustedInstaller is basis of everything. Always and everywhere.
 <br/>
--inserted ISO reports "No Windows Source Detected" / "Windows Source invalid" - insert installation file itself (remaining content is useless anyway)
+With WinXP, this backup method is problem-free, with Win7 it is more complicated (apparently since Vista = NTFS security, links, another boot), with Win11 it should be same (if "WinRAR: Diagnostic messages - System cannot access file" occurred in "backup" Win - even with NT AUTHORITY\SYSTEM permissions and unrestricted NTFS access for all users, copying rest should not be a problem in running Win11 intended for backup = to create lines from RAR log for use it in BAT/xcopy, just use regular expressions and LibreOffice Calc). One thing that can prevent CTRL+C/V Win from starting is boot = if it remains IDE/AHCI/GPT/MBR, fix in BootICE is a few clicks ***1 -*** if necessary create/repair a boot - ⬆️ MBR+PBR and activate partition ⬆️ . ***2 -*** select correct partition in BCD/UEFI (BCD file is for Bios in ```Boot``` folder, for UEFI in ```EFI\Microsoft\Boot```). ***3 -*** An attempt to boot with wrong letter/partition will, in best case, immediately end with a message about missing files; in worst case, an unwanted partition may be accessed (unless it is temporarily hidden, disabled in BIOS, or physically disconnected beforehand, which I always recommend, not only for all these "non-dogmatic" procedures) which could start an unpleasant assimilation process in style of The Thing = changing drive letters in ```HKLM\SYSTEM\MountedDevices``` (\DosDevices\XXX: - if all other partitions have been made inaccessible for security reasons, then there is no need to delete/modify anything - if Win passes first boot with correct letter, then it will be reserved for current partition/disk = reservations are possible for ABC and partially for Z and back, but not for D and beyond). If boot disk is not formatted, changed to another disk, partition is not modified, or system letter is not changed, then nothing from this paragraph is necessary for Win recovery = ability to boot (MBR+PBR+BOOT PART) cannot be canceled by simply deleting all data (BCD/UEFI remain in RAR). For greater security, I recommend setting contents of Boot+EFI folders to read-only and changing owner to SYSTEM/TrustedInstaller *2
 <br/>
--backup errors (7-Zip), HDD - damaged sectors, CPU+RAM - disable compression or slow down process
-<br/>
--system recovery can also be done by extracting it to a disk (7-Zip) and finally repairing boot if necessary (BootICE)
-<br/>
-System backup can also be done via WinRAR (it's data like any other, just ⚠️watch out for NTFS security and links), benefits are
-<br/>
--independence on obscure backup software, universality
-<br/>
--immediate access to data, possibility to restore, for example, only 1 file
-<br/>
--small data package thanks to high compression (in my case ratio is 21% = 30.8GB system / 6.5GB backup)
+***Install Windows with CMD*** (***without*** data loss, formatting, more than 1 partition, creating bootable media, editing installation files = CTRL+C/V method) - ***1 -*** Find out index number I want to install ```Dism /Get-WimInfo /WimFile:"a:\install.wim"```. ***2 -*** Install Index 5 (Win11 Pro?) from file "a:\install.wim" to drive Z: (command may not work in Win8-, error 87, WinNTSetup contains necessary files) ```dism /Apply-Image /ImageFile:"a:\install.wim" /Index:5 /ApplyDir:z:```. ***3 -*** Create Bios+UEFI data ```bcdboot z:\Windows /s z: /f ALL```. ***4 -*** If necessary create/repair a boot - ⬆️ MBR+PBR and activate partition ⬆️. ***5 -*** Turn off internet and restart PC (if installation is intended for another device, reconnect disk). During installation, there should never be a problem with letter in registry (there are none before initial boot without additional modifications) or partition. Some versions of Win may use multiple SWM files instead of a single WIM as installation file, in which case command is ***2 -*** ```dism /Apply-Image /ImageFile:"a:\install.swm" /swmfile:"a:\install*.swm" /Index:5 /ApplyDir:z:``` (```*``` indicates automatic loading of all available SWM files)
+
+***USB boot*** - BootDriverFlags, 0x14 ```HKLM\SYSTEM\HardwareConfig\XXX``` - change order of loaded drivers at boot Win10+ = one system with all apps+settings, which can be run on "any" PC via internal or external disk (missing USB drivers or IDE/AHCI mode, etc. can be a problem, although not unsolvable)
 
 ***🟦 GImageX*** - create WIM image (Windows in one compressed file - bootable or for complete system backup). Capture/Apply/Mount
+
+***Link Shell Extension+🟦 NTFSLinksView*** - NTFS links and redirecting apps settings to custom folders. Control via context menu - pick link source (new location) / drop as (original location)
+
+***🟦 Streams*** - ```streams64.exe -s "a:"``` (-d = delete). NTFS ADS (reveal and, if necessary, delete hidden data - e.g., a mark indicating that file originates from another PC). When archiving data, e.g., using WinRAR, hidden data is not saved by default
 
 ***🟦 Registry Workshop*** - advanced replacement of "Regedit". "Load Hive" can be used to load and edit an external registry. To integrate with Total Uninstall, use following command in its settings - ```"RegWorkshopX64.exe" /g```
 
@@ -504,6 +530,10 @@ System backup can also be done via WinRAR (it's data like any other, just ⚠️
 ***ImDisk Toolkit*** - ramdisk
 
 ***Primo Ramdisk*** - option to page files in ramdisk or use inaccessible part of RAM (Invisible Memory) - 32-Bit Win has a limit of ~4GB, Win11 Home 128GB (as WinXP)
+
+***Checking and repairing system files*** - since they can never be damaged by a slightly more knowledgeable user, I strongly advise against using these commands = they may delete "non-standard" user modifications, or "repairs" may not even be completed because of them
+<br/>
+```sfc /scannow``` - basic check+repair /// ```DISM /Online /Cleanup-Image /CheckHealth``` ```DISM /Online /Cleanup-Image /ScanHealth``` - deeper check /// ```DISM /Online /Cleanup-Image /RestoreHealth``` - deeper check+repair
 
 ***🟦 HDD Low Level Format Tool, 🟦 ADB Explorer, 🟦 APK-Info, MEmu, 🟦 Kaspersky Virus Removal Tool, 🟦 Recuva, 🟦 x64dbg***
 
@@ -533,11 +563,11 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***🟦 ClickMonitorDDC*** - ```change monitor``` brightness/contrast/volume/on/off, tray icons; profiles - hotkeys. Works in games too
 
-***🟦 Gamma Panel*** - ```software change``` brightness/contrast/gamma - profiles - hotkeys. Works in games too (windowed/borderless seamless, but in fullscreen some games don't allow changes - but for example in ```dgVoodoo2``` these changes can be forced - Output API / Inherit Color Profile...). Issues with AHK - ALT key sent (not physically pressed) via AHK is not accepted by Gamma Panel = when not using switches (multiple functions on one key) this may not be a problem because Gamma Panel supports hotkeys apparently without limitations. Second issue is "inability" to run Gamma Panel (EXE,LNK) via AHK because "gapa.ini" will not be loaded (workaround is to run via BAT). ***[📥 PowerStrip](https://github.com/hornster02/hornster02/raw/main/_PowerStrip_3.9-key.rar)*** https://entechtaiwan.com/util/ps.shtm
+***🟦 Gamma Panel*** - ```software change``` brightness/contrast/gamma - profiles - hotkeys. Works in games too (windowed/borderless seamless, but in fullscreen some games don't allow changes - but for example in ```dgVoodoo2``` these changes can be forced - Output API / Inherit Color Profile...). Issues with AHK - ALT key sent (not physically pressed) via AHK is not accepted by Gamma Panel = when not using switches (multiple functions on one key) this may not be a problem because Gamma Panel supports hotkeys apparently without limitations. Second issue is "inability" to run Gamma Panel (EXE,LNK) via AHK because "gapa.ini" will not be loaded (workaround is to run via BAT). ***📥 PowerStrip***
 
 ***🟦 UniFlash*** (MS-DOS, Rainbow Software) - save/restore CMOS bios memory (settings) to a file. May not work on newer HW (AM3+ +)
 
-***🟦 NirCmd+🟦 DevManView*** - change resolution+frequency, turn on/off HW+SW devices, ... - control via hotkeys/shortcuts
+***🟦 NirCmd+🟦 DevManView*** - change resolution+color depth+frequency - ```c:\nircmdc.exe setdisplay 2560 1080 32 75```. Disable/manual start of service 4 - ```"c:\nircmdc.exe service disabled 4"``` / ```"c:\nircmdc.exe service manual 4"```. Enabling/disabling device 4 - ```C:\DevManView.exe /enable "4"``` / ```C:\DevManView.exe /disable "4"```... Control via keyboard hotkeys/shortcuts
 
 ***🟦 Mem Reduct*** - free RAM memory (without terminating processes) by hotkey or clicking on tray icon. However, there may be more writing to paging file = reduced lifetime of SSD*1
 
@@ -559,15 +589,21 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***HDD Regenerator*** - repair corrupted sectors on HDD without data loss (Win/MS-DOS)
 
-***🟦 Driver Booster for Steam*** - update drivers
+***🟦 Driver Booster Free*** - update drivers. Advantage -
+<br/>
+-downloaded archives are highly compressed and free of usual unnecessary installers from internet, keeping system relatively clean
+<br/>
+Disadvantages -
+<br/>
+-driver installation (scan) does not work offline
+<br/>
+-downloaded archives are not in a folder named/separated/by version/by system
+<br/>
+-it is not possible to prioritize an older driver in download folder for installation; it is not clear whether driver is/will be downloaded
 
 ***🟦 System Explorer*** - replacement of "Task Manager" - possibility to save priority/affinity of apps for their automatic setting at next startup. ***🟦 Process Hacker***
 
 Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry path ```HKLM\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes``` command ```powercfg.exe -setactive XXX``` instead of XXX, write name of required key
-
-***USB boot*** - BootDriverFlags, 0x14 ```HKLM\SYSTEM\HardwareConfig\XXX``` - change order of loaded drivers at boot Win10+ = one system with all apps+settings, which can be run on "any" PC via internal or external disk (missing USB drivers or IDE/AHCI mode, etc. can be a problem, although not unsolvable)
-
-***Changing drive letters via registry*** ```HKLM\SYSTEM\MountedDevices```
 
 ***Drivers*** - Visual C++ Redistributable 2005-2022, .NET Framework3.5+4.8, .NET Desktop Runtime 5-8, DirectX End-User Runtimes, Edge WebView2 Runtime, (Legacy)PhysX, OpenAL, K-Lite Codec Pack, 🟦 Xliveless
 
@@ -662,7 +698,7 @@ Regular expressions (useful "At the end, start again") -
 <br/>
 -remove everything except 4 and all other characters on rows following ```(?-s)^.+?(4.+)*$``` ```\1```
 <br/>
--remove 4 numbers and 2 - (=6 characters) in format "-11-11" ```\d{0}-\d{2}-\d{2}``` or "11-11-" ```\d{2}-\d{2}-\d{0}``` = "4444-11-11" or "11-11-4444" = result is "4444" (to avoid unwanted+unknown replacements, it may be necessary to first mark founded lines + temporarily remove unmarked lines that will not be edited + manually check the remaining marked lines intended for bulk replacement)
+-remove 4 numbers and 2 - (=6 characters) in format "-11-11" ```\d{0}-\d{2}-\d{2}``` or "11-11-" ```\d{2}-\d{2}-\d{0}``` = "4444-11-11" or "11-11-4444" = result is "4444" (to avoid unwanted+unknown replacements, it may be necessary to first mark founded lines + temporarily remove unmarked lines that will not be edited + manually check remaining marked lines intended for bulk replacement)
 <br/>
 -remove months+days in format "January 4, 4444" ```(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+```  = result is "4444" (to avoid unwanted+... ⬆️)
 <br/>
@@ -675,6 +711,8 @@ Regular expressions (useful "At the end, start again") -
 -insert 4 at end of line ```$``` ```4```
 <br/>
 -find identical lines ```^((?-s).+?)\R(?=(?s).*?^\1(?:\R|\z))```
+<br/>
+-merge lines into one ```\s*(.+)\s+``` ```$1```
 <br/>
 Advanced search -
 <br/>
@@ -726,13 +764,19 @@ Advanced search -
 <br/>
 ```a:``` ***/*** ```cd\``` ***/*** ```cd /d c:\``` ***/*** ```cd 4``` - go to A: ***/*** go to root folder ***/*** go to C: regardless of current position ***/*** go to folder 4
 <br/>
-```move "1" "../1"``` ***/*** ```move "1" "5/1"``` - after using top "cd 4" move file/folder 1 from folder 4 to folder preceding it (unspecified) ***/*** move file/folder 1 from folder 4 to folder 5
+```move "1" "../1"``` ***/*** ```move "1" "5/1"``` - ***after using top*** "cd 4" move file/folder 1 from folder 4 to folder preceding it (unspecified) ***/*** move file/folder 1 from folder 4 to folder 5
 <br/>
 ```mkdir 4``` ***/*** ```type nul >1``` - create folder 4 ***/*** create file 1
 <br/>
 ```ren 4 1``` ***/*** ```ren 4.* 1.exe``` - rename file/folder 4 to 1 ***/*** rename file 4.whatever to 1.exe
 <br/>
 ```cd..``` - go back one folder
+<br/>
+```xcopy /h /k /b "a:\1\4*" "a:\2\4*"``` - copy file/NTFS link "4" from folder "1" to folder "2" (automatically created if missing) and preserve attributes = source without any ex post modifications copy to destination
+<br/>
+```xcopy /h /k /b /e /i "a:\4" "a:\1"``` - copy contents of folder "4" to folder "1" (automatically created if missing) and preserve attributes/NTFS links = source without any ex post modifications copy to destination
+<br/>
+```icacls "a:\4" /setowner "System" /t /c /l``` - change owner of folder "4" (and all its content) to "System". This command does not work if access to data is denied or read-only (NTFS). MS apparently has a bug in this tool, and even though it contains /l (do not spread like cancer and do not follow NTFS links), it ignores it for folders
 <br/>
 ```start 4.exe``` ***/*** ```4.exe``` ***/*** ```"4.exe" 1``` ***/*** ```start /max 4.exe``` ***/*** ```taskkill /im 4.exe /f``` - run 4.exe in new window ***/*** run 4.exe ***/*** run 4.exe with parameter 1 ***/*** run 4.exe in maximized window ***/*** force kill 4.exe
 <br/>
@@ -743,6 +787,10 @@ Advanced search -
 ```shutdown /l``` - log off
 
 ***IPCONFIG.exe /ALL*** - network information
+
+***🟦 LibreOffice*** - settings and, unfortunately, history are stored in ```registrymodifications.xcu```
+<br/>
+```How to achieve?``` - in Calc, "tab" bar at top, as usual?
 
 ***🟦 Audacity, 🟦 Avidemux, 🟦 FastStone Capture, 🟦 HTTrack Website Copier, 🟦 InnoSetup Uninstall Log Reader, 🟦 PHP, 🟦 Python, 🟦 VLC, 🟦 XnViewMP, PDF Image Extractor Free***
 
@@ -760,7 +808,7 @@ Advanced search -
 
 ## AHK
 
-***[📥 Autohotkey v1.1 script](https://github.com/hornster02/hornster02/raw/main/_Autohotkey_AHK-2023.rar)*** (čeština ⬇️)
+***[📥 Autohotkey v1.1 script. Size 1MB](https://github.com/hornster02/hornster02/raw/main/_Autohotkey_AHK-2023.rar)*** (čeština ⬇️)
 
 For errors prevention i recommend using AutoHotkeyU64.exe and UTF-8 BOM format in scripts. Script has no user interface (apart "WindowSpy" function - another EXE is not used). AHK contains a few functional scripts such as
 
@@ -842,7 +890,7 @@ Pro předejití chyb doporučuji používat AutoHotkeyU64.exe a ve skriptech for
 
 ## KMP
 
-***[📥 Skin for up to 150% system DPI, removed bottom part of UI, seekbar is at top so there is no need to always look for it to rewind video + simplified hotkeys and partial automation AHK (for 32/64-bit KMP) + 32-bit config - skin, hotkeys, disabled 3D Audio, volume normalizer, orange/black subtitles, open video files with hidden GUI in fullscreen+restore window when finished/closed, audio files in "Two Rows" height](https://github.com/hornster02/hornster02/raw/main/_kmplayer.rar)***
+***[📥 Skin for up to 150% system DPI, removed bottom part of UI, seekbar is at top so there is no need to always look for it to rewind video + simplified hotkeys and partial automation AHK (for 32/64-bit KMP) + 32-bit config - skin, hotkeys, disabled 3D Audio, volume normalizer, orange/black subtitles, open video files with hidden GUI in fullscreen+restore window when finished/closed, audio files in "Two Rows" height. Size 1MB](https://github.com/hornster02/hornster02/raw/main/_kmplayer.rar)***
 
 <img width="359" alt="AUDIO - BIG" src="https://github.com/user-attachments/assets/a267499f-b507-48e6-80a9-e31c6d464d35" />
 <img width="128" alt="AUDIO - COMPACT" src="https://github.com/user-attachments/assets/c26bfcc3-b28d-4306-ada3-533ec73f0544" />
@@ -933,6 +981,6 @@ Multimedia keys ,🟩KMP64X doesn't support global hotkeys
 <br/>
 <br/>
 
-***[📥 Font Contrast HTML - option to change font color by HEX/slider/system dialog (Firefox29) or HEX only (9)](https://github.com/hornster02/hornster02/raw/main/_FontContrastHTML.rar)***
+***[📥 Font Contrast HTML - option to change font color by HEX/slider/system dialog (Firefox29) or HEX only (9). Size 1MB](https://github.com/hornster02/hornster02/raw/main/_FontContrastHTML.rar)***
 <br/>
 ![font](https://github.com/user-attachments/assets/40807f87-8f6e-4713-8faa-80d69be6f4fb)
