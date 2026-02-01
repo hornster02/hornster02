@@ -1,9 +1,9 @@
 
 ***Useful software for Win7, 🟦 PORTABLE (official or with help of 🟦 7-Zip)***
 <br/>
-⬇️ ***CZ*** - [Security](#security-cz) / [HW](#hw-cz) / [Games](#games-cz) / [Other](#other-cz)⠀⠀⠀⠀⠀⠀***EN***(deepl.com) - [Security](#security-en) / [HW](#hw-en) / [Games](#games-en) / [Other](#other-en) ⬇️
+⬇️ ***CZ*** - [Security](#security-cz) / [HW](#hw-cz) / [Games](#games-cz) / [Other](#other-cz) / [Starnet](#Starnet)⠀⠀⠀⠀⠀⠀***EN***(deepl.com) - [Security](#security-en) / [HW](#hw-en) / [Games](#games-en) / [Other](#other-en) ⬇️
 <br/>
-```What's new``` - Gamma Panel (Apr 15, 2025), FileLocker+EaseFilter+File System Protector (Jun 1, 2025), Verpatch (Oct 1, 2025), RunAsTrustedInstaller,Streams + more detailed CTRL+C/V metod for Windows install/backup/restore process (Jan 15, 2026)
+```What's new``` - Gamma Panel (Apr 15, 2025), FileLocker+EaseFilter+File System Protector (Jun 1, 2025), Verpatch (Oct 1, 2025), more detailed CTRL+C/V metod for Windows install/backup/restore process (Jan 15, 2026) , AlternateStreamView (Feb 1, 2026)
 <br/>
 https://github.com/stars/hornster02/lists/non-41444
 
@@ -36,7 +36,7 @@ Remaining SYS Apps ```10``` ```16``` ```16``` (android ```4``` ```7``` ```9```)
 
 ## Games CZ
 
-***[↗️ Češtiny do her (100+ / 1998-2016)](https://github.com/hornster02?language=&page=1&q=&sort=name&tab=repositories&type=template)***. Nejsem a nebudu autor překladů. Naprostá většina češtin pochází z dávno neprodávaných fyzických nosičů (a české digitální obchody reálně nikdy neexistovaly) a jejich shánění je i v době ukončování "pirátských" úložišť pořád obtížnější. Některé hry se dají pořád koupit v bazarech, ale jejich ceny budou kvůli omezené nabídce a životnosti médií jen a jen absurdnější. A vytvářet/stahovat celé ISO soubory nedává pro běžného uživatele smysl = problémy s kompatibilitou a kvůli velikosti i s archivací/nahráváním/přenosem dat. Navíc instalátory po sobě často nechávají v lepším případě spoušť (instalací s hrou nesouvisejícím SW - ovladače/zápisy do registru+sys složek/instalace instalátorů/...) v horším - dokud nedojde k ručnímu smazání SYS ovladačů protipirátských ochran (starforce) - i "znefunkčnění" systému (bluescreen, některé "legitimní"/originální necracknuté EXE mohou být dnes automaty označovány za virus - s tím naprosto souhlasím - a před jejich nahráním do onlinu může být nutné archivy šifrovat). A opravdu málokdo používá takové zabezpečení a SW, aby k ničemu takovému nedocházelo. Zahraničních abandonware archivů/repack/rip/portable existuje, a vždy bude, spousta... Neopravuji překlady pokud dojde k vydání patche/remasteru. ***Skryté překlady*** (ve stejné/+-podobné/?lepší? formě byly později nahrány na oficiálnější servery) - [1](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/King-s_Bounty_Dark_Side-2014-CZ) [2](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/No_One_Lives_Forever-2000-CZ)
+***[↗️ Češtiny do her (100+ / 1998-2016)](https://github.com/hornster02?language=&page=1&q=&sort=name&tab=repositories&type=template)***. Nejsem a nebudu autor překladů (většina pochází z fyzických nosičů). Neopravuji překlady pokud dojde k vydání patche/remasteru. Od různých období k překladům přidávám SHA3_512 soubory pro CRC kontrolu všech dat + REG soubory pro instalaci hry + LST "archivy" jako katalog všech dat včetně velikostí s přesností na byte + případně další obsah ve složce "_ZBYTECNOSTI" jako je aktivace překladů souborem, různé menší zbytky atd = pro práci se všemi těmito soubory stačí Total Commander. U překladů uvádím na jaké verzi byl vyzkoušen, ale i když je uveden klient typu Steam/Epic/Amazon/EA/Ubi/..., tak hry přes ně nespouštím (neopodstatněná SW závislost). Snažím se nepřikládat EXE+DLL (typicky pokud se jedná o hry s univerzálními EXE+DLL pro všechny jazykové verze), protože pro koncové uživatele často fungují jako crack (i když jsou třeba originální), na druhou stranu lepení různých verzí dat dohromady by bez (nejen) jejich použití mohlo způsobit bugy/crashe/rozbití překladu (ale jejich použití může v lepším případě zase způsobit problémy s HW/SW/mod kompatibilitou, v horším - při dovolené instalaci SYS ovladačů DRM - bluescreen, případné DRM a jeho formu vždy uvádím). ***Skryté překlady*** (ve stejné/+-podobné/?lepší? formě byly později nahrány na oficiálnější servery) - [1](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/King-s_Bounty_Dark_Side-2014-CZ) [2](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/No_One_Lives_Forever-2000-CZ)
 
 ***[📥 Ultimátní seznamy CZ+SK překladů - 2025-12 (35 000+ řádků z 43 serverů = offline Google^4 bez nesouvisejícího balastu okolo, nebo AI budoucnosti? Velikost 1MB)](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
 <br/>
@@ -62,10 +62,6 @@ V roce 2024 vznikla jakási česká alternativa ISXPM [```🟦 CZMaker```](https
 <br/>
 <img width="960" alt="level" src="https://github.com/user-attachments/assets/025b6f96-2f79-449f-a36d-67d1232fda59" />
 
-***[📥 game-copy-world-list (2025-08). Size 1MB](https://drive.google.com/file/d/1X2ez82eJaRQzIox53xc__wHmYsFY8_HH/view)***
-<br/>
-<img width="960" height="540" alt="gcw" src="https://github.com/user-attachments/assets/bf1c82c0-b320-462b-a195-1f44c66732d6" />
-
 ***🟦 ISO Directory v0.5***(Michel) - vytvoření mini-image CD/DVD (velikost pár kB) - pokud pro českou verzi hry neexistuje crack a hra trvá na vloženém médiu v mechanice
 
 ***🟦 BikMod v0.3e (Beta) + 🟦 bink2-libass*** - ```binkw32.dll``` pro načtení SRT titulků. ***🟦 RADTools*** - úprava BIK/SMK video souborů
@@ -73,8 +69,6 @@ V roce 2024 vznikla jakási česká alternativa ISXPM [```🟦 CZMaker```](https
 ***RTSS*** - překrytí obrazu - čas, HW monitoring, limit FPS/Frametime (klávesové zkratky), Scanline Sync, tray ikony. Omezením FPS se v některých hrách značně prodlouží nahrávací časy
 
 ***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) pro DX1-9 hry, možnost zvětšení rozhraní her při vysokých rozlišeních (rozlišení ve hře je 1280x720 a přes dgVoodoo2 se nastaví 1920x1080 = rozhraní bude velké jako v 720p, ale rozlišení bude 1080p) a vnutit hře nepodporovaná rozlišení, obnovovací frekvenci, limit FPS, AF filtrování textur... Pravý klik myší zpřístupní pokročilé možnosti. Pro zapnutí wrapperu se musí potřebné DLL soubory z podsložky dgVoodoo2 nakopírovat k (hlavnímu) EXE souboru hry a pak nakonfigurovat (dgVoodooCpl.exe) čímž se u EXE souboru hry vytvoří "dgVoodoo.conf". Příklad pro zachování ostrého (ne pixelovatého a ne rozmazaného přes AA) obrazu ve hrách s fixním/omezeným rozlišením - ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear), ale vzhledem k tomu, že i bez dgV má většina her rozmazaný obraz i v nativním rozlišení - Bilinear - , tak se může hodit vynucení Lanczos-3. Pokud není možné hýbat kurzorem do všech koutů obrazovky (kvůli rozlišení/DPI), tak zapnout ```GeneralExt``` Free mouse
-
-***🟦 4GB Patch*** - prolomení 2GB RAM limitu u 32-bit aplikací. U některých her se mohou zvýšit minimální FPS, zrychlit nahrávací časy, omezit pády
 
 ***🟦 Custom Resolution Utility*** - vytvoření vlastního rozlišení, obnovovací frekvence a poměru stran monitoru. Možnost obejití limitu maximálního rozlišení u starých GPU snížením obnovovací frekvence - 2560x1080x54Hz na Radeon HD 4670 (2008 - 1920x1200x60Hz). Nebo pokud Win při změně rozlišení nastavuje nižší Hz než monitor podporuje, tak pokud se v CRU u nativního rozlišení nastaví maximální podporovaná obnovovací frekvence, tak by i nižší rozlišení měly být automaticky nastavovány s maximální obnovovací frekvencí (zapnutý ```GPU Scaling``` v Radeon Bloatware💩 může funkčnost narušit). Další možnost vynucení vlastní obnovovací frekvence v DirectX aplikacích je v ```HKLM\SOFTWARE\Wow6432Node\Microsoft\DirectDraw``` a ```HKLM\SOFTWARE\Microsoft\DirectDraw``` vytvořit DWORLD hodnotu ```ForceRefreshRate``` a napsat konkrétní číslo v Hz (restart není nutný, změny se aktivují ihned). Zaplnění všech "Detailed resolutions" slotů může vypnout Freesync v Radeon Bloatware💩
 
@@ -92,7 +86,7 @@ V roce 2024 vznikla jakási česká alternativa ISXPM [```🟦 CZMaker```](https
 
 Sjednocení datumů všech souborů a vytvoření hashe pro všechny např. EXE+DLL+SYS může zásadně zrychlit/zpřehlednit kontrolu systému
 
-```🚫update``` ***EXE Radar Pro v3 (Beta)*** - při spuštění spustitelného souboru (EXE/COM/SCR, DLL+SYS bohužel nepodporuje) se zobrazí okno s dotazem zda ho spustit nebo ukončit (uživatelem definovaný Command-Line/whitelist/blacklist probíhá automaticky v pozadí systému). Hash ověření. Doporučuji odstranit výchozí vyjímky
+```🚫update``` ***EXE Radar Pro v3 (Beta)*** - při spuštění spustitelného souboru (EXE/COM/SCR, DLL+SYS bohužel nepodporuje) se zobrazí okno s dotazem zda ho spustit nebo ukončit (uživatelem definovaný Command-Line/whitelist/blacklist probíhá automaticky v pozadí systému). Hash ověření. Doporučuji odstranit výchozí vyjímky. Program č.1 pro ochranu systému (např. pro blokaci automatických instalací zbytečných/nebezpečných/skrytých SW přiložených k hlavnímu produktu = ovladače/DRM/malware/bloatware/...)
 
 🚫***Easy File Locker*** - zakázání čtení/zápisu/mazání/ skrytí souborů/složek. Zamknutí funguje jen když je spuštěný SYS ovladač (dá se zapínat/vypínat přes zástupce/klávesové zkratky bez nutnosti spouštět EFL - NirCmd). ⚠️Neošetřené NTFS linky mohou ochranu obejít
 
@@ -108,9 +102,9 @@ Win firewall má pravidla uložená zde ```HKLM\SYSTEM\ControlSet\services\Share
 
 🚫***🟦 Autoruns*** - automaticky spouštěné aplikace/knihovny/ovladače
 
-⓿🚫***🟦 RunAsTrustedInstaller*** - spouštění aplikací s nejvyššími právy. V kombinaci i s Autoruns je snadné se zbavit veškerého MS bloatwaru (aktualizace/služby/plánovače úloh/Defender/Edge/OneDrive/Slutana/Store/StartMenu/...)
+⓿🚫***🟦 AdvancedRun*** - spouštění aplikací s nejvyššími právy (TrustedInstaller). V kombinaci i s Autoruns je snadné se zbavit veškerého MS bloatwaru (aktualizace/služby/plánovače úloh/Defender/Edge/OneDrive/Slutana/Store/StartMenu/...)
 
-❶🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** - správa zabezpečení dat, záložky pro rychlý přístup. Omezení přístupu k datům (povolit, pouze ke čtení, odepřít, změna vlastníka na SYSTEM/TrustedInstaller/atd.). "Replace all child object permissions" je pro hromadné nahrazení oprávnění veškerého obsahu ve vybrané složce (nenásleduje NTFS linky, ale bohužel ani oprávnění nenahrazuje)
+❶🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** - správa zabezpečení dat, záložky pro rychlý přístup. Omezení přístupu k datům (povolit, pouze ke čtení, odepřít, změna vlastníka na TrustedInstaller/atd.). "Replace all child object permissions" je pro hromadné nahrazení oprávnění veškerého obsahu ve vybrané složce (nenásleduje NTFS linky, ale bohužel ani oprávnění nenahrazuje)
 
 ❷***🟦 BootICE*** - vytvoření bootovacího média bez formátování a ztráty dat (MBR/PBR pro HDD/SSD/USB), úprava Windows souborů BCD/UEFI (multiboot, změna systémové partition, ...), skrytí/aktivace partition
 
@@ -124,9 +118,9 @@ Záloha Windows (Local Windows Installations/Capture Wim), vyjímky ze zálohy b
 <br/>
 -obnova Win se může provést i rozbalením (7-Zip) + případně vytvořit/opravit boot (BootICE).
 
-***Záloha/obnova Windows přes WinRAR*** - v NTFS options zaškrtnout - Save file security+Store symbolic links as links+Store hard links as links. Výhody jsou - univerzální/nezávislý přístup k datům, možnost obnovit třeba jen 1 soubor + malý balíček dat díky vysoké kompresi a možnosti vyloučit (jako u WinNTSetup) jakákoli data (v mém případě je poměr 21% = 30,8GB data / 6,5GB záloha) + jednoduchost (postupy+SW mohou zůstat prakticky desítky let neměnné+neaktualizované). Obecně zbytečná data pro zálohu jsou různé cache/temp/crash/dump/log/prefetch/SYS na C:/atd., případně RECYCLE/System Volume Information/instalátory/updaty/atd. (prostě podle chuti), nemusí být špatné si před zálohou vyfiltrovat soubory řekněme od 10MB, ty seřadit podle velikosti/přípon a rozhodnout se, co je zálohy hodno. ***0 -*** RunAsTrustedInstaller je základ všeho. Vždy a všude.
+***Záloha/obnova Windows přes WinRAR*** - v NTFS options zaškrtnout - Save file security+Store symbolic links as links+Store hard links as links. Výhody jsou - univerzální/nezávislý přístup k datům, možnost obnovit třeba jen 1 soubor + malý balíček dat díky vysoké kompresi a možnosti vyloučit (jako u WinNTSetup) jakákoli data (v mém případě je poměr 21% = 30,8GB data / 6,5GB záloha) + jednoduchost (postupy+SW mohou zůstat prakticky desítky let neměnné+neaktualizované). Obecně zbytečná data pro zálohu jsou různé cache/temp/crash/dump/log/prefetch/SYS na C:/atd., případně RECYCLE/System Volume Information/instalátory/updaty/atd. (prostě podle chuti), nemusí být špatné si před zálohou vyfiltrovat soubory řekněme od 10MB, ty seřadit podle velikosti/přípon a rozhodnout se, co je zálohy hodno. ***0 -*** AdvancedRun je základ všeho. Vždy a všude.
 <br/>
-U WinXP je tento způsob zálohy bezproblémový, u Win7 je to složitější (zřejmě už od Vista = NTFS zabezpečení, linky a jiný boot), u Win11 by to mělo být stejné (pokud by ze "zálohovacího" Win došlo k "WinRAR: Diagnostic messages - Systém nemůže získat přístup k souboru" - a to i přes oprávnění NT AUTHORITY\SYSTEM s neodepřeným NTFS přístupem pro všechny uživatele, tak ve spuštěném Win11 určeném k zálohování by zkopírování zbytku neměl být problém = pro vytvoření řádků z toho RAR logu pro jejich použití v BAT/xcopy stačí použít regulární výrazy a LibreOffice Calc). Jediná věc která může bránit ve spuštění CTRL+C/V Win je boot = pokud zůstává IDE/AHCI/GPT/MBR, tak je oprava v BootICE na pár kliků ***1 -*** případně vytvořit/opravit boot - ⬆️ MBR+PBR a partition aktivovat ⬆️ . ***2 -*** vybrat správnou partition v BCD/UEFI (BCD soubor je pro Bios ve složce ```Boot```, pro UEFI v ```EFI\Microsoft\Boot```). ***3 -*** pokus o boot se špatným písmenem/partition v lepším případě okamžitě skončí hláškou o chybějících souborech, v horším se může přistupovat na nechtěnou partition (tedy pokud se předem dočasně neskryje, nezakáže v biosu nebo fyzicky neodpojí, což doporučuji vždy, tedy nejen při všech těchto "nedogmatických" postupech okolo) čímž by mohl započít nehezký proces asimilace ve stylu The Thing = změna písmen disků v ```HKLM\SYSTEM\MountedDevices``` (\DosDevices\XXX: - pokud byla z bezpečnostních důvodů všechna ostatní partitions znepřístupněna, tak zde není nutné nic mazat/upravovat - pokud Win projde prvním bootem se správným písmenem, tak se může pro aktuální partition/disk ponechat rezervované = rezervovat jde ABC a částečně Z a zpět, rezervovat nejde D a dál). Pokud se bootovací disk neformátuje, nemění za jiný, neupravuje partition, případně nemění systémové písmeno tak nic z tohoto odstavce není nutné pro obnovu Win dělat = schopnost bootu (MBR+PBR+BOOT PART) nejde zrušit pouhým smazáním všech dat (BCD/UEFI zůstávají v RARu). Pro větší bezpečnost doporučuji nastavit obsah složek Boot+EFI pouze ke čtení a změnit vlastníka na SYSTEM/TrustedInstaller *2
+U WinXP je tento způsob zálohy bezproblémový, u Win7 je to složitější (zřejmě už od Vista = NTFS zabezpečení, linky a jiný boot), u Win11 by to mělo být stejné (pokud by ze "zálohovacího" Win došlo k "WinRAR: Diagnostic messages - Systém nemůže získat přístup k souboru" - a to i přes oprávnění TrustedInstaller s neodepřeným NTFS přístupem pro všechny uživatele, tak ve spuštěném Win11 určeném k zálohování by zkopírování zbytku neměl být problém = pro vytvoření řádků z toho RAR logu pro jejich použití v BAT/xcopy stačí použít regulární výrazy a LibreOffice Calc). Jediná věc která může bránit ve spuštění CTRL+C/V Win je boot = pokud zůstává IDE/AHCI/GPT/MBR, tak je oprava v BootICE na pár kliků ***1 -*** případně vytvořit/opravit boot - ⬆️ MBR+PBR a partition aktivovat ⬆️ . ***2 -*** vybrat správnou partition v BCD/UEFI (BCD soubor je pro Bios ve složce ```Boot```, pro UEFI v ```EFI\Microsoft\Boot```). ***3 -*** pokus o boot se špatným písmenem/partition v lepším případě okamžitě skončí hláškou o chybějících souborech, v horším se může přistupovat na nechtěnou partition (tedy pokud se předem dočasně neskryje, nezakáže v biosu nebo fyzicky neodpojí, což doporučuji vždy, tedy nejen při všech těchto "nedogmatických" postupech okolo) čímž by mohl započít nehezký proces asimilace ve stylu The Thing = změna písmen disků v ```HKLM\SYSTEM\MountedDevices``` (\DosDevices\XXX: - pokud byla z bezpečnostních důvodů všechna ostatní partitions znepřístupněna, tak zde není nutné nic mazat/upravovat - pokud Win projde prvním bootem se správným písmenem, tak se může pro aktuální partition/disk ponechat rezervované = rezervovat jde ABC a částečně Z a zpět, rezervovat nejde D a dál). Pokud se bootovací disk neformátuje, nemění za jiný, neupravuje partition, případně nemění systémové písmeno tak nic z tohoto odstavce není nutné pro obnovu Win dělat = schopnost bootu (MBR+PBR+BOOT PART) nejde zrušit pouhým smazáním všech dat (BCD/UEFI zůstávají v RARu). Pro větší bezpečnost doporučuji nastavit obsah složek Boot+EFI pouze ke čtení a změnit vlastníka na TrustedInstaller
 <br/>
 ***Instalace Windows přes CMD*** (***bez*** ztráty dat, formátování, nutnosti více partitions než 1, vytváření bootovacího média, upravování instalačních souborů = CTRL+C/V metoda) - ***1 -*** Zjistit Index číslo které chci instalovat ```Dism /Get-WimInfo /WimFile:"a:\install.wim"```. ***2 -*** Instalovat Index 5 (Win11 Pro?) ze souboru "a:\install.wim" na disk Z: (příkaz nemusí fungovat ve Win8- , error 87, WinNTSetup potřebné soubory obsahuje) ```dism /Apply-Image /ImageFile:"a:\install.wim" /Index:5 /ApplyDir:z:```. ***3 -*** Vytvořit Bios+UEFI data ```bcdboot z:\Windows /s z: /f ALL```. ***4 -*** Případně vytvořit/opravit boot - ⬆️ MBR+PBR a partition aktivovat ⬆️. ***5 -*** Vypnout internet a restartovat PC (pokud je instalace určená pro jiné zařízení, tak přepojit disk). Při instalaci by nikdy problém s písmenem v registru (před prvotním bootem bez dodatečných úprav žádná neexistují) nebo partition neměl nastat. Některé verze Win mohou jako instalační soubor používat místo jednoho WIM více SWM souborů a v tom případě je příkaz ***2 -*** ```dism /Apply-Image /ImageFile:"a:\install.swm" /swmfile:"a:\install*.swm" /Index:5 /ApplyDir:z:``` (```*``` značí automatické načtení všech SWM která jsou k dispozici)
 
@@ -136,7 +130,7 @@ U WinXP je tento způsob zálohy bezproblémový, u Win7 je to složitější (z
 
 ***Link Shell Extension+🟦 NTFSLinksView*** - NTFS linky a přesměrování nastavení programů do vlastních složek. Ovládání přes kontextovou nabídku - vybrat zdroj (nové umístění) / vložit jako (původní umístění)
 
-***🟦 Streams*** - ```streams64.exe -s "a:"``` (-d = delete). NTFS ADS (odhalit a případně odstranit skrytá data - např. označení že soubor pochází z jiného PC). Při archivaci dat např. přes WinRAR se ve výchozím nastavení skrytá data neukládají
+***🟦 AlternateStreamView*** - NTFS ADS (odhalit a případně odstranit skrytá data - např. označení že soubor pochází z jiného PC). Při archivaci dat např. přes WinRAR se ve výchozím nastavení skrytá data neukládají
 
 ***🟦 Registry Workshop*** - pokročilá náhrada "Regedit". Load Hive slouží pro načtení externího registru - je možné ho upravovat. Integrace s Total Uninstall se v jeho nastavení provede příkazem - ```"RegWorkshopX64.exe" /g```
 
@@ -156,7 +150,7 @@ U WinXP je tento způsob zálohy bezproblémový, u Win7 je to složitější (z
 
 ***🟦 Process Monitor, (🟦 FileActivityWatch)*** - detailní seznam činností na SSD/registru/sítě
 
-***🟦 HxD+CFF Explorer+🟦 Resource Hacker+🟦 Verpatch*** - úpravy spustitelných (minimální požadavky na verzi Win, metadata atd) a jiných souborů
+***🟦 HxD+CFF Explorer+🟦 Resource Hacker+🟦 Verpatch*** - úpravy spustitelných (minimální požadavky na verzi Win, prolomení 2GB RAM limitu u 32-bit aplikací, metadata, atd) a jiných souborů
 
 ***🟦 NetSpeedMonitor*** - monitoring rychlosti a objemu stažených dat+historie, tray
 
@@ -168,7 +162,7 @@ U WinXP je tento způsob zálohy bezproblémový, u Win7 je to složitější (z
 <br/>
 ```sfc /scannow``` - základní kontrola+oprava /// ```DISM /Online /Cleanup-Image /CheckHealth``` ```DISM /Online /Cleanup-Image /ScanHealth``` - hlubší kontrola /// ```DISM /Online /Cleanup-Image /RestoreHealth``` - hlubší kontrola+oprava
 
-***🟦 HDD Low Level Format Tool, 🟦 ADB Explorer, 🟦 APK-Info, MEmu,  🟦 Kaspersky Virus Removal Tool,  🟦 Recuva, 🟦 x64dbg***
+***🟦 HDD Low Level Format Tool, 🟦 ADB Explorer, 🟦 APK-Info, MEmu,  🟦 Kaspersky Virus Removal Tool,  🟦 Recuva***
 
 ## HW CZ
 
@@ -196,7 +190,7 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***🟦 ClickMonitorDDC*** - změna jasu/kontrastu/hlasitosti/zapnutí/vypnutí ```monitoru```, tray ikony; profily - klávesové zkratky. Funguje i ve hrách
 
-***🟦 Gamma Panel*** - ```softwarová``` změna jasu/kontrastu/gammy - profily - klávesové zkratky. Funguje i ve hrách (bezproblémový windowed/borderless, ale ve fullscreen některé hry změny neumožňují - ale v ```dgVoodoo2``` se tyto změny mohou vynutit - Output API / Inherit Color Profile...). Problémy s AHK - klávesu ALT poslanou (fyzicky nestisknutou) přes AHK Gamma Panel neakceptuje = při nepoužívání přepínačů (více funkcí na jedné klávese) to nemusí být problém protože Gamma Panel zkratky zřejmě bez omezení podporuje. Druhý problém je "nemožnost" spustit Gamma Panel (EXE,LNK) přes AHK protože nebude načten "gapa.ini" (obejde se to spuštěním přes BAT). ***📥 PowerStrip***
+***🟦 Gamma Panel*** - ```softwarová``` změna jasu/kontrastu/gammy - profily - klávesové zkratky. Funguje i ve hrách (bezproblémový windowed/borderless, ale ve fullscreen některé hry změny neumožňují - ale v ```dgVoodoo2``` se tyto změny mohou vynutit - Output API / Inherit Color Profile...). Problémy s AHK - klávesu ALT poslanou (fyzicky nestisknutou) přes AHK Gamma Panel neakceptuje = při nepoužívání přepínačů (více funkcí na jedné klávese) to nemusí být problém protože Gamma Panel zkratky zřejmě bez omezení podporuje. Druhý problém je "nemožnost" spustit Gamma Panel (EXE,LNK) přes AHK protože nebude načten "gapa.ini" (obejde se to spuštěním přes BAT). ***PowerStrip***
 
 ***🟦 UniFlash*** (MS-DOS, Rainbow Software) - uložení/obnovení CMOS paměti biosu (nastavení) do souboru. Na novějším HW možná už nefunkční (AM3+ +)
 
@@ -425,11 +419,15 @@ Rozšířené vyhledávání -
 <br/>
 ```Jak docílit?``` - v Calc lištu s "panely" klasicky nahoře?
 
-***🟦 Audacity, 🟦 Avidemux, 🟦 FastStone Capture, 🟦 HTTrack Website Copier, 🟦 InnoSetup Uninstall Log Reader, 🟦 PHP, 🟦 Python, 🟦 VLC, 🟦 XnViewMP, PDF Image Extractor Free***
+***🟦 Audacity, 🟦 Avidemux, 🟦 FastStone Capture, 🟦 HTTrack Website Copier, 🟦 VLC, 🟦 XnViewMP, PDF Image Extractor Free***
 
-🟦 NirSoft (*1 ***DiskCountersView/AppReadWriteCounter/OpenedFilesView/BulkFileChanger/ProcessActivityView/FileAccessErrorView/LiveTcpUdpWatch/CurrPorts/AdvancedRun/AppAudioConfig/DriveLetterView/FileTypesMan/GUIPropView/InstalledCodec/InstalledPackagesView/KeyboardStateView/USBDeview/AppCrashView/BlueScreenView/ShellExView/ShellMenuView/OpenWithView/SpecialFoldersView/EventLogSourcesView/FullEventLogView/MyEventViewer/ EventLogChannelsView*** ⚠️nevinné pozapínání ve výchozím stavu vypnutých kanálů může zásadně nabořit systém znefunkčněním minimálně služeb eventlog+schedule = největší problém je, že bez nich EventLogChannelsView nefunguje a není možné přes něj kanály zase povypínat = opravit takový systém bez následků a použití Total Uninstall zvládnou jen opravdoví mistři)
+🟦 NirSoft (*1 ***DiskCountersView/AppReadWriteCounter/OpenedFilesView/BulkFileChanger/ProcessActivityView/FileAccessErrorView/LiveTcpUdpWatch/CurrPorts/AppAudioConfig/DriveLetterView/FileTypesMan/GUIPropView/InstalledCodec/InstalledPackagesView/KeyboardStateView/USBDeview/AppCrashView/BlueScreenView/ShellExView/ShellMenuView/OpenWithView/SpecialFoldersView/EventLogSourcesView/FullEventLogView/MyEventViewer/ EventLogChannelsView*** ⚠️nevinné pozapínání ve výchozím stavu vypnutých kanálů může zásadně nabořit systém znefunkčněním minimálně služeb eventlog+schedule = největší problém je, že bez nich EventLogChannelsView nefunguje a není možné přes něj kanály zase povypínat = opravit takový systém bez následků a použití Total Uninstall zvládnou jen opravdoví mistři)
 
 ## Games EN
+
+***[📥 game-copy-world-list (2025-08). Size 1MB](https://drive.google.com/file/d/1X2ez82eJaRQzIox53xc__wHmYsFY8_HH/view)***
+<br/>
+<img width="960" height="540" alt="gcw" src="https://github.com/user-attachments/assets/bf1c82c0-b320-462b-a195-1f44c66732d6" />
 
 ***🟦 Inno Setup XDELTA Patch Maker*** - patch creator
 
@@ -440,8 +438,6 @@ Rozšířené vyhledávání -
 ***RTSS*** - screen overlay - time, HW monitoring, FPS/Frametime limit (hotkeys), Scanline Sync, tray icons. Limiting FPS will significantly increase loading times in some games
 
 ***🟦 dgVoodoo2*** - DX11/12 rendering (wrapper) for DX1-9 games, option to enlarge interface of games at high resolutions (resolution in game is 1280x720 and through app it is set to 1920x1080 = interface will be big as in 720p, but resolution will be 1080p) and force unsupported resolution into game (+refresh rate/FPS limit/AF texture filtering/...). Right mouse click opens advanced options. To enable wrapper, necessary DLL files from dgVoodoo2 subfolder must be copied to (main) EXE file of game and then configured (dgVoodooCpl.exe) = "dgVoodoo.conf" will be created. An example for keeping image sharp (not pixelated and not blurred through AA) in fixed/limited resolution games - ```General``` Scaling mode (Stretched, keep Aspect Ratio), ```DirectX``` Resolution (2x), ```GeneralExt``` Resampling (Bilinear). If it is not possible to move cursor (due to resolution/DPI) to all corners of screen, enable ```GeneralExt``` “Free mouse”
-
-***🟦 4GB Patch*** - 2GB RAM limit workaround for 32-bit apps. For some games it can increase minimum FPS, speed up loading times, reduce crashes
 
 ***🟦 Custom Resolution Utility*** - create a custom resolution, aspect ratio and refresh rate for monitor. Option to workaround resolution limit on old GPUs by lowering refresh rate - 2560x1080x54Hz on Radeon HD 4670 (2008 - 1920x1200x60Hz). Or if Win sets a lower Hz than monitor supports, then if maximum supported refresh rate is set in CRU for native resolution, then even lower resolutions should be automatically set with maximum refresh rate (```GPU Scaling``` in Radeon Bloatware💩 can break functionality). Another option to force a custom refresh rate in DirectX apps is to create a DWORLD value ```ForceRefreshRate``` in ```HKLM\SOFTWARE\Wow6432Node\Microsoft\DirectDraw``` and ```HKLM\SOFTWARE\Microsoft\DirectDraw``` and write a specific number in Hz (restart is not necessary, changes are activated immediately). Filling up all "Detailed resolutions" slots can turn off Freesync in Radeon Bloatware💩
 
@@ -459,7 +455,7 @@ Rozšířené vyhledávání -
 
 Unifying dates of all files and creating a hash for all e.g. EXE+DLL+SYS, can significantly speed up/clarify system checks
 
-```🚫update``` ***EXE Radar Pro v3 (Beta)*** - when running an executable file (EXE/COM/SCR, DLL+SYS is unfortunately not supported) a window will appear asking whether to run or exit it (user-defined Command-Line/whitelist/blacklist runs automatically in background of system). Verification via checksum. I recommend removing default exceptions
+```🚫update``` ***EXE Radar Pro v3 (Beta)*** - when running an executable file (EXE/COM/SCR, DLL+SYS is unfortunately not supported) a window will appear asking whether to run or exit it (user-defined Command-Line/whitelist/blacklist runs automatically in background of system). Verification via checksum. I recommend removing default exceptions. Program No.1 for system protection (e.g., for blocking automatic installations of unnecessary/dangerous/hidden software attached to main product = drivers/DRM/malware/bloatware/...)
 
 🚫***Easy File Locker*** - disable reading/writing/deleting/hiding files/folders. Locking only works when SYS driver running (can be turned on/off via hotkeys/shortcuts without starting app - NirCmd). ⚠️Untreated NTFS links can bypass protection
 
@@ -475,9 +471,9 @@ Win firewall has rules stored here ```HKLM\SYSTEM\ControlSet\services\SharedAcce
 
 🚫***🟦 Autoruns*** - automatically launched apps/libraries/drivers
 
-⓿🚫***🟦 RunAsTrustedInstaller*** - run apps with highest privileges. Combined with Autoruns it is easy to get rid of all MS bloatware (updates/services/tasks/Defender/Edge/OneDrive/Slutana/Store/StartMenu/...)
+⓿🚫***🟦 AdvancedRun*** - run apps with highest privileges (TrustedInstaller). Combined with Autoruns it is easy to get rid of all MS bloatware (updates/services/tasks/Defender/Edge/OneDrive/Slutana/Store/StartMenu/...)
 
-❶🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** - data security management, bookmarks for quick access. Restricting access to data (allow, read-only, deny, change owner to SYSTEM/TrustedInstaller/etc.). "Replace all child object permissions" is used for bulk replacement of permissions for all content in selected folder (it does not follow NTFS links, but unfortunately it does not replace permissions either)
+❶🚫***🟦 NTFS Permissions Tools + 🟦 AccessEnum*** - data security management, bookmarks for quick access. Restricting access to data (allow, read-only, deny, change owner to TrustedInstaller/etc.). "Replace all child object permissions" is used for bulk replacement of permissions for all content in selected folder (it does not follow NTFS links, but unfortunately it does not replace permissions either)
 
 ❷***🟦 BootICE*** - create bootable media without formatting and data loss (MBR/PBR for HDD/SSD/USB), modify Windows BCD/UEFI files (multiboot, change system partition, ...), hide/activate partition
 
@@ -491,9 +487,9 @@ Windows backup (Local Windows Installations/Capture Wim), exceptions from backup
 <br/>
 -Win recovery can also be performed by unzipping (7-Zip) + if necessary create/repair a boot (BootICE).
 
-***Backup/restore Windows with WinRAR*** - in NTFS options check - Save file security+Store symbolic links as links+Store hard links as links. Advantages are - universal/independent access to data, ability to restore even just 1 file + small data package thanks to high compression and ability to exclude (as with WinNTSetup) any data (in my case, ratio is 21% = 30.8GB of data / 6.5GB backup) + simplicity (procedures+SW can practically remain for decades unchanged+unupdated). Generally, unnecessary data for backup includes various cache/temp/crash/dump/log/prefetch/SYS on C:/etc., or RECYCLE/System Volume Information/installers/updates/etc. (just as you like), it may be a good idea to filter files larger than, say, 10MB before backup, sort them by size/extension, and decide what is worth backup. ***0 -*** RunAsTrustedInstaller is basis of everything. Always and everywhere.
+***Backup/restore Windows with WinRAR*** - in NTFS options check - Save file security+Store symbolic links as links+Store hard links as links. Advantages are - universal/independent access to data, ability to restore even just 1 file + small data package thanks to high compression and ability to exclude (as with WinNTSetup) any data (in my case, ratio is 21% = 30.8GB of data / 6.5GB backup) + simplicity (procedures+SW can practically remain for decades unchanged+unupdated). Generally, unnecessary data for backup includes various cache/temp/crash/dump/log/prefetch/SYS on C:/etc., or RECYCLE/System Volume Information/installers/updates/etc. (just as you like), it may be a good idea to filter files larger than, say, 10MB before backup, sort them by size/extension, and decide what is worth backup. ***0 -*** AdvancedRun is basis of everything. Always and everywhere.
 <br/>
-With WinXP, this backup method is problem-free, with Win7 it is more complicated (apparently since Vista = NTFS security, links, another boot), with Win11 it should be same (if "WinRAR: Diagnostic messages - System cannot access file" occurred in "backup" Win - even with NT AUTHORITY\SYSTEM permissions and unrestricted NTFS access for all users, copying rest should not be a problem in running Win11 intended for backup = to create lines from RAR log for use it in BAT/xcopy, just use regular expressions and LibreOffice Calc). One thing that can prevent CTRL+C/V Win from starting is boot = if it remains IDE/AHCI/GPT/MBR, fix in BootICE is a few clicks ***1 -*** if necessary create/repair a boot - ⬆️ MBR+PBR and activate partition ⬆️ . ***2 -*** select correct partition in BCD/UEFI (BCD file is for Bios in ```Boot``` folder, for UEFI in ```EFI\Microsoft\Boot```). ***3 -*** An attempt to boot with wrong letter/partition will, in best case, immediately end with a message about missing files; in worst case, an unwanted partition may be accessed (unless it is temporarily hidden, disabled in BIOS, or physically disconnected beforehand, which I always recommend, not only for all these "non-dogmatic" procedures) which could start an unpleasant assimilation process in style of The Thing = changing drive letters in ```HKLM\SYSTEM\MountedDevices``` (\DosDevices\XXX: - if all other partitions have been made inaccessible for security reasons, then there is no need to delete/modify anything - if Win passes first boot with correct letter, then it will be reserved for current partition/disk = reservations are possible for ABC and partially for Z and back, but not for D and beyond). If boot disk is not formatted, changed to another disk, partition is not modified, or system letter is not changed, then nothing from this paragraph is necessary for Win recovery = ability to boot (MBR+PBR+BOOT PART) cannot be canceled by simply deleting all data (BCD/UEFI remain in RAR). For greater security, I recommend setting contents of Boot+EFI folders to read-only and changing owner to SYSTEM/TrustedInstaller *2
+With WinXP, this backup method is problem-free, with Win7 it is more complicated (apparently since Vista = NTFS security, links, another boot), with Win11 it should be same (if "WinRAR: Diagnostic messages - System cannot access file" occurred in "backup" Win - even with TrustedInstaller permission and unrestricted NTFS access for all users, copying rest should not be a problem in running Win11 intended for backup = to create lines from RAR log for use it in BAT/xcopy, just use regular expressions and LibreOffice Calc). One thing that can prevent CTRL+C/V Win from starting is boot = if it remains IDE/AHCI/GPT/MBR, fix in BootICE is a few clicks ***1 -*** if necessary create/repair a boot - ⬆️ MBR+PBR and activate partition ⬆️ . ***2 -*** select correct partition in BCD/UEFI (BCD file is for Bios in ```Boot``` folder, for UEFI in ```EFI\Microsoft\Boot```). ***3 -*** An attempt to boot with wrong letter/partition will, in best case, immediately end with a message about missing files; in worst case, an unwanted partition may be accessed (unless it is temporarily hidden, disabled in BIOS, or physically disconnected beforehand, which I always recommend, not only for all these "non-dogmatic" procedures) which could start an unpleasant assimilation process in style of The Thing = changing drive letters in ```HKLM\SYSTEM\MountedDevices``` (\DosDevices\XXX: - if all other partitions have been made inaccessible for security reasons, then there is no need to delete/modify anything - if Win passes first boot with correct letter, then it will be reserved for current partition/disk = reservations are possible for ABC and partially for Z and back, but not for D and beyond). If boot disk is not formatted, changed to another disk, partition is not modified, or system letter is not changed, then nothing from this paragraph is necessary for Win recovery = ability to boot (MBR+PBR+BOOT PART) cannot be canceled by simply deleting all data (BCD/UEFI remain in RAR). For greater security, I recommend setting contents of Boot+EFI folders to read-only and changing owner to TrustedInstaller
 <br/>
 ***Install Windows with CMD*** (***without*** data loss, formatting, more than 1 partition, creating bootable media, editing installation files = CTRL+C/V method) - ***1 -*** Find out index number I want to install ```Dism /Get-WimInfo /WimFile:"a:\install.wim"```. ***2 -*** Install Index 5 (Win11 Pro?) from file "a:\install.wim" to drive Z: (command may not work in Win8-, error 87, WinNTSetup contains necessary files) ```dism /Apply-Image /ImageFile:"a:\install.wim" /Index:5 /ApplyDir:z:```. ***3 -*** Create Bios+UEFI data ```bcdboot z:\Windows /s z: /f ALL```. ***4 -*** If necessary create/repair a boot - ⬆️ MBR+PBR and activate partition ⬆️. ***5 -*** Turn off internet and restart PC (if installation is intended for another device, reconnect disk). During installation, there should never be a problem with letter in registry (there are none before initial boot without additional modifications) or partition. Some versions of Win may use multiple SWM files instead of a single WIM as installation file, in which case command is ***2 -*** ```dism /Apply-Image /ImageFile:"a:\install.swm" /swmfile:"a:\install*.swm" /Index:5 /ApplyDir:z:``` (```*``` indicates automatic loading of all available SWM files)
 
@@ -503,7 +499,7 @@ With WinXP, this backup method is problem-free, with Win7 it is more complicated
 
 ***Link Shell Extension+🟦 NTFSLinksView*** - NTFS links and redirecting apps settings to custom folders. Control via context menu - pick link source (new location) / drop as (original location)
 
-***🟦 Streams*** - ```streams64.exe -s "a:"``` (-d = delete). NTFS ADS (reveal and, if necessary, delete hidden data - e.g., a mark indicating that file originates from another PC). When archiving data, e.g., using WinRAR, hidden data is not saved by default
+***🟦 AlternateStreamView*** - NTFS ADS (reveal and, if necessary, delete hidden data - e.g., a mark indicating that file originates from another PC). When archiving data, e.g., using WinRAR, hidden data is not saved by default
 
 ***🟦 Registry Workshop*** - advanced replacement of "Regedit". "Load Hive" can be used to load and edit an external registry. To integrate with Total Uninstall, use following command in its settings - ```"RegWorkshopX64.exe" /g```
 
@@ -523,7 +519,7 @@ With WinXP, this backup method is problem-free, with Win7 it is more complicated
 
 ***🟦 Process Monitor, (🟦 FileActivityWatch)*** - detailed list of activities on SSD/registry/network
 
-***🟦 HxD+CFF Explorer+🟦 Resource Hacker+🟦 Verpatch*** - editing executables (minimum requirements for Win version, metadata etc.) and more
+***🟦 HxD+CFF Explorer+🟦 Resource Hacker+🟦 Verpatch*** - editing executables (minimum requirements for Win version, 2GB RAM limit workaround for 32-bit apps, metadata, etc.) and more
 
 ***🟦 NetSpeedMonitor*** - monitoring of download/upload speed and data amount+history, tray
 
@@ -535,7 +531,7 @@ With WinXP, this backup method is problem-free, with Win7 it is more complicated
 <br/>
 ```sfc /scannow``` - basic check+repair /// ```DISM /Online /Cleanup-Image /CheckHealth``` ```DISM /Online /Cleanup-Image /ScanHealth``` - deeper check /// ```DISM /Online /Cleanup-Image /RestoreHealth``` - deeper check+repair
 
-***🟦 HDD Low Level Format Tool, 🟦 ADB Explorer, 🟦 APK-Info, MEmu, 🟦 Kaspersky Virus Removal Tool, 🟦 Recuva, 🟦 x64dbg***
+***🟦 HDD Low Level Format Tool, 🟦 ADB Explorer, 🟦 APK-Info, MEmu, 🟦 Kaspersky Virus Removal Tool, 🟦 Recuva***
 
 ## HW EN
 
@@ -563,7 +559,7 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***🟦 ClickMonitorDDC*** - ```change monitor``` brightness/contrast/volume/on/off, tray icons; profiles - hotkeys. Works in games too
 
-***🟦 Gamma Panel*** - ```software change``` brightness/contrast/gamma - profiles - hotkeys. Works in games too (windowed/borderless seamless, but in fullscreen some games don't allow changes - but for example in ```dgVoodoo2``` these changes can be forced - Output API / Inherit Color Profile...). Issues with AHK - ALT key sent (not physically pressed) via AHK is not accepted by Gamma Panel = when not using switches (multiple functions on one key) this may not be a problem because Gamma Panel supports hotkeys apparently without limitations. Second issue is "inability" to run Gamma Panel (EXE,LNK) via AHK because "gapa.ini" will not be loaded (workaround is to run via BAT). ***📥 PowerStrip***
+***🟦 Gamma Panel*** - ```software change``` brightness/contrast/gamma - profiles - hotkeys. Works in games too (windowed/borderless seamless, but in fullscreen some games don't allow changes - but for example in ```dgVoodoo2``` these changes can be forced - Output API / Inherit Color Profile...). Issues with AHK - ALT key sent (not physically pressed) via AHK is not accepted by Gamma Panel = when not using switches (multiple functions on one key) this may not be a problem because Gamma Panel supports hotkeys apparently without limitations. Second issue is "inability" to run Gamma Panel (EXE,LNK) via AHK because "gapa.ini" will not be loaded (workaround is to run via BAT). ***PowerStrip***
 
 ***🟦 UniFlash*** (MS-DOS, Rainbow Software) - save/restore CMOS bios memory (settings) to a file. May not work on newer HW (AM3+ +)
 
@@ -792,9 +788,9 @@ Advanced search -
 <br/>
 ```How to achieve?``` - in Calc, "tab" bar at top, as usual?
 
-***🟦 Audacity, 🟦 Avidemux, 🟦 FastStone Capture, 🟦 HTTrack Website Copier, 🟦 InnoSetup Uninstall Log Reader, 🟦 PHP, 🟦 Python, 🟦 VLC, 🟦 XnViewMP, PDF Image Extractor Free***
+***🟦 Audacity, 🟦 Avidemux, 🟦 FastStone Capture, 🟦 HTTrack Website Copier, 🟦 VLC, 🟦 XnViewMP, PDF Image Extractor Free***
 
-🟦 NirSoft (*1 ***DiskCountersView/AppReadWriteCounter/OpenedFilesView/BulkFileChanger/ProcessActivityView/FileAccessErrorView/LiveTcpUdpWatch/CurrPorts/AdvancedRun/AppAudioConfig/DriveLetterView/FileTypesMan/GUIPropView/InstalledCodec/InstalledPackagesView/KeyboardStateView/USBDeview/AppCrashView/BlueScreenView/ShellExView/ShellMenuView/OpenWithView/SpecialFoldersView/EventLogSourcesView/FullEventLogView/MyEventViewer/ ⚠️EventLogChannelsView***)
+🟦 NirSoft (*1 ***DiskCountersView/AppReadWriteCounter/OpenedFilesView/BulkFileChanger/ProcessActivityView/FileAccessErrorView/LiveTcpUdpWatch/CurrPorts/AppAudioConfig/DriveLetterView/FileTypesMan/GUIPropView/InstalledCodec/InstalledPackagesView/KeyboardStateView/USBDeview/AppCrashView/BlueScreenView/ShellExView/ShellMenuView/OpenWithView/SpecialFoldersView/EventLogSourcesView/FullEventLogView/MyEventViewer/ ⚠️EventLogChannelsView***)
 
 <br/>
 <br/>
@@ -984,3 +980,88 @@ Multimedia keys ,🟩KMP64X doesn't support global hotkeys
 ***[📥 Font Contrast HTML - option to change font color by HEX/slider/system dialog (Firefox29) or HEX only (9). Size 1MB](https://github.com/hornster02/hornster02/raw/main/_FontContrastHTML.rar)***
 <br/>
 ![font](https://github.com/user-attachments/assets/40807f87-8f6e-4713-8faa-80d69be6f4fb)
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+## Starnet
+
+Jak probíhá ukončení smlouvy s internetovým poskytovatelem Starnet (⚠️ tento způsob ukončování je buď běžným a nebo přímo nepsaným pravidlem a to už po celá léta a je s podivem, že této podvodné společnosti ještě nebyl soudem nařízen zákaz činnosti ⚠️). R.I.P. (Rest in Pain) 2006-2026. Konsolidace trhu poskytovatelů je nevyhnutelná a Starnet se každým rokem stává méně vyjímečným a tak se za každou cenu snaží si svého milovaného zákazníka udržet. Konverzace s paní (říkejme jí třeba Kateřina) z podpory o pár řádků níže (v tomto případě je nezpochybnitelnou pravdou, že být sedmilhářem je neskonale důstojnější než být namyšleným hlupákem, teprve uvidíme, která role komu patří)
+
+***Délka trvání procesu (spor zatím neukončen) - 26.11.2025 - 1.2.2026***
+
+***Celkové náklady za rozchod (spor zatím neukončen) = 85,- (milostný dopis)***
+
+Primární důvod výpovědi - koncesionářské poplatky (výzva ze strany ČT k přihlášení byla sepsána 14.1.2026, poslední "čestné prohlášení" bylo sepsáno 3.10.2021). Smlouva uzavřena 15.2.2010. 26.11.2025 zaslán požadavek na ukončení smlouvy k 1.1.2026. Rychlost linky v roce 2010 16/8, v roce 2025 300/300, data neomezená. Cena za rok připojení 3000,- (celkem bezkonkurenční a to i nejen zásluhou v mém případě reálně bezchybné stabilitě připojení) a od roku 2023 3588,-
+
+Chování zákazníka po dobu trvání smlouvy = ~98% času byla linka využívána pouze na 1 zařízení a rychlost síťové karty byla nastavena na 10/10 (omezení špiček poskytovateli) + bez jediné zpožděné platby (platba za 1/2011 byla dokonce provedena 12/2010 čímž vzniklo nedorozumění) + průměrná měsíční spotřeba dat před koncem ulozto v roce 2023 ~90GB a poté s používáním torrentů a jejich uploadu ~120GB (životní rekord a to s obrovským odstupem nastal až v 12/2025 se spotřebou ~360GB) + žádný inicializovaný kontakt s podporou (stěžování/reklamace) + stěhování v roce 2020 (za které, k velkému překvapení, nebylo nutné zaplatit technikům/společnosti ani korunu i přes to, že byl poskytnut nový ~8 metrů dlouhý RJ-45 kabel)
+
+Všeobecné obchodní podmínky z let 2008-2010 obsahují u ukončení smlouvy "dohodou" "elektronickým vzájemným potvrzením ukončení smluvního vztahu". Z let 2022-2025 "na základě dohody mezi Zákazníkem a Poskytovatelem;" + je nutnost vlastnictví Starnet "Autorizační Kód™", který je v některých případech možné získat pouze zřízením ne zrovna běžných služeb třetích stran (datová schránka nebo úředně ověřený podpis)
+
+Urputný boj paní Kateřiny o milovaného zákazníka -
+
+***Zákazník (26.11.2025)*** - fakturace@starnet.cz (6.1. a) dohoda mezi Zákazníkem a Poskytovatelem) ```Chybný krok č.1```
+
+Vzhledem k tomu, že kvůli uzavřené smlouvě (vlastnictví zařízení mi nikdo dokázat nemůže, smlouvu na adresu bohužel ano) s vaší společností se na mě vztahuje povinnost platit koncesionářské poplatky (jinak by mi hrozila opakovaná pokuta ve výši 15000,-), tak chci smlouvu na internetové připojení od 1.1.2026 ukončit (poslední platbu provedu za měsíc 12/2025)
+
+variabilní symbol 2494527, IP 10.16.52.110, Klaus Ripnsieg, Svinenská 666, 374 01 Trhové Sviny
+
+***Podpora (28.11.2025)*** - internet@starnet.cz - uvedeny neveřejné kontakty, které mají pomoci ukončit smlouvu
+
+bohužel se mi s Vámi nedaří telefonicky spojit. Prosím tedy o zaslání Vašeho aktuálního telefonního čísla a času, kdy se s Vámi můžeme spojit ohledně dořešení Vaší výpovědi, případně nás kontaktujte na tomto telefonním čísle, tel: 380426004 nebo na tomto emailu pece@starnet.cz
+
+***Zákazník (28.11.2025)*** - pece@starnet.cz (6.1. a) dohoda mezi Zákazníkem a Poskytovatelem - podpora nereaguje)  - ```Chybný krok č.2```
+
+Vzhledem k tomu, že kvůli uzavřené smlouvě (vlastnictví zařízení mi nikdo dokázat nemůže, smlouvu na adresu bohužel ano) s vaší společností se na mě vztahuje povinnost platit koncesionářské poplatky (jinak by mi hrozila opakovaná pokuta ve výši 15000,-), tak chci smlouvu na internetové připojení od 1.1.2026 ukončit (poslední platbu provedu za měsíc 12/2025)
+
+variabilní symbol 2494527, IP 10.16.52.110, Klaus Ripnsieg, Svinenská 666, 374 01 Trhové Sviny
+
+***Zákazník (26.1.2026)*** - internet@starnet.cz  (6.1. a) dohoda mezi Zákazníkem a Poskytovatelem) - ```Chybný krok č.3``` - po 5-ti násobné výzvě k uhrazení faktury/dluhu (výzvy dále přibývají rychlostí ~0,5/den)
+
+Nezapomeňte prosím ukončit tu moji smlouvu se Starnet, jak jsem požadoval 26.11.2025 (fakturace@starnet.cz) a 28.11.2025 (pece@starnet.cz)
+
+***Podpora (27.1.2026)*** - internet@starnet.cz - zřejmě lživé osočení (bez důkazu), že je to zákazník, který nereaguje na jakési emaily
+
+k dnešnímu dni neevidujeme řádně podanou výpověď. Snažila jsem se s Vámi opakovaně spojit, bohužel bez výsledku. Na e-maily jste taky nereagoval. Prosím tedy o zaslání aktuálního čísla a času, kdy se s Vámi mohu spojit k dořešení Vašeho požadavku
+
+***Zákazník (27.1.2026)*** - internet@starnet.cz (6.1. a) dohoda mezi Zákazníkem a Poskytovatelem)  - ```Chybný krok č.4```
+
+Nemám telefonní číslo a i kdybych ho měl, tak pokud ani v roce 2025 neuznáváte zrušení smlouvy moderním emailem, tak zastaralým telefonním hovorem už vůbec ne. Vaše citace z 28.11.2025. "...bohužel se mi s Vámi nedaří telefonicky spojit. Prosím tedy o zaslání Vašeho aktuálního telefonního čísla a času, kdy se s Vámi můžeme spojit ohledně dořešení Vaší výpovědi, případně nás kontaktujte na tomto telefonním čísle, tel: 380426004 nebo na tomto emailu pece@starnet.cz..."
+28.11.2025 jsem tedy napsal na pece@starnet.cz (žádný vyhledávač tuto adresu nenašel) a nikdo neodepsal. 2.12.2025 jsem k poslední platbě za měsíc 12/2025 připsal (zpráva pro příjemce) KONEC SMLOUVY, POSLEDNI PLATBA ZA 12/2025 (IP 10.16.52.110). Nevím jaké emaily na které jsem nereagoval máte na mysli, ale asi se jedná o 5 emailů z fakturace@starnet.cz (18.1-26.1.2026) s výzvou k zaplacení faktury za měsíc 1/2026 (službu z IP 10.16.52.110 jsem naposledy odebíral 31.12.2025 ve ~23:45 a poté byl pro jistotu RJ-45 kabel vytažen ze zdi). Navíc to jsou evidentně automatické emaily
+
+***Zákazník (28.1.2026)*** - (6.1. b) výpověď ze strany Zákazníka či Poskytovatele) Česká pošta - podaný milostný dopis  - ```👍 Správný krok č.1```, věděl jsem, že není možné smlouvu ukončit bez Starnet "Autorizační Kód™" , který možná nemám (ale pro uzavření smlouvy o poskytnutí internetových služeb nebývá zdaleka pravidlem, že je povinnost zákazníka nejdříve navštívit tu jedinou pobočku v celé ČR, nebo vlastnit datovou schránku, nebo úředně ověřit podpis) přesto 0,01 kg milostný dopis za 85,- letěl 22 km vzdušnou čarou přímo do srdce St❤️rnet
+<br/>
+![starnet](https://github.com/user-attachments/assets/a112d18e-139c-49a8-8a3a-5aa917a9395d)
+
+***Podpora (28.1.2026)*** - internet@starnet.cz (zákazník nereaguje) - úmyslné neuvedení nutnosti Starnet "Autorizační Kód™" aby se nepozorným zákazníkům znehodnotila jednoduchá a jinak standardní výpověď a proces se co nejvíce natáhl
+
+výpověď je potřeba zaslat dle našich Všeobecných obchodních podmínek. Pokud jste měl s připojením jakýkoli problém, ráda bych ho s Vámi vyřešila k Vaší spokojenosti
+
+***Podpora (29.1.2026)*** - internet@starnet.cz - lživé tvrzení, že "Autorizační Kód™" je každému zákazníkovi přidělen "před uzavřením smlouvy" = ve Všeobecných obchodních podmínkách z 2008-2010, nebo uzavřené smlouvě z 2010 není ani náznak potřebných slov se správnou návazností např. autorizační/aktivační/kód/číslo/klíč/značení/unikátní/jedinečné/heslo/pin/kombinace/... . Jak paní Kateřina zjistila IP bez "jednoznačné identifikace zákazníka"?
+
+ve vašem formuláři není vyplněn autorizační (aktivační) kód. Výpověď smlouvy musí obsahovat jednoznačnou identifikaci zákazníka, zejména autorizační kód dle VOP.
+
+Každému zákazníkovi je Autorizační (aktivační) kód přidělen před uzavřením smlouvy. Jedná se o 4místnou kombinaci písmen či čísel. V případě ztráty Autorizačního kódu zákazníkem, bude žádost o jeho sdělení zaslána písemně formou listinné zásilky (sepsána volnou formou) s úředně ověřeným podpisem, vlastní datovou schránkou nebo osobně v provozovně poskytovatele oproti předložení průkazu totožnosti zákazníka. V případě, že žádost o autorizační kód nebude obsahovat náležitosti viz výše, je neplatná.
+
+Dále chybí IP adresa připojení: 10.16.52.110
+
+***Zákazník (29.1.2026)*** - internet@starnet.cz (6.1. b) výpověď ze strany Zákazníka či Poskytovatele - podpora nereaguje) - ```Sondovací krok č.1```
+
+Konečně se už pomalu posouváme ke kýženému cíli. Jakým způsobem (online nebo v papírové podobě) je kód přidělen před uzavřením smlouvy? Bývá "autorizační kód" uveden ve smlouvě? Evidentně všichni dobře víme o jakou IP adresu se jedná = variabilní symbol v papírové výpovědi je k ní automaticky přidružen (žádnou jinou smlouvu jsem se Starnet neměl) = je ve Všeobecných obchodních podmínkách bod, kde se píše, že výpověď musí obsahovat i IP adresu?
+
+***Zákazník (1.2.2026)*** - 1 - internet@starnet.cz, 2 - fakturace@starnet.cz, 3 - podpora@starnet.cz, 4 - marketing@starnet.cz, 5 - pece@starnet.cz, 6 - reklamace@netportal.cz (6.1. b) výpověď ze strany Zákazníka či Poskytovatele) - ```Znásilňující krok č.1```
+
+Reakce na paní "Kateřina Doe" ze dne 29.1.2026 (internet@starnet.cz)
+<br/>
+Žádost o vydání "Autorizační Kód" podávat nebudu, sepisovat novou papírovou výpověď za 85,- také ne.
+<br/>
+Škoda, že jsem se od vás nedozvěděl, jakým způsobem mi byl v roce 2010 "Autorizační Kód" "před uzavřením smlouvy" přidělen když VOP (s platností od 15.8.2008) ani smlouva (15.2.2010) nic takového neobsahuje - zkusím jednu, pro Starnet tu nejlepší možnou spekulaci (ale VOP z 2010+2026 jí neobsahuje, takže je nevymahatelná) = "Autorizační Kód" byl opravdu a tak trochu nevyžádaně odeslán emailem při změně VOP (a to je ze strany Starnet porušení VOP viz bod 2.9. někdy také přezdívaný jako 2.8. , který říká, jak sama správně upozorňujete "před uzavřením smlouvy", "Autorizační Kód" už tímto způsobem podruhé odeslat nejde protože by se tím znásobilo riziko, že bude doručen neautorizované osobě), a to zhruba 8 let po uzavření smlouvy (a to je ze strany Starnet porušení VOP viz bod 2.9. někdy také přezdívaný jako 2.8. , který říká, jak sama správně upozorňujete "před uzavřením smlouvy"), běžný email měl předmět zhruba "Údaje pro platbu/Daňový doklad" nebo neběžný email s předmětem zhruba "Změny VOP". Kód byl někde v těle emailu označen zhruba "Tento kód si pečlivě uschovejte, je nutný pro kontakt s podporou", ale určitě nebyl označen zhruba "Tento kód si pečlivě uschovejte, je nutný pro kontakt s podporou + nově je smlouva bez jeho uvedení či další změny VOP zákazníkem nevypověditelná". Změna se týká té nejdůležitější části smluv a to možnost se z nich za splnění zákonných podmínek vyvázat. Ke své smůle nemůžu ohledně tohoto bodu dohledat uveřejněné zkušenosti lidí s rozsudky soudů ve sporech Starnet vs. Zákazník a tak by z toho možná mohl být precedens. Za sebe jsem ale přesvědčen, že vám doručená papírová výpověď s kombinací jména + adresy + emailu + podpisu + jedinečného variabilního symbolu u jediné mé Starnet smlouvy je pro "jednoznačnou identifikaci zákazníka" dostatečná i když VOP tvrdí opak (schválně si ještě zkuste okem porovnat mé písmo a podpis ze smlouvy z 15.2.2010 a podpis ze stěhovacího dodatku ke smlouvě z 29.6.2020 a vše porovnejte s písmem a podpisem z výpovědi z 27.1.2026, vidíte tam podobnost?). Pro uzavření smlouvy (narozdíl od ukončení) není nutné navštívit tu jedinou pobočku v Českých Budějovicích (cesta vlakem+autobusem+MHD ze Slovenských hranic znamená si vzít 2 dny dovolenou a pak přespat v hotelu nebo si vzít taxík na cestu zpátky. V roce 1995 možná...), nebo vlastnit datovou schránku, nebo úředně ověřit podpis (nemám zájem si zřizovat služby třetích stran pro které zatím nemám využití. Zvlášť když původní smlouva/VOP z roku 2010 nic takového neuvádí). Uvízli jsme tedy spolu v mrtvém bodě a pokud smlouva neskončí minimálně dnem 28.2.2026, tak se bude muset do věci vložit soud (sice by to nebyl můj první spor s nějakou společností, 2013, ale za sebe říkám, že by to byla hlavně ztráta času a pro někoho i peněz). Platbu za neodebranou a podle emailů/samoobsluhy zablokovanou nebo zrušenou službu za měsíce 1/2026 + 2/2026 v blízké době neprovedu (ale v případě úspěšné dohody s poskytovatelem + potvrzením konce smlouvy + výzvou k zaplacení veškerých závazků, se platbě svévolně bránit nebudu) = bez porady se svým právníkem nevím, zda je zánik smlouvy "dohodou" vymahatelný ve VOP 2010 "8.2. (a) elektronickým vzájemným potvrzením ukončení smluvního vztahu" nebo ve VOP 2025 "6.1. a) na základě dohody mezi Zákazníkem a Poskytovatelem;" = i když z mého laického pohledu se spíše přikláním, že i kdyby poskytovatel místo té zdržovací taktiky sdělil pouhé ZAPOMEŇ!, tak smolík pro zákazníka. Procházení samoobsluhy mám kompletně nahrané na videu a i před podáním "řádné" papírové výpovědi tam nebyly uvedeny žádné informace o smlouvě - pouze "Vaše zákaznická smlouva je v pořádku.". Veškeré dokumenty/konverzace mám k dispozici (komprimovaný+šifrovaný RAR) a ztráta jakýchkoli důležitějších dat (i z daleké minulosti) u mě není možná = jsou v různých zařízeních a městech a tedy ani prohozený molotov oknem mého bytu by nic nezměnil. Pouze nukleární holocaust.
+<br/>
+VOP = Všeobecné obchodní podmínky
