@@ -1,4 +1,5 @@
 
+
 ***Useful software for Win7, 🟦 PORTABLE (official or with help of 🟦 7-Zip)***
 <br/>
 ⬇️ ***CZ*** - [Security](#security-cz) / [HW](#hw-cz) / [Games](#games-cz) / [Other](#other-cz) / [Starnet](#Starnet)⠀⠀⠀⠀⠀⠀***EN***(deepl.com) - [Security](#security-en) / [HW](#hw-en) / [Games](#games-en) / [Other](#other-en) ⬇️
@@ -36,7 +37,7 @@ Remaining SYS Apps ```10``` ```16``` ```16``` (android ```4``` ```7``` ```9```)
 
 ## Games CZ
 
-***[↗️ Češtiny do her (100+ / 1998-2016)](https://github.com/hornster02?language=&page=1&q=&sort=name&tab=repositories&type=template)***. Nejsem a nebudu autor překladů (většina pochází z fyzických nosičů). Neopravuji překlady pokud dojde k vydání patche/remasteru. Od různých období k překladům přidávám SHA3_512 soubory pro CRC kontrolu všech dat + REG soubory pro instalaci hry + LST "archivy" jako katalog všech dat včetně velikostí s přesností na byte + případně další obsah ve složce "_ZBYTECNOSTI" jako je aktivace překladů souborem, různé menší zbytky atd = pro práci se všemi těmito soubory stačí Total Commander. U překladů uvádím na jaké verzi byl vyzkoušen, ale i když je uveden klient typu Steam/Epic/Amazon/EA/Ubi/..., tak hry přes ně nespouštím (neopodstatněná SW závislost). Snažím se nepřikládat EXE+DLL (typicky pokud se jedná o hry s univerzálními EXE+DLL pro všechny jazykové verze), protože pro koncové uživatele často fungují jako crack (i když jsou třeba originální), na druhou stranu lepení různých verzí dat dohromady by bez (nejen) jejich použití mohlo způsobit bugy/crashe/rozbití překladu (ale jejich použití může v lepším případě zase způsobit problémy s HW/SW/mod kompatibilitou, v horším - při dovolené instalaci SYS ovladačů DRM - bluescreen, případné DRM a jeho formu vždy uvádím). ***Skryté překlady*** (ve stejné/+-podobné/?lepší? formě byly později nahrány na oficiálnější servery) - [1](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/King-s_Bounty_Dark_Side-2014-CZ) [2](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/No_One_Lives_Forever-2000-CZ)
+***[↗️ Češtiny do her (100+ / 1998-2016)](https://github.com/hornster02?language=&page=1&q=&sort=name&tab=repositories&type=template)***. Nejsem a nebudu autor překladů (většina pochází z fyzických nosičů). Neopravuji překlady pokud dojde k vydání patche/remasteru. Od různých období k překladům přidávám SHA3_512 soubory pro CRC kontrolu všech dat + REG soubory pro instalaci hry + LST "archivy" jako katalog všech dat včetně velikostí s přesností na byte + případně další obsah ve složce "_ZBYTECNOSTI" jako je aktivace překladů souborem, různé menší zbytky atd = pro práci se všemi těmito soubory stačí Total Commander. U překladů uvádím na jaké verzi byl vyzkoušen, ale i když je uveden klient typu Steam/Epic/Amazon/EA/Ubi/..., tak hry přes ně nespouštím (neopodstatněná SW závislost), a pokud je mi to dovoleno, tak je spouštím v režimu portable (odstranění veškerých dat mimo herní složku, případně i samotných dat ve složce = rip). Snažím se nepřikládat EXE+DLL (typicky pokud se jedná o hry s univerzálními EXE+DLL pro všechny jazykové verze), protože pro koncové uživatele často fungují jako crack (i když jsou třeba originální), na druhou stranu lepení různých verzí dat dohromady by bez (nejen) jejich použití mohlo způsobit bugy/crashe/rozbití překladu (ale jejich použití může v lepším případě zase způsobit problémy s HW/SW/mod kompatibilitou, v horším - při dovolené instalaci SYS ovladačů DRM - bluescreen, případné DRM a jeho formu vždy uvádím). ***Skryté překlady*** (ve stejné/+-podobné/?lepší? formě byly později nahrány na oficiálnější servery) - [1](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/King-s_Bounty_Dark_Side-2014-CZ) [2](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/No_One_Lives_Forever-2000-CZ)
 
 ***[📥 Ultimátní seznamy CZ+SK překladů - 2025-12 (35 000+ řádků z 43 serverů = offline Google^4 bez nesouvisejícího balastu okolo, nebo AI budoucnosti? Velikost 1MB)](https://github.com/hornster02/hornster02/raw/main/_cz+sk-seznam.rar)***
 <br/>
@@ -198,7 +199,7 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***🟦 Mem Reduct*** - uvolnění RAM paměti bez ukončení procesů klávesovou zkratkou nebo klikem na tray ikonu. Může ale docházet k většímu zápisu do stránkovacího souboru = opotřebení SSD*1
 
-***🟦 Hard Disk Sentinel*** - monitoring disků+historie, S.M.A.R.T. testy, regulace hlučnosti (AAM), tray ikony (zdraví), možnost zakázání vypínání HDD při nečinnosti (aut. přístupem nebo APM)
+***🟦 Hard Disk Sentinel*** - monitoring disků+historie, S.M.A.R.T. testy, regulace hlučnosti (AAM), tray ikony (zdraví), možnost zakázání vypínání HDD při nečinnosti (aut. přístupem nebo APM) = pokud jsou HDD u konce životnosti, tak zapnuté úsporné funkce problémy jen zhoršují
 
 ***🟦 Battle Encoder Shirasé*** - omezení (throttling) procesů - až 99%. Možnost používat přes Command-Line bez UI - příklad 90% a 10% omezení pro 2 EXE soubory = BES v pozadí systému bude hledat spuštěné procesy a automaticky je omezí (snížení spotřeby PC + efektivnější využití omezeného výkonu + zpomalení může vyřešit problémy se stabilitou a chybovostí - např. při instalaci vysoce komprimovaných Repacků) ```BES.exe -J "1.exe" 90 -m "2.exe" 10 -m```
 
@@ -261,6 +262,8 @@ Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkr
 -možnost vyloučit určité soubory/složky při vytváření archivů
 <br/>
 -možnost nekomprimovat určité soubory/přípony a tím urychlit proces
+<br/>
+-při hromadném testování zaheslovaných archivů se zobrazují jejich názvy a také je možné heslo automaticky použít pro další archivy
 
 -je možné, že 7z nepodporuje NTFS souborový systém a neumí archivovat komplexnější data obsahující různá zabezpečení a symbolické odkazy? Jak docílit archivace odkazu a ne dat na která se odkazuje a tím mimo jiné nerozbít datovou strukturu?
 <br/>
@@ -567,7 +570,7 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***🟦 Mem Reduct*** - free RAM memory (without terminating processes) by hotkey or clicking on tray icon. However, there may be more writing to paging file = reduced lifetime of SSD*1
 
-***🟦 Hard Disk Sentinel*** - disk monitoring+history, S.M.A.R.T. tests, noise control (AAM), tray icons (health), option to disable HDD shutdown when idle (auto access or APM)
+***🟦 Hard Disk Sentinel*** - disk monitoring+history, S.M.A.R.T. tests, noise control (AAM), tray icons (health), option to disable HDD shutdown when idle (auto access or APM) = if HDD is at end of its lifetime, enabling power-saving features only makes problems worse
 
 ***🟦 Battle Encoder Shirasé*** - process throttling - up to 99%. Ability to use via Command-Line without UI - example 90% and 10% restriction for 2 EXE files = BES will look for running processes in background and automatically restrict them (reduced PC power consumption + more efficient use of limited performance + slowdown can solve stability and error issues - e.g. when installing highly compressed Repacks) ```BES.exe -J "1.exe" 90 -m "2.exe" 10 -m```
 
@@ -630,6 +633,8 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. Registry pa
 -option to exclude certain files/folders when creating archives
 <br/>
 -option to uncompress certain files to speed up process
+<br/>
+-when testing encrypted archives in bulk, their names are displayed and it is also possible to automatically use password for other archives
 
 -is it possible that 7z doesn't support NTFS file system and can't archive more complex data that contains various security and symbolic links? How to achieve archiving link and not data it references and thus not break data structure, among other things?
 <br/>
@@ -993,58 +998,72 @@ Multimedia keys ,🟩KMP64X doesn't support global hotkeys
 
 ## Starnet
 
-Jak probíhá ukončení smlouvy s internetovým poskytovatelem Starnet (⚠️ tento způsob ukončování je buď běžným a nebo přímo nepsaným pravidlem a to už po celá léta a je s podivem, že této podvodné společnosti ještě nebyl soudem nařízen zákaz činnosti ⚠️). R.I.P. (Rest in Pain) 2006-2026. Konsolidace trhu poskytovatelů je nevyhnutelná a Starnet se každým rokem stává méně vyjímečným a tak se za každou cenu snaží si svého milovaného zákazníka udržet. Konverzace s paní (říkejme jí třeba Kateřina) z podpory o pár řádků níže (v tomto případě je nezpochybnitelnou pravdou, že být sedmilhářem je neskonale důstojnější než být namyšleným hlupákem, teprve uvidíme, která role komu patří)
+Jak probíhá ukončení smlouvy s internetovým poskytovatelem Starnet (⚠️ tento způsob ukončování je buď běžným a nebo přímo nepsaným pravidlem a to už po celá léta a je s podivem, že této podvodné společnosti ještě nebyl soudem nařízen zákaz činnosti ⚠️). Konsolidace trhu poskytovatelů je nevyhnutelná a Starnet se každým rokem stává méně vyjímečným a tak se za každou cenu snaží si svého milovaného zákazníka udržet. Konverzace s paní (říkejme jí třeba Kateřina) z podpory o pár řádků níže. Všeobecné obchodní podmínky (VOP) 1.7.2022+. R.I.P. (Rest in Pain) 2006-2026
 
-***Délka trvání procesu (spor zatím neukončen) - 26.11.2025 - 1.2.2026***
+***Délka trvání procesu (26.11.2025 - 14.2.2026)***
+<br/>
+***Celkové náklady za rozchod (1 508,-)*** = 85,- (milostný dopis) + 598,- ("připojení" za 1/2026 + 2/2026) + 350,- ("Doprava k zákazníkovi...při ukončení smluvního vztahu" - viz ceník) + 399,- ("Práce technika při ukončení smluvního vztahu" - viz ceník) + 95,- (ukončená "Bonusová sleva" za 2/2026 = Výpovědní lhůta) - 19,- (? "Zohlednění uhrazeného měsíce 1-2026" ?)
 
-***Celkové náklady za rozchod (spor zatím neukončen) = 85,- (milostný dopis)***
+Primární důvod výpovědi - koncesionářské poplatky (výzva ze strany ČT k přihlášení byla sepsána 14.1.2026, poslední "čestné prohlášení" bylo sepsáno 3.10.2021). Smlouva uzavřena 15.2.2010. 26.11.2025 zaslán emailový požadavek na ukončení smlouvy k 1.1.2026. Rychlost linky v roce 2010 16/8, v roce 2025 300/300, data neomezená. Cena za rok připojení 3000,- (celkem bezkonkurenční a to i nejen zásluhou v mém případě reálně bezchybné stabilitě připojení) a od roku 2023 3600,-
 
-Primární důvod výpovědi - koncesionářské poplatky (výzva ze strany ČT k přihlášení byla sepsána 14.1.2026, poslední "čestné prohlášení" bylo sepsáno 3.10.2021). Smlouva uzavřena 15.2.2010. 26.11.2025 zaslán požadavek na ukončení smlouvy k 1.1.2026. Rychlost linky v roce 2010 16/8, v roce 2025 300/300, data neomezená. Cena za rok připojení 3000,- (celkem bezkonkurenční a to i nejen zásluhou v mém případě reálně bezchybné stabilitě připojení) a od roku 2023 3588,-
+Chování zákazníka po dobu trvání smlouvy = ~90% času byla linka využívána pouze na 1 zařízení a rychlost síťové karty byla nastavena na 10/10 (omezení špiček poskytovateli) + bez jediné zpožděné platby (platba za 1/2011 byla dokonce provedena 12/2010 čímž vzniklo nedorozumění) + průměrná měsíční spotřeba dat před koncem ulozto v roce 2023 ~90GB a poté s používáním torrentů a jejich uploadu ~120GB (životní rekord a to s obrovským odstupem nastal až v 12/2025 se spotřebou ~360GB) + žádný inicializovaný kontakt s podporou (stěžování/reklamace) + stěhování v rámci města v roce 2020 (za které, k velkému překvapení, nebylo nutné zaplatit technikům/společnosti ani korunu i přes to, že byl poskytnut nový ~8 metrů dlouhý RJ-45 kabel)
 
-Chování zákazníka po dobu trvání smlouvy = ~98% času byla linka využívána pouze na 1 zařízení a rychlost síťové karty byla nastavena na 10/10 (omezení špiček poskytovateli) + bez jediné zpožděné platby (platba za 1/2011 byla dokonce provedena 12/2010 čímž vzniklo nedorozumění) + průměrná měsíční spotřeba dat před koncem ulozto v roce 2023 ~90GB a poté s používáním torrentů a jejich uploadu ~120GB (životní rekord a to s obrovským odstupem nastal až v 12/2025 se spotřebou ~360GB) + žádný inicializovaný kontakt s podporou (stěžování/reklamace) + stěhování v roce 2020 (za které, k velkému překvapení, nebylo nutné zaplatit technikům/společnosti ani korunu i přes to, že byl poskytnut nový ~8 metrů dlouhý RJ-45 kabel)
+dTest+ČTÚ nezbytnost "Kód" ve výpovědi spíše rozporují. "Kód" je ve VOP zřejmě od 25.5.2018+ = nebylo nutné ho při výpovědi uvádět (to až od 1.7.2022+) a zákazníkovi mohl/nemusel být Starnetem přidělen (jak se do té doby tedy prokazovala "jednoznačná identifikace zákazníka"?). "Kód" nebyl minimálně v roce 2020 vyžadován pro "Žádost o přepis / stěhování služby – změna smlouvy". Bylo by nebezpečné uvést "Kód" ve smlouvě? Nápad - "Kód" jde zaslat autorizované osobě opětovně emailem v šifrovaném RAR (heslo rozdělené mezi email+SMS. Datová schránka nebo úředně ověřený podpis je zbytečná překážka) = snad nejdou kontaktní údaje v samoobsluze bez "Kód" změnit
+<br/>
+***ČTÚ*** - 28.1.2026 byl odeslán obecný dotaz (1 den před převzetím+roztrháním milostného dopisu podporou = 29.1.2026). Odpověď ČTÚ je z 3.2.2026
+<br/>
+```otázka č.1``` Je možné, že smlouva nejde ukončit ani zasláním výpovědi v papírové podobě na adresu jejich sídla z důvodu chybějícího "Autorizačního kódu"? Ve všeobecných podmínkách mají tuto podmínku uvedenou...
+<br/>
+```odpověď č.1``` ...podání výpovědi by mělo být vždy v souladu se smluvními podmínkami poskytovatele. V případě, že jsou však uvedeny všechny identifikační údaje, je připojen i vlastnoruční podpis a odesláno prostřednictvím České pošty (popřípadě datovou schránkou), má poskytovatel možnost zákazníka identifikovat, a tedy takto podanou výpověď (i bez autorizačního kódu) akceptovat...
+<br/>
+```otázka č.2``` Pokud bych neplatil faktury (za službu kterou už nepoužívám), tak jak dlouho by mi jakýkoli poskytovatel mohl své služby poskytovat než by došlo z jejich strany k ukončení smlouvy a následné exekuci? Měsíce a tedy dluhy v nižších tisících, nebo třeba desítky let a dluhy ve statisících? Ve všeobecných podmínkách bod 6.4. se píše že "Poskytovatel je oprávněn Smlouvu vypovědět pokud" "Zákazník je v prodlení s úhradou jakéhokoli peněžitého dluhu vůči Poskytovateli po dobu delší než 90 dnů". Oprávněn, nikoli že to udělá, myslím že dluhy ve statisících by pro Starnet byly lákavější a tak by byl trpělivý.
+<br/>
+```odpověď č.2``` ...Vámi citované ustanovení všeobecných podmínek, podle něhož je poskytovatel oprávněn vypovědět smlouvu v případě prodlení delšího než 90 dnů, znamená, že poskytovatel má tuto možnost, nikoliv povinnost. Zákon o elektronických komunikacích nestanoví konkrétní lhůtu, po jejímž uplynutí musí poskytovatel smlouvu ukončit, ponechává to na smluvním ujednání a obchodní politice poskytovatele. Poskytovatel tedy může smlouvu ukončit po 90 dnech prodlení, avšak může se rozhodnout smlouvu neukončit a dluh dále evidovat. Zákon nestanoví maximální dobu, po kterou může být smlouva v prodlení vedena, ani maximální výši dluhu. V praxi však poskytovatelé obvykle přistupují k vymáhání pohledávky (předžalobní výzva, následně správní řízení a případná exekuce) v řádu měsíců, nikoliv let, protože dlouhodobé navyšování dluhu je spojeno s rizikem jeho nevymahatelnosti...
 
-Všeobecné obchodní podmínky z let 2008-2010 obsahují u ukončení smlouvy "dohodou" "elektronickým vzájemným potvrzením ukončení smluvního vztahu". Z let 2022-2025 "na základě dohody mezi Zákazníkem a Poskytovatelem;" + je nutnost vlastnictví Starnet "Autorizační Kód™", který je v některých případech možné získat pouze zřízením ne zrovna běžných služeb třetích stran (datová schránka nebo úředně ověřený podpis)
+Urputný boj paní Kateřiny o milovaného zákazníka (tip - pro finanční úsporu je příště naprosto nezbytné "dohodu" přeskočit + poslat výpověď s větším předstihem než je zákonný limit 30-ti dnů = společnost může zdržovat také převzetí zásilky. Bonusem bude i zásadní omezení počtu emailů podpory a jejích polopravd+lží v každém z nich) -
 
-Urputný boj paní Kateřiny o milovaného zákazníka -
+```(6.1. a) dohoda mezi Zákazníkem a Poskytovatelem)```
 
-***Zákazník (26.11.2025)*** - fakturace@starnet.cz (6.1. a) dohoda mezi Zákazníkem a Poskytovatelem) ```Chybný krok č.1```
+***Zákazník (26.11.2025)*** - fakturace@starnet.cz ```Chybný krok č.1```
 
 Vzhledem k tomu, že kvůli uzavřené smlouvě (vlastnictví zařízení mi nikdo dokázat nemůže, smlouvu na adresu bohužel ano) s vaší společností se na mě vztahuje povinnost platit koncesionářské poplatky (jinak by mi hrozila opakovaná pokuta ve výši 15000,-), tak chci smlouvu na internetové připojení od 1.1.2026 ukončit (poslední platbu provedu za měsíc 12/2025)
 
 variabilní symbol 2494527, IP 10.16.52.110, Klaus Ripnsieg, Svinenská 666, 374 01 Trhové Sviny
 
-***Podpora (28.11.2025)*** - internet@starnet.cz - uvedeny neveřejné kontakty, které mají pomoci ukončit smlouvu
+💩***Podpora (28.11.2025 + 2.12.2025)*** - internet@starnet.cz - uvedeny neveřejné kontakty, které mají pomoci ukončit smlouvu (přeposlání žádosti v rámci společnosti zřejmě není možné). Hovorem se smlouvy neukončují
 
 bohužel se mi s Vámi nedaří telefonicky spojit. Prosím tedy o zaslání Vašeho aktuálního telefonního čísla a času, kdy se s Vámi můžeme spojit ohledně dořešení Vaší výpovědi, případně nás kontaktujte na tomto telefonním čísle, tel: 380426004 nebo na tomto emailu pece@starnet.cz
 
-***Zákazník (28.11.2025)*** - pece@starnet.cz (6.1. a) dohoda mezi Zákazníkem a Poskytovatelem - podpora nereaguje)  - ```Chybný krok č.2```
+***Zákazník (28.11.2025)*** - pece@starnet.cz - ```podpora nereaguje``` - ```Chybný krok č.2```
 
 Vzhledem k tomu, že kvůli uzavřené smlouvě (vlastnictví zařízení mi nikdo dokázat nemůže, smlouvu na adresu bohužel ano) s vaší společností se na mě vztahuje povinnost platit koncesionářské poplatky (jinak by mi hrozila opakovaná pokuta ve výši 15000,-), tak chci smlouvu na internetové připojení od 1.1.2026 ukončit (poslední platbu provedu za měsíc 12/2025)
 
 variabilní symbol 2494527, IP 10.16.52.110, Klaus Ripnsieg, Svinenská 666, 374 01 Trhové Sviny
 
-***Zákazník (26.1.2026)*** - internet@starnet.cz  (6.1. a) dohoda mezi Zákazníkem a Poskytovatelem) - ```Chybný krok č.3``` - po 5-ti násobné výzvě k uhrazení faktury/dluhu (výzvy dále přibývají rychlostí ~0,5/den)
+***Zákazník (26.1.2026)*** - internet@starnet.cz - ```Chybný krok č.3``` - po 5-ti násobné výzvě k uhrazení faktury/dluhu
 
 Nezapomeňte prosím ukončit tu moji smlouvu se Starnet, jak jsem požadoval 26.11.2025 (fakturace@starnet.cz) a 28.11.2025 (pece@starnet.cz)
 
-***Podpora (27.1.2026)*** - internet@starnet.cz - zřejmě lživé osočení (bez důkazu), že je to zákazník, který nereaguje na jakési emaily
+💩***Podpora (27.1.2026)*** - internet@starnet.cz - zřejmě lživé osočení (bez důkazu), že je to zákazník, který nereaguje na jakési emaily
 
 k dnešnímu dni neevidujeme řádně podanou výpověď. Snažila jsem se s Vámi opakovaně spojit, bohužel bez výsledku. Na e-maily jste taky nereagoval. Prosím tedy o zaslání aktuálního čísla a času, kdy se s Vámi mohu spojit k dořešení Vašeho požadavku
 
-***Zákazník (27.1.2026)*** - internet@starnet.cz (6.1. a) dohoda mezi Zákazníkem a Poskytovatelem)  - ```Chybný krok č.4```
+***Zákazník (27.1.2026)*** - internet@starnet.cz - ```Chybný krok č.4```
 
 Nemám telefonní číslo a i kdybych ho měl, tak pokud ani v roce 2025 neuznáváte zrušení smlouvy moderním emailem, tak zastaralým telefonním hovorem už vůbec ne. Vaše citace z 28.11.2025. "...bohužel se mi s Vámi nedaří telefonicky spojit. Prosím tedy o zaslání Vašeho aktuálního telefonního čísla a času, kdy se s Vámi můžeme spojit ohledně dořešení Vaší výpovědi, případně nás kontaktujte na tomto telefonním čísle, tel: 380426004 nebo na tomto emailu pece@starnet.cz..."
 28.11.2025 jsem tedy napsal na pece@starnet.cz (žádný vyhledávač tuto adresu nenašel) a nikdo neodepsal. 2.12.2025 jsem k poslední platbě za měsíc 12/2025 připsal (zpráva pro příjemce) KONEC SMLOUVY, POSLEDNI PLATBA ZA 12/2025 (IP 10.16.52.110). Nevím jaké emaily na které jsem nereagoval máte na mysli, ale asi se jedná o 5 emailů z fakturace@starnet.cz (18.1-26.1.2026) s výzvou k zaplacení faktury za měsíc 1/2026 (službu z IP 10.16.52.110 jsem naposledy odebíral 31.12.2025 ve ~23:45 a poté byl pro jistotu RJ-45 kabel vytažen ze zdi). Navíc to jsou evidentně automatické emaily
 
-***Zákazník (28.1.2026)*** - (6.1. b) výpověď ze strany Zákazníka či Poskytovatele) Česká pošta - podaný milostný dopis  - ```👍 Správný krok č.1```, věděl jsem, že není možné smlouvu ukončit bez Starnet "Autorizační Kód™" , který možná nemám (ale pro uzavření smlouvy o poskytnutí internetových služeb nebývá zdaleka pravidlem, že je povinnost zákazníka nejdříve navštívit tu jedinou pobočku v celé ČR, nebo vlastnit datovou schránku, nebo úředně ověřit podpis) přesto 0,01 kg milostný dopis za 85,- letěl 22 km vzdušnou čarou přímo do srdce St❤️rnet
-<br/>
-![starnet](https://github.com/user-attachments/assets/a112d18e-139c-49a8-8a3a-5aa917a9395d)
-
-***Podpora (28.1.2026)*** - internet@starnet.cz (zákazník nereaguje) - úmyslné neuvedení nutnosti Starnet "Autorizační Kód™" aby se nepozorným zákazníkům znehodnotila jednoduchá a jinak standardní výpověď a proces se co nejvíce natáhl
+💩***Podpora (28.1.2026)*** - internet@starnet.cz - ```zákazník nereaguje``` - úmyslné neuvedení nutnosti "Kód" aby se nepozorným zákazníkům znehodnotila jednoduchá+standardní papírová výpověď. Podpora se za žádných okolností "dohodnout" nechce a proto např. nikdy ani nenaznačila, že celá dosavadní konverzace je z pohledu Starnet "neautorizovaná" (bod 3.3) a jediný její účel byl proces co nejvíce natáhnout?
 
 výpověď je potřeba zaslat dle našich Všeobecných obchodních podmínek. Pokud jste měl s připojením jakýkoli problém, ráda bych ho s Vámi vyřešila k Vaší spokojenosti
 
-***Podpora (29.1.2026)*** - internet@starnet.cz - lživé tvrzení, že "Autorizační Kód™" je každému zákazníkovi přidělen "před uzavřením smlouvy" = ve Všeobecných obchodních podmínkách z 2008-2010, nebo uzavřené smlouvě z 2010 není ani náznak potřebných slov se správnou návazností např. autorizační/aktivační/kód/číslo/klíč/značení/unikátní/jedinečné/heslo/pin/kombinace/... . Jak paní Kateřina zjistila IP bez "jednoznačné identifikace zákazníka"?
+```(6.1. b) výpověď ze strany Zákazníka či Poskytovatele)```
+
+***Zákazník (28.1.2026)*** - Česká pošta - podaný milostný dopis  - ```👍 Správný krok č.1```, věděl jsem, že není možné smlouvu ukončit bez "Kód", který možná nemám (ale pro uzavření smlouvy o poskytnutí internetových služeb nebývá zdaleka pravidlem, že je povinnost zákazníka nejdříve navštívit tu jedinou pobočku v celé ČR, nebo vlastnit datovou schránku, nebo úředně ověřit podpis) přesto 0,01 kg milostný dopis za 85,- letěl 22 km vzdušnou čarou přímo do srdce St❤️rnet
+<br/>
+![starnet](https://github.com/user-attachments/assets/a112d18e-139c-49a8-8a3a-5aa917a9395d)
+
+💩***Podpora (29.1.2026)*** - internet@starnet.cz - lživé tvrzení, že "Kód" je každému zákazníkovi přidělen "před uzavřením smlouvy" = ve VOP 2008+, nebo uzavřené smlouvě z 2010 není ani náznak potřebných slov se správnou návazností např. autorizační/aktivační/kód/číslo/klíč/značení/unikátní/jedinečné/heslo/pin/kombinace/... . Jak paní Kateřina zjistila IP bez "jednoznačné identifikace zákazníka"? A jak je možné, že při placení faktur k "jednoznačné identifikaci zákazníka" docházelo?
 
 ve vašem formuláři není vyplněn autorizační (aktivační) kód. Výpověď smlouvy musí obsahovat jednoznačnou identifikaci zákazníka, zejména autorizační kód dle VOP.
 
@@ -1052,11 +1071,11 @@ Každému zákazníkovi je Autorizační (aktivační) kód přidělen před uza
 
 Dále chybí IP adresa připojení: 10.16.52.110
 
-***Zákazník (29.1.2026)*** - internet@starnet.cz (6.1. b) výpověď ze strany Zákazníka či Poskytovatele - podpora nereaguje) - ```Sondovací krok č.1```
+***Zákazník (29.1.2026)*** - internet@starnet.cz - ```podpora nereaguje``` - ```Sondující krok č.1```
 
 Konečně se už pomalu posouváme ke kýženému cíli. Jakým způsobem (online nebo v papírové podobě) je kód přidělen před uzavřením smlouvy? Bývá "autorizační kód" uveden ve smlouvě? Evidentně všichni dobře víme o jakou IP adresu se jedná = variabilní symbol v papírové výpovědi je k ní automaticky přidružen (žádnou jinou smlouvu jsem se Starnet neměl) = je ve Všeobecných obchodních podmínkách bod, kde se píše, že výpověď musí obsahovat i IP adresu?
 
-***Zákazník (1.2.2026)*** - 1 - internet@starnet.cz, 2 - fakturace@starnet.cz, 3 - podpora@starnet.cz, 4 - marketing@starnet.cz, 5 - pece@starnet.cz, 6 - reklamace@netportal.cz (6.1. b) výpověď ze strany Zákazníka či Poskytovatele) - ```Znásilňující krok č.1```
+***Zákazník (1.2.2026)*** - 1 - internet@starnet.cz, 2 - fakturace@starnet.cz, 3 - podpora@starnet.cz, 4 - marketing@starnet.cz, 5 - pece@starnet.cz, 6 - reklamace@netportal.cz - ```nikdo nereaguje``` - ```Znásilňující krok č.1```
 
 Reakce na paní "Kateřina Doe" ze dne 29.1.2026 (internet@starnet.cz)
 <br/>
@@ -1065,3 +1084,7 @@ Reakce na paní "Kateřina Doe" ze dne 29.1.2026 (internet@starnet.cz)
 Škoda, že jsem se od vás nedozvěděl, jakým způsobem mi byl v roce 2010 "Autorizační Kód" "před uzavřením smlouvy" přidělen když VOP (s platností od 15.8.2008) ani smlouva (15.2.2010) nic takového neobsahuje - zkusím jednu, pro Starnet tu nejlepší možnou spekulaci (ale VOP z 2010+2026 jí neobsahuje, takže je nevymahatelná) = "Autorizační Kód" byl opravdu a tak trochu nevyžádaně odeslán emailem při změně VOP (a to je ze strany Starnet porušení VOP viz bod 2.9. někdy také přezdívaný jako 2.8. , který říká, jak sama správně upozorňujete "před uzavřením smlouvy", "Autorizační Kód" už tímto způsobem podruhé odeslat nejde protože by se tím znásobilo riziko, že bude doručen neautorizované osobě), a to zhruba 8 let po uzavření smlouvy (a to je ze strany Starnet porušení VOP viz bod 2.9. někdy také přezdívaný jako 2.8. , který říká, jak sama správně upozorňujete "před uzavřením smlouvy"), běžný email měl předmět zhruba "Údaje pro platbu/Daňový doklad" nebo neběžný email s předmětem zhruba "Změny VOP". Kód byl někde v těle emailu označen zhruba "Tento kód si pečlivě uschovejte, je nutný pro kontakt s podporou", ale určitě nebyl označen zhruba "Tento kód si pečlivě uschovejte, je nutný pro kontakt s podporou + nově je smlouva bez jeho uvedení či další změny VOP zákazníkem nevypověditelná". Změna se týká té nejdůležitější části smluv a to možnost se z nich za splnění zákonných podmínek vyvázat. Ke své smůle nemůžu ohledně tohoto bodu dohledat uveřejněné zkušenosti lidí s rozsudky soudů ve sporech Starnet vs. Zákazník a tak by z toho možná mohl být precedens. Za sebe jsem ale přesvědčen, že vám doručená papírová výpověď s kombinací jména + adresy + emailu + podpisu + jedinečného variabilního symbolu u jediné mé Starnet smlouvy je pro "jednoznačnou identifikaci zákazníka" dostatečná i když VOP tvrdí opak (schválně si ještě zkuste okem porovnat mé písmo a podpis ze smlouvy z 15.2.2010 a podpis ze stěhovacího dodatku ke smlouvě z 29.6.2020 a vše porovnejte s písmem a podpisem z výpovědi z 27.1.2026, vidíte tam podobnost?). Pro uzavření smlouvy (narozdíl od ukončení) není nutné navštívit tu jedinou pobočku v Českých Budějovicích (cesta vlakem+autobusem+MHD ze Slovenských hranic znamená si vzít 2 dny dovolenou a pak přespat v hotelu nebo si vzít taxík na cestu zpátky. V roce 1995 možná...), nebo vlastnit datovou schránku, nebo úředně ověřit podpis (nemám zájem si zřizovat služby třetích stran pro které zatím nemám využití. Zvlášť když původní smlouva/VOP z roku 2010 nic takového neuvádí). Uvízli jsme tedy spolu v mrtvém bodě a pokud smlouva neskončí minimálně dnem 28.2.2026, tak se bude muset do věci vložit soud (sice by to nebyl můj první spor s nějakou společností, 2013, ale za sebe říkám, že by to byla hlavně ztráta času a pro někoho i peněz). Platbu za neodebranou a podle emailů/samoobsluhy zablokovanou nebo zrušenou službu za měsíce 1/2026 + 2/2026 v blízké době neprovedu (ale v případě úspěšné dohody s poskytovatelem + potvrzením konce smlouvy + výzvou k zaplacení veškerých závazků, se platbě svévolně bránit nebudu) = bez porady se svým právníkem nevím, zda je zánik smlouvy "dohodou" vymahatelný ve VOP 2010 "8.2. (a) elektronickým vzájemným potvrzením ukončení smluvního vztahu" nebo ve VOP 2025 "6.1. a) na základě dohody mezi Zákazníkem a Poskytovatelem;" = i když z mého laického pohledu se spíše přikláním, že i kdyby poskytovatel místo té zdržovací taktiky sdělil pouhé ZAPOMEŇ!, tak smolík pro zákazníka. Procházení samoobsluhy mám kompletně nahrané na videu a i před podáním "řádné" papírové výpovědi tam nebyly uvedeny žádné informace o smlouvě - pouze "Vaše zákaznická smlouva je v pořádku.". Veškeré dokumenty/konverzace mám k dispozici (komprimovaný+šifrovaný RAR) a ztráta jakýchkoli důležitějších dat (i z daleké minulosti) u mě není možná = jsou v různých zařízeních a městech a tedy ani prohozený molotov oknem mého bytu by nic nezměnil. Pouze nukleární holocaust.
 <br/>
 VOP = Všeobecné obchodní podmínky
+
+***Možná náhrada + opravdový upgrade připojení (navýšení rychlosti u 😉Sralnet z 16 na 300 bylo nevyžádané+nechtěné)***
+<br/>
+O2 Datamanie - výhody (anonymní předplacená SIM využitelná po celé ČR = žádné koncesionářské poplatky a to bez ohledu na budoucí změny zákonů + nižší cena 2500-3000 vs 3600), nevýhoda ("zastaralé" generace sítí se v ČR postupně vypínají a tak i moderní 4G/android7 bude někdy nutné za ~250,- vyměnit), teoretická a postupně se zmenšující nevýhoda je 1200+GB FUP
