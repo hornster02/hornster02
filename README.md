@@ -1,11 +1,16 @@
 
+
+Text content of this page varies depending on whether it is displayed as HTML or as original MD file (written in Notepad++) + my possible error/omission in formatting may unintentionally alter content displayed in HTML.
+<br/>
+Textový obsah této stránky se liší podle toho, zda se zobrazí jako HTML a nebo jako MD originál (psaný v Notepad++) + moje případná chyba/opomenutí ve formátování může pozměnit zobrazený obsah v HTML i nechtěně.
+
 ***Useful software for Win7, 🟦 PORTABLE (official or with help of 🟦 7-Zip)***
 <br/>
-⬇️ ***CZ*** - [Security](#security-cz) / [HW](#hw-cz) / [Games](#games-cz) / [Other ⬇️](#other-cz)⠀ [↗️ Stars-list](https://github.com/stars/hornster02/lists/non-41444)⠀ ⬇️ ***EN***(deepl.com) - [Security](#security-en) / [HW](#hw-en) / [Games](#games-en) / [Other](#other-en) ⬇️
+⬇️ ***CZ*** - [Security](#security-cz) 🔸 [HW](#hw-cz) 🔸 [Games](#games-cz) 🔸 [Other](#other-cz) ⬇️⠀ [↗️ Stars-list](https://github.com/stars/hornster02/lists/non-41444)⠀ ⬇️ ***EN***(deepl.com) - [Security](#security-en) 🔸 [HW](#hw-en) 🔸 [Games](#games-en) 🔸 [Other](#other-en) ⬇️
 <br/>
-```What's new``` - FileLocker+EaseFilter+File System Protector (Jun 1, 2025), Verpatch (Oct 1, 2025), more detailed CTRL+C/V metod for Windows install/backup/restore process (Jan 15, 2026), AlternateStreamView (Feb 1, 2026), RadeonTuner+Null File Finder+Hexer+AIM Toolkit (May 1, 2026), UnSign (May 15, 2026)
+```What's new``` - Verpatch (Oct 1, 2025), more detailed CTRL+C/V metod for Windows install/backup/restore process (Jan 15, 2026), AlternateStreamView (Feb 1, 2026), RadeonTuner+Null File Finder+Hexer+AIM Toolkit (May 1, 2026), UnSign (May 15, 2026), VideoSubFinder (Jun 1, 2026)
 
-⬇️ [Autohotkey v1.1 scripts](#ahk) / [KMPlayer Skin + AHK](#kmp) / [Starnet](#Starnet) ⬇️
+⬇️ [Autohotkey v1.1 scripts](#ahk) 🔸 [KMPlayer Skin + AHK](#kmp) 🔸 [Starnet](#Starnet) ⬇️
 
 ***[📥 Win```7``` Epyc Bloatware List (services/tasks/processes/drivers/devices/installations) + 4th mouse button AHK + NirSoft apps for comparing system via TXT/HTML + some REG files. Size 1MB](https://raw.githubusercontent.com/hornster02/hornster02/main/win-bloatware.rar)***
 <br/>
@@ -25,7 +30,7 @@ Remaining SYS Apps ```10``` ```16``` ```16``` (android ```4``` ```7``` ```9```)
 
 ## Games CZ
 
-***[↗️ Češtiny do her (Počet: 110+. Rok: 1998-2016. Na Github přidáno: 2023-2026)](https://github.com/hornster02?language=&page=1&q=&sort=name&tab=repositories&type=template)***
+***[↗️ Češtiny do her 🔸 Počet: 110+ (text: 70+ , dabing: 40+) 🔸 Velikost: 7,5GB 🔸 Rok: 1998-2016 🔸 Na Github přidáno: 2023-2026](https://github.com/hornster02?language=&page=1&q=&sort=name&tab=repositories&type=template)***
 <br/>
 I'm not author of translations (most of them come from retail CD/DVD). Nejsem autor překladů (většina pochází z retail CD/DVD)
 <br/>
@@ -35,15 +40,17 @@ I'm not author of translations (most of them come from retail CD/DVD). Nejsem au
 <br/>
 ■ kvůli konfiguračním datům může záležet, zda se hra spustí nejdříve v EN a nebo v CZ + některé hry mohou být vzájemně nekompatibilní (různé verze/jazyky = různé savegame = možné bugy/crashe)
 <br/>
-■ pokud funguje, tak používám zastaralý ```BikMod``` pro načtení SRT titulků, který může způsobit crashe (zřejmě jen při ukončování her), ale i moje chyba v SRT (třeba špatné číslování) by mohla způsobit crashe (nejrychlejší oprava by byla vrátit původní "Binkw32.dll" ze složky "Binkw32")
-<br/>
 ■ hraní v "nestandardním" rozlišení/FOV může i oříznout obraz s titulky
+<br/>
+■ pro načtení SRT titulků používám ```BikMod``` (beta), který pokud funguje, tak může způsobit fatální crashe (zřejmě jen při ukončování). Pokud funguje napůl, tak může způsobit fatální "freeze" (zřejmě jen při nahrávání). Moje chyba v SRT (třeba špatné číslování) by mohla způsobit fatální "freeze" (zřejmě jen při načtení/přehrávání videa). Nejrychlejší oprava by byla vrátit původní "Binkw32.dll" ze složky "Binkw32"
+<br/>
+■ pokud je to možné, tak k překladům zásadně nepřikládám videosoubory = v nejhorším případě z nich CZ audiostopy/titulky extrahuji a to i přesto, že ve hře tyto externí stopy načíst nepůjdou (ve videopřehrávači jde ale načíst cokoli) = unifikovaný videoobsah by mohl zvětšit RAR až o stovky % a přitom by mohl přidat třeba jen 1% překladu. A to by bylo zvráceně neefektivní (+ mám k dispozici pouze 25MB na každý Github repozitář a 15GB GoogleDrive). Opravdu jen ve vyjímečných případech nepřikládám veškeré datové soubory s překladem (zatím asi jenom CoD)
 <br/>
 ■ pokud byla CZ vyzkoušena ve Steam/Epic/Amazon/EA/Ubi/..., tak hry přes ně nespouštím (spouštím je "OFFLINE" PORTABLE/RIP)
 <br/>
 ■ občas uveřejňuji instalátory (sám je zásadně nevytvářím) od jiných autorů (pokud jsou reálně nesehnatelné), musí ale splňovat tyto podmínky - konkurenceschopná velikost, bezpodmínečná instalace (extrahování EXE přes 7-Zip je bonus), podpora Win7, nechuť testování, je to patch
 
-***CZ patch*** (Výhoda - nejjednodušší způsob zprostředkování překladu komplikovanějších/velkých dat a jeho ~přijatelná velikost. Nevýhoda - překlad obsahuje pouze datové rozdíly = je závislý na 100% přesném hash patchovaných dat do posledního jejich bitu) - jednoduchá+automatická práce se soubory (ověřit je a přesunout do "_Backup" --> aktualizovat/zapsat je do původních složek). V Patch.exe nepoužívám automatizace/podmínky/stahování/úpravy registru/mimo vybranou složku = jednotlivé kroky odděluji složkami typu ```_CZ-PART1``` ```_CZ-PART2```, aby uživatel věděl, který krok případně selhal a měl možnost jednoduše použít alespoň část dat + veškeré jejich informace = 98% tvůrců patch instalátorů zná pouze 2 stavy (0/100%), ale já žádná nepřekročitelná omezení nedávám a pokud se uživatel spokojí s výsledkem třeba 41%, tak proč ne (CMD⬇️ patchování) = u mých překladů je tedy možné CZ patch i úplně vynechat (i když to u her většinou neuvádím) a v lepším případě se spokojit pouze s částečným překladem = jsou 4 druhy patchů -
+***CZ patch*** (Výhoda - nejjednodušší způsob zprostředkování překladu komplikovanějších/velkých dat a jeho ~přijatelná velikost. Nevýhoda - překlad obsahuje pouze datové rozdíly = je závislý na 100% přesném hash patchovaných dat do posledního jejich bitu) - jednoduchá+automatická práce se soubory (ověřit je a přesunout do "_Backup" --> aktualizovat/zapsat je do původních složek). V Patch.exe nepoužívám automatizace/podmínky/stahování/úpravy registru/mimo vybranou složku = jednotlivé kroky odděluji složkami typu ```_CZ-PART1``` ```_CZ-PART2```, aby uživatel věděl, který krok případně selhal a měl možnost jednoduše použít alespoň část dat + veškeré jejich informace = 98% tvůrců patch instalátorů zná pouze 2 stavy (0/100%), ale já žádná nepřekročitelná omezení nedávám = u mých překladů je tedy možné CZ patch aplikovat jen částečně a nebo i rovnou vynechat (i když to u her většinou neuvádím) a v lepším případě se spokojit pouze s částečným překladem = jsou 4 druhy patchů -
 <br/>
 ■ zbytečné (kdyby náhodou) - patchnutí je pro funkčnost překladu/hry zbytečné
 <br/>
@@ -55,23 +62,27 @@ I'm not author of translations (most of them come from retail CD/DVD). Nejsem au
 <br/>
 ***Možné chyby při patchování*** -
 <br/>
-■ hash kontrola najde chyby ```PŘED``` úpravou souborů (tato kontrola bohužel nejde vypnout, ale kdyby šla tak by nedošlo k 100% aplikování + pravděpodobně by došlo k poškození dat viz CMD⬇️ patchování a Nevýhoda⬆️) = HW/SW chyba na straně uživatele (problémy se stabilitou/poškozená/patch/mod/chybějící/přístupem omezená cílová data = 100% aplikování může být nemožné)
+■ hash kontrola najde chyby ```PŘED``` úpravou souborů (tato kontrola bohužel nejde vypnout) = HW/SW chyba na straně uživatele (problémy se stabilitou/poškozená/patch/mod/chybějící/přístupem omezená cílová data = 100% aplikování může být nemožné)
 <br/>
 ■ hash kontrola najde chyby ```PO``` úpravě souborů které pak vrací do výchozího stavu (tato kontrola jde vypnout, ale pokud uživatel chce jistotu 100% aplikování, tak je nesmysl to dělat) = ```1``` HW/SW chyba na straně uživatele (problémy se stabilitou/poškozená data, málo paměti/místa, nežádoucí zásahy do procesu ve jménu "ochrany a bezpečí"). ```2``` chyba na straně tvůrce patche (pokud nebyla nastavena hash kontrola VŠECH dat PŘED úpravou = kontrola zdržuje, ale přesto jsem od určitých období opustil jak "žádnou kontrolu", tak "klíčový soubor" = čtení je pro SSD daleko méně škodlivé než potenciálně zbytečné zápisy, a také laikovi jednoznačně odhalí zda je problém PŘED nebo PO) = problémy se stabilitou/poškozená/patch/mod/chybějící/přístupem omezená cílová data = 100% aplikování může být nemožné
+<br/>
+Řešení pro mírně pokročilé - v ```Checker.ini``` (TEMP) je ```MD5``` hash (32 znaků) všech souborů (před/po patchování) 🔸 číslo použité verze HDiffPatch je v (nekomprimovaném) Patch.exe (```hpatchz v```, vyšší hodnota platí) 🔸 CMD⬇️ patchování
 
 ***Opravy které se nestanou*** -
 <br/>
-■ nový patch/remaster znefunkční CZ = chyba vývojáře, nikdo ho k tomu nenutil + překlad fungující byť na jediné verzi není vyloženě špatně (především je to smutné)
-<br/>
-■ chybějící ⚖️ nechtěné soubory = přikládat soubory typu EXE+DLL může být ošemetné (i když jsou třeba někdy originální, tak fungují jako crack), ale lepení různých verzí dat dohromady by bez (nejen) jejich použití mohlo způsobit bugy/crashe/rozbití CZ. Ale jejich použití může zase způsobit problémy s HW/SW/mod kompatibilitou=bugy/crashe, nebo při dovolené instalaci DRM i bluescreen (SYS) = případné DRM uvádím
-<br/>
-■ ne vždy je nutné použít veškerá přiložená data
-<br/>
 ■ v některých případech nemusel být patch jediné řešení (vytváření archivů neberu kvůli nutnosti speciálních nástrojů v potaz)
 <br/>
-■ data umístěná v Patch.exe je špatně
+■ data umístěná v Patch.exe je špatně (pomalejší patchování, opotřebení SSD, nemožnost CMD⬇️ patchování, netransparentnost)
 <br/>
-■ komprimace patch dat jejich nástroji je špatně
+■ interní komprimace patch dat je špatně (pomalejší patchování, větší RAR), data jde komprimovat jenom jednou a i proto je lepší externí (upravitelnější a zpětně nahraditelná)
+<br/>
+■ používat v Patch.exe "CRC32C SUM" hash je špatně (TotalCMD nepodporuje)
+<br/>
+■ nový patch/remaster znefunkční CZ = chyba vývojáře, nikdo ho k tomu nenutil + překlad fungující byť na jediné verzi není vyloženě špatně (především je to smutné)
+<br/>
+■ chybějící ⚖️ nechtěné soubory = přikládat soubory typu EXE+DLL může být ošemetné (i když jsou třeba někdy originální, tak fungují jako crack), ale lepení různých verzí dat dohromady by bez (nejen) jejich použití mohlo způsobit bugy/crashe/rozbití CZ. Ale jejich použití může zase způsobit problémy s HW/SW/mod kompatibilitou=bugy/crashe, nebo při dovolené instalaci DRM i "trvalý" bluescreen (oprava bez sebemenšího následku je u BFU nepravděpodobná - SYS) = případné DRM uvádím
+<br/>
+■ ne vždy je nutné použít veškerá přiložená data
 <br/>
 ■ vždy přikládat SHA3_512 + instalační data + LST
 <br/>
@@ -81,11 +92,11 @@ I'm not author of translations (most of them come from retail CD/DVD). Nejsem au
 <br/>
 ■ dodatečné ~9% datové úspory by se dosáhlo ZPAQ kompresí. Nevýhody - nutnost 2x rozbalit (RAR obal pro opravu dat) + nepodpora v RAR/7-Zip + rozbalování je o řád+ pomalejší
 
-***Datově největší překlady (retail)*** -
+***Největší překlady (retail)*** -
 <br/>
-```Dabing``` - Prince of Persia 2008 ***832MB***, Turok 2008 ***466MB***, Runaway 2001 ***417MB***, Rainbow Six 2006 ***345MB***
+```Dabing``` - Prince of Persia 2008 ***832MB***, Turok 2008 ***466MB***, Runaway 2001 ***417MB***, Rainbow Six 2006 ***345MB*** = 2060MB
 <br/>
-```Text``` - Numen 2009 ***271MB***, eXperience 112 2007 ***253MB***, Overclocked 2007 ***200MB***, Devil May Cry 2008 ***58MB***
+```Text``` - 🎞️ Numen 2009 ***271MB***, 🎞️ eXperience 112 2007 ***253MB***, Overclocked 2007 ***200MB***, Devil May Cry 2008 ***58MB*** = 782MB
 
 ***Kompatibilita*** - stahování z Github+GoogleDrive bylo v roce 2026 vyzkoušeno v FF49 (2016) ```general.useragent.override``` ```Mozilla/5.0 (PlayStation 5 3.03/SmartTV) AppleWebKit/605.1.15 (KHTML, like Gecko)``` 🔸 CMD⬇️ patchování ➡️ ⬅️ (hdiffz-x64.exe), 4.12.0 (2025), 4.4.0 (2022) 🔸 TotalCMD 2020+ 🔸 WinRAR 2013+ 🔸 Win7 2009 (od 2016-10) 🔸 WinXP 2001 32-bit (do 2016-10)
 
@@ -105,21 +116,23 @@ I'm not author of translations (most of them come from retail CD/DVD). Nejsem au
 <br/>
 Fable 2004 - překladatel+technik (2025). Ke smůle nás všech nechal 2014 remaster bez povšimnutí
 
-***[📥 Ultimátní seznamy CZ+SK překladů (35 000+ řádků z 43 serverů⬇️. Velikost 1MB)](https://raw.githubusercontent.com/hornster02/hornster02/main/_cz%2Bsk-seznam.rar)***
+***[📥 Ultimátní seznamy CZ+SK překladů (35 000+ řádků z 43 serverů ⬇️. Velikost 1MB)](https://raw.githubusercontent.com/hornster02/hornster02/main/_cz%2Bsk-seznam.rar)***
 <br/>
 [↗️ Zde je možné stáhnout minulé/současné/budoucí seznamy ("View code at this point" + "Raw") 2024-2025](https://github.com/hornster02/hornster02/commits/main/_cz%2Bsk-seznam.rar). Celá tato stránka je (včetně RARů) zálohovaná a volně dostupná na [web.archive.org](https://web.archive.org/web/20260000000000*/https://github.com/hornster02)
 <br/>
 <img width="960" alt="cz+sk" src="https://github.com/user-attachments/assets/31c8472b-8d21-49a4-bdaf-a24b187d9b10" />
 <br/>
-PCGW🔸GOG🔸Steam🔸abcgames.cz🔸abecedaher.cz🔸bonusweb.cz🔸cdh.cz🔸ceskepreklady.estranky.cz🔸cestiny.net🔸cestinyodzhiliana.webnode.cz🔸dabingforum.cz🔸edownload.cz🔸farflame.cz🔸fenixprodabing.cz🔸folkemonovycestiny.cz🔸games.tiscali.cz🔸gamestar.cz🔸hannes.gameplanet.cz🔸hernipreklady.cz🔸jurgenovycestiny.cz🔸komunitni-preklady.org🔸lokalizace.net🔸lokalizacie.sk🔸madukas.cz🔸mrazikovycestiny.cz🔸necronos.pageride.cz🔸oldgames.sk🔸paranskyraj.cz🔸perlagroup.eu🔸pmx-preklady.webnode.sk🔸porse.cz🔸prekladyher.eu🔸raptor-cestiny.cz🔸rk-translations.cz🔸rpgcitadela.cz🔸sakratym.cz🔸slovenciny.com🔸spykertym.cz🔸squiee.cz🔸sukup.cz🔸war-forum🔸warcenter🔸warforum
+PCGW 🔸 GOG 🔸 Steam 🔸 abcgames.cz 🔸 abecedaher.cz 🔸 bonusweb.cz 🔸 cdh.cz 🔸 ceskepreklady.estranky.cz 🔸 cestiny.net 🔸 cestinyodzhiliana.webnode.cz 🔸 dabingforum.cz 🔸 edownload.cz 🔸 farflame.cz 🔸 fenixprodabing.cz 🔸 folkemonovycestiny.cz 🔸 games.tiscali.cz 🔸 gamestar.cz 🔸 hannes.gameplanet.cz 🔸 hernipreklady.cz 🔸 jurgenovycestiny.cz 🔸 komunitni-preklady.org 🔸 lokalizace.net 🔸 lokalizacie.sk 🔸 madukas.cz 🔸 mrazikovycestiny.cz 🔸 necronos.pageride.cz 🔸 oldgames.sk 🔸 paranskyraj.cz 🔸 perlagroup.eu 🔸 pmx-preklady.webnode.sk 🔸 porse.cz 🔸 prekladyher.eu 🔸 raptor-cestiny.cz 🔸 rk-translations.cz 🔸 rpgcitadela.cz 🔸 sakratym.cz 🔸 slovenciny.com 🔸 spykertym.cz 🔸 squiee.cz 🔸 sukup.cz 🔸 war-forum 🔸 warcenter 🔸 warforum
 
-***[🟦 Inno Setup XDELTA Patch Maker (ISXPM)](https://jrsoftware.org/is3rdparty.php)*** - pokud jsou lokalizační data chráněna a součástí větších souborů a potřebné nástroje nejsou k dispozici, případně pokud hra "neumí" načíst externí rozbalená data, tak poslední způsob jak zprostředkovat překlad je vytvořit rozdílový patch. Pokud překlad vyžaduje i svoje konkrétní DLL/EXE/..., tak je dobré je z EN verze dočasně odebrat (tím dojde ke zkopírování CZ souborů do cíle bez ohledu na jejich verzi = výsledný patch může být kompatibilní i s jinými verzemi typu GOG/MYABANDONWARE/...) = tyto soubory mají běžně velikost pár desítek MB a jdou dobře komprimovat, takže patch způsob by přinesl úsporu pouze v rámci jednotek MB, ale pokud by se v cílové verzi v budoucnu změnilo jediné písmeno (je to daleko pravděpodobnější než změna v datových souborech), tak 100% aplikování nebude možné (podle nastavení patch aplikování buď odmítne, nebo skončí chybou a vrátí soubory zpět, nebo dojde bez vyjímky k poškození dat viz CMD⬇️ patchování). Pokud hra obsahuje stejné typy souborů lišící se v názvu/umístění, tak pokud se tyto věci sjednotí, tak bude patch menší (nebudou se kopírovat, ale patchovat). Některé hry/patche mohou data upravovat i lokálně kdy každé zpracování vytvoří jiná data = patchování nestálých dat není možné. Data je dobré kontrolovat (porovnáním/hash) na případné nežádoucí změny=poškození (2 nezávislé instalace stejné verze hry, dodatečné úpravy, aplikování patche). Spuštěný ISXPM vypadá strašně složitě, ale ve skutečnosti může patch vytvořit i naprostý laik (drobná komplikace může být nutnost aktivovat CZ přes klíč v registru nebo souborem mimo herní složku) který si vystačí klidně i jen s řádky "Old version" a "Final version". 🔒I nechráněný patch může také být nestandardní a neprolomitelnou formou "šifrování" šifrovaných dat = pokud se oba typy souborů ručně poškodí, záhlaví/zápatí, nedohledatelná hash a názvy souborů, tak hledat potenciálně podezřelé soubory a zjistit které k sobě pasují a jak je upravit aby bylo možné 100% aplikování nebude žádná sranda ani pro ty nejvykvantovanější AI PC 4-tého milénia.
+***[🟦 Inno Setup XDELTA Patch Maker (ISXPM)](https://jrsoftware.org/is3rdparty.php)*** - pokud jsou lokalizační data chráněna a součástí větších souborů a potřebné nástroje nejsou k dispozici, případně pokud hra "neumí" načíst externí rozbalená data, tak poslední způsob jak zprostředkovat překlad je vytvořit rozdílový patch. Pokud překlad vyžaduje i svoje konkrétní DLL/EXE/..., tak je dobré je z EN verze dočasně odebrat (tím dojde ke zkopírování CZ souborů do cíle bez ohledu na jejich verzi = výsledný patch může být kompatibilní i s jinými verzemi typu GOG/MYABANDONWARE/...) = tyto soubory mají běžně velikost pár desítek MB a jdou dobře komprimovat, takže patch způsob by přinesl úsporu pouze v rámci jednotek MB, ale pokud by se v cílové verzi v budoucnu změnilo jediné písmeno (je to daleko pravděpodobnější než změna v datových souborech), tak 100% aplikování nebude možné (podle nastavení patch aplikování buď odmítne, nebo skončí chybou a vrátí soubory zpět, nebo dojde bez vyjímky k poškození dat viz CMD⬇️ patchování). Pokud hra obsahuje stejné typy souborů lišící se v názvu/umístění, tak pokud se tyto věci sjednotí, tak bude patch menší (nebudou se kopírovat, ale patchovat). Některé hry/patche mohou data upravovat i lokálně kdy každé zpracování vytvoří jiná data = patchování nestálých (nebo šifrovaných) dat není možné. Data je dobré kontrolovat (porovnáním/hash) na případné nežádoucí změny=poškození (2 nezávislé instalace stejné verze hry, dodatečné úpravy, aplikování patche). Spuštěný ISXPM vypadá strašně složitě, ale ve skutečnosti může patch vytvořit i naprostý laik (drobná komplikace může být nutnost aktivovat CZ přes klíč v registru nebo souborem mimo herní složku) který si vystačí klidně i jen s řádky "Old version" a "Final version". 🔒I nechráněný patch může také být nestandardní a neprolomitelnou formou "šifrování" šifrovaných dat = pokud se oba typy souborů ručně poškodí, záhlaví/zápatí, nedohledatelná hash a názvy souborů, tak hledat potenciálně podezřelé soubory a zjistit které k sobě pasují a jak je upravit aby bylo možné 100% aplikování nebude žádná sranda ani pro ty nejvykvantovanější AI PC 4-tého milénia.
 <br/>
-***[📥 Přednastavený konfigurační soubor + CZ překlad těch nejhlavnějších textů - Velikost 1MB](https://raw.githubusercontent.com/hornster02/hornster02/main/_ISXPM-2.6.4.3-CONFIG-2024-03.rar)*** (načíst "_config.ini" přes "LOAD PROJECT" + upravit cesty k "_cz.ini" a "_info.txt" + upravit v nich texty = diakritika/kódování byly vyzkoušeny v EN+CZ Win. Pro zjištění změn v INI je možné soubory porovnat podle obsahu + odstraněním "settings.ini" se ISXPM vrátí do výchozího nastavení) zaměřený na ještě menší velikost patche (rozdíl je až v desítkách %). Využití RAM paměti bude běžně mezi 10-20GB (1GB soubor na obou stranách = ~6GB RAM) - proces se může zrychlit zvýšením "Generating cores" v sekci "Build and Log Options" (počet zpracovávaných souborů v jeden okamžik - např. 8x5GB soubor na obou stranách = ~240GB RAM). Komprese (2 druhy) je vyřešena nešťastně - "Compression" v sekci "Patch Options" (komprimuje ne-patch "ne-XDELTA" soubory jako celek s omezenými možnostmi nastavení = výsledná komprese může být nedostatečná) a "Built-in Presets" v sekci "Patch-Data Generator" (komprimuje patch "XDELTA" soubor po souboru s možnostmi nastavení = komprese jednotlivých souborů odděleně snižuje efektivitu komprese) + případně "Custom HDiffPatch parameters" (zapnutý může za ty obrovské nároky na RAM). V konfiguračním souboru jsou všechny komprese vypnuté = data jde komprimovat jenom jednou a nejvyšší efektivity se dosáhne zabalením všeho najednou přes 7-Zip (až ```3 komprese``` ne-patch data+patch data+7z nahraný na internet ```+``` případné umístění všech dat do Patch.exe, které se po spuštění musí extrahovat do TEMP = další důsledky toho všeho je "až" násobné zpomalení patch procesu, zvlášť při spuštěných antiVIRUS programech, a více zápisů na SSD než je nutné, navíc pro "reverzní inženýrství" je co nejméně dodatečných úprav a co nejvíce otevřenosti přínosem /// pokud není Patch.exe komprimovaný - první uvedená komprese výše - , tak se v něm dá snadno zjistit použitá verze HDiffPatch - ```hpatchz v``` vyšší hodnota platí /// hdiffz-x64.exe 4.12.0-2025+ určený pro tvorbu/aplikování už ve Win7 "nefunguje", ale hpatchz-x64.exe určený pro aplikování a obsažený i v Patch.exe funguje) a díky tomu je možné v budoucnu patch pouze přebalit a dosáhnout vyšší komprese bez jeho znovuvytváření. Je možné neaktualizovat samotný ISXPM (když nebudu počítat zbytečnou kompresi, tak nemá na velikost patche vliv) a podle potřeby aktualizovat pouze "Patch Engine" (těch je na výběr několik, ale HDiffPatch má snad bez vyjímky nejlepší výsledky). BAT automatizace před/při/po aplikování patche (při spuštění Patch.exe se extrahují ```On*Code.bat```)
+***[📥 Přednastavený konfigurační soubor + CZ překlad těch nejhlavnějších textů - Velikost 1MB](https://raw.githubusercontent.com/hornster02/hornster02/main/_ISXPM-2.6.4.3-CONFIG-2024-03.rar)*** (načíst "_config.ini" přes "LOAD PROJECT" + upravit cesty k "_cz.ini" a "_info.txt" + upravit v nich texty = diakritika/kódování byly vyzkoušeny v EN+CZ Win. Pro zjištění změn v INI je možné soubory porovnat podle obsahu + odstraněním "settings.ini" se ISXPM vrátí do výchozího nastavení) zaměřený na ještě menší velikost patche (rozdíl je až v desítkách %). Využití RAM paměti bude běžně mezi 10-20GB (1GB soubor na obou stranách = ~6GB RAM) - proces se může zrychlit zvýšením "Generating cores" v sekci "Build and Log Options" (počet zpracovávaných souborů v jeden okamžik - např. 8x5GB soubor na obou stranách = ~240GB RAM), především "Custom HDiffPatch parameters" může za vysokou spotřebu RAM. hdiffz-x64.exe 4.12.0-2025+ určený pro tvorbu/aplikování už ve Win7 "nefunguje", ale hpatchz-x64.exe určený pro aplikování a obsažený i v Patch.exe funguje. Je možné neaktualizovat samotný ISXPM (nemá na velikost patche vliv) a podle potřeby aktualizovat pouze "Patch Engine" (těch je na výběr několik, ale HDiffPatch má snad bez vyjímky nejlepší výsledky). BAT automatizace před/při/po aplikování patche (po spuštění Patch.exe se do TEMP extrahují ```On*Code.bat```)
 <br/>
 ```Jak docílit?``` -
 <br/>
-■ přidat do Patch.exe tlačítko na ignorování veškerých kontrol = jakýkoli % výsledek akceptovat jako "Hotovo s výstrahou"
+■ přidat do Patch.exe tlačítko na ignorování veškerých kontrol = jakýkoli % výsledek akceptovat jako "Hotovo s výstrahou" + vytvořit externí standardizovaný hash chybných souborů (pro jejich snadné nalezení u jiných zdrojů)
+<br/>
+■ (3) externí standardizované hash soubory mimo Checker.ini
 <br/>
 ■ přidat do Patch.exe tlačítko "O" s informacemi použitých komponent
 <br/>
@@ -177,7 +190,7 @@ V roce 2026 byl CZ Manager nahrazen revolučním ```CZManager Agent``` (zřejmě
 <br/>
 ```Jak docílit?``` -
 <br/>
--fake widescreen = deformovat interní 4:3 poměr a při vykreslení ho natáhnout do widescreen monitoru do původních 4:3 proporcí
+■ fake widescreen = deformovat interní 4:3 poměr a při vykreslení ho natáhnout do widescreen monitoru do původních 4:3 proporcí
 
 ***🟦 ISO Directory v0.5*** (Michel) - vytvoření mini-image CD/DVD (velikost pár kB) - pokud pro CZ verzi hry neexistuje crack a ta trvá na vloženém médiu v mechanice
 
@@ -209,15 +222,19 @@ V roce 2026 byl CZ Manager nahrazen revolučním ```CZManager Agent``` (zřejmě
 <br/>
 ```Jak docílit?``` -
 <br/>
--skrýt ve vyhledávání recenzované/hrané produkty
+■ skrýt ve vyhledávání recenzované/hrané produkty
 <br/>
--filtrovat/řadit produkty podle velikosti, skutečného roku vydání, DRM/účtů třetích stran
+■ filtrovat/řadit produkty podle velikosti, skutečného roku vydání, DRM/účtů třetích stran
+<br/>
+■ schválení úprav profilu trvá dny/týdny/měsíce a do té doby jsou části profilu skryté veřejnosti (OK). Dochází i ke skrytí částí profilu které nebyly upravené (neOK). Pokud byly problémové části profilu schváleny v minulosti, tak jejich neupravení vyžaduje nové schválení (neOK) = ve Valve chybí (automatické) porovnání obsahu s předchozí úpravou a jenom samotné kliknutí na tlačítko "Uložit" vyžaduje další schválení (zřejmě ruční, když trvá až měsíce)
+<br/>
+■ zaseknutý komentář (skrytý obsah, nejde upravit/smazat) na profilu (který zřejmě čeká na ruční schválení které se asi nikdy nestane) = automatický ban veškerých nových komentářů (skrytý obsah, nejde upravit/smazat, případné schválení trvá měsíce) pod jakýmkoli profilem
 
 ***GOG*** -
 <br/>
--vypnout aktualizace klienta = parametr ```/runWithoutUpdating```
+■ vypnout aktualizace klienta = parametr ```/runWithoutUpdating```
 <br/>
--zakázat ukládání log/crash a stahování obrázků = ```GOG.com\Galaxy\logs``` ```...\crashdumps``` ```...\webcache\XXX\gog``` (omezit přístup)
+■ zakázat ukládání log/crash a stahování obrázků = ```GOG.com\Galaxy\logs``` ```...\crashdumps``` ```...\webcache\XXX\gog``` (omezit přístup)
 
 ## Security CZ
 
@@ -227,29 +244,29 @@ Sjednocení datumů a vytvoření ```SHA3_512``` pro všechny EXE+DLL+SYS (oddě
 
 Skrytí EXE souborů - odstranit ikony, digitální podpisy, metadata + ruční HEX úpravy = může se zkomplikovat jejich identifikace (jako běžící proces / uložený EXE na SSD)
 
-Emoji (mají různý počet znaků) + různá písma + náhodné? HEX / části kódu dat zkopírovaných třeba přes Notepad++/Lister (na kódování záleží) zvyšují bezpečnost hesel ```🔒Йξᙲ🇨🇿;ĹdŃ¨^‡(ď¦<)HŤ0👍``` (toto je 30 znaků v UTF-8 a nebo 50 v ANSI, v FF jich jde označit 25, např. WinRAR/7-Zip umožňují toto heslo vytvořit/vložit). Další příklad znaků - "velká mezera" ```⠀``` (HEX - E2 A0 80, 1 znak), "custom mezera" s přilepeným a při běžném psaní/vyhledávání v FF neviditelným znakem ``` ️``` (HEX - 20 EF B8 8F, znak č.1 - "klasická mezera" + znak č.2 - neviditelný = je možné ho samotný vykopírovat i z MD souboru přes Notepad++), "klasická mezera" ``` ``` (HEX - 20, 1 znak)
+Emoji (mají různý počet znaků) + různá písma + náhodné? HEX / části kódu dat zkopírovaných třeba přes Notepad++/Lister (na kódování záleží) zvyšují bezpečnost hesel ```🔒Йξᙲ🇨🇿;ĹdŃ¨^‡(ď¦<)HŤ0👍``` (např. WinRAR/7-Zip umožňují toto heslo vytvořit/vložit). Další příklad znaků - "velká mezera" ```⠀``` (HEX - E2 A0 80, 1 znak), "custom mezera" s přilepeným a při běžném psaní/vyhledávání v FF neviditelným znakem ``` ️``` (HEX - 20 EF B8 8F, znak č.1 - "klasická mezera" + znak č.2 - neviditelný), "klasická mezera" ``` ``` (HEX - 20, 1 znak). Archivování/šifrování přes několik různých formátů a ramdisk také zvyšují bezpečnost
 
 ```🚫update``` ***EXE Radar Pro v3 (Beta)*** (omezit přístup) - při spuštění spustitelného souboru (EXE/COM/SCR) se zobrazí okno s dotazem zda ho spustit nebo ukončit (uživatelem definovaný Command-Line/whitelist/blacklist probíhá automaticky v pozadí systému). Hash ověření. Doporučuji odstranit výchozí vyjímky. Program č.1 pro ochranu systému (např. pro blokaci automatických instalací zbytečných/nebezpečných/skrytých SW přiložených k hlavnímu produktu = malware/bloatware/...). Lehce obejitelné (ukončit EXE)
 <br/>
 ```Jak docílit?``` -
 <br/>
--blokace DLL+SYS
+■ blokace DLL+SYS
 <br/>
--blacklist command-line, block until reboot, blacklist/whitelist (Process Path, Parent Process)
+■ blacklist command-line, block until reboot, blacklist/whitelist (Process Path, Parent Process)
 
 🚫***Easy File Locker*** (XOSLAB.COM, 2016) - zakázat přístup/číst/zapsat/smazat/skrýt soubory/složky (výběr z) + možnost přidat procesy s neomezeným přístupem. Zamknutí funguje jen když je spuštěný SYS ovladač (lehce obejitelné = dá se zapínat/vypínat přes zástupce/klávesové zkratky bez nutnosti spouštět EFL - NirCmd)
 <br/>
 ```Jak docílit?``` -
 <br/>
--možnost nechránit podsložky
+■ možnost nechránit podsložky
 <br/>
--součástí "zakázat smazat složku" je bohužel také "zakázat přejmenovat její obsah"
+■ součástí "zakázat smazat složku" je bohužel také "zakázat přejmenovat její obsah"
 <br/>
--"skrýt složku" bohužel funguje také jako "zakázat přístup k jejímu obsahu". Mělo by být - pokud uživatel/app/sys zná cestu, tak bez omezení umožnit přístup do složky
+■ "skrýt složku" bohužel funguje také jako "zakázat přístup k jejímu obsahu". Mělo by být - pokud uživatel/app/sys zná cestu, tak bez omezení umožnit přístup do složky
 <br/>
--příklad - Část1 (nefunguje, EXE nejde spustit?) - zakázat všem procesům přístup do složky Firefox (kromě FF+TotalCMD). Část2 (funguje) - zakázat všem procesům přístup do složky FF profilu v ramdisku (kromě FF+TotalCMD+WinRAR) = pouze oni budou mít přístup a bude jim dovoleno vytvořit složku FF profilu s jeho obsahem (šifrovaný RAR)
+■ příklad - Část1 (nefunguje, EXE nejde spustit?) - zakázat všem procesům přístup do složky Firefox (kromě FF+TotalCMD). Část2 (funguje) - zakázat všem procesům přístup do složky FF profilu v ramdisku (kromě FF+TotalCMD+WinRAR) = pouze oni budou mít přístup a bude jim dovoleno vytvořit složku FF profilu s jeho obsahem (šifrovaný RAR)
 <br/>
-```Chyby``` - neošetřené NTFS linky mohou ochranu obejít + nemusí fungovat u některých ramdisků (ImDisk Toolkit, Primo Ramdisk) + u AIM Toolkit ramdisku funguje, ale ⚠️WizTree ochranu částečně obejde (bez přístupu, ale odhalí data) + pokus o omezení přístupu procesy otevřených dat může způsobit bluescreen - nejdříve tedy procesy ukončit, SYS ovladač se spouští jako System 1 (Boot 0, Auto 2)
+```Chyby``` - neošetřené NTFS linky mohou ochranu obejít + nemusí fungovat u některých ramdisků (ImDisk Toolkit, Primo Ramdisk) + u AIM Toolkit ramdisku funguje, ale ⚠️WizTree ochranu částečně obejde (bez přístupu, ale odhalí data) + pokus o omezení přístupu procesy otevřených dat může způsobit "freeze" - nejdříve tedy procesy ukončit, SYS ovladač se spouští jako System 1 (Boot 0, Auto 2)
 
 🚫***🟦 EaseFilter*** - různá omezení přístupu neschválených procesů do vybraných složek/souborů/registru + sandbox složky. 🚫***🟦 File System Protector*** - ⚠️WizTree ochranu obejde + všechny verze děsivě neoptimalizované (vysoké nároky na CPU při běžné práci s daty, problém je v SYS). Do ```Exclusions.DB``` se (bohužel) nevkládají cesty
 
@@ -367,7 +384,7 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***🟦 NirCmd+🟦 DevManView*** - změna rozlišení+barevné hloubky+frekvence - ```c:\nircmdc.exe setdisplay 2560 1080 32 75```. Zakázání/manuální start služby 4 - ```"c:\nircmdc.exe service disabled 4"``` / ```"c:\nircmdc.exe service manual 4"```. Zapnutí/vypnutí zařízení 4 - ```C:\DevManView.exe /enable "4"``` / ```C:\DevManView.exe /disable "4"```... Ovládání i přes klávesové zkratky/zástupce
 
-***🟦 Mem Reduct*** - uvolnění RAM paměti bez ukončení procesů klávesovou zkratkou nebo klikem na tray ikonu. Může ale docházet k většímu zápisu do stránkovacího souboru = opotřebení SSD
+***🟦 Mem Reduct*** - uvolnění RAM paměti bez ukončení procesů klávesovou zkratkou nebo klikem na tray ikonu. Může ale docházet k většímu zápisu do pagefile.sys = opotřebení SSD
 
 ***🟦 Hard Disk Sentinel*** - monitoring disků+historie, SMART testy, regulace hlučnosti (AAM), tray ikony (zdraví), možnost zakázání vypínání HDD při nečinnosti (aut. přístupem nebo APM) = nejen pokud jsou HDD u konce životnosti, tak zapnuté úsporné funkce problémy jen zhoršují
 
@@ -387,15 +404,15 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***🟦 AIDA64, (🟦 HWiNFO, 🟦 CPU-Z)*** - podrobné informace o HW/SW
 
-***🟦 Driver Booster Free*** - aktualizace ovladačů. Stažené archivy jsou vysoce komprimované a zbavené obvyklých zbytečných instalátorů z internetu čímž se udrží systém relativně čistý
+***🟦 Driver Booster Free*** - aktualizace ovladačů. Stažené archivy jsou vysoce komprimované a zbavené obvyklých zbytečných instalátorů z internetu (často i samotní výrobci přidávají tuny bloatware) čímž se udrží systém relativně čistý
 <br/>
 ```Jak docílit?``` -
 <br/>
--instalace ovladačů (sken) nefunguje offline
+■ instalace ovladačů (sken) nefunguje offline
 <br/>
--stažené archivy nejsou ve složce pojmenované/oddělené/verzemi/systémů
+■ stažené archivy nejsou ve složce pojmenované/oddělené/verzemi/systémů
 <br/>
--pro instalaci není možné upřednostnit starší ovladač na úložišti, není poznat zda je/bude ovladač stahován
+■ pro instalaci není možné upřednostnit starší ovladač na úložišti, není poznat zda je/bude ovladač stahován
 
 ***🟦 System Explorer*** - náhrada "Správce úloh" - možnost uložit prioritu/afinitu aplikací pro jejich automatické nastavení při dalším spuštění. ***🟦 Process Hacker***
 
@@ -421,7 +438,7 @@ Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkr
 <br/>
 ```Jak docílit?``` -
 <br/>
--upravitelné % prázdnosti souboru
+■ upravitelné % prázdnosti souboru
 
 ***🟦 WinRAR*** - archivace dat. ```Výhody oproti 7-Zip``` -
 <br/>
@@ -470,35 +487,39 @@ Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkr
 ```pluginbasedir=%COMMANDER_PATH%\plugins```
 ```AlwaysCopyInBackground=1```
 <br/>
-S doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce komprimovat - LST soubor se prochází jako archiv a dá se v něm vyhledávat)
+■ s doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce komprimovat - LST soubor se prochází jako archiv a dá se v něm vyhledávat)
 <br/>
--hromadné přejmenování - odstranění znaků (počet) od začátku ```[N2-]``` od konce ```[N1--2]```
+■ hromadné přejmenování - odstranění znaků (počet) od začátku ```[N2-]``` od konce ```[N1--2]```
 <br/>
--hromadné odstranění diakritiky (najít/nahradit)
+■ hromadné odstranění diakritiky (najít/nahradit)
 <br/>
 ```á|č|ď|é|ě|í|ň|ó|ř|š|ť|ú|ů|ý|ž|Á|Č|Ď|É|Ě|Í|Ň|Ó|Ř|Š|Ť|Ú|Ů|Ý|Ž```
 <br/>
 ```a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z```
 <br/>
--najít CSS soubor který má někde v názvu 4 - ```*4*.css```
+■ najít CSS soubor který má někde v názvu 4 - ```*4*.css```
 <br/>
--najít přípony abc a ignorovat první nalezené složky 12 (nepíšou se cesty a proto to prakticky nefunguje) - ```*.a *.b *.c |1\ |2\```
+■ najít přípony abc a ignorovat první nalezené složky 12 (nepíšou se cesty a proto to prakticky nefunguje) - ```*.a *.b *.c |1\ |2\```
 <br/>
--hromadně zkopírovat soubory do různých složek - vyhledat+označit složky (panel1), vyhledat+označit soubory (panel2) a ty přetáhnout do panel1 (+ "Možnosti" + "Kopírovat do všech vybraných složek nebo odkazů v cílovém panelu")
+■ hromadně zkopírovat soubory do různých složek - vyhledat+označit složky (panel1), vyhledat+označit soubory (panel2) a ty přetáhnout do panel1 (+ "Možnosti" + "Kopírovat do všech vybraných složek nebo odkazů v cílovém panelu")
 <br/>
 ```Jak docílit?``` -
 <br/>
--(hex)editace v "porovnání obsahu" bez omezení
+■ (hex)editace v "porovnání obsahu" bez omezení
 <br/>
--kopírovat NTFS linky (soubory) jako linky a ne jako soubory
+■ kopírovat NTFS linky (soubory) jako linky a ne jako soubory
 
-***🟦 Notepad++*** - hromadné odstranění řádků obsahující prázdné/žádné znaky/duplikáty, výběr bloku textu ```ALT+LButton```, výběr souboru seznam ```RButton+Wheel```, ...
+***🟦 Notepad++*** - hromadné odstranění řádků obsahující prázdné/žádné znaky/duplikáty, řazení řádků, výběr bloku textu ```ALT+LButton```, výběr souboru seznam ```RButton+Wheel```, ...
 <br/>
 Regulární výrazy (může se hodit především "Na konci znovu od začátku") -
 <br/>
 ■ odstranit všechny znaky na řádcích pokud jich je 4 a méně ```^.{0,4}$```
 <br/>
+■ odstranit všechny znaky na řádcích pokud jich je 4 a více ```^.{4,}```
+<br/>
 ■ odstranit první 4 znaky na řádcích ```^.{4}(.*)$``` ```$1```
+<br/>
+■ odstranit poslední 4 znaky na řádcích ```.{4}$```
 <br/>
 ■ odstranit 4 a 4 a vše mezi tím ```4.*?4```
 <br/>
@@ -512,6 +533,8 @@ Regulární výrazy (může se hodit především "Na konci znovu od začátku")
 <br/>
 ■ odstranit měsíce+dny ve formátu "January 4, 4444" ```(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+``` = výsledek je "4444" (pro předejití nechtěným+... ⬆️)
 <br/>
+■ odstranit všechna čísla ```[0-9]+```
+<br/>
 ■ najít 4 a vložit prázdný řádek ```(?-s)4.*``` ```$0\r\n```
 <br/>
 ■ vložit 4 na prázdný řádek ```^$``` ```4```
@@ -522,9 +545,17 @@ Regulární výrazy (může se hodit především "Na konci znovu od začátku")
 <br/>
 ■ najít stejné řádky ```^((?-s).+?)\R(?=(?s).*?^\1(?:\R|\z))```
 <br/>
+■ najít 4 který je na řádku prvním znakem v pořadí ```^.{0}4```
+<br/>
+■ najít 4 který je na řádku třetím až devátým znakem v pořadí ```^.{2,9}4```
+<br/>
 ■ sloučit řádky do jednoho ```\s*(.+)\s+``` ```$1```
 <br/>
 ■ za každou nalezenou 4 stisknout Enter (rozdělit do řádků) ```(?-s)4``` ```$0\r\n```
+<br/>
+■ opravit CZ diakritiku (PaddleOCR 2025) ```(ü)|(û)|(ñ)|(t')|(ù)|(ë)``` ```(?1ů)(?2ů)(?3ň)(?4ť)(?5ů)(?6ě)```
+<br/>
+■ odstranit CZ diakritiku ```(á)|(č)|(ď)|(é)|(ě)|(í)|(ň)|(ó)|(ř)|(š)|(ť)|(ú)|(ů)|(ý)|(ž)|(Á)|(Č)|(Ď)|(É)|(Ě)|(Í)|(Ň)|(Ó)|(Ř)|(Š)|(Ť)|(Ú)|(Ů)|(Ý)|(Ž)``` ```(?1a)(?2c)(?3d)(?4e)(?5e)(?6i)(?7n)(?8o)(?9r)(?10s)(?11t)(?12u)(?13u)(?14y)(?15z)(?16A)(?17C)(?18D)(?19E)(?20E)(?21I)(?22N)(?23O)(?24R)(?25S)(?26T)(?27U)(?28U)(?29Y)(?30Z)```
 <br/>
 Rozšířené vyhledávání -
 <br/>
@@ -534,17 +565,17 @@ Rozšířené vyhledávání -
 <br/>
 ```Jak docílit?``` -
 <br/>
--okamžité změny (funkce) kurzoru z "select" na "text select"?
+■ okamžité změny (funkce) kurzoru z "select" na "text select"?
 
 ***🟦 T-Clock*** - pokročilá náhrada tray hodin se spoustou funkcí
 
 ***🟦 PortableApps.com*** -
 <br/>
--vypnout logo - ```Data\soffice.ini``` Logo=0
+■ vypnout logo - ```Data\soffice.ini``` Logo=0
 <br/>
--spustit minimalizovaně do tray bez (G)UI - ```Run, c:\uTorrentPortable.exe,,hide``` (AHK) + ```App\AppInfo\Launcher\uTorrentPortable.ini``` (```[Launch]``` ```ProgramExecutable=uTorrent\uTorrent.exe``` ```CommandLineArguments=/MINIMIZED```)
+■ spustit minimalizovaně do tray bez (G)UI - ```Run, c:\uTorrentPortable.exe,,hide``` (AHK) + ```App\AppInfo\Launcher\uTorrentPortable.ini``` (```[Launch]``` ```ProgramExecutable=uTorrent\uTorrent.exe``` ```CommandLineArguments=/MINIMIZED```)
 <br/>
--*Portable.exe nemusí být nutně v pozadí systému spuštěný
+■ *Portable.exe nemusí být nutně v pozadí systému spuštěný
 
 ***🟦 HEXelon Max 6*** - kalkulačka se 3-mi "panely"
 
@@ -562,10 +593,6 @@ Rozšířené vyhledávání -
 
 ***🟦 WinSetView*** - globální úpravy Průzkumníku💩 - může snížit spotřebu RAM o desítky MB (explorer.exe)
 
-***🟦 Subtitle Edit*** - úprava titulků
-
-***🟦 Video-subtitle-extractor (VSE)*** - OCR metoda automatického vytvoření titulků
-
 ***🟦 Error Lookup*** - informace o Win chybách (HEX kódy)
 
 ***🟦 FastStone Capture*** - nahrávání obrazovky (Screen Recorder - FSRecorder.exe) = WMV, možnost oblasti výběru+zvětšení, 1-30FPS, zvuk, mikrofon, webová kamera, kurzor+zvýraznění+zvuk kliku
@@ -574,13 +601,21 @@ Rozšířené vyhledávání -
 
 ***🟦 uTorrent*** - předpoklad dlouhého fungování [```1 torrentu```](https://sktorrent.eu/torrent/details.php?id=3adcdc3e45bd26ce481a6a03bb9875c50eaeffd9) se zvýší, pokud obsahuje pouze 1 archiv (RAR/ISO/MKV/...) a nic navíc. Torrent se dá přirovnat k RARu rozděleném na několik částí (většinou 16kb až 16MB). Zbytné soubory (části torrentu) se mohou časem u uživatelů poztrácet čímž zanikne jejich status "seeder" (100%). [```Příklad 99,8% (99,9% ISO) torrentu```](https://sktorrent.eu/torrent/details.php?id=ac3580f12b3fcfea20e1f119f95a0aa53187d0cf) (rozdělen po 8MB částech) - roky chybějící 2 obrázky o velikosti 5MB (stažených 766 částí z 767) = z 61% prázdný 5MB soubor ```Manual_pol.pdf``` (matematicky zřejmě jediný a čirou náhodou pro instalaci/užívání nedůležitý). Nepřidávat ručně tracker, při nahrání na server bude automaticky vytvořen. Problémy se stahováním -
 <br/>
--"passiv" uživatel (těch je drtivá většina) "nemůže" stahovat data od "passiv" uživatelů [```(někdo by musel být "aktiv")```](https://sktorrent.eu/torrent/forum.php?action=viewtopic&topicid=37) (otevřený port, UPnP, veřejná IP, Port Forwarding)
+■ "passiv" uživatel (těch je drtivá většina) "nemůže" stahovat data od "passiv" uživatelů [```(někdo by musel být "aktiv")```](https://sktorrent.eu/torrent/forum.php?action=viewtopic&topicid=37) (otevřený port, UPnP, veřejná IP, Port Forwarding)
 <br/>
--zapnutý/vypnutý "Protocol Encryption" může vyřešit nepřipojení k seedům/peerům
+■ zapnutý/vypnutý "Protocol Encryption" může vyřešit nepřipojení k seedům/peerům
+
+***HardSub to SRT*** - ```1``` ***🟦 VideoSubFinder*** (automatické rozkouskování videa s titulky včetně časování do JPG - pokud některé JPG vynechává, tak "moderate_threshold = 0.6" + ručně? odstranit nadbytečná JPG) ```2``` ***🟦 Subtitle Edit*** (File/Import/Images) + ***🟦 PaddleOCR*** + ***🟦 LibreOffice CZ Dictionary*** + vlastní slovník pro automatické nahrazení chybných OCR slov (hlavně kvůli CZ diakritice - kvůli nízké pravděpodobnosti výskytu zřejmě nemá smysl nahrazovat spojená slova např. "OCRco" "OCR co" /// kvůli gramatickým chybám či různým významům zřejmě nemá smysl nahrazovat slova např. "pas" "pás" /// po úpravě vlastního slovníku spustit OCR znovu) - "Unknown words" + "Add pair to OCR replace list". [📥 "ces_OCRFixReplaceList_User.xml", Size 1MB, 2026-05](https://raw.githubusercontent.com/hornster02/hornster02/main/Subtitle_Edit-Custom_OCR_Replace-CZ.rar)
+<br/>
+```Jak docílit?``` -
+<br/>
+■ přidat "Unknown characters" (+ "Add pair to OCR replace list"), který by byl nadřazený "Unknown words" (pro přehlednější+rychlejší ruční korekturu nejdříve nahradit písmena a až poté slova)
 
 ***cmd.exe / BAT - práce se soubory***
 <br/>
 ```Robocopy.exe "c:\1" "e:\1" /E /PURGE /w:0 /r:0 /MOT:10``` - automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:\1``` je záloha. Pokud dojde ve zdrojové složce k vytvoření/změně souboru/složky, tak se nakopíruje do zálohy. Pokud dojde ve zdrojové složce ke smazání souboru/složky, tak se smaže ze zálohy. "MOT:10" je 10 minut čekání a poté následuje synchronizace. Jedná se o synchronizaci (porovnání) a ne "smazat celou zálohu/nakopírovat celý zdroj", takže mimo jiné nesnižuje životnost SSD zbytečnými zápisy. Nevýhoda je, že nedochází k porovnání souborů podle obsahu, ale pouze pomocí atributů+velikostí (rychlé/nenáročné). Je možné zavřít okno konzole ukončením procesu "conhost.exe" a nechat zapnutý pouze "ROBOCOPY.exe" (automatická synchronizace v pozadí systému). Užitečné v kombinaci s NTFS linky pro automatické zálohování SAVEGAME.
+<br/>
+```robocopy "c:\4" "e:\1" /e /create``` - zkopírovat obsah složky ```4``` do ```1``` (nekopírovat soubory, ale vytvořit je prázdné o velikosti 0)
 <br/>
 ```rd /s /q "4"``` ***/*** ```del /f /q "1"``` - bez keců odstranit složku 4 (pouze zde je ignorován ***hidden*** atribut který jinak slouží k lehkému zvýšení bezpečnosti dat) ***/*** bez keců odstranit soubor 1
 <br/>
@@ -600,7 +635,7 @@ Rozšířené vyhledávání -
 <br/>
 ```icacls "a:\4" /setowner "NT SERVICE\TrustedInstaller" /t /c /l``` - změnit vlastníka složky "4" (a veškerého obsahu) na "TrustedInstaller". Takto zadaný příkaz nefunguje, pokud je u dat odepřený přístup nebo read-only (NTFS). MS má tento nástroj zřejmě zabugovaný a i když obsahuje /l (nešířit se u toho jako rakovina a nenásledovat NTFS linky), tak to u složek ignoruje
 <br/>
-```dir "a:\4" /Q /S /A > "a:\1.txt"``` - uložit vlastníky obsahu složky 4 do souboru 1. Možný obsah TXT - Everyone + Administrators + NT SERVICE\TrustedInstaller + NT AUTHORITY\SYSTEM + NT AUTHORITY\LOCAL SERVICE + NT AUTHORITY\NETWORK SERVICE + BUILTIN\BUILTIN + název PC\účtu + odepřený přístup "                    ". Může docházet ke zkracování názvů = MS zřejmě šetří písmena
+```dir "a:\4" /Q /S /A > "a:\1.txt"``` - uložit vlastníky obsahu složky 4 do souboru 1. Možný obsah TXT - Everyone + Administrators + NT SERVICE\TrustedInstaller + NT AUTHORITY\SYSTEM + NT AUTHORITY\LOCAL SERVICE + NT AUTHORITY\NETWORK SERVICE + BUILTIN\BUILTIN + název PC\účtu + odepřený přístup ```                    ```. Může docházet ke zkracování názvů = MS zřejmě šetří písmena
 <br/>
 ```start 4.exe``` ***/*** ```4.exe``` ***/*** ```"4.exe" 1``` ***/*** ```start /max 4.exe``` ***/*** ```taskkill /im 4.exe /f``` - spustit 4.exe v novém okně ***/*** spustit 4.exe ***/*** spustit 4.exe s parametrem 1 ***/*** spustit 4.exe v maximalizovaném okně ***/*** vynutit vypnutí 4.exe
 <br/>
@@ -666,19 +701,19 @@ Rozšířené vyhledávání -
 
 ***🟦 devmanview/AdvancedRun/AlternateStreamView/FileActivityWatch/NirCmd/NTFSLinksView***
 
-***Ovladače*** - Visual C++ Redistributable 2005-2022, .NET Framework3.5+4.8 + .NET Desktop Runtime 5-8, DirectX End-User Runtimes, Edge WebView2 Runtime, (Legacy)PhysX, OpenAL, K-Lite Codec Pack, 🟦 Xliveless, 🟦 3D Sound Back Beta 0.1, 🟦 DI-Wrapper, 🟦 IndirectSound, 🟦 Microsoft DirectInput Mapper, 🟦 SecuROMLoader
+***Ovladače*** - Visual C++ Redistributable 2005-2022, .NET Framework3.5+4.8 + .NET Desktop Runtime 5-8, DirectX End-User Runtimes, Edge WebView2 Runtime, (Legacy)PhysX, OpenAL, K-Lite Codec Pack, 🟦 3D Sound Back Beta 0.1, 🟦 DI-Wrapper, 🟦 IndirectSound, 🟦 Microsoft DirectInput Mapper, 🟦 SecuROMLoader, 🟦 SafeDiscLoader, 🟦 Xliveless
 
 ```HW/SW problémy a možná řešení``` -
 <br/>
-■ z mých desetiletých pozorování je Firefox (určitě nebude jediný) nejlepší ukazatel "jemné" stability (bluescreen+zamrzání stranou, to jsou extrémní případy) = u 100% stabilního PC nepadají panely vůbec, ale stačí troška (frekvence/napětí/časování/teploty/přetaktovávací/i úsporné/a další/funkce/RAM,DiskCache/bit flip/umístění kabelů/zdroje/"auto" v biosu/...) a mohou padat několikrát denně. Může docházet k poškození dat (při běžné práci, DEkompresi, ...). Battle Encoder Shirasé
+Z mých desetiletých pozorování je Firefox (určitě nebude jediný) nejlepší ukazatel "jemné" stability ("freeze" stranou, to je extrémní případ) = u 100% stabilního PC nepadají panely vůbec, ale stačí troška (frekvence/napětí/časování/teploty/přetaktovávací/i úsporné/a další/funkce/RAM,DiskCache/bit flip/umístění kabelů/zdroje/"auto" v biosu/...) a mohou padat několikrát denně. Může docházet k poškození dat (při běžné práci, DEkompresi, ...). Battle Encoder Shirasé
 <br/>
-***CHYBĚJÍCÍ NEDETEKOVATELNÉ ZAŘÍZENÍ***
+***CHYBĚJÍCÍ, NEDETEKOVATELNÉ ZAŘÍZENÍ***
 <br/>
-■ Device Remover
+■ Device Remover, Custom Resolution Utility
 <br/>
 ***CPU***
 <br/>
-■ bluescreen ~1x/min = vypnout Cool'n'Quiet (poškozený CPU)
+■ "freeze" ~1x/min = vypnout Cool'n'Quiet (poškozený CPU)
 <br/>
 ■ 4-pin napájení, pochybná stabilita = 8-pin
 <br/>
@@ -698,6 +733,8 @@ Rozšířené vyhledávání -
 <br/>
 ■ pro uživatele neznámé USB zařízení které se po připojení hlásí jako CD-ROM s EXE souborem = instalace tohoto podezřelého EXE může nainstalovat ovladače+službu, která (asi jako jediná) dokáže zařízení přepnout z CD-ROM do Wi-Fi adaptéru
 <br/>
+■ "freeze" po připojení USB zařízení = jeho externí napájení připojit jako poslední
+<br/>
 ***MONITOR***
 <br/>
 ■ neostrý obraz i v nativním rozlišení = nastavit středové centrování (~Radeon Bloatware💩)
@@ -708,6 +745,8 @@ Rozšířené vyhledávání -
 <br/>
 ■ nefunguje boot, přístup do biosu = poškozené USB porty (zkraty kontaktů)
 <br/>
+■ HW tuning, hrátky s napětím (možný "freeze" + ztráta dat při spouštění PC) = nepoužívat žádná MS "automatická spouštění" uživatelských SW (vyřešit jedním AHK) + omezit zápisy konfiguračních souborů (+ případně automatický backup/restore)
+<br/>
 ***HRY***
 <br/>
 ■ crash/error/bug = nestandardní FOV/FPS, režim kompatibility + Extended Kernel, dgVoodoo2 + DLL/EXE fixy/ovladače, CPU affinity, vypnout fullscreen/kodeky/overlay /Power Efficiency (~Radeon Bloatware💩), chybějící rozlišení/frekvence, zapnout síťovou kartu/SWAP, neodstraňovat WMP/kodeky (oprava přes K-Lite je otázkou), přejmenovat na "codsp.exe" (OpenGL), špatný název EXE
@@ -716,7 +755,7 @@ Rozšířené vyhledávání -
 <br/>
 ■ lagy, "nedostatečný" výkon CPU = vypnout úsporné režimy/SMT/jádra(cache ⚖️ latence) (bios, Win Schéma napájení), zvýšit "priority", CPU affinity, Battle Encoder Shirasé, přejmenovat na "Doom3.exe" (OpenGL)
 <br/>
-■ pomalé načítání = dočasně vypnout FPS limit
+■ pomalé nahrávání = dočasně vypnout FPS limit
 <br/>
 ■ umělé vytížení CPU = zapnout síťovou kartu
 <br/>
@@ -725,6 +764,8 @@ Rozšířené vyhledávání -
 ■ konstantní zápis na SSD ("TCP Disconnect") = vypnout síťovou kartu
 <br/>
 ■ freesync nefunguje (zapnutý v monitoru a ~Radeon Bloatware💩) = vypnout windowed/borderless, nevypínat "AMD External Events Utility"
+<br/>
+■ freesync nejde zapnout = Custom Resolution Utility, přepojit kabel
 <br/>
 ■ tearing (nepodpora freesync) = zapnout Scanline Sync, jiný FPS limit
 <br/>
@@ -778,7 +819,7 @@ Rozšířené vyhledávání -
 <br/>
 ```How to achieve?``` -
 <br/>
--fake widescreen = deform internal 4:3 aspect ratio and, when rendering, stretch it to fit a widescreen monitor while maintaining original 4:3 aspect ratio
+■ fake widescreen = deform internal 4:3 aspect ratio and, when rendering, stretch it to fit a widescreen monitor while maintaining original 4:3 aspect ratio
 
 ***🟦 ISO Directory v0.5*** (Michel) - CD/DVD mini-image creator, crack (few kB)
 
@@ -794,7 +835,7 @@ Rozšířené vyhledávání -
 <br/>
 ■ disable client updates = folder+contents ```package``` /// disable product updates = ```appmanifest_*.acf``` (restrict access)
 <br/>
-■ block downloading+installing+updating+running product (e.g., Steamworks Common Redistributables Bloatware - due to unnecessary dependencies, it may prevent "installation" of other products = but more advanced user do not need it) = "appmanifest_228980.acf" (deny access)
+■ block downloading+installing+updating+running product (e.g., Steamworks Common Redistributables Bloatware - due to unnecessary dependencies, it may prevent "installation" of other products = but more advanced user don't need it) = "appmanifest_228980.acf" (deny access)
 <br/>
 ■ ⚠️ every online launch/switch/restart of client (as well as frequent background updates) can cause significant SSD wear (my "appcache\appinfo.vdf" file have 200+MB = ~230+MB write)
 <br/>
@@ -810,15 +851,19 @@ Rozšířené vyhledávání -
 <br/>
 ```How to achieve?``` -
 <br/>
--hide reviewed/played products in search results
+■ hide reviewed/played products in search results
 <br/>
--filter/sort products by size, actual release year, DRM/third-party accounts
+■ filter/sort products by size, actual release year, DRM/third-party accounts
+<br/>
+■ profile edits take days/weeks/months to be approved, and until then, parts of profile are hidden for public (OK). Parts of profile that haven’t been edited are also hidden (not OK). If problematic parts of profile were approved in past, not editing them requires new approval (not OK) = Valve lacks an (automatic) comparison of content with previous edit, and simply clicking "Save" button requires further approval (presumably manual, since it takes up to months)
+<br/>
+■ a stuck comment (hidden content, cannot be edited/deleted) on a profile (which is apparently awaiting for manual approval that will likely never happen) = automatic ban on all new comments (hidden content, cannot be edited/deleted, approval, if it ever comes, takes months) under any profile
 
 ***GOG*** -
 <br/>
--disable client updates = parameter ```/runWithoutUpdating```
+■ disable client updates = parameter ```/runWithoutUpdating```
 <br/>
--deny saving logs/crash and downloading images = ```GOG.com\Galaxy\logs``` ```...\crashdumps``` ```...\webcache\XXX\gog``` (restrict access)
+■ deny saving logs/crash and downloading images = ```GOG.com\Galaxy\logs``` ```...\crashdumps``` ```...\webcache\XXX\gog``` (restrict access)
 
 ## Security EN
 
@@ -828,29 +873,29 @@ Unifying dates and creating a ```SHA3_512``` for all EXE+DLL+SYS (separate types
 
 Hiding EXE files - removing icons, digital signatures, metadata + manual HEX editing = can make them harder to identify (as a running process or an EXE file stored on an SSD)
 
-Emojis (have different numbers of characters) + various fonts + random? HEX / parts of code copied e.g. via Notepad++/Lister (encoding matters) increase password security ```🔒Йξᙲ🇨🇿;ĹdŃ¨^‡(ď¦<)HŤ0👍``` (this is 30 characters in UTF-8 or 50 in ANSI, 25 of them can be selected in FF, e.g. WinRAR/7-Zip allows create/paste this password). Another example of characters - "wide space" ```⠀``` (HEX - E2 A0 80, 1 character), "custom space" with an attached character that is invisible during normal typing/searching in FF ``` ️``` (HEX - 20 EF B8 8F, character #1 - "classic space" + character #2 - invisible = it is possible to copy him itself even from an MD file via Notepad++), "classic space" ``` ``` (HEX - 20, 1 character)
+Emojis (have different numbers of characters) + various fonts + random? HEX / parts of code copied e.g. via Notepad++/Lister (encoding matters) increase password security ```🔒Йξᙲ🇨🇿;ĹdŃ¨^‡(ď¦<)HŤ0👍``` (e.g. WinRAR/7-Zip allows create/paste this password). Another example of characters - "wide space" ```⠀``` (HEX - E2 A0 80, 1 character), "custom space" with an attached character that is invisible during normal typing/searching in FF ``` ️``` (HEX - 20 EF B8 8F, character #1 - "classic space" + character #2 - invisible), "classic space" ``` ``` (HEX - 20, 1 character). Archiving/encryption across multiple formats and ramdisks also enhance security
 
 ```🚫update``` ***EXE Radar Pro v3 (Beta)*** (restrict access) - when running an executable file (EXE/COM/SCR) a window will appear asking whether to run or exit it (user-defined Command-Line/whitelist/blacklist runs automatically in background of system). Verification via checksum. I recommend removing default exceptions. Program No.1 for system protection (e.g., for blocking automatic installations of unnecessary/dangerous/hidden software attached to main product = malware/bloatware/...). Easy to bypass (close EXE)
 <br/>
 ```How to achieve?``` -
 <br/>
--block DLL+SYS
+■ block DLL+SYS
 <br/>
--blacklist command-line, block until reboot, blacklist/whitelist (Process Path, Parent Process)
+■ blacklist command-line, block until reboot, blacklist/whitelist (Process Path, Parent Process)
 
 🚫***Easy File Locker*** (XOSLAB.COM, 2016) - deny access/reading/writing/deleting/hiding files/folders (choice from) + possibility to add processes with unrestricted access. Locking only works when SYS driver running (easy to bypass = can be turned on/off via hotkeys/shortcuts without starting app - NirCmd)
 <br/>
 ```How to achieve?``` -
 <br/>
--option to not protect subfolders
+■ option to not protect subfolders
 <br/>
--"deny deleting folder" unfortunately also includes "deny renaming its contents"
+■ "deny deleting folder" unfortunately also includes "deny renaming its contents"
 <br/>
--"hide folder" unfortunately also works as "deny access to its contents." It should be - if user/app/sys knows path, then allow unrestricted access to folder
+■ "hide folder" unfortunately also works as "deny access to its contents." It should be - if user/app/sys knows path, then allow unrestricted access to folder
 <br/>
--example - Part1 (doesn't work, EXE won't run?) - deny access to Firefox folder for all processes (except FF+TotalCMD). Part2 (works) - deny all processes access to FF profile folder in ramdisk (except FF+TotalCMD+WinRAR) = only they will be able to access it and will be allowed to create FF profile folder with its contents (encrypted RAR)
+■ example - Part1 (doesn't work, EXE won't run?) - deny access to Firefox folder for all processes (except FF+TotalCMD). Part2 (works) - deny all processes access to FF profile folder in ramdisk (except FF+TotalCMD+WinRAR) = only they will be able to access it and will be allowed to create FF profile folder with its contents (encrypted RAR)
 <br/>
-```Bugs``` - untreated NTFS links can bypass protection + may not work with some ramdisks (ImDisk Toolkit, Primo Ramdisk) + works with AIM Toolkit ramdisk, but ⚠️WizTree partially bypasses protection (no access, but reveals data) + attempting to restrict access to opened data by processes may cause a bluescreen - so terminate processes first, SYS driver starts as System 1 (Boot 0, Auto 2)
+```Bugs``` - untreated NTFS links can bypass protection + may not work with some ramdisks (ImDisk Toolkit, Primo Ramdisk) + works with AIM Toolkit ramdisk, but ⚠️WizTree partially bypasses protection (no access, but reveals data) + attempting to restrict access to opened data by processes may cause "freeze" - so terminate processes first, SYS driver starts as System 1 (Boot 0, Auto 2)
 
 🚫***🟦 EaseFilter*** - various access restrictions of unapproved processes to selected folders/files/registry + sandbox folders. 🚫***🟦 File System Protector*** - ⚠️WizTree bypasses protection + all versions are terribly unoptimized (problem is in SYS). Paths are not inserted into ```Exclusions.DB``` (unfortunately)
 
@@ -862,7 +907,7 @@ Emojis (have different numbers of characters) + various fonts + random? HEX / pa
 <br/>
 Win firewall has rules stored here ```HKLM\SYSTEM\ControlSet\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules``` and forbidding of arbitrarily adding exceptions is easily done by adding and modifying permissions for "Everyone" (⚠️, improper handling may block Internet connection, regardless of whether firewall or associated SYS services are running = errors/warnings may not be listed in EventLog)
 
-🚫***🟦 hosts*** - restrict access to servers in format ```0.0.0.0 www.x.com``` ```0.0.0.0 x.com``` (sometimes it doesn't work without "www", so use both formats to be sure); do not include http(s). Useful, for example, for blocking intrusive ads (videos/animation/downloads/new tabs)
+🚫***🟦 hosts*** - restrict access to servers in format ```0.0.0.0 www.x.com``` ```0.0.0.0 x.com``` (sometimes it doesn't work without "www", so use both formats to be sure); don't include http(s). Useful, for example, for blocking intrusive ads (videos/animation/downloads/new tabs)
 
 🚫***🟦 Autoruns*** - automatically launched apps/libraries/drivers
 
@@ -968,7 +1013,7 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***🟦 NirCmd+🟦 DevManView*** - change resolution+color depth+frequency - ```c:\nircmdc.exe setdisplay 2560 1080 32 75```. Disable/manual start of service 4 - ```"c:\nircmdc.exe service disabled 4"``` / ```"c:\nircmdc.exe service manual 4"```. Enabling/disabling device 4 - ```C:\DevManView.exe /enable "4"``` / ```C:\DevManView.exe /disable "4"```... Control via keyboard hotkeys/shortcuts
 
-***🟦 Mem Reduct*** - free RAM memory (without terminating processes) by hotkey or clicking on tray icon. However, there may be more writing to paging file = reduced lifetime of SSD
+***🟦 Mem Reduct*** - free RAM memory (without terminating processes) by hotkey or clicking on tray icon. However, there may be more writing to pagefile.sys = reduced lifetime of SSD
 
 ***🟦 Hard Disk Sentinel*** - disk monitoring+history, SMART tests, noise control (AAM), tray icons (health), option to disable HDD shutdown when idle (auto access or APM) = not only if HDD is at end of its lifetime, enabling power-saving features only makes problems worse
 
@@ -988,15 +1033,15 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***🟦 AIDA64, (🟦 HWiNFO, 🟦 CPU-Z)*** - detailed information about HW/SW
 
-***🟦 Driver Booster Free*** - update drivers. Downloaded archives are highly compressed and free of usual unnecessary installers from internet, keeping system relatively clean
+***🟦 Driver Booster Free*** - update drivers. Downloaded archives are highly compressed and free of usual unnecessary installers from internet (even manufacturers themselves often include tons of bloatware), keeping system relatively clean
 <br/>
 ```How to achieve?``` -
 <br/>
--driver installation (scan) does not work offline
+■ driver installation (scan) does not work offline
 <br/>
--downloaded archives are not in a folder named/separated/by version/by system
+■ downloaded archives are not in a folder named/separated/by version/by system
 <br/>
--it is not possible to prioritize an older driver in download folder for installation; it is not clear whether driver is/will be downloaded
+■ it is not possible to prioritize an older driver in download folder for installation; it is not clear whether driver is/will be downloaded
 
 ***🟦 System Explorer*** - replacement of "Task Manager" - possibility to save priority/affinity of apps for their automatic setting at next startup. ***🟦 Process Hacker***
 
@@ -1022,7 +1067,7 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. ```HKLM\SYS
 <br/>
 ```How to achieve?``` -
 <br/>
--editable % emptiness of file
+■ editable % emptiness of file
 
 ***🟦 WinRAR*** - data archiving. ```Advantages over 7-Zip``` -
 <br/>
@@ -1071,35 +1116,39 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. ```HKLM\SYS
 ```pluginbasedir=%COMMANDER_PATH%\plugins```
 ```AlwaysCopyInBackground=1```
 <br/>
-***DiskDir Extended*** addon for creating data catalog ("pack files" function - LST file is like an archive and can be searched in it)
+■ ***DiskDir Extended*** addon for creating data catalog ("pack files" function - LST file is like an archive and can be searched in it)
 <br/>
--bulk renaming - remove characters (number) from start ```[N2-]``` from end ```[N1--2]```
+■ bulk renaming - remove characters (number) from start ```[N2-]``` from end ```[N1--2]```
 <br/>
--mass removal of diacritics (find/replace)
+■ mass removal of diacritics (find/replace)
 <br/>
 ```á|č|ď|é|ě|í|ň|ó|ř|š|ť|ú|ů|ý|ž|Á|Č|Ď|É|Ě|Í|Ň|Ó|Ř|Š|Ť|Ú|Ů|Ý|Ž```
 <br/>
 ```a|c|d|e|e|i|n|o|r|s|t|u|u|y|z|A|C|D|E|E|I|N|O|R|S|T|U|U|Y|Z```
 <br/>
--find a CSS file that has somewhere in name 4 - ```*4*.css```
+■ find a CSS file that has somewhere in name 4 - ```*4*.css```
 <br/>
--find abc extensions and ignore first founded folders 12 (paths are not written, and therefore it doesn't really work in practice) - ```*.a *.b *.c |1\ |2\```
+■ find abc extensions and ignore first founded folders 12 (paths are not written, and therefore it doesn't really work in practice) - ```*.a *.b *.c |1\ |2\```
 <br/>
--copy files to different folders in bulk - search+select folders (panel 1), search+select files (panel 2) and drag them to panel 1 (+ "Options" + "Copy to all selected folders or links in destination panel")
+■ copy files to different folders in bulk - search+select folders (panel 1), search+select files (panel 2) and drag them to panel 1 (+ "Options" + "Copy to all selected folders or links in destination panel")
 <br/>
 ```How to achieve?``` -
 <br/>
--(hex)editing in "content comparison" without restrictions
+■ (hex)editing in "content comparison" without restrictions
 <br/>
--copy NTFS links (files) as links, not as files
+■ copy NTFS links (files) as links, not as files
 
-***🟦 Notepad++*** - bulk removal of rows containing empty/no/duplicates characters, select text block ```ALT+left button```, file list show/select ```RButton+Wheel```, ...
+***🟦 Notepad++*** - bulk removal of rows containing empty/no/duplicates characters, lines sorting, select text block ```ALT+left button```, file list show/select ```RButton+Wheel```, ...
 <br/>
-Regular expressions (useful "At the end, start again") -
+Regular expressions (useful "Wrap around") -
 <br/>
 ■ remove all characters on lines if there are 4 or less ```^.{0,4}$```
 <br/>
+■ remove all characters on lines if there are 4 or more ```^.{4,}```
+<br/>
 ■ remove first 4 characters on lines ```^.{4}(.*)$``` ```$1```
+<br/>
+■ remove last 4 characters on lines ```.{4}$```
 <br/>
 ■ remove 4 and 4 and everything between ```4.*?4```
 <br/>
@@ -1113,6 +1162,8 @@ Regular expressions (useful "At the end, start again") -
 <br/>
 ■ remove months+days in format "January 4, 4444" ```(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+```  = result is "4444" (to avoid unwanted+... ⬆️)
 <br/>
+■ remove all numbers ```[0-9]+```
+<br/>
 ■ find 4 and insert empty line ```(?-s)4.*``` ```$0\r\n```
 <br/>
 ■ insert 4 on empty line ```^$``` ```4```
@@ -1123,9 +1174,17 @@ Regular expressions (useful "At the end, start again") -
 <br/>
 ■ find identical lines ```^((?-s).+?)\R(?=(?s).*?^\1(?:\R|\z))```
 <br/>
+■ find 4, which is first character in line ```^.{0}4```
+<br/>
+■ find 4, which is third to ninth character in line ```^.{2,9}4```
+<br/>
 ■ merge lines into one ```\s*(.+)\s+``` ```$1```
 <br/>
 ■ after each founded 4 press Enter (split into lines) ```(?-s)4``` ```$0\r\n```
+<br/>
+■ correct CZ diacritics (PaddleOCR 2025) ```(ü)|(û)|(ñ)|(t')|(ù)|(ë)``` ```(?1ů)(?2ů)(?3ň)(?4ť)(?5ů)(?6ě)```
+<br/>
+■ remove CZ diacritics ```(á)|(č)|(ď)|(é)|(ě)|(í)|(ň)|(ó)|(ř)|(š)|(ť)|(ú)|(ů)|(ý)|(ž)|(Á)|(Č)|(Ď)|(É)|(Ě)|(Í)|(Ň)|(Ó)|(Ř)|(Š)|(Ť)|(Ú)|(Ů)|(Ý)|(Ž)``` ```(?1a)(?2c)(?3d)(?4e)(?5e)(?6i)(?7n)(?8o)(?9r)(?10s)(?11t)(?12u)(?13u)(?14y)(?15z)(?16A)(?17C)(?18D)(?19E)(?20E)(?21I)(?22N)(?23O)(?24R)(?25S)(?26T)(?27U)(?28U)(?29Y)(?30Z)```
 <br/>
 Advanced search -
 <br/>
@@ -1135,17 +1194,17 @@ Advanced search -
 <br/>
 ```How to achieve?``` -
 <br/>
--instant change (function) of cursor from "select" to "text select"?
+■ instant change (function) of cursor from "select" to "text select"?
 
 ***🟦 T-Clock*** - advanced replacement of tray clock with a wide range of features
 
 ***🟦 PortableApps.com*** -
 <br/>
--disable logo - ```Data\soffice.ini``` Logo=0
+■ disable logo - ```Data\soffice.ini``` Logo=0
 <br/>
--run minimized in tray without (G)UI - ```Run, c:\uTorrentPortable.exe,,hide``` (AHK) + ```App\AppInfo\Launcher\uTorrentPortable.ini``` (```[Launch]``` ```ProgramExecutable=uTorrent\uTorrent.exe``` ```CommandLineArguments=/MINIMIZED```)
+■ run minimized in tray without (G)UI - ```Run, c:\uTorrentPortable.exe,,hide``` (AHK) + ```App\AppInfo\Launcher\uTorrentPortable.ini``` (```[Launch]``` ```ProgramExecutable=uTorrent\uTorrent.exe``` ```CommandLineArguments=/MINIMIZED```)
 <br/>
--*Portable.exe is not necessarily required to be running in system background
+■ *Portable.exe is not necessarily required to be running in system background
 
 ***🟦 HEXelon Max 6*** - calculator with 3 "tabs"
 
@@ -1163,25 +1222,29 @@ Advanced search -
 
 ***🟦 WinSetView*** - Explorer💩 global customizations - can reduce RAM usage by tens of MB (explorer.exe)
 
-***🟦 Subtitle Edit*** - edit subtitles
-
-***🟦 Video-subtitle-extractor (VSE)*** - OCR method of automatic subtitles creation
-
 ***🟦 Error Lookup*** - information about Win errors (HEX codes)
 
 ***🟦 FastStone Capture*** - screen recording (Screen Recorder - FSRecorder.exe) = WMV, selection area+zoom, 1–30FPS, audio, microphone, webcam, cursor+highlight+click sound
 
 ***🟦 HTTrack Website Copier*** - downloading websites, including subpages+interactivity (e.g., for downloading online tools for offline use)
 
-***🟦 uTorrent*** - likelihood of long-term functionality [```1 torrent```](https://sktorrent.eu/torrent/details.php?id=3adcdc3e45bd26ce481a6a03bb9875c50eaeffd9) increases if it contains only 1 archive (RAR/ISO/MKV/...) and nothing else. A torrent can be compared to a RAR file divided into several parts (usually 16kb to 16MB). Unnecessary files (parts of torrent) can be lost by users over time, causing them to lose their "seeder" status (100%). [```Example of a 99.8% (99.9% ISO) torrent```](https://sktorrent.eu/torrent/details.php?id=ac3580f12b3fcfea20e1f119f95a0aa53187d0cf) (divided into 8MB parts) - 2 missing images of 5MB size (766 parts downloaded out of 767) = 61% empty 5MB file ```Manual_pol.pdf``` (mathematically probably only one and, by pure coincidence, unimportant for installation/use). Do not add tracker manually, it will be created automatically when uploaded to server. Download problems -
+***🟦 uTorrent*** - likelihood of long-term functionality [```1 torrent```](https://sktorrent.eu/torrent/details.php?id=3adcdc3e45bd26ce481a6a03bb9875c50eaeffd9) increases if it contains only 1 archive (RAR/ISO/MKV/...) and nothing else. A torrent can be compared to a RAR file divided into several parts (usually 16kb to 16MB). Unnecessary files (parts of torrent) can be lost by users over time, causing them to lose their "seeder" status (100%). [```Example of a 99.8% (99.9% ISO) torrent```](https://sktorrent.eu/torrent/details.php?id=ac3580f12b3fcfea20e1f119f95a0aa53187d0cf) (divided into 8MB parts) - 2 missing images of 5MB size (766 parts downloaded out of 767) = 61% empty 5MB file ```Manual_pol.pdf``` (mathematically probably only one and, by pure coincidence, unimportant for installation/use). Don't add tracker manually, it will be created automatically when uploaded to server. Download problems -
 <br/>
--"passive" users (vast majority) "cannot" download data from "passive" users [```(someone would have to be "active")```](https://sktorrent.eu/torrent/forum.php?action=viewtopic&topicid=37) (open port, UPnP, public IP, Port Forwarding)
+■ "passive" users (vast majority) "cannot" download data from "passive" users [```(someone would have to be "active")```](https://sktorrent.eu/torrent/forum.php?action=viewtopic&topicid=37) (open port, UPnP, public IP, Port Forwarding)
 <br/>
--on/off "Protocol Encryption" can solve inability to connect to seeds/peers
+■ on/off "Protocol Encryption" can solve inability to connect to seeds/peers
+
+***HardSub to SRT*** - ```1``` ***🟦 VideoSubFinder*** (automatically split a video with subtitles, including timing, to JPG - if some JPG are missing, then "moderate_threshold = 0.6" + manually? remove unnecessary JPG) ```2``` ***🟦 Subtitle Edit*** (File/Import/Images) + ***🟦 PaddleOCR*** + ***🟦 LibreOffice CZ Dictionary*** + custom dictionary for automatically replacing incorrect OCR words (mainly because of CZ diacritics - given low probability of occurrence, it probably doesn't make sense to replace combined words such as "OCRwhat" "OCR what" /// given grammatical errors and differing meanings, it probably doesn't make sense to replace words such as "pas" "pás" /// after editing custom dictionary, run OCR again) - "Unknown words" + "Add pair to OCR replace list". [📥 "ces_OCRFixReplaceList_User.xml", Size 1MB, 2026-05](https://raw.githubusercontent.com/hornster02/hornster02/main/Subtitle_Edit-Custom_OCR_Replace-CZ.rar)
+<br/>
+```How to achieve?``` -
+<br/>
+■ add "Unknown characters" (+ "Add pair to OCR replace list"), that would be superior to "Unknown words" (for clearer+faster manual correction, replace letters first and then words)
 
 ***cmd.exe / BAT - work with files***
 <br/>
 ```Robocopy.exe "c:\1" "e:\1" /E /PURGE /w:0 /r:0 /MOT:10``` - automatic synchronization of two folders. ```c:\1``` is source folder and ```e:\1``` is backup. If a file/folder is created/changed in source folder, it is copied to backup. If a file/folder is deleted in source folder, it will be deleted from backup. "MOT:10" is 10 minutes of waiting and then synchronization. Is it synchronization (comparison) and not "delete entire backup/copy entire resource", so it does not reduce lifetime of SSD with unnecessary writes, among other things. A drawback is that there is no comparison of files by content, but only by attributes+size (fast/non-demanding). It is possible to close console window by terminating "conhost.exe" process and leave only "ROBOCOPY.exe" (automatic synchronization in background of system) on. Useful in combination with NTFS links for automatic SAVEGAME backup.
+<br/>
+```robocopy "c:\4" "e:\1" /e /create``` - copy contents of folder ```4``` to ```1``` (don't copy files, but create empty ones with a size of 0)
 <br/>
 ```rd /s /q "4"``` ***/*** ```del /f /q "1"``` - delete folder 4 without confirmation (only here ***hidden*** attribute is ignored which otherwise serves to slightly increase data security) ***/*** delete file 1 without confirmation
 <br/>
@@ -1199,9 +1262,9 @@ Advanced search -
 <br/>
 ```xcopy /h /k /b /e /i "a:\4" "a:\1"``` - copy contents of folder "4" to folder "1" (automatically created if missing) and preserve attributes/NTFS links = source without any ex post modifications copy to destination
 <br/>
-```icacls "a:\4" /setowner "NT SERVICE\TrustedInstaller" /t /c /l``` - change owner of folder "4" (and all its content) to "TrustedInstaller". This command does not work if access to data is denied or read-only (NTFS). MS apparently has a bug in this tool, and even though it contains /l (do not spread like cancer and do not follow NTFS links), it ignores it for folders
+```icacls "a:\4" /setowner "NT SERVICE\TrustedInstaller" /t /c /l``` - change owner of folder "4" (and all its content) to "TrustedInstaller". This command does not work if access to data is denied or read-only (NTFS). MS apparently has a bug in this tool, and even though it contains /l (don't spread like cancer and don't follow NTFS links), it ignores it for folders
 <br/>
-```dir "a:\4" /Q /S /A > "a:\1.txt"``` - save owners of contents of folder 4 to file 1. Possible TXT content - Everyone + Administrators + NT SERVICE\TrustedInstaller + NT AUTHORITY\SYSTEM + NT AUTHORITY\LOCAL SERVICE + NT AUTHORITY\NETWORK SERVICE + BUILTIN\BUILTIN + PC name\account + deny access "                    ". Names may be shortened = MS is apparently saving characters
+```dir "a:\4" /Q /S /A > "a:\1.txt"``` - save owners of contents of folder 4 to file 1. Possible TXT content - Everyone + Administrators + NT SERVICE\TrustedInstaller + NT AUTHORITY\SYSTEM + NT AUTHORITY\LOCAL SERVICE + NT AUTHORITY\NETWORK SERVICE + BUILTIN\BUILTIN + PC name\account + denied access ```                    ```. Names may be shortened = MS is apparently saving characters
 <br/>
 ```start 4.exe``` ***/*** ```4.exe``` ***/*** ```"4.exe" 1``` ***/*** ```start /max 4.exe``` ***/*** ```taskkill /im 4.exe /f``` - run 4.exe in new window ***/*** run 4.exe ***/*** run 4.exe with parameter 1 ***/*** run 4.exe in maximized window ***/*** force kill 4.exe
 <br/>
@@ -1267,19 +1330,19 @@ Advanced search -
 
 ***🟦 devmanview/AdvancedRun/AlternateStreamView/FileActivityWatch/NirCmd/NTFSLinksView***
 
-***Drivers*** - Visual C++ Redistributable 2005-2022, .NET Framework3.5+4.8 + .NET Desktop Runtime 5-8, DirectX End-User Runtimes, Edge WebView2 Runtime, (Legacy)PhysX, OpenAL, K-Lite Codec Pack, 🟦 Xliveless, 🟦 3D Sound Back Beta 0.1, 🟦 DI-Wrapper, 🟦 IndirectSound, 🟦 Microsoft DirectInput Mapper, 🟦 SecuROMLoader
+***Drivers*** - Visual C++ Redistributable 2005-2022, .NET Framework3.5+4.8 + .NET Desktop Runtime 5-8, DirectX End-User Runtimes, Edge WebView2 Runtime, (Legacy)PhysX, OpenAL, K-Lite Codec Pack, 🟦 3D Sound Back Beta 0.1, 🟦 DI-Wrapper, 🟦 IndirectSound, 🟦 Microsoft DirectInput Mapper, 🟦 SecuROMLoader, 🟦 SafeDiscLoader, 🟦 Xliveless
 
 ```HW/SW issues and possible solutions``` -
 <br/>
-■ based on my ten years of observation, Firefox (surely won't be only one) is best indicator of "fine" stability (setting aside bluescreens+freezes, which are extreme cases) = on a 100% stable PC, tabs don't crash at all, but just a little bit (frequency/voltage/timings/temperatures/overclocking/power-saving/and other/features/RAM,DiskCache/bit flip/cable placement/power supply/"auto" in BIOS/...) and they can crash several times a day. Data corruption may occur (during normal use, DEcompression, ...). Battle Encoder Shirasé
+Based on my ten years of observation, Firefox (surely won't be only one) is best indicator of "fine" stability (setting aside "freeze", which is extreme case) = on a 100% stable PC, tabs don't crash at all, but just a little bit (frequency/voltage/timings/temperatures/overclocking/power-saving/and other/features/RAM,DiskCache/bit flip/cable placement/power supply/"auto" in BIOS/...) and they can crash several times a day. Data corruption may occur (during normal use, DEcompression, ...). Battle Encoder Shirasé
 <br/>
-***MISSING UNDETECTABLE DEVICE***
+***MISSING, UNDETECTABLE DEVICE***
 <br/>
-■ Device Remover
+■ Device Remover, Custom Resolution Utility
 <br/>
 ***CPU***
 <br/>
-■ bluescreen ~1x/min = disable Cool'n'Quiet (damaged CPU)
+■ "freeze" ~1x/min = disable Cool'n'Quiet (damaged CPU)
 <br/>
 ■ 4-pin power, questionable stability = 8-pin
 <br/>
@@ -1299,6 +1362,8 @@ Advanced search -
 <br/>
 ■ for user an unknown USB device that, when connected, appears as a CD-ROM with EXE file = installation this suspicious EXE may install drivers+service that (probably as only one) can switch device from a CD-ROM to a Wi-Fi adapter
 <br/>
+■ "freeze" after connecting a USB device = connect its external power supply last
+<br/>
 ***MONITOR***
 <br/>
 ■ unsharp image even at native resolution = set center alignment (~Radeon Bloatware💩)
@@ -1309,9 +1374,11 @@ Advanced search -
 <br/>
 ■ boot not working, cannot access BIOS = damaged USB ports (short circuits)
 <br/>
+■ HW tuning, voltage adjustments (potential "freeze" + data loss when booting PC) = don't use any MS "autostart" for user SW (resolve with a single AHK) + limit writes to configuration files (+ if necessary, set up automatic backup/restore)
+<br/>
 ***GAMES***
 <br/>
-■ crash/error/bug = non-standard FOV/FPS, compatibility mode + Extended Kernel, dgVoodoo2 + DLL/EXE fixes/drivers, CPU affinity, disable fullscreen/codecs/overlay /Power Efficiency (~Radeon Bloatware💩), resolution/frequency missing, enable network card/SWAP, do not remove WMP/codecs (fix via K-Lite is questionable), rename to "codsp.exe" (OpenGL), wrong EXE filename
+■ crash/error/bug = non-standard FOV/FPS, compatibility mode + Extended Kernel, dgVoodoo2 + DLL/EXE fixes/drivers, CPU affinity, disable fullscreen/codecs/overlay /Power Efficiency (~Radeon Bloatware💩), resolution/frequency missing, enable network card/SWAP, don't remove WMP/codecs (fix via K-Lite is questionable), rename to "codsp.exe" (OpenGL), wrong EXE filename
 <br/>
 ■ drops/low FPS, lag, high GPU usage, visual glitches = disable V-Sync/overlay /Power Efficiency (~Radeon Bloatware💩), dgVoodoo2
 <br/>
@@ -1325,7 +1392,9 @@ Advanced search -
 <br/>
 ■ constant writing to SSD ("TCP Disconnect") = disable network card
 <br/>
-■ freeSync isn't working (enabled in monitor and ~Radeon Bloatware💩) = disable windowed/borderless, do not disable "AMD External Events Utility"
+■ freeSync isn't working (enabled in monitor and ~Radeon Bloatware💩) = disable windowed/borderless, don't disable "AMD External Events Utility"
+<br/>
+■ freesync won't turn on = Custom Resolution Utility, reconnect cable
 <br/>
 ■ tearing (Freesync not supported) = enable Scanline Sync, different FPS limit
 <br/>
@@ -1345,9 +1414,91 @@ Advanced search -
 <br/>
 ■ cursor missing = DPI 100%
 <br/>
-■ gamepad not working = do not touch mouse/keyboard
+■ gamepad not working = don't touch mouse/keyboard
 
 ***🟦 Audacity, 🟦 Avidemux, 🟦 VLC, 🟦 XnViewMP, PDF Image Extractor Free***
+
+## KMP
+
+***[📥 Skin for up to 150% system DPI, removed bottom part of UI + simplified hotkeys and partial automation AHK (for 32/64-bit KMP) + 32-bit config (skin, hotkeys, disabled 3D Audio, volume normalizer, orange/black subtitles, open video files with hidden GUI in fullscreen+restore window when finished/closed, audio files in "Two Rows" height). Size 1MB](https://raw.githubusercontent.com/hornster02/hornster02/main/_kmplayer.rar)***
+<br/>
+32-bit 🟦 KMP (not 🟦 64-bit) is probably player with best volume normalization (Creed Bullets benchmark)
+
+<img width="320" alt="AUDIO - BIG-DEF" src="https://github.com/user-attachments/assets/399067e1-de38-4ba0-a041-f7fed315d34c" />
+<img width="320" alt="AUDIO - BIG" src="https://github.com/user-attachments/assets/a267499f-b507-48e6-80a9-e31c6d464d35" />
+<img width="115" alt="AUDIO - COMPACT" src="https://github.com/user-attachments/assets/c26bfcc3-b28d-4306-ada3-533ec73f0544" />
+<img width="57" alt="AUDIO - COMPACT SUPER" src="https://github.com/user-attachments/assets/6b0cd812-df52-4307-be69-fff0a176682a" />
+
+Just reducing gamma in system makes original skin quite unusable. Combined with brightness and contrast reduction, it is almost invisible
+<br/>
+<img width="320" alt="AUDIO - BIG-DEF-GAMMA" src="https://github.com/user-attachments/assets/c93733c3-7e6f-4761-8c28-f420956d5bb4" />
+<img width="320" alt="AUDIO - BIG-GAMMA" src="https://github.com/user-attachments/assets/9ba0a2dd-10be-4116-873d-5a3923861b01" />
+
+<img width="1280" alt="VIDEO" src="https://github.com/user-attachments/assets/7306df22-0acd-4bed-865b-439184af5fc7" />
+
+<img width="1280" alt="VIDEO-DEF" src="https://github.com/user-attachments/assets/4679f2e5-6f27-4632-b9d1-dd10d467d94b" />
+
+Multimedia keys ,🟩KMP64X doesn't support global hotkeys
+<br/>
+***Media Play Pause*** starts/pauses playback,                     ```hold``` to close KMP
+<br/>
+***Volume Down*** reduces volume,                             ```hold``` to open previous file
+<br/>
+***Volume Up*** increase volume,                                ```hold``` to open next file
+
+***MButton*** show taskbar,                                               ```hold``` Always On Top (toggle)
+<br/>
+***ALT+SHIFT*** reduce active window to half screen and align it right or left or maximize it - global hotkey
+<br/>
+***LButton+MButton*** dragging window (no need to ```hold``` down MButton) - global hotkey
+
+***Numpad4*** subtitle -0,5s ,🟩KMP64X "Options / Subtitles / delay step"
+<br/>
+***Numpad5*** subtitle +0,5s
+<br/>
+***Numpad6*** open "Adjust Subtitle Sync" ,🟩KMP64X doesn't support,                                                               ```hold``` show/hide subtitle
+<br/>
+***Enter*** if "Adjust Subtitle Sync" is active then written numbers are set,        ```hold``` closes "Adjust Subtitle Sync"
+
+***Numpad1*** audio -0,05s ,🟩KMP64X -0,01s
+<br/>
+***Numpad2*** audio +0,05s
+<br/>
+***Numpad3*** list of audio streams (default one is marked first),                        ```hold``` list of subtitles (default one is marked first), ***NumpadDot*** (32-bit only = volume interference) as down arrow
+
+***B*** add bookmark,                                                                                                       ```hold``` open "bookmark editor"
+<br/>
+***Enter*** if "bookmark editor" is active then "Enter" opens selected (arrows) bookmark and closes "bookmark editor"
+<br/>
+***Del*** if "bookmark editor" is active then "Del" remove selected (arrows) bookmark, ```hold``` closes "bookmark editor"
+<br/>
+***P*** playlist (arrows-select, p/esc close, enter-open/close)
+
+***Left*** previous file
+<br/>
+***Right*** next file
+<br/>
+***Down*** volume -5%
+<br/>
+***Up*** volume +5%
+
+***Z*** zoom- (letterbox)
+<br/>
+***X*** zoom+ (letterbox)
+<br/>
+***C*** zoom/acpect ratio reset ,🟩KMP64X zoom reset
+<br/>
+***PgUp*** acpect ratio cycle,                                                                                              ```hold``` zoom/acpect ratio reset
+<br/>
+🟩KMP64X - create new "end" hotkey in "Options / Keys / Next AR preset",                                                                 ```hold``` acpect ratio reset
+
+***ESC*** pause+minimize,                                                                                               ```hold``` close file
+<br/>
+***1234*** window size
+<br/>
+***Enter*** Maximize/Restore Window
+<br/>
+🟩KMP64X - to keep same behavior it's needed change default "Enter" hotkey to "Ins"
 
 ## AHK
 
@@ -1419,88 +1570,6 @@ Pro předejití chyb doporučuji používat AutoHotkeyU64.exe a ve skriptech for
 <br/>
 ■ změnit gamma/kontrast/jas/hlasitost+zap+vyp/schéma napájení/frekvence/napětí/citlivost myši/rozlišení/síť/..., a také přepínače skrčení+míření pro hry (vyhledej *01), držení printscreen uloží obrázek na SSD = většinou vyžaduje externí programy
 
-## KMP
-
-***[📥 Skin for up to 150% system DPI, removed bottom part of UI + simplified hotkeys and partial automation AHK (for 32/64-bit KMP) + 32-bit config (skin, hotkeys, disabled 3D Audio, volume normalizer, orange/black subtitles, open video files with hidden GUI in fullscreen+restore window when finished/closed, audio files in "Two Rows" height). Size 1MB](https://raw.githubusercontent.com/hornster02/hornster02/main/_kmplayer.rar)***
-<br/>
-32-bit KMP (not 64-bit) is probably player with best volume normalization (Creed Bullets benchmark)
-
-<img width="330" alt="AUDIO - BIG-DEF" src="https://github.com/user-attachments/assets/399067e1-de38-4ba0-a041-f7fed315d34c" />
-<img width="330" alt="AUDIO - BIG" src="https://github.com/user-attachments/assets/a267499f-b507-48e6-80a9-e31c6d464d35" />
-<img width="120" alt="AUDIO - COMPACT" src="https://github.com/user-attachments/assets/c26bfcc3-b28d-4306-ada3-533ec73f0544" />
-<img width="60" alt="AUDIO - COMPACT SUPER" src="https://github.com/user-attachments/assets/6b0cd812-df52-4307-be69-fff0a176682a" />
-
-Just reducing gamma in system makes original skin quite unusable. Combined with brightness and contrast reduction, it is almost invisible
-<br/>
-<img width="330" alt="AUDIO - BIG-DEF-GAMMA" src="https://github.com/user-attachments/assets/c93733c3-7e6f-4761-8c28-f420956d5bb4" />
-<img width="330" alt="AUDIO - BIG-GAMMA" src="https://github.com/user-attachments/assets/9ba0a2dd-10be-4116-873d-5a3923861b01" />
-
-<img width="1280" alt="VIDEO" src="https://github.com/user-attachments/assets/7306df22-0acd-4bed-865b-439184af5fc7" />
-
-<img width="1280" alt="VIDEO-DEF" src="https://github.com/user-attachments/assets/4679f2e5-6f27-4632-b9d1-dd10d467d94b" />
-
-Multimedia keys ,🟩KMP64X doesn't support global hotkeys
-<br/>
-***Media Play Pause*** starts/pauses playback,                     ```hold``` to close KMP
-<br/>
-***Volume Down*** reduces volume,                             ```hold``` to open previous file
-<br/>
-***Volume Up*** increase volume,                                ```hold``` to open next file
-
-***MButton*** show taskbar,                                               ```hold``` Always On Top (toggle)
-<br/>
-***ALT+SHIFT*** reduce active window to half screen and align it right or left or maximize it - global hotkey
-<br/>
-***LButton+MButton*** dragging window (no need to ```hold``` down MButton) - global hotkey
-
-***Numpad4*** subtitle -0,5s ,🟩KMP64X "Options / Subtitles / delay step"
-<br/>
-***Numpad5*** subtitle +0,5s
-<br/>
-***Numpad6*** open "Adjust Subtitle Sync" ,🟩KMP64X doesn't support,                                                               ```hold``` show/hide subtitle
-<br/>
-***Enter*** if "Adjust Subtitle Sync" is active then written numbers are set,        ```hold``` closes "Adjust Subtitle Sync"
-
-***Numpad1*** audio -0,05s ,🟩KMP64X -0,01s
-<br/>
-***Numpad2*** audio +0,05s
-<br/>
-***Numpad3*** list of audio streams (default one is marked first),                        ```hold``` list of subtitles (default one is marked first), ***NumpadDot*** (32-bit only = volume interference) as down arrow
-
-***B*** add bookmark,                                                                                                       ```hold``` open "bookmark editor"
-<br/>
-***Enter*** if "bookmark editor" is active then "Enter" opens selected (arrows) bookmark and closes "bookmark editor"
-<br/>
-***Del*** if "bookmark editor" is active then "Del" remove selected (arrows) bookmark, ```hold``` closes "bookmark editor"
-<br/>
-***P*** playlist (arrows-select, p/esc close, enter-open/close)
-
-***Left*** previous file
-<br/>
-***Right*** next file
-<br/>
-***Down*** volume -5%
-<br/>
-***Up*** volume +5%
-
-***Z*** zoom- (letterbox)
-<br/>
-***X*** zoom+ (letterbox)
-<br/>
-***C*** zoom/acpect ratio reset ,🟩KMP64X zoom reset
-<br/>
-***PgUp*** acpect ratio cycle,                                                                                              ```hold``` zoom/acpect ratio reset
-<br/>
-🟩KMP64X - create new "end" hotkey in "Options / Keys / Next AR preset",                                                                 ```hold``` acpect ratio reset
-
-***ESC*** pause+minimize,                                                                                               ```hold``` close file
-<br/>
-***1234*** window size
-<br/>
-***Enter*** Maximize/Restore Window
-<br/>
-🟩KMP64X - to keep same behavior it's needed change default "Enter" hotkey to "Ins"
-
 ***[📥 Font Contrast HTML - option to change font color by HEX/slider/system dialog (Firefox29) or HEX only (9). Size 1MB](https://raw.githubusercontent.com/hornster02/hornster02/main/_FontContrastHTML.rar)***
 <br/>
 <img width="960" alt="font" src="https://github.com/user-attachments/assets/40807f87-8f6e-4713-8faa-80d69be6f4fb" />
@@ -1511,7 +1580,7 @@ Jak probíhá ukončení smlouvy s internetovým poskytovatelem Starnet (⚠️ 
 <br/>
 Zkušenosti jiných - pozor na trolící nadšenecké výkřiky typu "profesionální, milé, obětavé a sympatické techniky při práci ani na chvíli nepřešel úsměv na tváři" a další zaměnitelná hodnocení s nápadně podobnou strukturou+obsahem
 <br/>
-***[nejpripojeni.cz](https://nejpripojeni.cz/recenze/starnet/)⠀/⠀[dTest](https://www.vasestiznosti.cz/spolecnost-3372/starnet-s-r-o)⠀/⠀[firmy.cz](https://www.firmy.cz/detail/442498-starnet-ceske-budejovice-2.html?sortReviews=newest)⠀/⠀[google.cz](https://www.google.cz/search?safe=off&sa=X&sca_esv=8029562fbebb207c&hl=cs-CZ&sxsrf=ANbL-n4Hp2c3gbsnTntMnej7-qGFSHj4UA:1773220477773&q=STARNET%2C%20s.r.o.%20Recenze&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDawNDA1sDA1NjM1NjA1MzAysNjAyPiKUTw4xDHIzzVER6FYr0gvX08hKDU5Na8qdRErLhkA0bw3qU8AAAA&rldimm=13090508536530560208&tbm=lcl&ved=0CDEQ5foLahcKEwi41vaEwZeTAxUAAAAAHQAAAAAQCg&biw=1536&bih=608&dpr=1.67#lkt=LocalPoiReviews&arid=Ci9DQUlRQUNvZENodHljRjlvT2tWR1FrRlpNVFpZZUZwR1l6WTRURkpoV2tadk1HYxAB)⠀/⠀[news1.cz](https://www.news1.cz/starnet-diky-nechci/)⠀/⠀[leakingfountain.cz](https://leakingfountain.cz/2023/09/starnet-skutecne-internet-pro-kazdeho-nebo-horor/)⠀/⠀[lupa.cz](https://www.lupa.cz/aktuality/ceskobudejovicky-starnet-koupil-dalsi-dva-mensi-poskytovatele-internetu/nazory/vlakno/2/?opinionsListing-order=insert&do=opinionsListing-reorder)***
+***[nejpripojeni.cz](https://nejpripojeni.cz/recenze/starnet/) 🔸 [dTest](https://www.vasestiznosti.cz/spolecnost-3372/starnet-s-r-o) 🔸 [firmy.cz](https://www.firmy.cz/detail/442498-starnet-ceske-budejovice-2.html?sortReviews=newest) 🔸 [google.cz](https://www.google.cz/search?safe=off&sa=X&sca_esv=8029562fbebb207c&hl=cs-CZ&sxsrf=ANbL-n4Hp2c3gbsnTntMnej7-qGFSHj4UA:1773220477773&q=STARNET%2C%20s.r.o.%20Recenze&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDawNDA1sDA1NjM1NjA1MzAysNjAyPiKUTw4xDHIzzVER6FYr0gvX08hKDU5Na8qdRErLhkA0bw3qU8AAAA&rldimm=13090508536530560208&tbm=lcl&ved=0CDEQ5foLahcKEwi41vaEwZeTAxUAAAAAHQAAAAAQCg&biw=1536&bih=608&dpr=1.67#lkt=LocalPoiReviews&arid=Ci9DQUlRQUNvZENodHljRjlvT2tWR1FrRlpNVFpZZUZwR1l6WTRURkpoV2tadk1HYxAB) 🔸 [news1.cz](https://www.news1.cz/starnet-diky-nechci/) 🔸 [leakingfountain.cz](https://leakingfountain.cz/2023/09/starnet-skutecne-internet-pro-kazdeho-nebo-horor/) 🔸 [lupa.cz](https://www.lupa.cz/aktuality/ceskobudejovicky-starnet-koupil-dalsi-dva-mensi-poskytovatele-internetu/nazory/vlakno/2/?opinionsListing-order=insert&do=opinionsListing-reorder)***
 
 ***Délka trvání procesu (26.11.2025 - 14.2.2026)***
 <br/>
@@ -1602,10 +1671,10 @@ VOP = Všeobecné obchodní podmínky
 <br/>
 ```O2 Datamanie``` 2 výhody -
 <br/>
--anonymní předplacená SIM využitelná po celé ČR = dokud nebudou předplacené SIM (ty bez smluv/dluhů) postavené mimo zákon (ztracené+zneužité předplacené SIM na občanku by asi pro většinu byly méně škodlivé než dluhy = důsledky takových zneužitých SIM by asi nikdy nebyly na úrovni třeba zbraní), tak budou koncesionářské poplatky nevymahatelné (dokud se z nich nestane daň)
+■ anonymní předplacená SIM využitelná po celé ČR = dokud nebudou předplacené SIM (ty bez smluv/dluhů) postavené mimo zákon (ztracené+zneužité předplacené SIM na občanku by asi pro většinu byly méně škodlivé než dluhy = důsledky takových zneužitých SIM by asi nikdy nebyly na úrovni třeba zbraní), tak budou koncesionářské poplatky nevymahatelné (dokud se z nich nestane daň)
 <br/>
--nižší cena ~2500+ vs 3600
+■ nižší cena ~2500+ vs 3600
 <br/>
--nevýhoda - "zastaralé" generace sítí se v ČR postupně vypínají a tak i moderní 4G/android7 bude někdy nutné za ~250,- vyměnit
+■ nevýhoda - "zastaralé" generace sítí se v ČR postupně vypínají a tak i moderní 4G/android7 bude někdy nutné za ~250,- vyměnit
 <br/>
--teoretická a bohužel postupně se zmenšující nevýhoda - 1200+GB FUP
+■ teoretická a bohužel postupně se zmenšující nevýhoda - 1200+GB FUP
