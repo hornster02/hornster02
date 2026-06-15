@@ -36,13 +36,15 @@ I'm not author of translations (most of them come from retail CD/DVD). Nejsem au
 <br/>
 ■ k CZ přidávám ```SHA3_512``` (ověření dat) + ```REG``` (instalace hry) + ```LST``` (archiv = katalog dat s přesností na byte) + složku ```_ZBYTECNOSTI``` (aktivace CZ souborem, různé menší zbytky, ...) = TotalCMD
 <br/>
+■ ```BAT``` (Windows\System32 "cmd.exe" "conhost.exe" "attrib.exe" - pokud chybí, tak je možné je jednoduše vložit) automatizace (hromadné úpravy dat, pouze ve složce spuštění) je možné nahradit čistějším TotalCMD (najít/hromadně/přejmenovat/přesunout/odstranit)
+<br/>
 ■ slovo ```DOKUMENTY``` je označení systémových složek DocumentsAndSettings/Users/ProgramData = v různých systémech/nastaveních/jazycích/verzích her mohou být cesty různé a uvedení výchozích tedy nemá smysl = pokud hledaný soubor chybí, tak je pro jeho vygenerování zřejmě nutné hru nejdříve spustit (soubory je možné najít i podle datumu/Google/PCGW)
 <br/>
 ■ kvůli konfiguračním datům může záležet, zda se hra spustí nejdříve v EN a nebo v CZ + některé hry mohou být vzájemně nekompatibilní (různé verze/jazyky = různé savegame = možné bugy/crashe)
 <br/>
 ■ hraní v "nestandardním" rozlišení/FOV může i oříznout obraz s titulky
 <br/>
-■ pro načtení SRT titulků používám ```BikMod``` (beta), který pokud funguje, tak může způsobit fatální crashe (zřejmě jen při ukončování). Pokud funguje napůl, tak může způsobit fatální "freeze" (zřejmě jen při nahrávání). Moje chyba v SRT (třeba špatné číslování) by mohla způsobit fatální "freeze" (zřejmě jen při načtení/přehrávání videa). Nejrychlejší oprava by byla vrátit původní "Binkw32.dll" ze složky "Binkw32"
+■ pro načtení SRT titulků používám ```BikMod``` (beta), který pokud funguje, tak může způsobit fatální app "crash" (zřejmě jen při ukončování). Pokud funguje napůl, tak může způsobit fatální app "freeze" (zřejmě jen při nahrávání). Moje chyba v SRT (třeba špatné číslování) by mohla způsobit fatální app "freeze" (zřejmě jen při načtení/přehrávání videa). Nejrychlejší oprava by byla vrátit původní "Binkw32.dll" ze složky "Binkw32"
 <br/>
 ■ pokud je to možné, tak k překladům zásadně nepřikládám videosoubory = v nejhorším případě z nich CZ audiostopy/titulky extrahuji a to i přesto, že ve hře tyto externí stopy načíst nepůjdou (ve videopřehrávači jde ale načíst cokoli) = unifikovaný videoobsah by mohl zvětšit RAR až o stovky % a přitom by mohl přidat třeba jen 1% překladu. A to by bylo zvráceně neefektivní (+ mám k dispozici pouze 25MB na každý Github repozitář a 15GB GoogleDrive). Opravdu jen ve vyjímečných případech nepřikládám veškeré datové soubory s překladem (zatím asi jenom CoD)
 <br/>
@@ -50,7 +52,7 @@ I'm not author of translations (most of them come from retail CD/DVD). Nejsem au
 <br/>
 ■ občas uveřejňuji instalátory (sám je zásadně nevytvářím) od jiných autorů (pokud jsou reálně nesehnatelné), musí ale splňovat tyto podmínky - konkurenceschopná velikost, bezpodmínečná instalace (extrahování EXE přes 7-Zip je bonus), podpora Win7, nechuť testování, je to patch
 
-***CZ patch*** (Výhoda - nejjednodušší způsob zprostředkování překladu komplikovanějších/velkých dat a jeho ~přijatelná velikost. Nevýhoda - překlad obsahuje pouze datové rozdíly = je závislý na 100% přesném hash patchovaných dat do posledního jejich bitu) - jednoduchá+automatická práce se soubory (ověřit je a přesunout do "_Backup" --> aktualizovat/zapsat je do původních složek). V Patch.exe nepoužívám automatizace/podmínky/stahování/úpravy registru/mimo vybranou složku = jednotlivé kroky odděluji složkami typu ```_CZ-PART1``` ```_CZ-PART2```, aby uživatel věděl, který krok případně selhal a měl možnost jednoduše použít alespoň část dat + veškeré jejich informace = 98% tvůrců patch instalátorů zná pouze 2 stavy (0/100%), ale já žádná nepřekročitelná omezení nedávám = u mých překladů je tedy možné CZ patch aplikovat jen částečně a nebo i rovnou vynechat (i když to u her většinou neuvádím) a v lepším případě se spokojit pouze s částečným překladem = jsou 4 druhy patchů -
+***CZ patch (32-bit instalátor + 64-bit engine)*** (Výhoda - nejjednodušší způsob zprostředkování překladu komplikovanějších/velkých dat a jeho ~přijatelná velikost. Nevýhoda - překlad obsahuje pouze datové rozdíly = je závislý na 100% přesném hash patchovaných dat do posledního jejich bitu) - jednoduchá+automatická práce se soubory (ověřit je a přesunout do "_Backup" --> aktualizovat/zapsat je do původních složek). V Patch.exe nepoužívám automatizace/podmínky/stahování/úpravy registru/mimo vybranou složku = jednotlivé kroky odděluji složkami typu ```_CZ-PART1``` ```_CZ-PART2```, aby uživatel věděl, který krok případně selhal a měl možnost jednoduše použít alespoň část dat + veškeré jejich informace = 98% tvůrců patch instalátorů zná pouze 2 stavy (0/100%), ale já žádná nepřekročitelná omezení nedávám = u mých překladů je tedy možné CZ patch aplikovat jen částečně a nebo i rovnou vynechat (i když to u her většinou neuvádím) a v lepším případě se spokojit pouze s částečným překladem = jsou 4 druhy patchů -
 <br/>
 ■ zbytečné (kdyby náhodou) - patchnutí je pro funkčnost překladu/hry zbytečné
 <br/>
@@ -64,7 +66,7 @@ I'm not author of translations (most of them come from retail CD/DVD). Nejsem au
 <br/>
 ■ hash kontrola najde chyby ```PŘED``` úpravou souborů (tato kontrola bohužel nejde vypnout) = HW/SW chyba na straně uživatele (problémy se stabilitou/poškozená/patch/mod/chybějící/přístupem omezená cílová data = 100% aplikování může být nemožné)
 <br/>
-■ hash kontrola najde chyby ```PO``` úpravě souborů které pak vrací do výchozího stavu (tato kontrola jde vypnout, ale pokud uživatel chce jistotu 100% aplikování, tak je nesmysl to dělat) = ```1``` HW/SW chyba na straně uživatele (problémy se stabilitou/poškozená data, málo paměti/místa, nežádoucí zásahy do procesu ve jménu "ochrany a bezpečí"). ```2``` chyba na straně tvůrce patche (pokud nebyla nastavena hash kontrola VŠECH dat PŘED úpravou = kontrola zdržuje, ale přesto jsem od určitých období opustil jak "žádnou kontrolu", tak "klíčový soubor" = čtení je pro SSD daleko méně škodlivé než potenciálně zbytečné zápisy, a také laikovi jednoznačně odhalí zda je problém PŘED nebo PO) = problémy se stabilitou/poškozená/patch/mod/chybějící/přístupem omezená cílová data = 100% aplikování může být nemožné
+■ hash kontrola najde chyby ```PO``` úpravě souborů které pak vrací do výchozího stavu (tato kontrola jde vypnout, ale pokud uživatel chce jistotu 100% aplikování, tak je nesmysl to dělat) = ```1``` HW/SW chyba na straně uživatele (problémy se stabilitou/poškozená data, málo paměti/místa, nežádoucí zásahy do procesu ve jménu "ochrany a bezpečí"). ```2``` chyba na straně tvůrce patche (pokud nebyla nastavena hash kontrola VŠECH dat PŘED úpravou = kontrola zdržuje, ale přesto jsem od určitých období opustil jak "žádnou kontrolu", tak "klíčový soubor" = čtení je pro SSD daleko méně škodlivé než potenciálně zbytečné zápisy, a také laikovi jednoznačně odhalí zda je problém PŘED nebo PO) = problémy se stabilitou/poškozená/patch/mod/chybějící/přístupem omezená cílová data = 100% aplikování může být nemožné.
 <br/>
 Řešení pro mírně pokročilé - v ```Checker.ini``` (TEMP) je ```MD5``` hash (32 znaků) všech souborů (před/po patchování) 🔸 číslo použité verze HDiffPatch je v (nekomprimovaném) Patch.exe (```hpatchz v```, vyšší hodnota platí) 🔸 CMD⬇️ patchování
 
@@ -80,7 +82,7 @@ I'm not author of translations (most of them come from retail CD/DVD). Nejsem au
 <br/>
 ■ nový patch/remaster znefunkční CZ = chyba vývojáře, nikdo ho k tomu nenutil + překlad fungující byť na jediné verzi není vyloženě špatně (především je to smutné)
 <br/>
-■ chybějící ⚖️ nechtěné soubory = přikládat soubory typu EXE+DLL může být ošemetné (i když jsou třeba někdy originální, tak fungují jako crack), ale lepení různých verzí dat dohromady by bez (nejen) jejich použití mohlo způsobit bugy/crashe/rozbití CZ. Ale jejich použití může zase způsobit problémy s HW/SW/mod kompatibilitou=bugy/crashe, nebo při dovolené instalaci DRM i "trvalý" bluescreen (oprava bez sebemenšího následku je u BFU nepravděpodobná - SYS) = případné DRM uvádím
+■ chybějící ⚖️ nechtěné soubory = přikládat soubory typu EXE+DLL může být ošemetné (i když jsou třeba někdy originální, tak fungují jako crack), ale lepení různých verzí dat dohromady by bez (nejen) jejich použití mohlo způsobit bugy/crashe/rozbití CZ. Ale jejich použití může zase způsobit problémy s HW/SW/mod kompatibilitou=bugy/crashe, nebo při dovolené instalaci DRM i "trvalý" bluescreen (oprava bez sebemenšího následku je u laika nepravděpodobná - SYS) = případné DRM uvádím
 <br/>
 ■ ne vždy je nutné použít veškerá přiložená data
 <br/>
@@ -88,9 +90,9 @@ I'm not author of translations (most of them come from retail CD/DVD). Nejsem au
 <br/>
 ■ úpravy v HEX/Notepad++/... (vždy přikládat i původní soubory = velikost archivu bude stejná = solid komprese)
 <br/>
-■ dodatečné úpravy v samotné herní složce vždy automatizovat pomocí BAT
+■ dodatečné úpravy v samotné herní složce vždy automatizovat. Pokud je součástí překladu patch, tak vždy dát automatizaci jako některý krok po něm (= v případě neaplikování patche se může uživatel rozhodnout, zda bude pokračovat dalšími kroky a nebo skončí = tímto pořadím se vše může automaticky ponechat v nezměněné podobě)
 <br/>
-■ dodatečné ~9% datové úspory by se dosáhlo ZPAQ kompresí. Nevýhody - nutnost 2x rozbalit (RAR obal pro opravu dat) + nepodpora v RAR/7-Zip + rozbalování je o řád+ pomalejší
+■ dodatečné ~8% datové úspory by se dosáhlo ZPAQ kompresí. Nevýhody - nutnost 2x rozbalit (RAR obal pro opravu dat) + nepodpora v RAR/7-Zip + rozbalování je o řád+ pomalejší
 
 ***Největší překlady (retail)*** -
 <br/>
@@ -98,7 +100,7 @@ I'm not author of translations (most of them come from retail CD/DVD). Nejsem au
 <br/>
 ```Text``` - 🎞️ Numen 2009 ***271MB***, 🎞️ eXperience 112 2007 ***253MB***, Overclocked 2007 ***200MB***, Devil May Cry 2008 ***58MB*** = 782MB
 
-***Kompatibilita*** - stahování z Github+GoogleDrive bylo v roce 2026 vyzkoušeno v FF49 (2016) ```general.useragent.override``` ```Mozilla/5.0 (PlayStation 5 3.03/SmartTV) AppleWebKit/605.1.15 (KHTML, like Gecko)``` 🔸 CMD⬇️ patchování ➡️ ⬅️ (hdiffz-x64.exe), 4.12.0 (2025), 4.4.0 (2022) 🔸 TotalCMD 2020+ 🔸 WinRAR 2013+ 🔸 Win7 2009 (od 2016-10) 🔸 WinXP 2001 32-bit (do 2016-10)
+***Kompatibilita*** - stahování z Github+GoogleDrive bylo v roce 2026 vyzkoušeno v FF49 (2016) ```general.useragent.override``` ```Mozilla/5.0 (PlayStation 5 3.03/SmartTV) AppleWebKit/605.1.15 (KHTML, like Gecko)``` 🔸 CMD⬇️ patchování ➡️ ⬅️ (hdiffz-x64.exe), 4.12.2 (2026), 4.4.0 (2022) 🔸 TotalCMD 2020+ 🔸 WinRAR 2013+ 🔸 Win7 2009 (od 2016-10) 🔸 WinXP 2001 32-bit (do 2016-10)
 
 ***Skryté překlady*** -
 <br/>
@@ -122,7 +124,7 @@ Fable 2004 - překladatel+technik (2025). Ke smůle nás všech nechal 2014 rema
 <br/>
 <img width="960" alt="cz+sk" src="https://github.com/user-attachments/assets/31c8472b-8d21-49a4-bdaf-a24b187d9b10" />
 <br/>
-PCGW 🔸 GOG 🔸 Steam 🔸 abcgames.cz 🔸 abecedaher.cz 🔸 bonusweb.cz 🔸 cdh.cz 🔸 ceskepreklady.estranky.cz 🔸 cestiny.net 🔸 cestinyodzhiliana.webnode.cz 🔸 dabingforum.cz 🔸 edownload.cz 🔸 farflame.cz 🔸 fenixprodabing.cz 🔸 folkemonovycestiny.cz 🔸 games.tiscali.cz 🔸 gamestar.cz 🔸 hannes.gameplanet.cz 🔸 hernipreklady.cz 🔸 jurgenovycestiny.cz 🔸 komunitni-preklady.org 🔸 lokalizace.net 🔸 lokalizacie.sk 🔸 madukas.cz 🔸 mrazikovycestiny.cz 🔸 necronos.pageride.cz 🔸 oldgames.sk 🔸 paranskyraj.cz 🔸 perlagroup.eu 🔸 pmx-preklady.webnode.sk 🔸 porse.cz 🔸 prekladyher.eu 🔸 raptor-cestiny.cz 🔸 rk-translations.cz 🔸 rpgcitadela.cz 🔸 sakratym.cz 🔸 slovenciny.com 🔸 spykertym.cz 🔸 squiee.cz 🔸 sukup.cz 🔸 war-forum 🔸 warcenter 🔸 warforum
+Pro otevření HTML je třeba Firefox 2+, pro možnost filtrování 49+, pro úplnou podporu emoji 79+. HTML kód je v té nejjednodušší formě (nechtěné servery je možné snadno odstranit). PCGW 🔸 GOG 🔸 Steam 🔸 abcgames.cz 🔸 abecedaher.cz 🔸 bonusweb.cz 🔸 cdh.cz 🔸 ceskepreklady.estranky.cz 🔸 cestiny.net 🔸 cestinyodzhiliana.webnode.cz 🔸 dabingforum.cz 🔸 edownload.cz 🔸 farflame.cz 🔸 fenixprodabing.cz 🔸 folkemonovycestiny.cz 🔸 games.tiscali.cz 🔸 gamestar.cz 🔸 hannes.gameplanet.cz 🔸 hernipreklady.cz 🔸 jurgenovycestiny.cz 🔸 komunitni-preklady.org 🔸 lokalizace.net 🔸 lokalizacie.sk 🔸 madukas.cz 🔸 mrazikovycestiny.cz 🔸 necronos.pageride.cz 🔸 oldgames.sk 🔸 paranskyraj.cz 🔸 perlagroup.eu 🔸 pmx-preklady.webnode.sk 🔸 porse.cz 🔸 prekladyher.eu 🔸 raptor-cestiny.cz 🔸 rk-translations.cz 🔸 rpgcitadela.cz 🔸 sakratym.cz 🔸 slovenciny.com 🔸 spykertym.cz 🔸 squiee.cz 🔸 sukup.cz 🔸 war-forum 🔸 warcenter 🔸 warforum
 
 ***[🟦 Inno Setup XDELTA Patch Maker (ISXPM)](https://jrsoftware.org/is3rdparty.php)*** - pokud jsou lokalizační data chráněna a součástí větších souborů a potřebné nástroje nejsou k dispozici, případně pokud hra "neumí" načíst externí rozbalená data, tak poslední způsob jak zprostředkovat překlad je vytvořit rozdílový patch. Pokud překlad vyžaduje i svoje konkrétní DLL/EXE/..., tak je dobré je z EN verze dočasně odebrat (tím dojde ke zkopírování CZ souborů do cíle bez ohledu na jejich verzi = výsledný patch může být kompatibilní i s jinými verzemi typu GOG/MYABANDONWARE/...) = tyto soubory mají běžně velikost pár desítek MB a jdou dobře komprimovat, takže patch způsob by přinesl úsporu pouze v rámci jednotek MB, ale pokud by se v cílové verzi v budoucnu změnilo jediné písmeno (je to daleko pravděpodobnější než změna v datových souborech), tak 100% aplikování nebude možné (podle nastavení patch aplikování buď odmítne, nebo skončí chybou a vrátí soubory zpět, nebo dojde bez vyjímky k poškození dat viz CMD⬇️ patchování). Pokud hra obsahuje stejné typy souborů lišící se v názvu/umístění, tak pokud se tyto věci sjednotí, tak bude patch menší (nebudou se kopírovat, ale patchovat). Některé hry/patche mohou data upravovat i lokálně kdy každé zpracování vytvoří jiná data = patchování nestálých (nebo šifrovaných) dat není možné. Data je dobré kontrolovat (porovnáním/hash) na případné nežádoucí změny=poškození (2 nezávislé instalace stejné verze hry, dodatečné úpravy, aplikování patche). Spuštěný ISXPM vypadá strašně složitě, ale ve skutečnosti může patch vytvořit i naprostý laik (drobná komplikace může být nutnost aktivovat CZ přes klíč v registru nebo souborem mimo herní složku) který si vystačí klidně i jen s řádky "Old version" a "Final version". 🔒I nechráněný patch může také být nestandardní a neprolomitelnou formou "šifrování" šifrovaných dat = pokud se oba typy souborů ručně poškodí, záhlaví/zápatí, nedohledatelná hash a názvy souborů, tak hledat potenciálně podezřelé soubory a zjistit které k sobě pasují a jak je upravit aby bylo možné 100% aplikování nebude žádná sranda ani pro ty nejvykvantovanější AI PC 4-tého milénia.
 <br/>
@@ -132,7 +134,7 @@ PCGW 🔸 GOG 🔸 Steam 🔸 abcgames.cz 🔸 abecedaher.cz 🔸 bonusweb.cz �
 <br/>
 ■ přidat do Patch.exe tlačítko na ignorování veškerých kontrol = jakýkoli % výsledek akceptovat jako "Hotovo s výstrahou" + vytvořit externí standardizovaný hash chybných souborů (pro jejich snadné nalezení u jiných zdrojů)
 <br/>
-■ (3) externí standardizované hash soubory mimo Checker.ini
+■ 3 externí standardizované hash soubory mimo Checker.ini
 <br/>
 ■ přidat do Patch.exe tlačítko "O" s informacemi použitých komponent
 <br/>
@@ -148,13 +150,17 @@ PCGW 🔸 GOG 🔸 Steam 🔸 abcgames.cz 🔸 abecedaher.cz 🔸 bonusweb.cz �
 <br/>
 ■ odstranit nutnost jakýchkoli textů/popisů v Patch.exe
 <br/>
+■ 64-bit
+<br/>
 ■ po neúspěšném aplikování (rollback) se v Patch.exe logu objeví "Patching log saved to:" který nepochází z "_cz.ini" = drobný bug?
 <br/>
-***CMD patchování bez Patch.exe*** (vyžaduje data mimo EXE) - pro [***🟦 HDiffPatch*** (1MB)](https://github.com/sisong/HDiffPatch) se může použít příkaz ```hdiffz-x64.exe -f --patch "a:\Stary\0.txt" "a:\Patch\0.txt.xdelta" "a:\Novy\0.txt"```. Proces je možné částečně automatizovat. ```1``` TotalCmd - vygenerovat seznam "Patch" souborů včetně cest do TXT + někam zkopírovat "Patch" data bez souborů čímž se vytvoří podsložky které poslouží jako cíl "Novy". ```2``` Notepad++ - vytvořit (ze seznamu "Patch" souborů) "Stary" "Novy" cesty (najít/nahradit +regulární výrazy pro přidání uvozovek). ```3``` LibreOffice Calc - výsledný polotovar se stejným počtem řádků a o 4 částech (EXE,Stary,Patch,Novy) dát vedle sebe do sloupců a pak vykopírovat zpět do TXT/BAT (před uvozovkami - sloupci - má být klasická mezera).
+***CMD patchování bez Patch.exe*** (vyžaduje data mimo EXE) - pro [***🟦 HDiffPatch*** (1MB)](https://github.com/sisong/HDiffPatch) se může použít příkaz ```a:\hdiffz-x64.exe -f --patch "a:\Stary\0.txt" "a:\Patch\0.txt.xdelta" "a:\Novy\0.txt"```. Proces je možné částečně automatizovat. ```1``` TotalCmd - vygenerovat seznam "Patch" souborů včetně cest do TXT + někam zkopírovat "Patch" data bez souborů čímž se vytvoří podsložky které poslouží jako cíl "Novy". ```2``` Notepad++ - vytvořit (ze seznamu "Patch" souborů) "Stary" "Novy" cesty (najít/nahradit +regulární výrazy pro přidání uvozovek). ```3``` LibreOffice Calc - výsledný polotovar se stejným počtem řádků a o 4 částech (EXE,Stary,Patch,Novy) dát vedle sebe do sloupců a pak vykopírovat zpět do TXT/BAT (před uvozovkami - sloupci - má být klasická mezera).
 <br/>
 ```Jak docílit?``` -
 <br/>
-■ možnost vynechat v CMD "a:\Stary\0.txt" (vypnout i tu poslední kontrolu = vytvořit "a:\Novy\0.txt" pouze z "a:\Patch\0.txt.xdelta") = momentálně jde "patchnout" i prázdný (bez ohledu na hash) "a:\Stary\0.txt" (jen je třeba dodržet byte velikost) = "a:\Patch\0.txt.xdelta" se aplikuje do patřičných míst "a:\Novy\0.txt" a zbytek zůstane prázdný = soubor bude poškozený, ale část dat by se z něj vyškrábat dala (např. 1% velikost XDELTA = ~99% poškození "a:\Novy\0.txt", někdy ale i poškození 0.000001% může být fatální).
+■ možnost vynechat v CMD "a:\Stary\0.txt" (vypnout i tu poslední kontrolu = vytvořit "a:\Novy\0.txt" pouze z "a:\Patch\0.txt.xdelta") = momentálně jde "patchnout" i prázdný (bez ohledu na hash) "a:\Stary\0.txt" (jen je třeba dodržet byte velikost) = "a:\Patch\0.txt.xdelta" se aplikuje do patřičných míst "a:\Novy\0.txt" a zbytek zůstane prázdný = soubor bude poškozený, ale část dat by se z něj vyškrábat dala (např. 1% velikost XDELTA = ~99% poškození "a:\Novy\0.txt", někdy ale i poškození 0.000001% může být fatální)
+<br/>
+■ možná revoluce v patchování ("až" 100% úspora dat) - problém s různým umístěním stejných dat (Stary, Novy) napříč soubory. ```Soubor1``` - 2GB archiv (Stary1) + 1GB archiv (Novy1 - obsahuje stejná data jako Stary1, jen jich je půlka) = 0GB XDELTA1 (správně - dojde k vyříznutí/zahození zbytečných dat). ```Soubor2``` - 1GB archiv (Stary2) + 2GB archiv (Novy2 - obsahuje stejná data jako Stary2 + obsahuje 1GB vyříznutých/zahozených zbytečných dat z 2GB Stary1) = 1GB XDELTA2 (špatně - v pohádkovém světě by měl Patch engine dát tvůrci možnost při patchování čerpat nová data nejen klasicky z přidruženého XDELTA staženého z internetu, ale podle potřeby i z několika nesouvisejících Stary z uživatelských SSD = ```a:\hdiffz-x64.exe -f --patch "a:\Stary\0.txt" "a:\Stary\1.txt" "a:\Patch\0.txt.xdelta" "a:\Novy\0.txt"``` = 0GB XDELTA2)
 
 V roce 2024 vznikla CZ alternativa ISXPM [```🟦 CZMaker```](https://lokalizace.net/aplikace-ke-stazeni). Test patch+komprese (ne kopírování) [rozbalených](https://get.videolan.org/vlc/2.2.0/win32/vlc-2.2.0-win32.exe) [souborů](https://get.videolan.org/vlc/3.0.18/win32/vlc-3.0.18-win32.exe) = +24% k velikosti (+75% u EN/CZ verzí "Data1.fbz" hry Shadowgrounds, třetí pokus by byl zbytečný). CZMaker neumí vytvořit instalátor (1MB dat u ISXPM) = zřejmě kvůli vnucení ```CZ Manager``` (vyžaduje ```.NET Desktop Runtime 8``` a ```internetové spojení``` = zřejmě se jedná o jakousi formu DRM pro překlady, i když samozřejmě že všechny jdou ripnout do datově menšího future-proof offline formátu). [[2/3] CZMaker (Jak dělat balíčky pro manager)](https://youtu.be/fBQSt8eEe2Y) (⚠️ Obsahuje dezinformace).
 <br/>
@@ -226,7 +232,7 @@ V roce 2026 byl CZ Manager nahrazen revolučním ```CZManager Agent``` (zřejmě
 <br/>
 ■ filtrovat/řadit produkty podle velikosti, skutečného roku vydání, DRM/účtů třetích stran
 <br/>
-■ schválení úprav profilu trvá dny/týdny/měsíce a do té doby jsou části profilu skryté veřejnosti (OK). Dochází i ke skrytí částí profilu které nebyly upravené (neOK). Pokud byly problémové části profilu schváleny v minulosti, tak jejich neupravení vyžaduje nové schválení (neOK) = ve Valve chybí (automatické) porovnání obsahu s předchozí úpravou a jenom samotné kliknutí na tlačítko "Uložit" vyžaduje další schválení (zřejmě ruční, když trvá až měsíce)
+■ schválení úprav profilu trvá dny/týdny/měsíce a do té doby jsou části profilu skryté veřejnosti (OK). Dochází i ke skrytí částí profilu které nebyly upravené (neOK). Pokud byly problémové části profilu schváleny v minulosti, tak jejich neupravení vyžaduje nové schválení (neOK) = ve Valve chybí whitelisty a (automatické) porovnání obsahu s předchozí úpravou a jenom samotné kliknutí na tlačítko "Uložit" vyžaduje další schválení (zřejmě ruční, když trvá až měsíce)
 <br/>
 ■ zaseknutý komentář (skrytý obsah, nejde upravit/smazat) na profilu (který zřejmě čeká na ruční schválení které se asi nikdy nestane) = automatický ban veškerých nových komentářů (skrytý obsah, nejde upravit/smazat, případné schválení trvá měsíce) pod jakýmkoli profilem
 
@@ -396,7 +402,7 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***🟦 NAPS2*** - skenování, export do PDF, OCR
 
-***🟦 Display Driver Uninstaller*** - odinstalování audio/video ovladačů, ***Device Remover*** - možné zásadní zrychlení spuštění "Správce zařízení" (záleží kolika PC/komponenty systém prošel). Užitečný také pro řešení problémů s chybějícím (nedetekovatelným) HW/SW ve "Správce zařízení". Příklad pro detekci+instalaci zvukového zařízení HDMI/DisplayPort (AMD) - ... --> Show only hidden/detached devices --> Sound, video and game controllers ```+``` System devices --> označit+hromadně odstranit High Definition Audio Device ```+``` High Definition Audio Controller --> restartovat GPU ovladač --> měla by nastat automatická detekce nového zařízení, pokud ne, tak spustit manuální. ⚠️ V případě používání 3rd party SW (a nejen jich?) pro GPU (napětí/frekvence/chlazení/...) = může být nutné je poté restartovat
+***🟦 Display Driver Uninstaller*** - odinstalování audio/video ovladačů, ***Device Remover*** - možné zásadní zrychlení spuštění "Správce zařízení" (záleží kolika PC/komponenty systém prošel). Užitečný také pro řešení problémů s chybějícím (nedetekovatelným) HW/SW ve "Správce zařízení". Příklad pro detekci+instalaci zvukového zařízení HDMI/DisplayPort (AMD) - ... --> Show only hidden/detached devices --> Sound, video and game controllers ```+``` System devices --> označit+hromadně odstranit High Definition Audio Device ```+``` High Definition Audio Controller --> restartovat GPU ovladač --> měla by nastat automatická detekce nového zařízení, pokud ne, tak spustit manuální. ⚠️ v případě používání 3rd party SW (a nejen jich?) pro GPU (napětí/frekvence/chlazení/...) = může být nutné je poté restartovat
 
 ***🟦 RimhillEx*** - omezení rychlosti čtení CD/DVD
 
@@ -508,6 +514,8 @@ Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkr
 ■ (hex)editace v "porovnání obsahu" bez omezení
 <br/>
 ■ kopírovat NTFS linky (soubory) jako linky a ne jako soubory
+<br/>
+■ zobrazit obsah VŠECH souborů v "Synchronizace složek"
 
 ***🟦 Notepad++*** - hromadné odstranění řádků obsahující prázdné/žádné znaky/duplikáty, řazení řádků, výběr bloku textu ```ALT+LButton```, výběr souboru seznam ```RButton+Wheel```, ...
 <br/>
@@ -521,7 +529,7 @@ Regulární výrazy (může se hodit především "Na konci znovu od začátku")
 <br/>
 ■ odstranit poslední 4 znaky na řádcích ```.{4}$```
 <br/>
-■ odstranit 4 a 4 a vše mezi tím ```4.*?4```
+■ odstranit 4 a 4 a vše mezi tím ```4.*?4``` (pro odstranění ```\``` je nutné zdvojit ```\\```)
 <br/>
 ■ odstranit vše mezi 4 a 4, ale 4 a 4 zachovat ```4.*?4``` ```44```
 <br/>
@@ -552,6 +560,10 @@ Regulární výrazy (může se hodit především "Na konci znovu od začátku")
 ■ sloučit řádky do jednoho ```\s*(.+)\s+``` ```$1```
 <br/>
 ■ za každou nalezenou 4 stisknout Enter (rozdělit do řádků) ```(?-s)4``` ```$0\r\n```
+<br/>
+■ pod každý řádek vložit prázdný řádek ```$``` ```\n```
+<br/>
+■ nad každý řádek vložit prázdný řádek ```^.``` ```\r\n$0```
 <br/>
 ■ opravit CZ diakritiku (PaddleOCR 2025) ```(ü)|(û)|(ñ)|(t')|(ù)|(ë)``` ```(?1ů)(?2ů)(?3ň)(?4ť)(?5ů)(?6ě)```
 <br/>
@@ -635,7 +647,11 @@ Rozšířené vyhledávání -
 <br/>
 ```icacls "a:\4" /setowner "NT SERVICE\TrustedInstaller" /t /c /l``` - změnit vlastníka složky "4" (a veškerého obsahu) na "TrustedInstaller". Takto zadaný příkaz nefunguje, pokud je u dat odepřený přístup nebo read-only (NTFS). MS má tento nástroj zřejmě zabugovaný a i když obsahuje /l (nešířit se u toho jako rakovina a nenásledovat NTFS linky), tak to u složek ignoruje
 <br/>
-```dir "a:\4" /Q /S /A > "a:\1.txt"``` - uložit vlastníky obsahu složky 4 do souboru 1. Možný obsah TXT - Everyone + Administrators + NT SERVICE\TrustedInstaller + NT AUTHORITY\SYSTEM + NT AUTHORITY\LOCAL SERVICE + NT AUTHORITY\NETWORK SERVICE + BUILTIN\BUILTIN + název PC\účtu + odepřený přístup ```                    ```. Může docházet ke zkracování názvů = MS zřejmě šetří písmena
+```attrib -r -a -s -h /S /D /L "a:\4\*.*"``` - odstranit atributy obsahu složky 4 (další rakovina ⬆️)
+<br/>
+```forfiles /S /M *4.exe /C "cmd /c ren @file *1.exe"``` - najít všechny *4.exe a přejmenovat je na *1.exe (další rakovina ⬆️ a ani k tomu nepotřebuje ekvivalent /l)
+<br/>
+```dir "a:\4" /Q /S /A > "a:\1.txt"``` - uložit vlastníky obsahu složky 4 do souboru 1. Možný obsah TXT - Everyone + Administrators + NT SERVICE\TrustedInstaller + NT AUTHORITY\SYSTEM + NT AUTHORITY\LOCAL SERVICE + NT AUTHORITY\NETWORK SERVICE + BUILTIN\BUILTIN + název PC\účtu + bez vlastníka, odepřený přístup ```                    ```. Může docházet ke zkracování názvů = MS zřejmě šetří písmena
 <br/>
 ```start 4.exe``` ***/*** ```4.exe``` ***/*** ```"4.exe" 1``` ***/*** ```start /max 4.exe``` ***/*** ```taskkill /im 4.exe /f``` - spustit 4.exe v novém okně ***/*** spustit 4.exe ***/*** spustit 4.exe s parametrem 1 ***/*** spustit 4.exe v maximalizovaném okně ***/*** vynutit vypnutí 4.exe
 <br/>
@@ -652,6 +668,8 @@ Rozšířené vyhledávání -
 ***IPCONFIG.exe /ALL*** - informace o síti
 
 ***🟦 LibreOffice*** - do ```registrymodifications.xcu``` se ukládá nastavení a bohužel i historie
+<br/>
+■ spojit obsah sloupců A (obsah pouze na sudých řádcích) a B (obsah pouze na lichých řádcích) do C (nebo spojit obsah bez ohledu na sudé/liché řádky) = do C1 vložit ```= A1 & B1``` (tím se vytvoří první řádek) + vpravo dole na C1 řádku podržet tečku a potáhnout jí dolů
 <br/>
 ```Jak docílit?``` - v Calc lištu s "panely" klasicky nahoře?
 
@@ -855,7 +873,7 @@ Z mých desetiletých pozorování je Firefox (určitě nebude jediný) nejlepš
 <br/>
 ■ filter/sort products by size, actual release year, DRM/third-party accounts
 <br/>
-■ profile edits take days/weeks/months to be approved, and until then, parts of profile are hidden for public (OK). Parts of profile that haven’t been edited are also hidden (not OK). If problematic parts of profile were approved in past, not editing them requires new approval (not OK) = Valve lacks an (automatic) comparison of content with previous edit, and simply clicking "Save" button requires further approval (presumably manual, since it takes up to months)
+■ profile edits take days/weeks/months to be approved, and until then, parts of profile are hidden for public (OK). Parts of profile that haven’t been edited are also hidden (not OK). If problematic parts of profile were approved in past, not editing them requires new approval (not OK) = Valve lacks whitelists and (automatic) comparison of content with previous edit, and simply clicking "Save" button requires further approval (presumably manual, since it takes up to months)
 <br/>
 ■ a stuck comment (hidden content, cannot be edited/deleted) on a profile (which is apparently awaiting for manual approval that will likely never happen) = automatic ban on all new comments (hidden content, cannot be edited/deleted, approval, if it ever comes, takes months) under any profile
 
@@ -1025,7 +1043,7 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***🟦 NAPS2*** - scan, export to PDF, OCR
 
-***🟦 Display Driver Uninstaller*** - uninstall audio/video drivers, ***Device Remover*** - possible major speed up of "Device Manager" startup (depends on how many PCs/components system has gone through). Also useful for troubleshooting missing (undetectable) HW/SW in "Device Manager". Example for detecting and installing HDMI/DisplayPort audio device (AMD) - ... --> Show only hidden/detached devices --> Sound, video, and game controllers ```+``` System devices --> select+bulk delete High Definition Audio Device ```+``` High Definition Audio Controller --> restart GPU driver --> automatic detection of new device should occur, if not, run manual detection. ⚠️ When using 3rd party SW (and not only them?) for GPU (voltage/frequency/cooling/...) = it may be necessary to restart them afterwards
+***🟦 Display Driver Uninstaller*** - uninstall audio/video drivers, ***Device Remover*** - possible major speed up of "Device Manager" startup (depends on how many PCs/components system has gone through). Also useful for troubleshooting missing (undetectable) HW/SW in "Device Manager". Example for detecting and installing HDMI/DisplayPort audio device (AMD) - ... --> Show only hidden/detached devices --> Sound, video, and game controllers ```+``` System devices --> select+bulk delete High Definition Audio Device ```+``` High Definition Audio Controller --> restart GPU driver --> automatic detection of new device should occur, if not, run manual detection. ⚠️ when using 3rd party SW (and not only them?) for GPU (voltage/frequency/cooling/...) = it may be necessary to restart them afterwards
 
 ***🟦 RimhillEx*** - CD/DVD read speed limitation
 
@@ -1137,6 +1155,8 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. ```HKLM\SYS
 ■ (hex)editing in "content comparison" without restrictions
 <br/>
 ■ copy NTFS links (files) as links, not as files
+<br/>
+■ show contents of ALL files in "Folder Sync"
 
 ***🟦 Notepad++*** - bulk removal of rows containing empty/no/duplicates characters, lines sorting, select text block ```ALT+left button```, file list show/select ```RButton+Wheel```, ...
 <br/>
@@ -1150,7 +1170,7 @@ Regular expressions (useful "Wrap around") -
 <br/>
 ■ remove last 4 characters on lines ```.{4}$```
 <br/>
-■ remove 4 and 4 and everything between ```4.*?4```
+■ remove 4 and 4 and everything between ```4.*?4``` (for removing ```\```, use two ```\\```)
 <br/>
 ■ remove everything between 4 and 4, but keep 4 and 4 ```4.*?4``` ```44```
 <br/>
@@ -1181,6 +1201,10 @@ Regular expressions (useful "Wrap around") -
 ■ merge lines into one ```\s*(.+)\s+``` ```$1```
 <br/>
 ■ after each founded 4 press Enter (split into lines) ```(?-s)4``` ```$0\r\n```
+<br/>
+■ insert a blank line below each line ```$``` ```\n```
+<br/>
+■ insert a blank line above each line ```^.``` ```\r\n$0```
 <br/>
 ■ correct CZ diacritics (PaddleOCR 2025) ```(ü)|(û)|(ñ)|(t')|(ù)|(ë)``` ```(?1ů)(?2ů)(?3ň)(?4ť)(?5ů)(?6ě)```
 <br/>
@@ -1264,7 +1288,11 @@ Advanced search -
 <br/>
 ```icacls "a:\4" /setowner "NT SERVICE\TrustedInstaller" /t /c /l``` - change owner of folder "4" (and all its content) to "TrustedInstaller". This command does not work if access to data is denied or read-only (NTFS). MS apparently has a bug in this tool, and even though it contains /l (don't spread like cancer and don't follow NTFS links), it ignores it for folders
 <br/>
-```dir "a:\4" /Q /S /A > "a:\1.txt"``` - save owners of contents of folder 4 to file 1. Possible TXT content - Everyone + Administrators + NT SERVICE\TrustedInstaller + NT AUTHORITY\SYSTEM + NT AUTHORITY\LOCAL SERVICE + NT AUTHORITY\NETWORK SERVICE + BUILTIN\BUILTIN + PC name\account + denied access ```                    ```. Names may be shortened = MS is apparently saving characters
+```attrib -r -a -s -h /S /D /L "a:\4\*.*"``` - remove attributes of folder 4 (another cancer ⬆️)
+<br/>
+```forfiles /S /M *4.exe /C "cmd /c ren @file *1.exe"``` - find all *4.exe and rename them to *1.exe (another cancer ⬆️, and it doesn't even need a /l equivalent)
+<br/>
+```dir "a:\4" /Q /S /A > "a:\1.txt"``` - save owners of contents of folder 4 to file 1. Possible TXT content - Everyone + Administrators + NT SERVICE\TrustedInstaller + NT AUTHORITY\SYSTEM + NT AUTHORITY\LOCAL SERVICE + NT AUTHORITY\NETWORK SERVICE + BUILTIN\BUILTIN + PC name\account + without owner, denied access ```                    ```. Names may be shortened = MS is apparently saving characters
 <br/>
 ```start 4.exe``` ***/*** ```4.exe``` ***/*** ```"4.exe" 1``` ***/*** ```start /max 4.exe``` ***/*** ```taskkill /im 4.exe /f``` - run 4.exe in new window ***/*** run 4.exe ***/*** run 4.exe with parameter 1 ***/*** run 4.exe in maximized window ***/*** force kill 4.exe
 <br/>
@@ -1281,6 +1309,8 @@ Advanced search -
 ***IPCONFIG.exe /ALL*** - network information
 
 ***🟦 LibreOffice*** - settings and, unfortunately, history are stored in ```registrymodifications.xcu```
+<br/>
+■ combine contents of column A (contents only in even rows) and B (contents only in odd rows) into C (or combine contents regardless of even/odd rows) = enter ```= A1 & B1``` into C1 (this creates first row) + click and hold dot at bottom right corner of row C1 and drag it down
 <br/>
 ```How to achieve?``` - in Calc, "tab" bar at top, as usual?
 
@@ -1588,9 +1618,9 @@ Zkušenosti jiných - pozor na trolící nadšenecké výkřiky typu "profesion�
 
 Primární důvod výpovědi - koncesionářské poplatky (výzva ze strany ČT k přihlášení byla sepsána 14.1.2026, poslední "čestné prohlášení" bylo sepsáno 3.10.2021). Smlouva uzavřena 15.2.2010. 26.11.2025 zaslán emailový požadavek na ukončení smlouvy k 1.1.2026. Rychlost linky v roce 2010 16/8, v roce 2025 300/300, data neomezená. Cena za rok připojení 3000,- (celkem bezkonkurenční a to i nejen zásluhou v mém případě reálně bezchybné stabilitě připojení) a od roku 2023 3600,-
 
-Chování zákazníka po dobu trvání smlouvy = ~90% času byla linka využívána pouze na 1 zařízení a rychlost síťové karty byla nastavena na 10/10 (omezení špiček poskytovateli) + bez jediné zpožděné platby (platba za 1/2011 byla dokonce provedena 12/2010 čímž vzniklo nedorozumění) + průměrná měsíční spotřeba dat před koncem ulozto v roce 2023 ~90GB a poté s používáním torrentů a jejich uploadu ~120GB (životní rekord a to s obrovským odstupem nastal až v 12/2025 se spotřebou ~360GB) + žádný inicializovaný kontakt s podporou (stěžování/reklamace) + stěhování v rámci města v roce 2020 (za které, k velkému překvapení, nebylo nutné zaplatit technikům/společnosti ani korunu i přes to, že byl poskytnut nový ~8 metrů dlouhý RJ-45 kabel)
+Chování zákazníka po dobu trvání smlouvy = ~90% času byla linka využívána pouze na 1 zařízení a rychlost síťové karty byla nastavena na 10/10 (omezení špiček poskytovateli) + bez jediné zpožděné platby (platba za 1/2011 byla dokonce provedena 12/2010 čímž vzniklo nedorozumění) + průměrná měsíční spotřeba dat před koncem ulozto v roce 2023 ~90GB a poté s používáním torrentů a jejich uploadu ~120GB (životní rekord a to s obrovským odstupem nastal až v 12/2025 se spotřebou ~360GB) + žádný inicializovaný kontakt s podporou (stěžování/reklamace) + stěhování v rámci města v roce 2020 (za které, k velkému překvapení, nebylo nutné zaplatit technikům/společnosti ani korunu i přes to, že byl poskytnut nový ~8 metrů dlouhý RJ-45 kabel).
 
-dTest+ČTÚ nezbytnost "Kód" ve výpovědi spíše rozporují. "Kód" je ve VOP zřejmě od 25.5.2018+ (mám pouze VOP 2008+2018+2022 a je možné, že mi nějaké chybí, a v tom případě by některé poznatky v tomto odstavci byly v lepším případě nepřesné) = nebylo nutné ho při výpovědi uvádět (to až od 1.7.2022+ , kdy se poprvé konkrétně píše že "Každému Zájemci i Zákazníkovi je přidělen jedinečný Autorizační kód, který obdrží před uzavřením Smlouvy") a zákazníkovi mohl=nemusel být Starnetem přidělen (= u smluv uzavřených do 30.6.2022 je nutnost "Kód" ve výpovědi nevymahatelná = logicky nedává smysl aby některý zákazník byl a některý nebyl jeho uvedením pro "jednoznačnou identifikaci zákazníka" povinován). "Kód" nebyl v roce 2020 vyžadován pro "Žádost o přepis / stěhování služby – změna smlouvy". Bylo by nebezpečné uvést "Kód" ve smlouvě? Mohl by Starnet dokázat, že "Kód" byl zákazníkovi odeslán v emailu/SMS a dala by se SMS považovat za věrohodný důkaz? Nápad - "Kód" jde zaslat autorizované osobě opětovně emailem v šifrovaném RAR (heslo rozdělené mezi email+SMS. Datová schránka nebo úředně ověřený podpis je zbytečná překážka) = snad nejdou kontaktní údaje v samoobsluze bez "Kód" změnit
+dTest+ČTÚ nezbytnost "Kód" ve výpovědi spíše rozporují. "Kód" je ve VOP zřejmě od 25.5.2018+ (mám pouze VOP 2008+2018+2022 a je možné, že mi nějaké chybí, a v tom případě by některé poznatky v tomto odstavci byly v lepším případě nepřesné) = nebylo nutné ho při výpovědi uvádět (to až od 1.7.2022+ , kdy se poprvé konkrétně píše že "Každému Zájemci i Zákazníkovi je přidělen jedinečný Autorizační kód, který obdrží před uzavřením Smlouvy") a zákazníkovi mohl=nemusel být Starnetem přidělen (= u smluv uzavřených do 30.6.2022 je nutnost "Kód" ve výpovědi nevymahatelná = logicky nedává smysl aby některý zákazník byl a některý nebyl jeho uvedením pro "jednoznačnou identifikaci zákazníka" povinován). "Kód" nebyl v roce 2020 vyžadován pro "Žádost o přepis / stěhování služby – změna smlouvy". Bylo by nebezpečné uvést "Kód" ve smlouvě? Mohl by Starnet dokázat, že "Kód" byl zákazníkovi odeslán v emailu/SMS a dala by se SMS považovat za věrohodný důkaz? Nápad - "Kód" jde zaslat autorizované osobě opětovně emailem v šifrovaném RAR (heslo rozdělené mezi email+SMS. Datová schránka nebo úředně ověřený podpis je zbytečná překážka) = snad nejdou kontaktní údaje v samoobsluze bez "Kód" změnit.
 <br/>
 ***ČTÚ*** - 28.1.2026 byl odeslán obecný dotaz (1 den před převzetím+roztrháním milostného dopisu podporou = 29.1.2026). Odpověď ČTÚ je z 3.2.2026
 <br/>
@@ -1618,9 +1648,7 @@ bohužel se mi s Vámi nedaří telefonicky spojit. Prosím tedy o zaslání Va�
 
 ***Zákazník (28.11.2025)*** - pece@starnet.cz - ```podpora nereaguje``` - ```Chybný krok č.2```
 
-Vzhledem k tomu, že kvůli uzavřené smlouvě (vlastnictví zařízení mi nikdo dokázat nemůže, smlouvu na adresu bohužel ano) s vaší společností se na mě vztahuje povinnost platit koncesionářské poplatky (jinak by mi hrozila opakovaná pokuta ve výši 15000,-), tak chci smlouvu na internetové připojení od 1.1.2026 ukončit (poslední platbu provedu za měsíc 12/2025)
-
-variabilní symbol 2494527, IP 10.16.52.110, Klaus Ripnsieg, Svinenská 666, 374 01 Trhové Sviny
+Stejný email jako 26.11.2025 ⬆️
 
 ***Zákazník (26.1.2026)*** - internet@starnet.cz - ```Chybný krok č.3``` - po 5-ti násobné výzvě k uhrazení faktury/dluhu
 
