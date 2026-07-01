@@ -1,5 +1,6 @@
 
 
+
 Text content of this page varies depending on whether it is displayed as HTML or as original MD file (written in Notepad++) + my possible error/omission in formatting may unintentionally alter content displayed in HTML.
 <br/>
 Textový obsah této stránky se liší podle toho, zda se zobrazí jako HTML a nebo jako MD originál (psaný v Notepad++) + moje případná chyba/opomenutí ve formátování může pozměnit zobrazený obsah v HTML i nechtěně.
@@ -46,7 +47,7 @@ I'm not author of translations (most of them come from retail CD/DVD). Nejsem au
 <br/>
 ■ pro načtení SRT titulků používám ```BikMod``` (beta), který pokud funguje, tak může způsobit fatální app "crash" (zřejmě jen při ukončování). Pokud funguje napůl, tak může způsobit fatální app "freeze" (zřejmě jen při nahrávání). Moje chyba v SRT (třeba špatné číslování) by mohla způsobit fatální app "freeze" (zřejmě jen při načtení/přehrávání videa). Nejrychlejší oprava by byla vrátit původní "Binkw32.dll" ze složky "Binkw32"
 <br/>
-■ pokud je to možné, tak k překladům zásadně nepřikládám videosoubory = v nejhorším případě z nich CZ audiostopy/titulky extrahuji a to i přesto, že ve hře tyto externí stopy načíst nepůjdou (ve videopřehrávači jde ale načíst cokoli) = unifikovaný videoobsah by mohl zvětšit RAR až o stovky % a přitom by mohl přidat třeba jen 1% překladu. A to by bylo zvráceně neefektivní (+ mám k dispozici pouze 25MB na každý Github repozitář a 15GB GoogleDrive). Opravdu jen ve vyjímečných případech nepřikládám veškeré datové soubory s překladem (zatím asi jenom CoD)
+■ pokud je to možné, tak k překladům zásadně nepřikládám videosoubory = v nejhorším případě z nich CZ audiostopy/titulky extrahuji a to i přesto, že ve hře tyto externí stopy načíst nepůjdou (ve videopřehrávači jde ale načíst cokoli) = unifikovaný videoobsah by mohl zvětšit RAR až o stovky % a přitom by mohl přidat třeba jen 1% překladu. A to by bylo zvráceně neefektivní (+ mám k dispozici pouze 25MB na každý Github repozitář a 15GB GoogleDrive). Opravdu jen ve vyjímečných případech nepřikládám veškeré datové soubory s překladem (zatím asi jenom CoD). Pokud je to možné, tak k překladům zásadně přikládám manuály (bez ohledu na velikost)
 <br/>
 ■ pokud byla CZ vyzkoušena ve Steam/Epic/Amazon/EA/Ubi/..., tak hry přes ně nespouštím (spouštím je "OFFLINE" PORTABLE/RIP)
 <br/>
@@ -82,7 +83,7 @@ I'm not author of translations (most of them come from retail CD/DVD). Nejsem au
 <br/>
 ■ nový patch/remaster znefunkční CZ = chyba vývojáře, nikdo ho k tomu nenutil + překlad fungující byť na jediné verzi není vyloženě špatně (především je to smutné)
 <br/>
-■ chybějící ⚖️ nechtěné soubory = přikládat soubory typu EXE+DLL může být ošemetné (i když jsou třeba někdy originální, tak fungují jako crack), ale lepení různých verzí dat dohromady by bez (nejen) jejich použití mohlo způsobit bugy/crashe/rozbití CZ. Ale jejich použití může zase způsobit problémy s HW/SW/mod kompatibilitou=bugy/crashe, nebo při dovolené instalaci DRM i "trvalý" bluescreen (oprava bez sebemenšího následku je u laika nepravděpodobná - SYS) = případné DRM uvádím
+■ chybějící ⚖️ nechtěné soubory = přikládat soubory typu EXE+DLL může být ošemetné (i když jsou třeba někdy originální, tak fungují jako crack), ale lepení různých verzí dat dohromady by bez (nejen) jejich použití mohlo způsobit bugy/crashe/rozbití CZ. Ale jejich použití může zase způsobit problémy s HW/SW/mod kompatibilitou=bugy/crashe, nebo při dovolené instalaci DRM i "trvalý" bluescreen (oprava bez sebemenšího následku může být ve zbavení se SYS) = případné DRM uvádím
 <br/>
 ■ ne vždy je nutné použít veškerá přiložená data
 <br/>
@@ -124,7 +125,7 @@ Fable 2004 - překladatel+technik (2025). Ke smůle nás všech nechal 2014 rema
 <br/>
 <img width="960" alt="cz+sk" src="https://github.com/user-attachments/assets/31c8472b-8d21-49a4-bdaf-a24b187d9b10" />
 <br/>
-Pro otevření HTML je třeba Firefox 2+, pro možnost filtrování 49+, pro úplnou podporu emoji 79+. HTML kód je v té nejjednodušší formě (nechtěné servery je možné snadno odstranit). PCGW 🔸 GOG 🔸 Steam 🔸 abcgames.cz 🔸 abecedaher.cz 🔸 bonusweb.cz 🔸 cdh.cz 🔸 ceskepreklady.estranky.cz 🔸 cestiny.net 🔸 cestinyodzhiliana.webnode.cz 🔸 dabingforum.cz 🔸 edownload.cz 🔸 farflame.cz 🔸 fenixprodabing.cz 🔸 folkemonovycestiny.cz 🔸 games.tiscali.cz 🔸 gamestar.cz 🔸 hannes.gameplanet.cz 🔸 hernipreklady.cz 🔸 jurgenovycestiny.cz 🔸 komunitni-preklady.org 🔸 lokalizace.net 🔸 lokalizacie.sk 🔸 madukas.cz 🔸 mrazikovycestiny.cz 🔸 necronos.pageride.cz 🔸 oldgames.sk 🔸 paranskyraj.cz 🔸 perlagroup.eu 🔸 pmx-preklady.webnode.sk 🔸 porse.cz 🔸 prekladyher.eu 🔸 raptor-cestiny.cz 🔸 rk-translations.cz 🔸 rpgcitadela.cz 🔸 sakratym.cz 🔸 slovenciny.com 🔸 spykertym.cz 🔸 squiee.cz 🔸 sukup.cz 🔸 war-forum 🔸 warcenter 🔸 warforum
+Pro otevření HTML je třeba FF2+, pro možnost filtrování 49+, pro úplnou podporu emoji 79+. Kód je v té nejjednodušší formě (nechtěné servery je možné snadno odstranit). PCGW 🔸 GOG 🔸 Steam 🔸 abcgames.cz 🔸 abecedaher.cz 🔸 bonusweb.cz 🔸 cdh.cz 🔸 ceskepreklady.estranky.cz 🔸 cestiny.net 🔸 cestinyodzhiliana.webnode.cz 🔸 dabingforum.cz 🔸 edownload.cz 🔸 farflame.cz 🔸 fenixprodabing.cz 🔸 folkemonovycestiny.cz 🔸 games.tiscali.cz 🔸 gamestar.cz 🔸 hannes.gameplanet.cz 🔸 hernipreklady.cz 🔸 jurgenovycestiny.cz 🔸 komunitni-preklady.org 🔸 lokalizace.net 🔸 lokalizacie.sk 🔸 madukas.cz 🔸 mrazikovycestiny.cz 🔸 necronos.pageride.cz 🔸 oldgames.sk 🔸 paranskyraj.cz 🔸 perlagroup.eu 🔸 pmx-preklady.webnode.sk 🔸 porse.cz 🔸 prekladyher.eu 🔸 raptor-cestiny.cz 🔸 rk-translations.cz 🔸 rpgcitadela.cz 🔸 sakratym.cz 🔸 slovenciny.com 🔸 spykertym.cz 🔸 squiee.cz 🔸 sukup.cz 🔸 war-forum 🔸 warcenter 🔸 warforum
 
 ***[🟦 Inno Setup XDELTA Patch Maker (ISXPM)](https://jrsoftware.org/is3rdparty.php)*** - pokud jsou lokalizační data chráněna a součástí větších souborů a potřebné nástroje nejsou k dispozici, případně pokud hra "neumí" načíst externí rozbalená data, tak poslední způsob jak zprostředkovat překlad je vytvořit rozdílový patch. Pokud překlad vyžaduje i svoje konkrétní DLL/EXE/..., tak je dobré je z EN verze dočasně odebrat (tím dojde ke zkopírování CZ souborů do cíle bez ohledu na jejich verzi = výsledný patch může být kompatibilní i s jinými verzemi typu GOG/MYABANDONWARE/...) = tyto soubory mají běžně velikost pár desítek MB a jdou dobře komprimovat, takže patch způsob by přinesl úsporu pouze v rámci jednotek MB, ale pokud by se v cílové verzi v budoucnu změnilo jediné písmeno (je to daleko pravděpodobnější než změna v datových souborech), tak 100% aplikování nebude možné (podle nastavení patch aplikování buď odmítne, nebo skončí chybou a vrátí soubory zpět, nebo dojde bez vyjímky k poškození dat viz CMD⬇️ patchování). Pokud hra obsahuje stejné typy souborů lišící se v názvu/umístění, tak pokud se tyto věci sjednotí, tak bude patch menší (nebudou se kopírovat, ale patchovat). Některé hry/patche mohou data upravovat i lokálně kdy každé zpracování vytvoří jiná data = patchování nestálých (nebo šifrovaných) dat není možné. Data je dobré kontrolovat (porovnáním/hash) na případné nežádoucí změny=poškození (2 nezávislé instalace stejné verze hry, dodatečné úpravy, aplikování patche). Spuštěný ISXPM vypadá strašně složitě, ale ve skutečnosti může patch vytvořit i naprostý laik (drobná komplikace může být nutnost aktivovat CZ přes klíč v registru nebo souborem mimo herní složku) který si vystačí klidně i jen s řádky "Old version" a "Final version". 🔒I nechráněný patch může také být nestandardní a neprolomitelnou formou "šifrování" šifrovaných dat = pokud se oba typy souborů ručně poškodí, záhlaví/zápatí, nedohledatelná hash a názvy souborů, tak hledat potenciálně podezřelé soubory a zjistit které k sobě pasují a jak je upravit aby bylo možné 100% aplikování nebude žádná sranda ani pro ty nejvykvantovanější AI PC 4-tého milénia.
 <br/>
@@ -202,7 +203,7 @@ V roce 2026 byl CZ Manager nahrazen revolučním ```CZManager Agent``` (zřejmě
 
 ***🟦 WinCDEmu, (Alcohol 52% = DRM)*** - virtuální mechanika
 
-***🟦 Universal Extractor*** - ultimátní extraktor s podporou stovek formátů. Možnost hromadného extrahování archivů jedním klikem s použitím TXT seznamu s nastřádanými hesly. ***🟦 Dragon UnPACKer, 🟦 Game Extractor, [gildor.org](https://www.gildor.org/) / [aluigi.altervista.org/quickbms.htm](https://aluigi.altervista.org/quickbms.htm) / [oezmen.eu/gameresources](https://oezmen.eu/gameresources/)***
+***🟦 Universal Extractor*** (PORTABLE - zkopírovat konfigurační data do složky) - ultimátní extraktor s podporou stovek formátů. Možnost hromadného extrahování archivů jedním klikem s použitím TXT seznamu s nastřádanými hesly. ***🟦 Dragon UnPACKer, 🟦 Game Extractor, [gildor.org](https://www.gildor.org/) / [aluigi.altervista.org/quickbms.htm](https://aluigi.altervista.org/quickbms.htm) / [oezmen.eu/gameresources](https://oezmen.eu/gameresources/)***
 
 ***🟦 BikMod v0.3e (Beta) + 🟦 bink2-libass*** - ```binkw32.dll``` pro načtení SRT titulků. ***🟦 RADTools*** - úprava BIK/SMK video souborů
 
@@ -214,7 +215,7 @@ V roce 2026 byl CZ Manager nahrazen revolučním ```CZManager Agent``` (zřejmě
 <br/>
 ■ zakázat stáhnout+instalovat+aktualizovat+spustit produkt (např. Steamworks Common Redistributables Bloatware - kvůli nesmyslnému provázání se může znemožnit "instalace" ostatních produktů = pokročilejší uživatel jí ale nepotřebuje) = "appmanifest_228980.acf" (zakázat přístup)
 <br/>
-■ ⚠️ každé online spuštění/přepnutí/restartování klienta (ale i častá aktualizace v pozadí) může značně opotřebovávat SSD (můj "appcache\appinfo.vdf" má 200+MB = zápis ~230+MB)
+■ ⚠️ každé online spuštění/přepnutí/restartování klienta (ale i častá aktualizace v pozadí) může značně opotřebovávat SSD (jenom můj "appcache\appinfo.vdf" má 250+MB)
 <br/>
 ■ nejde napsat recenze ve webovém rozhraní (chybí okénko) = spustit klient a vybrat produkt a po pravé straně je nabídka s napsáním recenze
 <br/>
@@ -244,9 +245,11 @@ V roce 2026 byl CZ Manager nahrazen revolučním ```CZManager Agent``` (zřejmě
 
 ## Security CZ
 
-***Total Uninstall*** - sken systému (před/po spuštění/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci. Doporučuji odstranit výchozí vyjímky - velmi užitečné (záruka čistého systému, který není nutné desítky let přeinstalovávat) a zároveň ⚠️destrukční pokud člověk neví co dělá
+***🟦 Total Uninstall*** (PORTABLE - zkopírovat konfigurační data do složky + upravit ```Tu.ini```) - sken systému (před/po spuštění/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci. Doporučuji odstranit výchozí vyjímky - velmi užitečné (záruka čistého systému, který není nutné desítky let přeinstalovávat) a zároveň ⚠️destrukční pokud člověk neví co dělá
 
-Sjednocení datumů a vytvoření ```SHA3_512``` pro všechny EXE+DLL+SYS (oddělit typy, seřadit podle názvu = podle složek) může zásadně zrychlit/zpřehlednit kontrolu systému (+ porovnání v čase v TotalCMD jako na obrázku č.2 = skrýt stejné řádky a odhalit co chybí/přebývá/liší se)
+Sjednocení datumů a vytvoření ```SHA3_512``` pro všechny EXE+DLL+SYS (oddělit typy, seřadit podle názvu = podle složek) může zásadně zrychlit/zpřehlednit kontrolu systému (+ porovnání v čase v TotalCMD jako na obrázku č.2 = skrýt stejné řádky a odhalit co chybí/přebývá/liší se). Pro každou online aplikaci vytvořit vlastní SHA3_512
+
+Odhalit konfigurační data všech programů (TotalCMD + NTFS linky pro programy, které se svévolně rozlézají mimo svojí složku) = před použítím programů postaršit datum jejich dat (třeba 1888) čímž se zvýrazní konfigurační a další dodatečně upravená data
 
 Skrytí EXE souborů - odstranit ikony, digitální podpisy, metadata + ruční HEX úpravy = může se zkomplikovat jejich identifikace (jako běžící proces / uložený EXE na SSD)
 
@@ -280,7 +283,7 @@ Emoji (mají různý počet znaků) + různá písma + náhodné? HEX / části 
 
 🚫🟦 Vytvoření souboru místo složky nebo složky místo souboru = zakázat přístup (při záměně bývá aplikace/sys zmatená/ý). Lehce obejitelné (smazat)
 
-🚫***Firewall*** (omezit přístup) - Outpost/TinyWall/🟦Firewall App Blocker
+🚫***Firewall*** (omezit přístup) - Outpost/TinyWall/🟦Firewall App Blocker. Doporučuji odstranit výchozí vyjímky
 <br/>
 Win firewall má pravidla uložená zde ```HKLM\SYSTEM\ControlSet\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules``` a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úpravou oprávnění pro "Everyone" (⚠️ při neodborné manipulaci se může znemožnit internetové připojení a to dokonce bez ohledu zda jsou firewall nebo přidružené SYS služby spuštěné = chyby/varování nemusí být v Eventlogu uvedeny)
 
@@ -328,7 +331,7 @@ U WinXP je tento způsob zálohy/obnovy bezproblémový, u Win7 je to složitěj
 
 ***🟦 WizTree*** - analýza dat na disku (zobrazuje i skrytá $ NTFS data)
 
-***🟦 Desktop VLocker*** - uzamčení systému (⚠️ heslo se ukládá v textové podobě)
+***🟦 Desktop VLocker*** (PORTABLE - zkopírovat konfigurační data do složky a přejmenovat na ```Desktop VLocker.exe.config``` - read-only) - uzamčení systému (⚠️ heslo se ukládá v textové podobě)
 
 ***🟦 Process Monitor*** - detailní seznam činností procesů na SSD/registru/sítě. ***🟦 FileActivityWatch*** - zřejmě zabugovaná aplikace = může dojít k vytížení CPU + zápisům na SSD
 
@@ -420,7 +423,7 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 <br/>
 ■ pro instalaci není možné upřednostnit starší ovladač na úložišti, není poznat zda je/bude ovladač stahován
 
-***🟦 System Explorer*** - náhrada "Správce úloh" - možnost uložit prioritu/afinitu aplikací pro jejich automatické nastavení při dalším spuštění. ***🟦 Process Hacker***
+***🟦 System Explorer*** - náhrada "Správce úloh" - možnost uložit prioritu/afinitu aplikací pro jejich automatické nastavení při dalším spuštění. ***🟦 Process Hacker*** (PORTABLE - zkopírovat konfigurační data do složky a přejmenovat ```settings.xml``` na ```ProcessHacker.exe.settings.xml``` + upravit v něm cestu k ```usernotesdb.xml```)
 
 Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkratky/zástupce. ```HKLM\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes``` příkaz ve formátu ```powercfg.exe -setactive XXX``` místo XXX se napíše název potřebného klíče
 
@@ -452,7 +455,7 @@ Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkr
 <br/>
 ■ profily s různým nastavením. Automatizace (vybráním profilu se může okamžitě automaticky vytvořit třeba zašifrovaný archiv s aktuálním datem a konkrétními daty na předem určené místo)
 <br/>
-■ nastavení ve složce programu = může plnohodnotně fungovat jako portable ```WinRAR.ini``` Global\AppData=0
+■ PORTABLE - zkopírovat konfigurační data do složky + upravit ```Global\AppData=0```
 <br/>
 ■ velikost souborů v hlavním okně se nezobrazuje v nepřehledných/matoucích bytech
 <br/>
@@ -482,15 +485,13 @@ Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkr
 <br/>
 ■ bug? - rozdělení může u některých dat zvětšit archiv o desítky % (1 RAR 214MB/56% vs 26 RAR 254MB/67%, zřejmě anomálie) [1](https://github.com/hornster02/Colin_McRae_Rally-2003-CZ)
 
-***🟦 Total Commander*** - rychlá/efektivní náhrada Průzkumníka/Plochy/NabídkyStart se spoustou funkcí navíc (vnitřní přidružení souborů včetně ikon, porovnání souborů podle obsahu, změna atributů, kopírování cest k datům do schránky, zobrazit/skrýt určitá data, kopírování souborů s určitým datumem se zachováním adresářové struktury, kopírování složek bez souborů, seznam záložek pro rychlý přístup k datům, vytvoření kontrolních CRC souborů, pokročilá hledání souborů podle obsahu - obsahující/neobsahující/text/HEX/..., přesuny dat přes adresní řádek a jeho podsložky, vyjmout+vložit stiknutím levé+pravé myši, pravá myš pro výběr dat a podržení pro kontextovou nabídku, levá+pravá klávesa pro procházení historie panelů, nová složka/soubor, ověření nakopírovaných dat kvůli jejich případnému poškození,... = nižší stovky klávesových zkratek). wincmd.ini -
+***🟦 Total Commander*** (PORTABLE - zkopírovat konfigurační data do složky + upravit ```UseIniInProgramDir=1``` ```pluginbasedir=%COMMANDER_PATH%\plugins```) - rychlá/efektivní náhrada Průzkumníka/Plochy/NabídkyStart se spoustou funkcí navíc (vnitřní přidružení souborů včetně ikon, porovnání souborů podle obsahu, změna atributů, kopírování cest k datům do schránky, zobrazit/skrýt určitá data, kopírování souborů s určitým datumem se zachováním adresářové struktury, kopírování složek bez souborů, seznam záložek pro rychlý přístup k datům, vytvoření kontrolních CRC souborů, pokročilá hledání souborů podle obsahu - obsahující/neobsahující/text/HEX/..., přesuny dat přes adresní řádek a jeho podsložky, vyjmout+vložit stiknutím levé+pravé myši, pravá myš pro výběr dat a podržení pro kontextovou nabídku, levá+pravá klávesa pro procházení historie panelů, nová složka/soubor, ověření nakopírovaných dat kvůli jejich případnému poškození,... = nižší stovky klávesových zkratek). wincmd.ini -
 <br/>
 ```IgnoreLinks=8```
 ```CopyLinks=1```
 ```DriveBarHide=DC```
 ```RestrictInterface=3```
 ```EditWaitTime=-1```
-```UseIniInProgramDir=1```
-```pluginbasedir=%COMMANDER_PATH%\plugins```
 ```AlwaysCopyInBackground=1```
 <br/>
 ■ s doplňkem ***DiskDir Extended***  se dá vytvářet katalog dat (funkce komprimovat - LST soubor se prochází jako archiv a dá se v něm vyhledávat)
@@ -513,7 +514,9 @@ Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkr
 <br/>
 ■ (hex)editace v "porovnání obsahu" bez omezení
 <br/>
-■ kopírovat NTFS linky (soubory) jako linky a ne jako soubory
+■ kopírovat NTFS linky (soubory) jako linky a ne jako soubory (neupravuj data)
+<br/>
+■ automaticky zkopírovat NTFS oprávnění (neupravuj oprávnění/vlastníka dat)
 <br/>
 ■ zobrazit obsah VŠECH souborů v "Synchronizace složek"
 
@@ -592,6 +595,10 @@ Rozšířené vyhledávání -
 ***🟦 HEXelon Max 6*** - kalkulačka se 3-mi "panely"
 
 ***🟦 FastStone Image Viewer*** - jednoduchý/rychlý prohlížeč obrázků
+<br/>
+```Jak docílit?``` -
+<br/>
+■ okamžitého uložení souboru?
 
 ***🟦 SumatraPDF*** - rychlý prohlížeč PDF. Možnost skrytí veškerého UI
 
@@ -617,7 +624,9 @@ Rozšířené vyhledávání -
 <br/>
 ■ zapnutý/vypnutý "Protocol Encryption" může vyřešit nepřipojení k seedům/peerům
 
-***HardSub to SRT*** - ```1``` ***🟦 VideoSubFinder*** (automatické rozkouskování videa s titulky včetně časování do JPG - pokud některé JPG vynechává, tak "moderate_threshold = 0.6" + ručně? odstranit nadbytečná JPG) ```2``` ***🟦 Subtitle Edit*** (File/Import/Images) + ***🟦 PaddleOCR*** + ***🟦 LibreOffice CZ Dictionary*** + vlastní slovník pro automatické nahrazení chybných OCR slov (hlavně kvůli CZ diakritice - kvůli nízké pravděpodobnosti výskytu zřejmě nemá smysl nahrazovat spojená slova např. "OCRco" "OCR co" /// kvůli gramatickým chybám či různým významům zřejmě nemá smysl nahrazovat slova např. "pas" "pás" /// po úpravě vlastního slovníku spustit OCR znovu) - "Unknown words" + "Add pair to OCR replace list". [📥 "ces_OCRFixReplaceList_User.xml", Size 1MB, 2026-05](https://raw.githubusercontent.com/hornster02/hornster02/main/Subtitle_Edit-Custom_OCR_Replace-CZ.rar)
+***🟦 DOSBox*** - (PORTABLE - zkopírovat konfigurační data do složky a přejmenovat na ```dosbox.conf```)
+
+***HardSub to SRT*** - ```1``` ***🟦 VideoSubFinder*** (automatické rozkouskování videa s titulky včetně časování do JPG - pokud některé JPG vynechává, tak "moderate_threshold = 0.6" + ručně? odstranit nadbytečná JPG) ```2``` ***🟦 Subtitle Edit*** (File/Import/Images) + ***🟦 PaddleOCR*** + ***🟦 LibreOffice CZ Dictionary*** + nahrazení chybných OCR ("Add pair to OCR replace list" - ces_OCRFixReplaceList_User.xml) slov (hlavně kvůli CZ diakritice - kvůli nízké pravděpodobnosti výskytu zřejmě nemá smysl nahrazovat spojená slova např. "OCRco" "OCR co" /// kvůli gramatickým chybám či různým významům zřejmě nemá smysl nahrazovat slova např. "pasy" "pásy") + vlastní slovník ("Add to names/noise list" - cs_names_user.xml). "Unknown words" se po vybrání zobrazí na tom kterém obrázku. Po úpravě OCR/slovníku spustit OCR znovu. [📥 CZ custom OCR/dictionary, Size 1MB, 2026-05](https://raw.githubusercontent.com/hornster02/hornster02/main/Subtitle_Edit-Custom_OCR_Replace-CZ.rar)
 <br/>
 ```Jak docílit?``` -
 <br/>
@@ -805,7 +814,7 @@ Z mých desetiletých pozorování je Firefox (určitě nebude jediný) nejlepš
 <br/>
 ■ gamepad nefunguje = nešahat na myš/klávesnici
 
-***🟦 Audacity, 🟦 Avidemux, 🟦 VLC, 🟦 XnViewMP, PDF Image Extractor Free***
+***🟦 Audacity (PORTABLE - copy configuration data to folder ```Portable Settings``` + edit TEMP path), 🟦 Avidemux, 🟦 VLC (PORTABLE - copy configuration data to folder ```portable```), 🟦 XnViewMP, PDF Image Extractor Free***
 
 ## Games EN
 
@@ -843,7 +852,7 @@ Z mých desetiletých pozorování je Firefox (určitě nebude jediný) nejlepš
 
 ***🟦 WinCDEmu, (Alcohol 52% = DRM)*** - virtual drive
 
-***🟦 Universal Extractor*** - ultimate extractor supporting hundreds of formats. Ability to extract archives in bulk with a single click using a TXT list with accumulated passwords. ***🟦 Dragon UnPACKer, 🟦 Game Extractor, [gildor.org](https://www.gildor.org/) / [aluigi.altervista.org/quickbms.htm](https://aluigi.altervista.org/quickbms.htm) / [oezmen.eu/gameresources](https://oezmen.eu/gameresources/)***
+***🟦 Universal Extractor*** (PORTABLE - copy configuration data to folder) - ultimate extractor supporting hundreds of formats. Ability to extract archives in bulk with a single click using a TXT list with accumulated passwords. ***🟦 Dragon UnPACKer, 🟦 Game Extractor, [gildor.org](https://www.gildor.org/) / [aluigi.altervista.org/quickbms.htm](https://aluigi.altervista.org/quickbms.htm) / [oezmen.eu/gameresources](https://oezmen.eu/gameresources/)***
 
 ***🟦 BikMod v0.3e (Beta) + 🟦 bink2-libass*** - ```binkw32.dll``` for loading SRT subtitles. 🟦 RADTools - modification of BIK/SMK video files
 
@@ -855,7 +864,7 @@ Z mých desetiletých pozorování je Firefox (určitě nebude jediný) nejlepš
 <br/>
 ■ block downloading+installing+updating+running product (e.g., Steamworks Common Redistributables Bloatware - due to unnecessary dependencies, it may prevent "installation" of other products = but more advanced user don't need it) = "appmanifest_228980.acf" (deny access)
 <br/>
-■ ⚠️ every online launch/switch/restart of client (as well as frequent background updates) can cause significant SSD wear (my "appcache\appinfo.vdf" file have 200+MB = ~230+MB write)
+■ ⚠️ every online launch/switch/restart of client (as well as frequent background updates) can cause significant SSD wear (only my "appcache\appinfo.vdf" file have 250+MB)
 <br/>
 ■ it is not possible to write a review in web interface (field is missing) = launch client, select a product, and on right side is a field for writing a review
 <br/>
@@ -885,9 +894,11 @@ Z mých desetiletých pozorování je Firefox (určitě nebude jediný) nejlepš
 
 ## Security EN
 
-***Total Uninstall*** - system scan (before/after app launch/installation) and display changes (files/folders/registry), export registry changes to REG file for un/install. I recommend removing default exceptions - very useful (guaranteeing a clean system that doesn't need to be reinstalled for decades) and ⚠️destructive if one doesn't know what he's doing
+***🟦 Total Uninstall*** (PORTABLE - copy configuration data to folder + edit ```Tu.ini```) - system scan (before/after app launch/installation) and display changes (files/folders/registry), export registry changes to REG file for un/install. I recommend removing default exceptions - very useful (guaranteeing a clean system that doesn't need to be reinstalled for decades) and ⚠️destructive if one doesn't know what he's doing
 
-Unifying dates and creating a ```SHA3_512``` for all EXE+DLL+SYS (separate types, sort by name = by folder) can significantly speed up/clarify system checks (+ comparison over time in TotalCMD as shown in image no.2 = hide same lines and show what is missing, present in excess, or different)
+Unifying dates and creating a ```SHA3_512``` for all EXE+DLL+SYS (separate types, sort by name = by folder) can significantly speed up/clarify system checks (+ comparison over time in TotalCMD as shown in image no.2 = hide same lines and show what is missing, present in excess, or different). For each online app, generate a own SHA3_512
+
+Reveal configuration data for all apps (TotalCMD + NTFS links for apps that arbitrarily spread outside their folder) = before using apps, set their data dates to an older date (e.g., 1888), which will highlight configuration data and other additionally modified data
 
 Hiding EXE files - removing icons, digital signatures, metadata + manual HEX editing = can make them harder to identify (as a running process or an EXE file stored on an SSD)
 
@@ -921,7 +932,7 @@ Emojis (have different numbers of characters) + various fonts + random? HEX / pa
 
 🚫🟦 Create a file instead of a folder, or a folder instead of a file = deny access (apps/sys often get confused when this happens). Easy to bypass (delete)
 
-🚫***Firewall*** (restrict access) - Outpost/TinyWall/🟦Firewall App Blocker
+🚫***Firewall*** (restrict access) - Outpost/TinyWall/🟦Firewall App Blocker. I recommend removing default exceptions
 <br/>
 Win firewall has rules stored here ```HKLM\SYSTEM\ControlSet\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules``` and forbidding of arbitrarily adding exceptions is easily done by adding and modifying permissions for "Everyone" (⚠️, improper handling may block Internet connection, regardless of whether firewall or associated SYS services are running = errors/warnings may not be listed in EventLog)
 
@@ -969,7 +980,7 @@ With WinXP, this backup/restore method is problem-free, with Win7 it is more com
 
 ***🟦 WizTree*** - disk data analysis (also shows hidden $ NTFS data)
 
-***🟦 Desktop VLocker*** - computer lock (⚠️ password is stored in plain text)
+***🟦 Desktop VLocker*** (PORTABLE - copy configuration data to folder and rename to ```Desktop VLocker.exe.config``` - read-only) - computer lock (⚠️ password is stored in plain text)
 
 ***🟦 Process Monitor*** - detailed list of processes activities on SSD/registry/network. ***🟦 FileActivityWatch*** - probably a buggy app = may cause CPU load + writes to SSD
 
@@ -1061,7 +1072,7 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 <br/>
 ■ it is not possible to prioritize an older driver in download folder for installation; it is not clear whether driver is/will be downloaded
 
-***🟦 System Explorer*** - replacement of "Task Manager" - possibility to save priority/affinity of apps for their automatic setting at next startup. ***🟦 Process Hacker***
+***🟦 System Explorer*** - replacement of "Task Manager" - possibility to save priority/affinity of apps for their automatic setting at next startup. ***🟦 Process Hacker*** (PORTABLE - copy configuration data to folder and rename ```settings.xml``` to ```ProcessHacker.exe.settings.xml``` + edit in it path to ```usernotesdb.xml```)
 
 Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. ```HKLM\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes``` command ```powercfg.exe -setactive XXX``` instead of XXX, write name of required key
 
@@ -1093,7 +1104,7 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. ```HKLM\SYS
 <br/>
 ■ profiles with different settings. Automation (by selecting a profile, for example, an encrypted archive with current date and specific data can be automatically created to a predefined location)
 <br/>
-■ settings in app folder = can fully work as a portable app ```WinRAR.ini``` Global\AppData=0
+■ PORTABLE - copy configuration data to folder + edit ```Global\AppData=0```
 <br/>
 ■ file sizes in main window are not displayed in confusing bytes
 <br/>
@@ -1123,15 +1134,13 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. ```HKLM\SYS
 <br/>
 ■ bug? - for some data, splitting can increase archive size by tens of % (1 RAR 214MB/56% vs 26 RAR 254MB/67%, probably an anomaly) [1](https://github.com/hornster02/Colin_McRae_Rally-2003-CZ)
 
-***🟦 Total Commander*** - fast/efficient replacement of Explorer/Desktop/Start Menu with lots of extra features (internal file association including icons, file comparison by content, change attributes, copy data paths to clipboard, show/hide certain files/folders, copying files with certain date while preserving directory structure, copying folders without files, bookmark list for quick access to data, creating CRC check files, advanced file searches by content - containing/not containing/text/HEX/..., moving data via address bar and its subfolders, cut+paste by left+right mouse click, right mouse button for data selection and hold for context menu, left+right keys for browsing panel history, new folder/file, verifying copied data for possible damage, ... = lower hundreds of hotkeys). wincmd.ini -
+***🟦 Total Commander*** (PORTABLE - copy configuration data to folder + edit ```UseIniInProgramDir=1``` ```pluginbasedir=%COMMANDER_PATH%\plugins```) - fast/efficient replacement of Explorer/Desktop/Start Menu with lots of extra features (internal file association including icons, file comparison by content, change attributes, copy data paths to clipboard, show/hide certain files/folders, copying files with certain date while preserving directory structure, copying folders without files, bookmark list for quick access to data, creating CRC check files, advanced file searches by content - containing/not containing/text/HEX/..., moving data via address bar and its subfolders, cut+paste by left+right mouse click, right mouse button for data selection and hold for context menu, left+right keys for browsing panel history, new folder/file, verifying copied data for possible damage, ... = lower hundreds of hotkeys). wincmd.ini -
 <br/>
 ```IgnoreLinks=8```
 ```CopyLinks=1```
 ```DriveBarHide=DC```
 ```RestrictInterface=3```
 ```EditWaitTime=-1```
-```UseIniInProgramDir=1```
-```pluginbasedir=%COMMANDER_PATH%\plugins```
 ```AlwaysCopyInBackground=1```
 <br/>
 ■ ***DiskDir Extended*** addon for creating data catalog ("pack files" function - LST file is like an archive and can be searched in it)
@@ -1154,7 +1163,9 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. ```HKLM\SYS
 <br/>
 ■ (hex)editing in "content comparison" without restrictions
 <br/>
-■ copy NTFS links (files) as links, not as files
+■ copy NTFS links (files) as links, not as files (do not change data)
+<br/>
+■ automatically copy NTFS permissions (do not change data permissions/owner)
 <br/>
 ■ show contents of ALL files in "Folder Sync"
 
@@ -1233,6 +1244,10 @@ Advanced search -
 ***🟦 HEXelon Max 6*** - calculator with 3 "tabs"
 
 ***🟦 FastStone Image Viewer*** - simple/fast image viewer
+<br/>
+```How to achieve?``` -
+<br/>
+■ save file immediately?
 
 ***🟦 SumatraPDF*** - fast PDF viewer. Option to hide all UI
 
@@ -1258,7 +1273,9 @@ Advanced search -
 <br/>
 ■ on/off "Protocol Encryption" can solve inability to connect to seeds/peers
 
-***HardSub to SRT*** - ```1``` ***🟦 VideoSubFinder*** (automatically split a video with subtitles, including timing, to JPG - if some JPG are missing, then "moderate_threshold = 0.6" + manually? remove unnecessary JPG) ```2``` ***🟦 Subtitle Edit*** (File/Import/Images) + ***🟦 PaddleOCR*** + ***🟦 LibreOffice CZ Dictionary*** + custom dictionary for automatically replacing incorrect OCR words (mainly because of CZ diacritics - given low probability of occurrence, it probably doesn't make sense to replace combined words such as "OCRwhat" "OCR what" /// given grammatical errors and differing meanings, it probably doesn't make sense to replace words such as "pas" "pás" /// after editing custom dictionary, run OCR again) - "Unknown words" + "Add pair to OCR replace list". [📥 "ces_OCRFixReplaceList_User.xml", Size 1MB, 2026-05](https://raw.githubusercontent.com/hornster02/hornster02/main/Subtitle_Edit-Custom_OCR_Replace-CZ.rar)
+***🟦 DOSBox*** - (PORTABLE - copy configuration data to folder and rename to ```dosbox.conf```)
+
+***HardSub to SRT*** - ```1``` ***🟦 VideoSubFinder*** (automatically split a video with subtitles, including timing, to JPG - if some JPG are missing, then "moderate_threshold = 0.6" + manually? remove unnecessary JPG) ```2``` ***🟦 Subtitle Edit*** (File/Import/Images) + ***🟦 PaddleOCR*** + ***🟦 LibreOffice CZ Dictionary*** + replacing incorrect OCR ("Add pair to OCR replace list" - ces_OCRFixReplaceList_User.xml) words (mainly because of CZ diacritics - given low probability of occurrence, it probably doesn't make sense to replace combined words such as "OCRwhat" "OCR what" /// given grammatical errors and differing meanings, it probably doesn't make sense to replace words such as "pasy" "pásy") + custom dictionary ("Add to names/noise list" - cs_names_user.xml). After selecting "Unknown words", image will appear. After editing OCR/dictionary, run OCR again. [📥 CZ custom OCR/dictionary, Size 1MB, 2026-05](https://raw.githubusercontent.com/hornster02/hornster02/main/Subtitle_Edit-Custom_OCR_Replace-CZ.rar)
 <br/>
 ```How to achieve?``` -
 <br/>
@@ -1446,7 +1463,7 @@ Based on my ten years of observation, Firefox (surely won't be only one) is best
 <br/>
 ■ gamepad not working = don't touch mouse/keyboard
 
-***🟦 Audacity, 🟦 Avidemux, 🟦 VLC, 🟦 XnViewMP, PDF Image Extractor Free***
+***🟦 Audacity (PORTABLE - zkopírovat konfigurační data do složky ```Portable Settings``` + upravit TEMP cestu), 🟦 Avidemux, 🟦 VLC (PORTABLE - zkopírovat konfigurační data do složky ```portable```), 🟦 XnViewMP, PDF Image Extractor Free***
 
 ## KMP
 
@@ -1564,7 +1581,7 @@ For errors prevention i recommend using AutoHotkeyU64.exe and UTF-8 BOM format i
 <br/>
 ■ holding ```ě``` key inserts ```@```
 <br/>
-■ change gamma/contrast/brightness/volume/mute/unmute/power plan/frequencies/voltages/mouse sensitivity/resolution/network/..., crouch+aim toggles for games (search for *01), holding Printscreen key saves image to SSD = usually requires external programs
+■ change gamma/contrast/brightness/volume/mute/unmute/power plan/frequencies/voltages/mouse sensitivity/resolution/network/..., holding Printscreen key saves image to SSD = usually requires external programs
 
 ***ČEŠTINA***
 
@@ -1598,9 +1615,9 @@ Pro předejití chyb doporučuji používat AutoHotkeyU64.exe a ve skriptech for
 <br/>
 ■ podržení klávesy ```ě``` napíše ```@```
 <br/>
-■ změnit gamma/kontrast/jas/hlasitost+zap+vyp/schéma napájení/frekvence/napětí/citlivost myši/rozlišení/síť/..., a také přepínače skrčení+míření pro hry (vyhledej *01), držení printscreen uloží obrázek na SSD = většinou vyžaduje externí programy
+■ změnit gamma/kontrast/jas/hlasitost+zap+vyp/schéma napájení/frekvence/napětí/citlivost myši/rozlišení/síť/..., držení printscreen uloží obrázek na SSD = většinou vyžaduje externí programy
 
-***[📥 Font Contrast HTML - option to change font color by HEX/slider/system dialog (Firefox29) or HEX only (9). Size 1MB](https://raw.githubusercontent.com/hornster02/hornster02/main/_FontContrastHTML.rar)***
+***[📥 Font Contrast HTML - option to change font color by HEX/slider/system dialog (FF29+) or HEX only (9+). Size 1MB](https://raw.githubusercontent.com/hornster02/hornster02/main/_FontContrastHTML.rar)***
 <br/>
 <img width="960" alt="font" src="https://github.com/user-attachments/assets/40807f87-8f6e-4713-8faa-80d69be6f4fb" />
 
@@ -1673,7 +1690,7 @@ výpověď je potřeba zaslat dle našich Všeobecných obchodních podmínek. P
 <br/>
 <img width="350" alt="starnet" src="https://github.com/user-attachments/assets/a112d18e-139c-49a8-8a3a-5aa917a9395d" />
 
-💩***Podpora (29.1.2026)*** - internet@starnet.cz - lživé tvrzení, že "Kód" je každému zákazníkovi přidělen "před uzavřením smlouvy" = ve VOP 2008+, nebo uzavřené smlouvě z 2010 není ani náznak potřebných slov se správnou návazností např. autorizační/aktivační/kód/číslo/klíč/značení/unikátní/jedinečné/heslo/pin/kombinace/... . Jak paní Kateřina zjistila IP bez "jednoznačné identifikace zákazníka"? A jak je možné, že při placení faktur k "jednoznačné identifikaci zákazníka" docházelo?
+💩***Podpora (29.1.2026)*** - internet@starnet.cz - lživé tvrzení, že "Kód" je "každému zákazníkovi" přidělen "před uzavřením smlouvy" = ve VOP 2008+, nebo uzavřené smlouvě z 2010 není ani náznak potřebných slov se správnou návazností např. autorizační/aktivační/kód/číslo/klíč/značení/unikátní/jedinečné/heslo/pin/kombinace/... . Jak paní Kateřina zjistila IP bez "jednoznačné identifikace zákazníka"? A jak je možné, že při placení faktur k "jednoznačné identifikaci zákazníka" docházelo?
 
 ve vašem formuláři není vyplněn autorizační (aktivační) kód. Výpověď smlouvy musí obsahovat jednoznačnou identifikaci zákazníka, zejména autorizační kód dle VOP.
 
