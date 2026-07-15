@@ -13,7 +13,7 @@ Textový obsah této stránky se liší podle toho, zda se zobrazí jako HTML a 
 
 ⬇️ [Autohotkey v1.1 scripts](#ahk) 🔸 [KMPlayer Skin + AHK](#kmp) 🔸 [Starnet](#Starnet) ⬇️
 
-***[📥 Win```7``` Epyc Bloatware List (services/tasks/processes/drivers/devices/installations) + 4th mouse button AHK + NirSoft apps for comparing system via TXT/HTML + some REG files. Size 1MB](https://raw.githubusercontent.com/hornster02/hornster02/main/win-bloatware.rar)***
+***[📥 Win```7``` Epyc Bloatware List (services/tasks/processes/drivers/devices/installations) + NirSoft apps for comparing system via TXT/HTML + 4th mouse button AHK + some REG files. Size 1MB](https://raw.githubusercontent.com/hornster02/hornster02/main/win-bloatware.rar)***
 <br/>
 <img width="960" alt="win" src="https://github.com/user-attachments/assets/398697e5-a06a-4dd1-9d30-4d446a29f778" />
 <br/>
@@ -89,9 +89,11 @@ I'm not author of translations (most of them come from retail CD/DVD). Nejsem au
 <br/>
 ■ vždy přikládat SHA3_512 + instalační data + LST
 <br/>
-■ úpravy v HEX/Notepad++/... (vždy přikládat i původní soubory = velikost archivu bude stejná = solid komprese)
+■ úpravy v HEX/Notepad++/... (vždy přikládat i původní soubory = RAR velikost bude stejná = solid komprese)
 <br/>
 ■ dodatečné úpravy v samotné herní složce vždy automatizovat. Pokud je součástí překladu patch, tak vždy dát automatizaci jako některý krok po něm (= v případě neaplikování patche se může uživatel rozhodnout, zda bude pokračovat dalšími kroky a nebo skončí = tímto pořadím se vše může automaticky ponechat v nezměněné podobě)
+<br/>
+■ SRT titulky vždy prohnat slovníkem
 <br/>
 ■ dodatečné ~8% datové úspory by se dosáhlo ZPAQ kompresí. Nevýhody - nutnost 2x rozbalit (RAR obal pro opravu dat) + nepodpora v RAR/7-Zip + rozbalování je o řád+ pomalejší
 
@@ -103,21 +105,13 @@ I'm not author of translations (most of them come from retail CD/DVD). Nejsem au
 
 ***Kompatibilita*** - stahování z Github+GoogleDrive bylo v roce 2026 vyzkoušeno v FF49 (2016) ```general.useragent.override``` ```Mozilla/5.0 (PlayStation 5 3.03/SmartTV) AppleWebKit/605.1.15 (KHTML, like Gecko)``` 🔸 CMD⬇️ patchování ➡️ ⬅️ (hdiffz-x64.exe), 4.12.2 (2026), 4.4.0 (2022) 🔸 TotalCMD 2020+ 🔸 WinRAR 2013+ 🔸 Win7 2009 (od 2016-10) 🔸 WinXP 2001 32-bit (do 2016-10)
 
-***Skryté překlady*** -
+***Skryté překlady*** (dají se sehnat jinde) -
 <br/>
-```lokalizace.net```
-<br/>
-[King's Bounty 2014 - menší písmo+nečitelný font+zbytečný postup](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/King-s_Bounty_Dark_Side-2014-CZ)
-<br/>
-```oldgames.sk```
-<br/>
-[No One Lives Forever 2000 - moje verze](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/No_One_Lives_Forever-2000-CZ)
+[King's Bounty 2014](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/King-s_Bounty_Dark_Side-2014-CZ) 🔸 [No One Lives Forever 2000](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/No_One_Lives_Forever-2000-CZ) 🔸 [Trine 2009](https://web.archive.org/web/20250000000000*/https://github.com/hornster02/Trine-2009-CZ)
 
 ***Seznam uživatelů, kteří si přivlastňují cizí práce a lživě (i přes upozornění) se prohlašují za autory*** -
 <br/>
-[```GURY, realgury```](https://steamcommunity.com/profiles/76561199485387654)
-<br/>
-Fable 2004 - překladatel+technik (2025). Ke smůle nás všech nechal 2014 remaster bez povšimnutí
+[```GURY, realgury```, Fable 2004](https://web.archive.org/web/20260000000000*/https://steamcommunity.com/sharedfiles/filedetails/?id=3556901948)
 
 ***[📥 Ultimátní seznamy CZ+SK překladů (35 000+ řádků z 43 serverů ⬇️. Velikost 1MB)](https://raw.githubusercontent.com/hornster02/hornster02/main/_cz%2Bsk-seznam.rar)***
 <br/>
@@ -127,9 +121,9 @@ Fable 2004 - překladatel+technik (2025). Ke smůle nás všech nechal 2014 rema
 <br/>
 Pro otevření HTML je třeba FF2+, pro možnost filtrování 49+, pro úplnou podporu emoji 79+. Kód je v té nejjednodušší formě (nechtěné servery je možné snadno odstranit). PCGW 🔸 GOG 🔸 Steam 🔸 abcgames.cz 🔸 abecedaher.cz 🔸 bonusweb.cz 🔸 cdh.cz 🔸 ceskepreklady.estranky.cz 🔸 cestiny.net 🔸 cestinyodzhiliana.webnode.cz 🔸 dabingforum.cz 🔸 edownload.cz 🔸 farflame.cz 🔸 fenixprodabing.cz 🔸 folkemonovycestiny.cz 🔸 games.tiscali.cz 🔸 gamestar.cz 🔸 hannes.gameplanet.cz 🔸 hernipreklady.cz 🔸 jurgenovycestiny.cz 🔸 komunitni-preklady.org 🔸 lokalizace.net 🔸 lokalizacie.sk 🔸 madukas.cz 🔸 mrazikovycestiny.cz 🔸 necronos.pageride.cz 🔸 oldgames.sk 🔸 paranskyraj.cz 🔸 perlagroup.eu 🔸 pmx-preklady.webnode.sk 🔸 porse.cz 🔸 prekladyher.eu 🔸 raptor-cestiny.cz 🔸 rk-translations.cz 🔸 rpgcitadela.cz 🔸 sakratym.cz 🔸 slovenciny.com 🔸 spykertym.cz 🔸 squiee.cz 🔸 sukup.cz 🔸 war-forum 🔸 warcenter 🔸 warforum
 
-***[🟦 Inno Setup XDELTA Patch Maker (ISXPM)](https://jrsoftware.org/is3rdparty.php)*** - pokud jsou lokalizační data chráněna a součástí větších souborů a potřebné nástroje nejsou k dispozici, případně pokud hra "neumí" načíst externí rozbalená data, tak poslední způsob jak zprostředkovat překlad je vytvořit rozdílový patch. Pokud překlad vyžaduje i svoje konkrétní DLL/EXE/..., tak je dobré je z EN verze dočasně odebrat (tím dojde ke zkopírování CZ souborů do cíle bez ohledu na jejich verzi = výsledný patch může být kompatibilní i s jinými verzemi typu GOG/MYABANDONWARE/...) = tyto soubory mají běžně velikost pár desítek MB a jdou dobře komprimovat, takže patch způsob by přinesl úsporu pouze v rámci jednotek MB, ale pokud by se v cílové verzi v budoucnu změnilo jediné písmeno (je to daleko pravděpodobnější než změna v datových souborech), tak 100% aplikování nebude možné (podle nastavení patch aplikování buď odmítne, nebo skončí chybou a vrátí soubory zpět, nebo dojde bez vyjímky k poškození dat viz CMD⬇️ patchování). Pokud hra obsahuje stejné typy souborů lišící se v názvu/umístění, tak pokud se tyto věci sjednotí, tak bude patch menší (nebudou se kopírovat, ale patchovat). Některé hry/patche mohou data upravovat i lokálně kdy každé zpracování vytvoří jiná data = patchování nestálých (nebo šifrovaných) dat není možné. Data je dobré kontrolovat (porovnáním/hash) na případné nežádoucí změny=poškození (2 nezávislé instalace stejné verze hry, dodatečné úpravy, aplikování patche). Spuštěný ISXPM vypadá strašně složitě, ale ve skutečnosti může patch vytvořit i naprostý laik (drobná komplikace může být nutnost aktivovat CZ přes klíč v registru nebo souborem mimo herní složku) který si vystačí klidně i jen s řádky "Old version" a "Final version". 🔒I nechráněný patch může také být nestandardní a neprolomitelnou formou "šifrování" šifrovaných dat = pokud se oba typy souborů ručně poškodí, záhlaví/zápatí, nedohledatelná hash a názvy souborů, tak hledat potenciálně podezřelé soubory a zjistit které k sobě pasují a jak je upravit aby bylo možné 100% aplikování nebude žádná sranda ani pro ty nejvykvantovanější AI PC 4-tého milénia.
+***[🟦 Inno Setup XDELTA Patch Maker (ISXPM)](https://jrsoftware.org/is3rdparty.php)*** - pokud jsou lokalizační data chráněna a součástí větších souborů a potřebné nástroje nejsou k dispozici, případně pokud hra "neumí" načíst externí rozbalená data, tak poslední způsob jak zprostředkovat překlad je vytvořit rozdílový patch. Pokud překlad vyžaduje i svoje konkrétní DLL/EXE/..., tak je dobré je z EN verze dočasně odebrat (tím dojde ke zkopírování CZ souborů do cíle bez ohledu na jejich verzi = výsledný patch může být kompatibilní i s jinými verzemi typu GOG/MYABANDONWARE/...) = tyto soubory mají běžně velikost pár desítek MB a jdou dobře komprimovat, takže patch způsob by přinesl úsporu pouze v rámci jednotek MB, ale pokud by se v cílové verzi v budoucnu změnilo jediné písmeno (je to daleko pravděpodobnější než změna v datových souborech), tak 100% aplikování nebude možné (podle nastavení patch aplikování buď odmítne, nebo skončí chybou a vrátí soubory zpět, nebo dojde bez vyjímky k poškození dat viz CMD⬇️ patchování). Pokud hra obsahuje stejné typy souborů lišící se v názvu/umístění, tak pokud se tyto věci sjednotí, tak bude patch menší (nebudou se kopírovat, ale patchovat). Některé hry/patche mohou data upravovat i lokálně kdy každé zpracování vytvoří jiná data = patchování nestálých (nebo šifrovaných) dat není možné (příklady takových her jsou označené 🔒). Data je dobré kontrolovat (porovnáním/hash) na případné nežádoucí změny=poškození (2 nezávislé instalace stejné verze hry, dodatečné úpravy, aplikování patche). Spuštěný ISXPM vypadá strašně složitě, ale ve skutečnosti může patch vytvořit i naprostý laik (drobná komplikace může být nutnost aktivovat CZ přes klíč v registru nebo souborem mimo herní složku) který si vystačí klidně i jen s řádky "Old version" a "Final version". 🔒I nechráněný patch může také být nestandardní a neprolomitelnou formou "šifrování" šifrovaných dat = pokud se oba typy souborů ručně poškodí, záhlaví/zápatí, nedohledatelná hash a názvy souborů, tak hledat potenciálně podezřelé soubory a zjistit které k sobě pasují a jak je upravit aby bylo možné 100% aplikování nebude žádná sranda ani pro ty nejvykvantovanější AI PC 4-tého milénia.
 <br/>
-***[📥 Přednastavený konfigurační soubor + CZ překlad těch nejhlavnějších textů - Velikost 1MB](https://raw.githubusercontent.com/hornster02/hornster02/main/_ISXPM-2.6.4.3-CONFIG-2024-03.rar)*** (načíst "_config.ini" přes "LOAD PROJECT" + upravit cesty k "_cz.ini" a "_info.txt" + upravit v nich texty = diakritika/kódování byly vyzkoušeny v EN+CZ Win. Pro zjištění změn v INI je možné soubory porovnat podle obsahu + odstraněním "settings.ini" se ISXPM vrátí do výchozího nastavení) zaměřený na ještě menší velikost patche (rozdíl je až v desítkách %). Využití RAM paměti bude běžně mezi 10-20GB (1GB soubor na obou stranách = ~6GB RAM) - proces se může zrychlit zvýšením "Generating cores" v sekci "Build and Log Options" (počet zpracovávaných souborů v jeden okamžik - např. 8x5GB soubor na obou stranách = ~240GB RAM), především "Custom HDiffPatch parameters" může za vysokou spotřebu RAM. hdiffz-x64.exe 4.12.0-2025+ určený pro tvorbu/aplikování už ve Win7 "nefunguje", ale hpatchz-x64.exe určený pro aplikování a obsažený i v Patch.exe funguje. Je možné neaktualizovat samotný ISXPM (nemá na velikost patche vliv) a podle potřeby aktualizovat pouze "Patch Engine" (těch je na výběr několik, ale HDiffPatch má snad bez vyjímky nejlepší výsledky). BAT automatizace před/při/po aplikování patche (po spuštění Patch.exe se do TEMP extrahují ```On*Code.bat```)
+***[📥 Přednastavený konfigurační soubor + CZ překlad těch nejhlavnějších textů - Velikost 1MB](https://raw.githubusercontent.com/hornster02/hornster02/main/_ISXPM-2.6.4.3-CONFIG-2024-03.rar)*** (načíst "_config.ini" přes "LOAD PROJECT" + upravit cesty k "_cz.ini" a "_info.txt" + upravit v nich texty = diakritika/kódování byly vyzkoušeny v EN+CZ Win. Pro zjištění změn v INI je možné soubory porovnat podle obsahu + odstraněním "settings.ini" se ISXPM vrátí do výchozího nastavení) zaměřený na ještě menší velikost patche (rozdíl je až v desítkách %). Využití RAM se odvíjí podle velikosti+počtu zpracovávaných souborů v jeden okamžik (1GB soubor na obou stranách = ~6GB RAM) = proces se může zrychlit zvýšením "Generating cores" v sekci "Build and Log Options" (např. 3x50GB soubor na obou stranách = ~900GB RAM, tuto spotřebu způsobuje "Custom HDiffPatch parameters" - zatím jsem nebyl nucen vyzkoušet, zda jde proces dokončit se zlomkem RAM + podtaktováním/BES throttlingem + brutálním využitím pagefile.sys). Je možné neaktualizovat samotný ISXPM (nemá na velikost patche vliv) a podle potřeby aktualizovat pouze "Patch Engine" (těch je na výběr několik, ale HDiffPatch má snad bez vyjímky nejlepší výsledky). BAT automatizace (začátek/konec/před/po patchování) - při spuštění Patch.exe se do TEMP extrahují ```On*Code.bat``` .
 <br/>
 ```Jak docílit?``` -
 <br/>
@@ -199,12 +193,6 @@ V roce 2026 byl CZ Manager nahrazen revolučním ```CZManager Agent``` (zřejmě
 <br/>
 ■ fake widescreen = deformovat interní 4:3 poměr a při vykreslení ho natáhnout do widescreen monitoru do původních 4:3 proporcí
 
-***🟦 ISO Directory v0.5*** (Michel) - vytvoření mini-image CD/DVD (velikost pár kB) - pokud pro CZ verzi hry neexistuje crack a ta trvá na vloženém médiu v mechanice
-
-***🟦 WinCDEmu, (Alcohol 52% = DRM)*** - virtuální mechanika
-
-***🟦 Universal Extractor*** (PORTABLE - zkopírovat konfigurační data do složky) - ultimátní extraktor s podporou stovek formátů. Možnost hromadného extrahování archivů jedním klikem s použitím TXT seznamu s nastřádanými hesly. ***🟦 Dragon UnPACKer, 🟦 Game Extractor, [gildor.org](https://www.gildor.org/) / [aluigi.altervista.org/quickbms.htm](https://aluigi.altervista.org/quickbms.htm) / [oezmen.eu/gameresources](https://oezmen.eu/gameresources/)***
-
 ***🟦 BikMod v0.3e (Beta) + 🟦 bink2-libass*** - ```binkw32.dll``` pro načtení SRT titulků. ***🟦 RADTools*** - úprava BIK/SMK video souborů
 
 ***Steam*** -
@@ -243,13 +231,23 @@ V roce 2026 byl CZ Manager nahrazen revolučním ```CZManager Agent``` (zřejmě
 <br/>
 ■ zakázat ukládání log/crash a stahování obrázků = ```GOG.com\Galaxy\logs``` ```...\crashdumps``` ```...\webcache\XXX\gog``` (omezit přístup)
 
+```🔒 Jak získat čistá data z archivů/instalátorů/CD/DVD -```
+
+***🟦 Process Monitor*** - detailní seznam činností procesů na SSD/registru/sítě. Přesunutím archivů se může zjistit zda se hra při spuštění pokusí načíst data v jiných formách/umístěních + je možné odhalit i tajemné podmínky instalátorů. ***🟦 FileActivityWatch*** - zřejmě zabugovaná aplikace = může dojít k vytížení CPU + zápisům na SSD
+
+⓿ ***🟦 Universal Extractor*** (PORTABLE - zkopírovat konfigurační data do složky) - ultimátní extraktor s podporou stovek formátů. Možnost hromadného extrahování archivů jedním klikem s použitím TXT seznamu s nastřádanými hesly. ***🟦 Dragon UnPACKer, 🟦 Game Extractor, [gildor.org](https://www.gildor.org/) / [aluigi.altervista.org/quickbms.htm](https://aluigi.altervista.org/quickbms.htm) / [oezmen.eu/gameresources](https://oezmen.eu/gameresources/)***
+
+❶ získat z nespuštěných EXE/DLL/SYS (32-bit) heslo k herním "ZIP" (PK) archivům (CMD) - ```1``` ***🟦 Executable's strings lister and replacer 0.2.3a (exestringz)*** (EXE) - proskenovat a uložit do TXT ```exestringz.exe 1 "4.exe" "passwords_list.txt"``` . ```2``` ***🟦 ZIP password scanner - zipcrypto*** (BMS) - vložit TXT k "ZIP" a ```quickbms.exe "zip_pwd_scan.bms" "4.zip"``` a "Password found:" v CMD značí úspěch. Test č.1 - 1CPU + 10MB EXE + 2MB TXT = 0,5 minuty
+
+***🟦 ISO Directory v0.5*** (Michel) - Mini-image CD/DVD. Maxi-image se může vytvořit ručně metodou pokus/omyl (přepisování 0 v "HxD" + kontrolou v "FullEventLogView" při spuštění EXE, ⚠️ i nestabilní PC může způsobit posunutí dat čímž se může maxi-image v očích DRM znevěrohodnit). ***🟦 WinCDEmu, (Alcohol 52% = DRM)*** - virtuální mechanika
+
 ## Security CZ
 
 ***🟦 Total Uninstall*** (PORTABLE - zkopírovat konfigurační data do složky + upravit ```Tu.ini```) - sken systému (před/po spuštění/nainstalování aplikace) a zobrazení změn (soubory/složky/registr), export změn registru do REG souboru pro od/instalaci. Doporučuji odstranit výchozí vyjímky - velmi užitečné (záruka čistého systému, který není nutné desítky let přeinstalovávat) a zároveň ⚠️destrukční pokud člověk neví co dělá
 
 Sjednocení datumů a vytvoření ```SHA3_512``` pro všechny EXE+DLL+SYS (oddělit typy, seřadit podle názvu = podle složek) může zásadně zrychlit/zpřehlednit kontrolu systému (+ porovnání v čase v TotalCMD jako na obrázku č.2 = skrýt stejné řádky a odhalit co chybí/přebývá/liší se). Pro každou online aplikaci vytvořit vlastní SHA3_512
 
-Odhalit konfigurační data všech programů (TotalCMD + NTFS linky pro programy, které se svévolně rozlézají mimo svojí složku) = před použítím programů postaršit datum jejich dat (třeba 1888) čímž se zvýrazní konfigurační a další dodatečně upravená data
+Na systému nezávislá automatizovaná záloha konfiguračních dat všech programů - ```1``` před použitím programů postaršit datum jejich dat (třeba 1888) čímž se zvýrazní konfigurační a další dodatečně upravená/nová data ```2``` ***Link Shell Extension+🟦 NTFSLinksView*** - NTFS linky pro programy, které se svévolně rozlézají mimo svojí složku - ovládání přes kontextovou nabídku - vybrat zdroj (nové umístění) / vložit jako (původní umístění) ```3``` tcignore.txt (vyloučit různé cache, virtuální systémy, ovladače, ...) ```4``` případně seřadit nálezy (1889+) podle velikosti/přípon a doignorovat ručně ```5``` WinRAR
 
 Skrytí EXE souborů - odstranit ikony, digitální podpisy, metadata + ruční HEX úpravy = může se zkomplikovat jejich identifikace (jako běžící proces / uložený EXE na SSD)
 
@@ -283,7 +281,7 @@ Emoji (mají různý počet znaků) + různá písma + náhodné? HEX / části 
 
 🚫🟦 Vytvoření souboru místo složky nebo složky místo souboru = zakázat přístup (při záměně bývá aplikace/sys zmatená/ý). Lehce obejitelné (smazat)
 
-🚫***Firewall*** (omezit přístup) - Outpost/TinyWall/🟦Firewall App Blocker. Doporučuji odstranit výchozí vyjímky
+🚫***Firewall*** (omezit přístup) - Outpost/TinyWall/🟦Firewall App Blocker. Doporučuji odstranit výchozí vyjímky.
 <br/>
 Win firewall má pravidla uložená zde ```HKLM\SYSTEM\ControlSet\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules``` a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úpravou oprávnění pro "Everyone" (⚠️ při neodborné manipulaci se může znemožnit internetové připojení a to dokonce bez ohledu zda jsou firewall nebo přidružené SYS služby spuštěné = chyby/varování nemusí být v Eventlogu uvedeny)
 
@@ -305,15 +303,13 @@ Záloha Windows (Local Windows Installations/Capture Wim), vyjímky ze zálohy b
 
 ***Záloha/obnova Windows přes WinRAR*** - v NTFS options zaškrtnout - Save file security+Store symbolic links as links+Store hard links as links. Výhody jsou - univerzální/nezávislý přístup k datům, možnost obnovit třeba jen 1 soubor + malý balíček dat díky vysoké kompresi a možnosti vyloučit (jako u WinNTSetup) jakákoli data (v mém případě je poměr 21% = 30,8GB data / 6,5GB záloha) + jednoduchost (postupy+SW mohou zůstat prakticky desítky let neměnné+neaktualizované). Obecně zbytečná data pro zálohu jsou různé cache/temp/crash/dump/log/prefetch/SYS na C:/atd., případně RECYCLE/System Volume Information/instalátory/updaty/atd. (prostě podle chuti), nemusí být špatné si před zálohou vyfiltrovat soubory řekněme od 10MB, ty seřadit podle velikosti/přípon a rozhodnout se, co je zálohy hodno. ***0 -*** AdvancedRun je základ všeho. Vždy a všude.
 <br/>
-U WinXP je tento způsob zálohy/obnovy bezproblémový, u Win7 je to složitější (zřejmě už od Vista = NTFS zabezpečení, linky a jiný boot), u Win11 by to mělo být stejné (pokud by ze "zálohovacího" Win došlo k "WinRAR: Diagnostic messages - Systém nemůže získat přístup k souboru", tak ve spuštěném Win11 určeném k zálohování by zkopírování zbytku neměl být problém = pro vytvoření řádků z toho RAR logu pro jejich použití v BAT/xcopy stačí použít regulární výrazy a LibreOffice Calc). Jediná věc která může bránit ve spuštění CTRL+C/V Win je boot = pokud zůstává IDE/AHCI/GPT/MBR, tak je oprava v BootICE na pár kliků ***1 -*** případně vytvořit/opravit boot - ```MBR``` Win NT 6.x, ```PBR``` BOOTMGR, ```Parts Manage```  Activate. ***2 -*** vybrat správnou partition v BCD/UEFI (BCD soubor je pro Bios ve složce ```Boot```, pro UEFI v ```EFI\Microsoft\Boot```). ***3 -*** pokus o boot se špatným písmenem/partition v lepším případě okamžitě skončí hláškou o chybějících souborech, v horším se může přistupovat na nechtěnou partition (tedy pokud se předem dočasně neskryje, nezakáže v biosu nebo fyzicky neodpojí, což doporučuji vždy, tedy nejen při všech těchto "nedogmatických" postupech okolo) čímž by mohl započít nehezký proces asimilace ve stylu The Thing = změna písmen disků v ```HKLM\SYSTEM\MountedDevices``` (\DosDevices\XXX: - pokud byla z bezpečnostních důvodů všechna ostatní partitions znepřístupněna, tak zde není nutné nic mazat/upravovat - pokud Win projde prvním bootem se správným písmenem, tak se může pro aktuální partition/disk ponechat rezervované = rezervovat jde ABC a částečně Z a zpět, rezervovat nejde D a dál). Pokud se bootovací disk neformátuje, nemění za jiný, neupravuje partition, nemění systémové písmeno, tak nic z tohoto odstavce není nutné pro obnovu Win dělat = schopnost bootu (MBR+PBR+BOOT PART) nejde zrušit pouhým smazáním všech dat (BCD/UEFI zůstávají v RARu). Pro větší bezpečnost doporučuji ke složkám Boot+EFI omezit přístup.
+U WinXP je tento způsob zálohy/obnovy bezproblémový, u Win7 je to složitější (zřejmě už od Vista = NTFS zabezpečení, linky a jiný boot), u Win11 by to mělo být stejné (pokud by ze "zálohovacího" Win došlo k "WinRAR: Diagnostic messages - Systém nemůže získat přístup k souboru", tak ve spuštěném Win11 určeném k zálohování by zkopírování zbytku neměl být problém = pro vytvoření řádků z toho RAR logu pro jejich použití v BAT/xcopy stačí použít regulární výrazy a LibreOffice Calc). Jediná věc která může bránit ve spuštění CTRL+C/V Win je boot = pokud zůstává IDE/AHCI/GPT/MBR, tak je oprava v BootICE na pár kliků ***1 -*** případně vytvořit/opravit boot - ```MBR``` Win NT 6.x, ```PBR``` BOOTMGR, ```Parts Manage```  Activate. ***2 -*** vybrat správnou partition v BCD/UEFI (BCD soubor je pro Bios ve složce ```Boot```, pro UEFI v ```EFI\Microsoft\Boot```). ***3 -*** pokus o boot se špatným písmenem/partition v lepším případě okamžitě skončí hláškou o chybějících souborech, v horším se může přistupovat na nechtěnou partition (tedy pokud se předem dočasně neskryje, nezakáže v biosu nebo fyzicky neodpojí, což doporučuji vždy, tedy nejen při všech těchto "nedogmatických" postupech okolo) čímž by mohl započít nehezký proces asimilace ve stylu The Thing = změna písmen disků v ```HKLM\SYSTEM\MountedDevices``` (\DosDevices\XXX: - pokud byla z bezpečnostních důvodů všechna ostatní partitions znepřístupněna, tak zde není nutné nic mazat/upravovat - pokud Win projde prvním bootem se správným písmenem, tak se může pro aktuální partition/disk ponechat rezervované = rezervovat jde ABC a částečně Z a zpět, rezervovat nejde D a dál). Pokud se bootovací disk neformátuje, nemění za jiný, neupravuje partition, nemění systémové písmeno, tak nic z tohoto odstavce není nutné pro obnovu Win dělat = schopnost bootu (MBR+PBR+BOOT PART) nejde zrušit pouhým smazáním všech dat (BCD/UEFI zůstávají v RAR). Pro větší bezpečnost doporučuji ke složkám Boot+EFI omezit přístup.
 <br/>
 ***Instalace Windows přes CMD*** (***bez*** ztráty dat, formátování, nutnosti více partitions než 1, vytváření bootovacího média, upravování instalačních souborů = CTRL+C/V metoda) - ***1 -*** Zjistit Index číslo které chci instalovat ```Dism /Get-WimInfo /WimFile:"a:\install.wim"```. ***2 -*** Instalovat Index 5 (Win11 Pro?) ze souboru "a:\install.wim" na disk Z: (příkaz nemusí fungovat ve Win8- , error 87, WinNTSetup potřebné soubory obsahuje) ```dism /Apply-Image /ImageFile:"a:\install.wim" /Index:5 /ApplyDir:z:```. ***3 -*** Vytvořit Bios+UEFI data ```bcdboot z:\Windows /s z: /f ALL```. ***4 -*** Případně vytvořit/opravit boot v BootICE - ```MBR``` Win NT 6.x, ```PBR``` BOOTMGR, ```Parts Manage```  Activate. ***5 -*** Vypnout internet a restartovat PC (pokud je instalace určená pro jiné zařízení, tak přepojit disk). Při instalaci by nikdy problém s písmenem v registru (před prvotním bootem bez dodatečných úprav žádná neexistují) nebo partition neměl nastat. Některé verze Win mohou jako instalační soubor používat místo jednoho WIM více SWM souborů a v tom případě je příkaz ***2 -*** ```dism /Apply-Image /ImageFile:"a:\install.swm" /swmfile:"a:\install*.swm" /Index:5 /ApplyDir:z:``` (```*``` značí automatické načtení všech SWM která jsou k dispozici)
 
 ***USB boot*** - BootDriverFlags, 0x14 ```HKLM\SYSTEM\HardwareConfig\XXX``` - změna pořadí načítaných ovladačů při bootu Win10+ = jeden systém se všemi programy+nastavením, který jde spustit na "jakémkoli" PC přes interní i externí disk (chybějící USB ovladače nebo IDE/AHCI mód atd. můžou být problém i když ne neřešitelný)
 
 ***🟦 GImageX*** - tvorba WIM image (Windows v jednom komprimovaném souboru - bootovací nebo pro kompletní zálohu systému). Capture/Apply/Mount
-
-***Link Shell Extension+🟦 NTFSLinksView*** - NTFS linky a přesměrování např. nastavení programů do vlastních složek. Ovládání přes kontextovou nabídku - vybrat zdroj (nové umístění) / vložit jako (původní umístění)
 
 ***🟦 AlternateStreamView*** - NTFS ADS (odhalit a případně odstranit skrytá data - např. označení že soubor pochází z jiného PC). Při archivaci dat např. přes WinRAR se ve výchozím nastavení skrytá data neukládají
 
@@ -333,8 +329,6 @@ U WinXP je tento způsob zálohy/obnovy bezproblémový, u Win7 je to složitěj
 
 ***🟦 Desktop VLocker*** (PORTABLE - zkopírovat konfigurační data do složky a přejmenovat na ```Desktop VLocker.exe.config``` - read-only) - uzamčení systému (⚠️ heslo se ukládá v textové podobě)
 
-***🟦 Process Monitor*** - detailní seznam činností procesů na SSD/registru/sítě. ***🟦 FileActivityWatch*** - zřejmě zabugovaná aplikace = může dojít k vytížení CPU + zápisům na SSD
-
 ***🟦 HxD+CFF Explorer+🟦 Resource Hacker*** - úpravy spustitelných (minimální požadavky na verzi Win, prolomení 2GB RAM limitu u 32-bit aplikací, metadata, atd) a jiných souborů
 
 ***🟦 Hexer*** (Jovibor) - pravé tlačítko = nabídka funkcí. Záložky/panely. Templates (barevné odlišení typů struktury). Hledání neznámých = "Wildcard" (např. ```00?00``` najde ```001100```,... nebo ```00??00?``` najde ```0011110011```,...). Semi-hromadně najít/nahradit (ne po jednom, ne vše) = "Limit match" nebo označit nalezené "Offset" a ty vykopírovat z "Start from" do "Search range" (počáteční/konečný "Offset")
@@ -349,7 +343,7 @@ U WinXP je tento způsob zálohy/obnovy bezproblémový, u Win7 je to složitěj
 
 ***AIM Toolkit*** - ramdisk - při dynamickém alokování je možné vytvořit fake kapacitu o několika TB. Monitoring datového provozu. Pokud nedochází k uvolňování RAM, tak "Free Space Wiping" (uvolnění 1GB = 1GB čtení + 1GB zápis = může zatěžovat CPU a "opotřebovávat" RAM). ***ImDisk Toolkit*** (legacy)
 
-***Primo Ramdisk*** - ramdisk - možnost pagefile.sys v ramdisku nebo využít nepřístupnou část RAM paměti (Invisible Memory) - 32-Bit Win má limit ~4GB, Win11 Home 128GB (jako WinXP)
+***Primo Ramdisk*** - ramdisk - možnost pagefile.sys v ramdisku nebo využít nepřístupnou část RAM (Invisible Memory) - 32-Bit Win má limit ~4GB, Win11 Home 128GB (jako WinXP)
 
 ***Virtuální disk VHD*** - při dynamickém rozšíření je možné vytvořit fake kapacitu o několika TB = Disk Management - Create VHD/Attach+Detach/Online/Offline
 
@@ -393,7 +387,7 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***🟦 NirCmd+🟦 DevManView*** - změna rozlišení+barevné hloubky+frekvence - ```c:\nircmdc.exe setdisplay 2560 1080 32 75```. Zakázání/manuální start služby 4 - ```"c:\nircmdc.exe service disabled 4"``` / ```"c:\nircmdc.exe service manual 4"```. Zapnutí/vypnutí zařízení 4 - ```C:\DevManView.exe /enable "4"``` / ```C:\DevManView.exe /disable "4"```... Ovládání i přes klávesové zkratky/zástupce
 
-***🟦 Mem Reduct*** - uvolnění RAM paměti bez ukončení procesů klávesovou zkratkou nebo klikem na tray ikonu. Může ale docházet k většímu zápisu do pagefile.sys = opotřebení SSD
+***🟦 Mem Reduct*** - uvolnění RAM bez ukončení procesů klávesovou zkratkou nebo klikem na tray ikonu. Může ale docházet k většímu zápisu do pagefile.sys = opotřebení SSD
 
 ***🟦 Hard Disk Sentinel*** - monitoring disků+historie, SMART testy, regulace hlučnosti (AAM), tray ikony (zdraví), možnost zakázání vypínání HDD při nečinnosti (aut. přístupem nebo APM) = nejen pokud jsou HDD u konce životnosti, tak zapnuté úsporné funkce problémy jen zhoršují
 
@@ -519,6 +513,8 @@ Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkr
 ■ automaticky zkopírovat NTFS oprávnění (neupravuj oprávnění/vlastníka dat)
 <br/>
 ■ zobrazit obsah VŠECH souborů v "Synchronizace složek"
+<br/>
+■ odlišná barva pozadí aktivního panelu
 
 ***🟦 Notepad++*** - hromadné odstranění řádků obsahující prázdné/žádné znaky/duplikáty, řazení řádků, výběr bloku textu ```ALT+LButton```, výběr souboru seznam ```RButton+Wheel```, ...
 <br/>
@@ -618,7 +614,7 @@ Rozšířené vyhledávání -
 
 ***🟦 HTTrack Website Copier*** - stažení webových stránek včetně podstránek+interaktivity (i např. pro stažení online nástrojů do offline)
 
-***🟦 uTorrent*** - předpoklad dlouhého fungování [```1 torrentu```](https://sktorrent.eu/torrent/details.php?id=3adcdc3e45bd26ce481a6a03bb9875c50eaeffd9) se zvýší, pokud obsahuje pouze 1 archiv (RAR/ISO/MKV/...) a nic navíc. Torrent se dá přirovnat k RARu rozděleném na několik částí (většinou 16kb až 16MB). Zbytné soubory (části torrentu) se mohou časem u uživatelů poztrácet čímž zanikne jejich status "seeder" (100%). [```Příklad 99,8% (99,9% ISO) torrentu```](https://sktorrent.eu/torrent/details.php?id=ac3580f12b3fcfea20e1f119f95a0aa53187d0cf) (rozdělen po 8MB částech) - roky chybějící 2 obrázky o velikosti 5MB (stažených 766 částí z 767) = z 61% prázdný 5MB soubor ```Manual_pol.pdf``` (matematicky zřejmě jediný a čirou náhodou pro instalaci/užívání nedůležitý). Nepřidávat ručně tracker, při nahrání na server bude automaticky vytvořen. Problémy se stahováním -
+***🟦 uTorrent*** - předpoklad dlouhého fungování [```1 torrentu```](https://sktorrent.eu/torrent/details.php?id=3adcdc3e45bd26ce481a6a03bb9875c50eaeffd9) se zvýší, pokud obsahuje pouze 1 archiv (RAR/ISO/MKV/...) a nic navíc. Torrent se dá přirovnat k RAR rozděleném na několik částí (většinou 16kb až 16MB). Zbytné soubory (části torrentu) se mohou časem u uživatelů poztrácet čímž zanikne jejich status "seeder" (100%). [```Příklad 99,8% (99,9% ISO) torrentu```](https://sktorrent.eu/torrent/details.php?id=ac3580f12b3fcfea20e1f119f95a0aa53187d0cf) (rozdělen po 8MB částech) - roky chybějící 2 obrázky o velikosti 5MB (stažených 766 částí z 767) = z 61% prázdný 5MB soubor ```Manual_pol.pdf``` (matematicky zřejmě jediný a čirou náhodou pro instalaci/užívání nedůležitý). Nepřidávat ručně tracker, při nahrání na server bude automaticky vytvořen. Problémy se stahováním -
 <br/>
 ■ "passiv" uživatel (těch je drtivá většina) "nemůže" stahovat data od "passiv" uživatelů [```(někdo by musel být "aktiv")```](https://sktorrent.eu/torrent/forum.php?action=viewtopic&topicid=37) (otevřený port, UPnP, veřejná IP, Port Forwarding)
 <br/>
@@ -634,7 +630,7 @@ Rozšířené vyhledávání -
 
 ***cmd.exe / BAT - práce se soubory***
 <br/>
-```Robocopy.exe "c:\1" "e:\1" /E /PURGE /w:0 /r:0 /MOT:10``` - automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:\1``` je záloha. Pokud dojde ve zdrojové složce k vytvoření/změně souboru/složky, tak se nakopíruje do zálohy. Pokud dojde ve zdrojové složce ke smazání souboru/složky, tak se smaže ze zálohy. "MOT:10" je 10 minut čekání a poté následuje synchronizace. Jedná se o synchronizaci (porovnání) a ne "smazat celou zálohu/nakopírovat celý zdroj", takže mimo jiné nesnižuje životnost SSD zbytečnými zápisy. Nevýhoda je, že nedochází k porovnání souborů podle obsahu, ale pouze pomocí atributů+velikostí (rychlé/nenáročné). Je možné zavřít okno konzole ukončením procesu "conhost.exe" a nechat zapnutý pouze "ROBOCOPY.exe" (automatická synchronizace v pozadí systému). Užitečné v kombinaci s NTFS linky pro automatické zálohování SAVEGAME.
+```Robocopy.exe "c:\1" "e:\1" /E /PURGE /w:0 /r:0 /MOT:10``` - automatická synchronizace dvou složek. ```c:\1``` je zdrojová složka a ```e:\1``` je záloha. Pokud dojde ve zdrojové složce k vytvoření/změně souboru/složky, tak se nakopíruje do zálohy. Pokud dojde ve zdrojové složce ke smazání souboru/složky, tak se smaže ze zálohy. "MOT:10" je 10 minut čekání a poté následuje synchronizace. Jedná se o synchronizaci (porovnání) a ne "smazat celou zálohu/nakopírovat celý zdroj", takže mimo jiné nesnižuje životnost SSD zbytečnými zápisy. Nevýhoda je, že nedochází k porovnání souborů podle obsahu, ale pouze pomocí atributů+velikostí (rychlé/nenáročné). Je možné zavřít okno konzole ukončením procesu "conhost.exe" a nechat zapnutý pouze "ROBOCOPY.exe" (automatická synchronizace v pozadí systému)
 <br/>
 ```robocopy "c:\4" "e:\1" /e /create``` - zkopírovat obsah složky ```4``` do ```1``` (nekopírovat soubory, ale vytvořit je prázdné o velikosti 0)
 <br/>
@@ -679,6 +675,8 @@ Rozšířené vyhledávání -
 ***🟦 LibreOffice*** - do ```registrymodifications.xcu``` se ukládá nastavení a bohužel i historie
 <br/>
 ■ spojit obsah sloupců A (obsah pouze na sudých řádcích) a B (obsah pouze na lichých řádcích) do C (nebo spojit obsah bez ohledu na sudé/liché řádky) = do C1 vložit ```= A1 & B1``` (tím se vytvoří první řádek) + vpravo dole na C1 řádku podržet tečku a potáhnout jí dolů
+<br/>
+■ nesprávné řazení čísel (vytváření oddělených skupin) = označit sloupec s čísly --> Data/Text do sloupců/OK --> ...
 <br/>
 ```Jak docílit?``` - v Calc lištu s "panely" klasicky nahoře?
 
@@ -814,7 +812,7 @@ Z mých desetiletých pozorování je Firefox (určitě nebude jediný) nejlepš
 <br/>
 ■ gamepad nefunguje = nešahat na myš/klávesnici
 
-***🟦 Audacity (PORTABLE - copy configuration data to folder ```Portable Settings``` + edit TEMP path), 🟦 Avidemux, 🟦 VLC (PORTABLE - copy configuration data to folder ```portable```), 🟦 XnViewMP, PDF Image Extractor Free***
+***🟦 Audacity (PORTABLE - zkopírovat konfigurační data do složky ```Portable Settings``` + upravit TEMP cestu), 🟦 Avidemux, 🟦 VLC (PORTABLE - zkopírovat konfigurační data do složky ```portable```), 🟦 XnViewMP, PDF Image Extractor Free***
 
 ## Games EN
 
@@ -847,12 +845,6 @@ Z mých desetiletých pozorování je Firefox (určitě nebude jediný) nejlepš
 ```How to achieve?``` -
 <br/>
 ■ fake widescreen = deform internal 4:3 aspect ratio and, when rendering, stretch it to fit a widescreen monitor while maintaining original 4:3 aspect ratio
-
-***🟦 ISO Directory v0.5*** (Michel) - CD/DVD mini-image creator, crack (few kB)
-
-***🟦 WinCDEmu, (Alcohol 52% = DRM)*** - virtual drive
-
-***🟦 Universal Extractor*** (PORTABLE - copy configuration data to folder) - ultimate extractor supporting hundreds of formats. Ability to extract archives in bulk with a single click using a TXT list with accumulated passwords. ***🟦 Dragon UnPACKer, 🟦 Game Extractor, [gildor.org](https://www.gildor.org/) / [aluigi.altervista.org/quickbms.htm](https://aluigi.altervista.org/quickbms.htm) / [oezmen.eu/gameresources](https://oezmen.eu/gameresources/)***
 
 ***🟦 BikMod v0.3e (Beta) + 🟦 bink2-libass*** - ```binkw32.dll``` for loading SRT subtitles. 🟦 RADTools - modification of BIK/SMK video files
 
@@ -892,13 +884,23 @@ Z mých desetiletých pozorování je Firefox (určitě nebude jediný) nejlepš
 <br/>
 ■ deny saving logs/crash and downloading images = ```GOG.com\Galaxy\logs``` ```...\crashdumps``` ```...\webcache\XXX\gog``` (restrict access)
 
+```🔒 How to get clean data from archives/installers/CD/DVD -```
+
+***🟦 Process Monitor*** - detailed list of processes activities on SSD/registry/network. By moving archives, it is possible to determine whether game attempts to load data in different formats/locations when launched + it is also possible to uncover mysterious conditions of installers. ***🟦 FileActivityWatch*** - probably a buggy app = may cause CPU load + writes to SSD
+
+⓿ ***🟦 Universal Extractor*** (PORTABLE - copy configuration data to folder) - ultimate extractor supporting hundreds of formats. Ability to extract archives in bulk with a single click using a TXT list with accumulated passwords. ***🟦 Dragon UnPACKer, 🟦 Game Extractor, [gildor.org](https://www.gildor.org/) / [aluigi.altervista.org/quickbms.htm](https://aluigi.altervista.org/quickbms.htm) / [oezmen.eu/gameresources](https://oezmen.eu/gameresources/)***
+
+❶ get password for game "ZIP" (PK) archives from unlaunched EXE/DLL/SYS (32-bit) (CMD) - ```1``` ***🟦 Executable's strings lister and replacer 0.2.3a (exestringz)*** (EXE) - scan and save to TXT ```exestringz.exe 1 "4.exe" "passwords_list.txt"``` . ```2``` ***🟦 ZIP password scanner - zipcrypto*** (BMS) - add TXT to "ZIP" and ```quickbms.exe "zip_pwd_scan.bms" "4.zip"``` and "Password found:" in CMD indicates success. Test #1 - 1 CPU + 10 MB EXE + 2 MB TXT = 0.5 minutes
+
+***🟦 ISO Directory v0.5*** (Michel) - CD/DVD mini-image. Maxi-image can be created manually using attempt/error metod (overwriting by 0 in "HxD" and checking in "FullEventLogView" when running EXE, ⚠️ even an unstable PC can cause data shift, which can invalidate maxi-image in eyes of DRM). ***🟦 WinCDEmu, (Alcohol 52% = DRM)*** - virtual drive
+
 ## Security EN
 
 ***🟦 Total Uninstall*** (PORTABLE - copy configuration data to folder + edit ```Tu.ini```) - system scan (before/after app launch/installation) and display changes (files/folders/registry), export registry changes to REG file for un/install. I recommend removing default exceptions - very useful (guaranteeing a clean system that doesn't need to be reinstalled for decades) and ⚠️destructive if one doesn't know what he's doing
 
 Unifying dates and creating a ```SHA3_512``` for all EXE+DLL+SYS (separate types, sort by name = by folder) can significantly speed up/clarify system checks (+ comparison over time in TotalCMD as shown in image no.2 = hide same lines and show what is missing, present in excess, or different). For each online app, generate a own SHA3_512
 
-Reveal configuration data for all apps (TotalCMD + NTFS links for apps that arbitrarily spread outside their folder) = before using apps, set their data dates to an older date (e.g., 1888), which will highlight configuration data and other additionally modified data
+A system-independent automated backup of configuration data of all apps - ```1``` before using apps, set their data dates to an older date (e.g., 1888), which will highlight configuration data and other additionally modified/new data ```2``` ***Link Shell Extension+🟦 NTFSLinksView*** - NTFS links for apps that arbitrarily spread outside their folder - control via context menu - pick link source (new location) / drop as (original location) ```3``` tcignore.txt (exclude various caches, virtual systems, drivers, ...) ```4``` if necessary, sort results (1889+) by size/extension and ignore rest manually ```5``` WinRAR
 
 Hiding EXE files - removing icons, digital signatures, metadata + manual HEX editing = can make them harder to identify (as a running process or an EXE file stored on an SSD)
 
@@ -932,7 +934,7 @@ Emojis (have different numbers of characters) + various fonts + random? HEX / pa
 
 🚫🟦 Create a file instead of a folder, or a folder instead of a file = deny access (apps/sys often get confused when this happens). Easy to bypass (delete)
 
-🚫***Firewall*** (restrict access) - Outpost/TinyWall/🟦Firewall App Blocker. I recommend removing default exceptions
+🚫***Firewall*** (restrict access) - Outpost/TinyWall/🟦Firewall App Blocker. I recommend removing default exceptions.
 <br/>
 Win firewall has rules stored here ```HKLM\SYSTEM\ControlSet\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules``` and forbidding of arbitrarily adding exceptions is easily done by adding and modifying permissions for "Everyone" (⚠️, improper handling may block Internet connection, regardless of whether firewall or associated SYS services are running = errors/warnings may not be listed in EventLog)
 
@@ -962,8 +964,6 @@ With WinXP, this backup/restore method is problem-free, with Win7 it is more com
 
 ***🟦 GImageX*** - create WIM image (Windows in one compressed file - bootable or for complete system backup). Capture/Apply/Mount
 
-***Link Shell Extension+🟦 NTFSLinksView*** - NTFS links and redirecting e.g. apps settings to custom folders. Control via context menu - pick link source (new location) / drop as (original location)
-
 ***🟦 AlternateStreamView*** - NTFS ADS (reveal and, if necessary, delete hidden data - e.g., a mark indicating that file originates from another PC). When archiving data, e.g., using WinRAR, hidden data is not saved by default
 
 ***🟦 Registry Workshop*** - advanced replacement of "Regedit". "Load Hive" can be used to load and edit an external registry. To integrate with Total Uninstall, use following command in its settings - ```"RegWorkshopX64.exe" /g```
@@ -981,8 +981,6 @@ With WinXP, this backup/restore method is problem-free, with Win7 it is more com
 ***🟦 WizTree*** - disk data analysis (also shows hidden $ NTFS data)
 
 ***🟦 Desktop VLocker*** (PORTABLE - copy configuration data to folder and rename to ```Desktop VLocker.exe.config``` - read-only) - computer lock (⚠️ password is stored in plain text)
-
-***🟦 Process Monitor*** - detailed list of processes activities on SSD/registry/network. ***🟦 FileActivityWatch*** - probably a buggy app = may cause CPU load + writes to SSD
 
 ***🟦 HxD+CFF Explorer+🟦 Resource Hacker*** - editing executables (minimum requirements for Win version, 2GB RAM limit workaround for 32-bit apps, metadata, etc.) and more
 
@@ -1042,7 +1040,7 @@ ATI/AMD GPU Bios - ***🟦 GPU-Z, 🟦 RBE - Radeon BIOS Editor, 🟦 VBE7, 🟦
 
 ***🟦 NirCmd+🟦 DevManView*** - change resolution+color depth+frequency - ```c:\nircmdc.exe setdisplay 2560 1080 32 75```. Disable/manual start of service 4 - ```"c:\nircmdc.exe service disabled 4"``` / ```"c:\nircmdc.exe service manual 4"```. Enabling/disabling device 4 - ```C:\DevManView.exe /enable "4"``` / ```C:\DevManView.exe /disable "4"```... Control via keyboard hotkeys/shortcuts
 
-***🟦 Mem Reduct*** - free RAM memory (without terminating processes) by hotkey or clicking on tray icon. However, there may be more writing to pagefile.sys = reduced lifetime of SSD
+***🟦 Mem Reduct*** - free RAM (without terminating processes) by hotkey or clicking on tray icon. However, there may be more writing to pagefile.sys = reduced lifetime of SSD
 
 ***🟦 Hard Disk Sentinel*** - disk monitoring+history, SMART tests, noise control (AAM), tray icons (health), option to disable HDD shutdown when idle (auto access or APM) = not only if HDD is at end of its lifetime, enabling power-saving features only makes problems worse
 
@@ -1168,6 +1166,8 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. ```HKLM\SYS
 ■ automatically copy NTFS permissions (do not change data permissions/owner)
 <br/>
 ■ show contents of ALL files in "Folder Sync"
+<br/>
+■ different background color for active panel
 
 ***🟦 Notepad++*** - bulk removal of rows containing empty/no/duplicates characters, lines sorting, select text block ```ALT+left button```, file list show/select ```RButton+Wheel```, ...
 <br/>
@@ -1283,7 +1283,7 @@ Advanced search -
 
 ***cmd.exe / BAT - work with files***
 <br/>
-```Robocopy.exe "c:\1" "e:\1" /E /PURGE /w:0 /r:0 /MOT:10``` - automatic synchronization of two folders. ```c:\1``` is source folder and ```e:\1``` is backup. If a file/folder is created/changed in source folder, it is copied to backup. If a file/folder is deleted in source folder, it will be deleted from backup. "MOT:10" is 10 minutes of waiting and then synchronization. Is it synchronization (comparison) and not "delete entire backup/copy entire resource", so it does not reduce lifetime of SSD with unnecessary writes, among other things. A drawback is that there is no comparison of files by content, but only by attributes+size (fast/non-demanding). It is possible to close console window by terminating "conhost.exe" process and leave only "ROBOCOPY.exe" (automatic synchronization in background of system) on. Useful in combination with NTFS links for automatic SAVEGAME backup.
+```Robocopy.exe "c:\1" "e:\1" /E /PURGE /w:0 /r:0 /MOT:10``` - automatic synchronization of two folders. ```c:\1``` is source folder and ```e:\1``` is backup. If a file/folder is created/changed in source folder, it is copied to backup. If a file/folder is deleted in source folder, it will be deleted from backup. "MOT:10" is 10 minutes of waiting and then synchronization. Is it synchronization (comparison) and not "delete entire backup/copy entire resource", so it does not reduce lifetime of SSD with unnecessary writes, among other things. A drawback is that there is no comparison of files by content, but only by attributes+size (fast/non-demanding). It is possible to close console window by terminating "conhost.exe" process and keep only "ROBOCOPY.exe" (automatic synchronization in background of system)
 <br/>
 ```robocopy "c:\4" "e:\1" /e /create``` - copy contents of folder ```4``` to ```1``` (don't copy files, but create empty ones with a size of 0)
 <br/>
@@ -1328,6 +1328,8 @@ Advanced search -
 ***🟦 LibreOffice*** - settings and, unfortunately, history are stored in ```registrymodifications.xcu```
 <br/>
 ■ combine contents of column A (contents only in even rows) and B (contents only in odd rows) into C (or combine contents regardless of even/odd rows) = enter ```= A1 & B1``` into C1 (this creates first row) + click and hold dot at bottom right corner of row C1 and drag it down
+<br/>
+■ incorrect sorting of numbers (creating separate groups) = select column with numbers --> Data/Text to Columns/OK --> ...
 <br/>
 ```How to achieve?``` - in Calc, "tab" bar at top, as usual?
 
@@ -1463,7 +1465,7 @@ Based on my ten years of observation, Firefox (surely won't be only one) is best
 <br/>
 ■ gamepad not working = don't touch mouse/keyboard
 
-***🟦 Audacity (PORTABLE - zkopírovat konfigurační data do složky ```Portable Settings``` + upravit TEMP cestu), 🟦 Avidemux, 🟦 VLC (PORTABLE - zkopírovat konfigurační data do složky ```portable```), 🟦 XnViewMP, PDF Image Extractor Free***
+***🟦 Audacity (PORTABLE - copy configuration data to folder ```Portable Settings``` + edit TEMP path), 🟦 Avidemux, 🟦 VLC (PORTABLE - copy configuration data to folder ```portable```), 🟦 XnViewMP, PDF Image Extractor Free***
 
 ## KMP
 
