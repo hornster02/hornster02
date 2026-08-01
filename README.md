@@ -1,6 +1,4 @@
 
-
-
 Text content of this page varies depending on whether it is displayed as HTML or as original MD file (written in Notepad++) + my possible error/omission in formatting may unintentionally alter content displayed in HTML.
 <br/>
 Textový obsah této stránky se liší podle toho, zda se zobrazí jako HTML a nebo jako MD originál (psaný v Notepad++) + moje případná chyba/opomenutí ve formátování může pozměnit zobrazený obsah v HTML i nechtěně.
@@ -79,7 +77,7 @@ I'm not author of translations (most of them come from retail CD/DVD). Nejsem au
 <br/>
 ■ interní komprimace patch dat je špatně (pomalejší patchování, větší RAR), data jde komprimovat jenom jednou a i proto je lepší externí (upravitelnější a zpětně nahraditelná)
 <br/>
-■ používat v Patch.exe "CRC32C SUM" hash je špatně (TotalCMD nepodporuje)
+■ používat v Patch.exe "CRC32C SUM" hash (méně než 32 znaků) je špatně (TotalCMD nepodporuje)
 <br/>
 ■ nový patch/remaster znefunkční CZ = chyba vývojáře, nikdo ho k tomu nenutil + překlad fungující byť na jediné verzi není vyloženě špatně (především je to smutné)
 <br/>
@@ -101,7 +99,7 @@ I'm not author of translations (most of them come from retail CD/DVD). Nejsem au
 <br/>
 ```Dabing``` - Prince of Persia 2008 ***832MB***, Turok 2008 ***466MB***, Runaway 2001 ***417MB***, Rainbow Six 2006 ***345MB*** = 2060MB
 <br/>
-```Text``` - 🎞️ Numen 2009 ***271MB***, 🎞️ eXperience 112 2007 ***253MB***, Overclocked 2007 ***200MB***, Devil May Cry 2008 ***58MB*** = 782MB
+```Text``` - 🎞️ Numen 2009 ***271MB***, Overclocked 2007 ***200MB***, Devil May Cry 2008 ***58MB*** = 529MB
 
 ***Kompatibilita*** - stahování z Github+GoogleDrive bylo v roce 2026 vyzkoušeno v FF49 (2016) ```general.useragent.override``` ```Mozilla/5.0 (PlayStation 5 3.03/SmartTV) AppleWebKit/605.1.15 (KHTML, like Gecko)``` 🔸 CMD⬇️ patchování ➡️ ⬅️ (hdiffz-x64.exe), 4.12.2 (2026), 4.4.0 (2022) 🔸 TotalCMD 2020+ 🔸 WinRAR 2013+ 🔸 Win7 2009 (od 2016-10) 🔸 WinXP 2001 32-bit (do 2016-10)
 
@@ -111,7 +109,7 @@ I'm not author of translations (most of them come from retail CD/DVD). Nejsem au
 
 ***Seznam uživatelů, kteří si přivlastňují cizí práce a lživě (i přes upozornění) se prohlašují za autory*** -
 <br/>
-[```GURY, realgury```, Fable 2004](https://web.archive.org/web/20260000000000*/https://steamcommunity.com/sharedfiles/filedetails/?id=3556901948)
+[```76561199485387654, [U:1:1525121926]``` - Fable 2004](https://web.archive.org/web/20260000000000*/https://steamcommunity.com/sharedfiles/filedetails/?id=3556901948)
 
 ***[📥 Ultimátní seznamy CZ+SK překladů (35 000+ řádků z 43 serverů ⬇️. Velikost 1MB)](https://raw.githubusercontent.com/hornster02/hornster02/main/_cz%2Bsk-seznam.rar)***
 <br/>
@@ -231,7 +229,7 @@ V roce 2026 byl CZ Manager nahrazen revolučním ```CZManager Agent``` (zřejmě
 <br/>
 ■ zakázat ukládání log/crash a stahování obrázků = ```GOG.com\Galaxy\logs``` ```...\crashdumps``` ```...\webcache\XXX\gog``` (omezit přístup)
 
-```🔒 Jak získat čistá data z archivů/instalátorů/CD/DVD -```
+🔒 ```Jak získat čistá data z archivů/instalátorů/CD/DVD -```
 
 ***🟦 Process Monitor*** - detailní seznam činností procesů na SSD/registru/sítě. Přesunutím archivů se může zjistit zda se hra při spuštění pokusí načíst data v jiných formách/umístěních + je možné odhalit i tajemné podmínky instalátorů. ***🟦 FileActivityWatch*** - zřejmě zabugovaná aplikace = může dojít k vytížení CPU + zápisům na SSD
 
@@ -247,7 +245,7 @@ V roce 2026 byl CZ Manager nahrazen revolučním ```CZManager Agent``` (zřejmě
 
 Sjednocení datumů a vytvoření ```SHA3_512``` pro všechny EXE+DLL+SYS (oddělit typy, seřadit podle názvu = podle složek) může zásadně zrychlit/zpřehlednit kontrolu systému (+ porovnání v čase v TotalCMD jako na obrázku č.2 = skrýt stejné řádky a odhalit co chybí/přebývá/liší se). Pro každou online aplikaci vytvořit vlastní SHA3_512
 
-Na systému nezávislá automatizovaná záloha konfiguračních dat všech programů - ```1``` před použitím programů postaršit datum jejich dat (třeba 1888) čímž se zvýrazní konfigurační a další dodatečně upravená/nová data ```2``` ***Link Shell Extension+🟦 NTFSLinksView*** - NTFS linky pro programy, které se svévolně rozlézají mimo svojí složku - ovládání přes kontextovou nabídku - vybrat zdroj (nové umístění) / vložit jako (původní umístění) ```3``` tcignore.txt (vyloučit různé cache, virtuální systémy, ovladače, ...) ```4``` případně seřadit nálezy (1889+) podle velikosti/přípon a doignorovat ručně ```5``` WinRAR
+Na systému nezávislá automatizovaná záloha konfiguračních dat všech programů - ```1``` před použitím programů postaršit datum jejich dat (třeba 1888) čímž se zvýrazní konfigurační a další dodatečně upravená/nová data. ```2``` ***Link Shell Extension+🟦 NTFSLinksView*** - NTFS linky pro programy, které se svévolně rozlézají mimo svojí složku - ovládání přes kontextovou nabídku - vybrat zdroj (nové umístění) / vložit jako (původní umístění). ```3``` tcignore.txt (vyloučit různé cache, virtuální systémy, ovladače, ...). ```4``` případně seřadit nálezy (1889+) podle velikosti/přípon a doignorovat ručně. ```5``` WinRAR
 
 Skrytí EXE souborů - odstranit ikony, digitální podpisy, metadata + ruční HEX úpravy = může se zkomplikovat jejich identifikace (jako běžící proces / uložený EXE na SSD)
 
@@ -283,7 +281,7 @@ Emoji (mají různý počet znaků) + různá písma + náhodné? HEX / části 
 
 🚫***Firewall*** (omezit přístup) - Outpost/TinyWall/🟦Firewall App Blocker. Doporučuji odstranit výchozí vyjímky.
 <br/>
-Win firewall má pravidla uložená zde ```HKLM\SYSTEM\ControlSet\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules``` a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úpravou oprávnění pro "Everyone" (⚠️ při neodborné manipulaci se může znemožnit internetové připojení a to dokonce bez ohledu zda jsou firewall nebo přidružené SYS služby spuštěné = chyby/varování nemusí být v Eventlogu uvedeny)
+Win firewall má pravidla uložená zde ```HKLM\SYSTEM\ControlSet\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules``` a zákaz svévolného přidávání vyjímek se snadno provede přidáním a úpravou oprávnění (⚠️ při neodborné manipulaci se může znemožnit internetové připojení a to dokonce bez ohledu zda jsou firewall nebo přidružené SYS služby spuštěné = chyby/varování nemusí být v Eventlogu uvedeny)
 
 🚫***🟦 hosts*** - omezit přístup k serverům ve formátu ```0.0.0.0 www.x.com``` ```0.0.0.0 x.com``` (někdy bez www nefunguje, takže jistota jsou oba formáty), http(s) se nepíše. Užitečné např. pro blokování agresivních reklam (video/animace/stahování/nové panely)
 
@@ -471,6 +469,10 @@ Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkr
 <br/>
 ```Výhody 7-Zip``` - celkově lepší komprese (horší než ***🟦 PeaZip*** - ZPAQ) + DALEKO širší podpora formátů (často jenom read-only)
 <br/>
+7-Zip Command-Line -
+<br/>
+■ ZIP s heslem - bez komprese vložit obsah složky 4 do 4.zip ```7z.exe a -tzip -p"heslo" -mx0 "4.zip" ".\4\*"```
+<br/>
 ```Jak docílit?``` -
 <br/>
 ■ katalog dat s využitím existující funkce - při vytváření archivu je možné přidat informační záznam o datech (Quick open information), který se ukládá na konec archivu a je nejen pro běžného uživatele těžko prozkoumatelný přes HEX/Notepad++. Pokud by (pro nechráněné archivy?) byl informační záznam povinný a byl uložen na začátku archivu a bylo by možné ho přes WinRAR použít (pro pokročilejšího uživatele možnost zobrazit obsah archivu primárně z informačního záznamu bez ohledu na fyzicky chybějící/poškozená data), tak pro zjištění obsahu+záhlaví souborů např. neznámého 100GB RAR archivu někde na úložišti by nebylo nutné stahovat celý RAR, ale stačilo by prvních ~0-10MB
@@ -515,6 +517,10 @@ Přepínání ***Schéma napájení*** (ovládací panely) přes klávesové zkr
 ■ zobrazit obsah VŠECH souborů v "Synchronizace složek"
 <br/>
 ■ odlišná barva pozadí aktivního panelu
+<br/>
+■ hash - zobrazit "Pouze OK", "Pouze chybějící"
+<br/>
+■ porovnání dat podle obsahu v Hledání souborů --> Zobrazit v panelu
 
 ***🟦 Notepad++*** - hromadné odstranění řádků obsahující prázdné/žádné znaky/duplikáty, řazení řádků, výběr bloku textu ```ALT+LButton```, výběr souboru seznam ```RButton+Wheel```, ...
 <br/>
@@ -541,6 +547,12 @@ Regulární výrazy (může se hodit především "Na konci znovu od začátku")
 ■ odstranit měsíce+dny ve formátu "January 4, 4444" ```(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+``` = výsledek je "4444" (pro předejití nechtěným+... ⬆️)
 <br/>
 ■ odstranit všechna čísla ```[0-9]+```
+<br/>
+■ odstranit první 4 řádky ```\A.*(?:\R.*){3}\R?([\s\S]*)``` ```$1```
+<br/>
+■ odstranit poslední 4 řádky ```(\r?\n[^\r\n]*){4}\z```
+<br/>
+■ odstranit prázdné řádky (obsahující prázdné znaky) ```^\s*$\r?\n```
 <br/>
 ■ najít 4 a vložit prázdný řádek ```(?-s)4.*``` ```$0\r\n```
 <br/>
@@ -820,6 +832,10 @@ Z mých desetiletých pozorování je Firefox (určitě nebude jediný) nejlepš
 <br/>
 <img width="960" alt="gcw" src="https://github.com/user-attachments/assets/bf1c82c0-b320-462b-a195-1f44c66732d6" />
 
+***[📥 PCGW lists (2026-07). Size 1MB. Cry 🔸 Chrome 🔸 Id Tech+ 🔸 LithTech+ 🔸 RenderWare 🔸 Unity 🔸 Unreal 🔸 Vision 🔸 WinG 🔸 DirectDraw 🔸 DirectX 🔸 Glide 🔸 Metal 🔸 OpenGL 🔸 Vulkan 🔸 Bink 🔸 Smacker 🔸 EAX 🔸 FMOD 🔸 Havok 🔸 Miles Sound System 🔸 OpenAL 🔸 PhysX 🔸 SpeedTree 🔸 WebM 🔸 Wwise 🔸 GFWL 🔸 XNA](https://raw.githubusercontent.com/hornster02/hornster02/main/pcgw-lists.rar)***
+<br/>
+<img width="1920" height="1080" alt="pcgw-lists" src="https://github.com/user-attachments/assets/e6390775-7851-4aff-9837-b74c6fa5fa78" />
+
 ***🟦 Inno Setup XDELTA Patch Maker*** - patch creator
 
 ***🟦 RadeonTuner + 🟦 RadeonMod, ATI Tray Tools*** - Radeon Bloatware💩 + ATI/AMD Catalyst replacement ***🟦 ATI GPU Scaling Fix***
@@ -884,13 +900,13 @@ Z mých desetiletých pozorování je Firefox (určitě nebude jediný) nejlepš
 <br/>
 ■ deny saving logs/crash and downloading images = ```GOG.com\Galaxy\logs``` ```...\crashdumps``` ```...\webcache\XXX\gog``` (restrict access)
 
-```🔒 How to get clean data from archives/installers/CD/DVD -```
+🔒 ```How to get clean data from archives/installers/CD/DVD -```
 
 ***🟦 Process Monitor*** - detailed list of processes activities on SSD/registry/network. By moving archives, it is possible to determine whether game attempts to load data in different formats/locations when launched + it is also possible to uncover mysterious conditions of installers. ***🟦 FileActivityWatch*** - probably a buggy app = may cause CPU load + writes to SSD
 
 ⓿ ***🟦 Universal Extractor*** (PORTABLE - copy configuration data to folder) - ultimate extractor supporting hundreds of formats. Ability to extract archives in bulk with a single click using a TXT list with accumulated passwords. ***🟦 Dragon UnPACKer, 🟦 Game Extractor, [gildor.org](https://www.gildor.org/) / [aluigi.altervista.org/quickbms.htm](https://aluigi.altervista.org/quickbms.htm) / [oezmen.eu/gameresources](https://oezmen.eu/gameresources/)***
 
-❶ get password for game "ZIP" (PK) archives from unlaunched EXE/DLL/SYS (32-bit) (CMD) - ```1``` ***🟦 Executable's strings lister and replacer 0.2.3a (exestringz)*** (EXE) - scan and save to TXT ```exestringz.exe 1 "4.exe" "passwords_list.txt"``` . ```2``` ***🟦 ZIP password scanner - zipcrypto*** (BMS) - add TXT to "ZIP" and ```quickbms.exe "zip_pwd_scan.bms" "4.zip"``` and "Password found:" in CMD indicates success. Test #1 - 1 CPU + 10 MB EXE + 2 MB TXT = 0.5 minutes
+❶ get password for game "ZIP" (PK) archives from unlaunched EXE/DLL/SYS (32-bit) (CMD) - ```1``` ***🟦 Executable's strings lister and replacer 0.2.3a (exestringz)*** (EXE) - scan and save to TXT ```exestringz.exe 1 "4.exe" "passwords_list.txt"``` . ```2``` ***🟦 ZIP password scanner - zipcrypto*** (BMS) - add TXT to "ZIP" and ```quickbms.exe "zip_pwd_scan.bms" "4.zip"``` and "Password found:" in CMD indicates success. Test #1 - 1CPU + 10MB EXE + 2MB TXT = 0.5 minutes
 
 ***🟦 ISO Directory v0.5*** (Michel) - CD/DVD mini-image. Maxi-image can be created manually using attempt/error metod (overwriting by 0 in "HxD" and checking in "FullEventLogView" when running EXE, ⚠️ even an unstable PC can cause data shift, which can invalidate maxi-image in eyes of DRM). ***🟦 WinCDEmu, (Alcohol 52% = DRM)*** - virtual drive
 
@@ -900,7 +916,7 @@ Z mých desetiletých pozorování je Firefox (určitě nebude jediný) nejlepš
 
 Unifying dates and creating a ```SHA3_512``` for all EXE+DLL+SYS (separate types, sort by name = by folder) can significantly speed up/clarify system checks (+ comparison over time in TotalCMD as shown in image no.2 = hide same lines and show what is missing, present in excess, or different). For each online app, generate a own SHA3_512
 
-A system-independent automated backup of configuration data of all apps - ```1``` before using apps, set their data dates to an older date (e.g., 1888), which will highlight configuration data and other additionally modified/new data ```2``` ***Link Shell Extension+🟦 NTFSLinksView*** - NTFS links for apps that arbitrarily spread outside their folder - control via context menu - pick link source (new location) / drop as (original location) ```3``` tcignore.txt (exclude various caches, virtual systems, drivers, ...) ```4``` if necessary, sort results (1889+) by size/extension and ignore rest manually ```5``` WinRAR
+A system-independent automated backup of configuration data of all apps - ```1``` before using apps, set their data dates to an older date (e.g., 1888), which will highlight configuration data and other additionally modified/new data. ```2``` ***Link Shell Extension+🟦 NTFSLinksView*** - NTFS links for apps that arbitrarily spread outside their folder - control via context menu - pick link source (new location) / drop as (original location). ```3``` tcignore.txt (exclude various caches, virtual systems, drivers, ...). ```4``` if necessary, sort results (1889+) by size/extension and ignore rest manually. ```5``` WinRAR
 
 Hiding EXE files - removing icons, digital signatures, metadata + manual HEX editing = can make them harder to identify (as a running process or an EXE file stored on an SSD)
 
@@ -936,7 +952,7 @@ Emojis (have different numbers of characters) + various fonts + random? HEX / pa
 
 🚫***Firewall*** (restrict access) - Outpost/TinyWall/🟦Firewall App Blocker. I recommend removing default exceptions.
 <br/>
-Win firewall has rules stored here ```HKLM\SYSTEM\ControlSet\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules``` and forbidding of arbitrarily adding exceptions is easily done by adding and modifying permissions for "Everyone" (⚠️, improper handling may block Internet connection, regardless of whether firewall or associated SYS services are running = errors/warnings may not be listed in EventLog)
+Win firewall has rules stored here ```HKLM\SYSTEM\ControlSet\services\SharedAccess\Parameters\FirewallPolicy\FirewallRules``` and forbidding of arbitrarily adding exceptions is easily done by adding and modifying permissions (⚠️, improper handling may block Internet connection, regardless of whether firewall or associated SYS services are running = errors/warnings may not be listed in EventLog)
 
 🚫***🟦 hosts*** - restrict access to servers in format ```0.0.0.0 www.x.com``` ```0.0.0.0 x.com``` (sometimes it doesn't work without "www", so use both formats to be sure); don't include http(s). Useful, for example, for blocking intrusive ads (videos/animation/downloads/new tabs)
 
@@ -1124,6 +1140,10 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. ```HKLM\SYS
 <br/>
 ```7-Zip advantages``` - overall better compression (worse than ***🟦 PeaZip*** - ZPAQ) + FAR wider format support (often read-only)
 <br/>
+7-Zip Command-Line -
+<br/>
+■ ZIP with password - without compression insert contents of folder 4 into 4.zip ```7z.exe a -tzip -p"heslo" -mx0 "4.zip" ".\4\*"```
+<br/>
 ```How to achieve?``` -
 <br/>
 ■ data catalogue with using an existing function - when creating an archive, it is possible to add an information record about data (Quick open information), which is stored at end of archive and not only for a normal user is difficult to explore via HEX/Notepad++. If (for unprotected archives?) information record was mandatory and was stored at beginning of archive and could be used via WinRAR (for more advanced users possibility to view archive content primarily from "Quick open information" regardless of physically missing/damaged data), then to get content+file headers of e.g. an unknown 100GB RAR archive somewhere on webstorage it would not be necessary to download whole RAR, but first ~0-10MB would be enough
@@ -1168,6 +1188,10 @@ Switching ***Power Scheme*** (control panels) via hotkeys/shortcuts. ```HKLM\SYS
 ■ show contents of ALL files in "Folder Sync"
 <br/>
 ■ different background color for active panel
+<br/>
+■ hash - Show “Only OK,” “Only Missing”
+<br/>
+■ compare data by content in File Search --> Show in Panel
 
 ***🟦 Notepad++*** - bulk removal of rows containing empty/no/duplicates characters, lines sorting, select text block ```ALT+left button```, file list show/select ```RButton+Wheel```, ...
 <br/>
@@ -1194,6 +1218,12 @@ Regular expressions (useful "Wrap around") -
 ■ remove months+days in format "January 4, 4444" ```(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+```  = result is "4444" (to avoid unwanted+... ⬆️)
 <br/>
 ■ remove all numbers ```[0-9]+```
+<br/>
+■ remove first 4 lines ```\A.*(?:\R.*){3}\R?([\s\S]*)``` ```$1```
+<br/>
+■ remove last 4 lines ```(\r?\n[^\r\n]*){4}\z```
+<br/>
+■ remove empty lines (containing empty characters) ```^\s*$\r?\n```
 <br/>
 ■ find 4 and insert empty line ```(?-s)4.*``` ```$0\r\n```
 <br/>
